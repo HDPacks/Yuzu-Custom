@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\externals\dynarmic\src\dynarmic\CMakeFiles\dynarmic.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\block_range_information.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\crypto\aes.cpp">
+      <Filter>common\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\crypto\crc32.cpp">
+      <Filter>common\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\crypto\sm4.cpp">
+      <Filter>common\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\fused.cpp">
+      <Filter>common\fp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPCompare.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPConvert.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPMulAdd.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRecipEstimate.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRecipExponent.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRecipStepFused.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRoundInt.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRSqrtEstimate.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRSqrtStepFused.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPToFixed.cpp">
+      <Filter>common\fp\op</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\process_exception.cpp">
+      <Filter>common\fp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\process_nan.cpp">
+      <Filter>common\fp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\unpacked.cpp">
+      <Filter>common\fp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\llvm_disassemble.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\math_util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\memory_pool.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\u128.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\a32_types.cpp">
+      <Filter>frontend\A32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\a64_types.cpp">
+      <Filter>frontend\A64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\imm.cpp">
+      <Filter>frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\basic_block.cpp">
+      <Filter>ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\ir_emitter.cpp">
+      <Filter>ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\location_descriptor.cpp">
+      <Filter>ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\microinstruction.cpp">
+      <Filter>ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opcodes.cpp">
+      <Filter>ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\constant_propagation_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\dead_code_elimination_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\identity_removal_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\naming_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\polyfill_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\verification_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\type.cpp">
+      <Filter>ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\value.cpp">
+      <Filter>ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\a32_ir_emitter.cpp">
+      <Filter>frontend\A32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\a32_location_descriptor.cpp">
+      <Filter>frontend\A32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\disassembler\disassembler_arm.cpp">
+      <Filter>frontend\A32\disassembler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\disassembler\disassembler_thumb.cpp">
+      <Filter>frontend\A32\disassembler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\a32_translate.cpp">
+      <Filter>frontend\A32\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\conditional_state.cpp">
+      <Filter>frontend\A32\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\a32_branch.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\a32_crc32.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\a32_exception_generating.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\a32_translate_impl.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\asimd_load_store_structures.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\asimd_misc.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\asimd_one_reg_modified_immediate.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\asimd_three_regs.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\asimd_two_regs_misc.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\asimd_two_regs_scalar.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\asimd_two_regs_shift.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\barrier.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\coprocessor.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\data_processing.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\divide.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\extension.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\hint.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\load_store.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\misc.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\multiply.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\packing.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\parallel.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\reversal.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\saturated.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\status_register_access.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\synchronization.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb16.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_branch.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_control.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_coprocessor.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_data_processing_modified_immediate.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_data_processing_plain_binary_immediate.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_data_processing_register.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_data_processing_shifted_register.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_load_byte.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_load_halfword.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_load_store_dual.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_load_store_multiple.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_load_word.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_long_multiply.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_misc.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_multiply.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_parallel.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\thumb32_store_single_data_item.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\vfp.cpp">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\translate_arm.cpp">
+      <Filter>frontend\A32\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\translate_thumb.cpp">
+      <Filter>frontend\A32\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\a32_constant_memory_reads_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\a32_get_set_elimination_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\a64_ir_emitter.cpp">
+      <Filter>frontend\A64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\a64_location_descriptor.cpp">
+      <Filter>frontend\A64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\a64_translate.cpp">
+      <Filter>frontend\A64\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\a64_branch.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\a64_exception_generating.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_addsub.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_bitfield.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_conditional_compare.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_conditional_select.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_crc32.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_logical.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_multiply.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_pcrel.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_register.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\data_processing_shift.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\floating_point_compare.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\floating_point_conditional_compare.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\floating_point_conditional_select.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\floating_point_conversion_fixed_point.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\floating_point_conversion_integer.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\floating_point_data_processing_one_register.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\floating_point_data_processing_three_register.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\floating_point_data_processing_two_register.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\impl.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\load_store_exclusive.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\load_store_load_literal.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\load_store_multiple_structures.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\load_store_no_allocate_pair.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\load_store_register_immediate.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\load_store_register_pair.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\load_store_register_register_offset.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\load_store_register_unprivileged.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\load_store_single_structure.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\move_wide.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_across_lanes.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_aes.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_copy.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_crypto_four_register.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_crypto_three_register.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_extract.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_modified_immediate.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_permute.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_scalar_pairwise.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_scalar_shift_by_immediate.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_scalar_three_same.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_scalar_two_register_misc.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_scalar_x_indexed_element.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_sha.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_sha512.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_shift_by_immediate.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_table_lookup.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_three_different.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_three_same.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_three_same_extra.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_two_register_misc.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\simd_vector_x_indexed_element.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\sys_dc.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\sys_ic.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\system.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\system_flag_format.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\system_flag_manipulation.cpp">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\a64_callback_config_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\a64_get_set_elimination_pass.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\a64_merge_interpret_blocks.cpp">
+      <Filter>ir\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\abi.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\block_of_code.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\callback.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\constant_pool.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_aes.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_crc32.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_data_processing.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_floating_point.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_packed.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_saturation.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_sha.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_sm4.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_vector.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_vector_floating_point.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_vector_saturation.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\exclusive_monitor.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\hostloc.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\perf_map.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\reg_alloc.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\verbose_debugging_output.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\spin_lock_x64.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\x64_disassemble.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a32_emit_x64.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a32_emit_x64_memory.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a32_interface.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a32_jitstate.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a64_emit_x64.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a64_emit_x64_memory.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a64_interface.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a64_jitstate.cpp">
+      <Filter>backend\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\exception_handler_windows.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\block_range_information.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\exception_handler.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\always_false.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\cast_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\crypto\aes.h">
+      <Filter>common\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\crypto\crc32.h">
+      <Filter>common\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\crypto\sm4.h">
+      <Filter>common\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\fpcr.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\fpsr.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\fused.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\info.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\mantissa_util.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPCompare.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPConvert.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPMulAdd.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPNeg.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRecipEstimate.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRecipExponent.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRecipStepFused.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRoundInt.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRSqrtEstimate.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPRSqrtStepFused.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\op\FPToFixed.h">
+      <Filter>common\fp\op</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\process_exception.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\process_nan.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\rounding_mode.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\unpacked.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\fp\util.h">
+      <Filter>common\fp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\llvm_disassemble.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\lut_from_list.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\math_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\memory_pool.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\safe_ops.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\spin_lock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\string_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\u128.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\variant_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\a32_types.h">
+      <Filter>frontend\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\a64_types.h">
+      <Filter>frontend\A64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\decoder\decoder_detail.h">
+      <Filter>frontend\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\decoder\matcher.h">
+      <Filter>frontend\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\imm.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\exclusive_monitor.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\optimization_flags.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\acc_type.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\basic_block.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\cond.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\ir_emitter.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\location_descriptor.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\microinstruction.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opcodes.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\ir_matcher.h">
+      <Filter>ir\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opt\passes.h">
+      <Filter>ir\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\terminal.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\type.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\value.h">
+      <Filter>ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\a32_ir_emitter.h">
+      <Filter>frontend\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\a32_location_descriptor.h">
+      <Filter>frontend\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\arm.h">
+      <Filter>frontend\A32\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\asimd.h">
+      <Filter>frontend\A32\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\thumb16.h">
+      <Filter>frontend\A32\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\thumb32.h">
+      <Filter>frontend\A32\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\vfp.h">
+      <Filter>frontend\A32\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\disassembler\disassembler.h">
+      <Filter>frontend\A32\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\FPSCR.h">
+      <Filter>frontend\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\ITState.h">
+      <Filter>frontend\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\PSR.h">
+      <Filter>frontend\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\a32_translate.h">
+      <Filter>frontend\A32\translate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\conditional_state.h">
+      <Filter>frontend\A32\translate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\translate\impl\a32_translate_impl.h">
+      <Filter>frontend\A32\translate\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\A32\a32.h">
+      <Filter>interface\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\A32\arch_version.h">
+      <Filter>interface\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\A32\config.h">
+      <Filter>interface\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\A32\coprocessor.h">
+      <Filter>interface\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\A32\coprocessor_util.h">
+      <Filter>interface\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\A32\disassembler.h">
+      <Filter>interface\A32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\a64_ir_emitter.h">
+      <Filter>frontend\A64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\a64_location_descriptor.h">
+      <Filter>frontend\A64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\decoder\a64.h">
+      <Filter>frontend\A64\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\a64_translate.h">
+      <Filter>frontend\A64\translate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\translate\impl\impl.h">
+      <Filter>frontend\A64\translate\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\A64\a64.h">
+      <Filter>interface\A64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\interface\A64\config.h">
+      <Filter>interface\A64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\abi.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\block_of_code.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\callback.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\constant_pool.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\constants.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\devirtualize.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_memory.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\exclusive_monitor_friend.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\host_feature.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\hostloc.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\jitstate_info.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\oparg.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\perf_map.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\reg_alloc.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\stack_layout.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\verbose_debugging_output.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\spin_lock_x64.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\common\x64_disassemble.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a32_emit_x64.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a32_jitstate.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a64_emit_x64.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a64_jitstate.h">
+      <Filter>backend\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\externals\dynarmic\src\dynarmic\CMakeFiles\dynarmic.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\externals\dynarmic\src\dynarmic\CMakeFiles\dynarmic.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\robin-map\include\tsl\robin_growth_policy.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\robin-map\include\tsl\robin_hash.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\robin-map\include\tsl\robin_map.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\robin-map\include\tsl\robin_set.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\curti\yuzu\externals\dynarmic\externals\robin-map\tsl-robin-map.natvis">
+      <Filter>Other Files</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\ir\opcodes.inc">
+      <Filter>ir</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\arm.inc">
+      <Filter>frontend\A32\decoder</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\asimd.inc">
+      <Filter>frontend\A32\decoder</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\thumb16.inc">
+      <Filter>frontend\A32\decoder</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\thumb32.inc">
+      <Filter>frontend\A32\decoder</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A32\decoder\vfp.inc">
+      <Filter>frontend\A32\decoder</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\frontend\A64\decoder\a64.inc">
+      <Filter>frontend\A64\decoder</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\emit_x64_memory.cpp.inc">
+      <Filter>backend\x64</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend">
+      <UniqueIdentifier>{B003326D-BB22-3112-8E3A-3440A5F44B03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend\x64">
+      <UniqueIdentifier>{E8A07881-B9A7-3A9F-9E05-04FBF6D15246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{006EEB2B-5ED2-338F-A4DB-0EF1A4DA00A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\crypto">
+      <UniqueIdentifier>{2B74DF14-FF12-3F13-B5E2-4739AA100E51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\fp">
+      <UniqueIdentifier>{C54CDD53-DE85-37D3-9AA5-DCD1681BAAFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\fp\op">
+      <UniqueIdentifier>{60244A4F-5663-3C03-A12E-1D7A3D5A644D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend">
+      <UniqueIdentifier>{82A2CA5A-28F4-39FD-87DD-250EAF587167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\A32">
+      <UniqueIdentifier>{D5CC25A8-5DD7-34E4-B636-239156EAC38D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\A32\decoder">
+      <UniqueIdentifier>{561D1CC7-040B-3A99-8102-279E994FD88F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\A32\disassembler">
+      <UniqueIdentifier>{DAFFC402-A8B3-3325-9C9B-48EED4D6ADC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\A32\translate">
+      <UniqueIdentifier>{F73391BC-B01B-3BC4-9FB1-48277C144C40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\A32\translate\impl">
+      <UniqueIdentifier>{3FFF36D6-5460-303D-9AD9-3B1DF3852986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\A64">
+      <UniqueIdentifier>{D0B54E30-CC02-3136-974E-4A74429419E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\A64\decoder">
+      <UniqueIdentifier>{4725D0BA-8E4E-3EB8-BE41-0D25279EC9B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\A64\translate">
+      <UniqueIdentifier>{7BEF59A8-BCA4-3C8C-B0A8-7C7D37E600BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\A64\translate\impl">
+      <UniqueIdentifier>{90713E07-40EF-3559-A6DD-E557DC4C8154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\decoder">
+      <UniqueIdentifier>{E6CFFC10-8A4A-33B4-AE28-F7F25933F2A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{3190A687-A33A-333F-BC78-5A6EEF68B48A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\A32">
+      <UniqueIdentifier>{3F63B36C-E8E6-3C1D-B271-D4130FA10A15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\A64">
+      <UniqueIdentifier>{4B2FF92D-09DA-387F-9C80-DB0073CBD4C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ir">
+      <UniqueIdentifier>{ABD27B12-8603-31B7-9E44-B131013A85C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ir\opt">
+      <UniqueIdentifier>{8911297E-85FA-3154-9CEC-8A50802BAC1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

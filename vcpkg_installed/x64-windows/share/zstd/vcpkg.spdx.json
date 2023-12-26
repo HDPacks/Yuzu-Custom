@@ -1,0 +1,176 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/zstd-x64-windows-1.5.5#2-bf873e17-7510-452c-901c-df06bd22692f",
+  "name": "zstd:x64-windows@1.5.5#2 ef8eca9c0cc7413f57737f77c660bf27727da51befcf417b68c3bb935e1fd77f",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-4c1df40a3c5c5e18de299a99e9accb03c2a82e1e"
+    ],
+    "created": "2023-12-26T02:39:10Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-3"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-4"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-3",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-4",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "zstd",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.5.5#2",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@259dc461801ecb946995e13fd3d94b1381d02441",
+      "homepage": "https://facebook.github.io/zstd/",
+      "licenseConcluded": "BSD-3-Clause OR GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Zstandard - Fast real-time compression algorithm",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "zstd:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "ef8eca9c0cc7413f57737f77c660bf27727da51befcf417b68c3bb935e1fd77f",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSD-3-Clause OR GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "facebook/zstd",
+      "downloadLocation": "git+https://github.com/facebook/zstd@v1.5.5",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "356994e0d8188ce97590bf86b602eb50cbcb2f951594afb9c2d6e03cc68f966862505afc4a50e76efd55e4cfb11dbc9b15c7837b7827a961a1311ef72cd23505"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/curti/yuzu/externals/vcpkg/buildtrees/versioning_/versions/zstd/259dc461801ecb946995e13fd3d94b1381d02441/fix-emscripten-and-clang-cl.patch",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "041a4839df3d92f1590fcac90a6be6be7821bd2095557b182245114e003231f4"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/curti/yuzu/externals/vcpkg/buildtrees/versioning_/versions/zstd/259dc461801ecb946995e13fd3d94b1381d02441/no-static-suffix.patch",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "639fedd3fc4cf634e4ae63ad0077e547a91d3fef1dd26a59f0e817378c5cc434"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/curti/yuzu/externals/vcpkg/buildtrees/versioning_/versions/zstd/259dc461801ecb946995e13fd3d94b1381d02441/portfile.cmake",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "eb794ca7aa0475747a2f37300498f984aff8503834fb08c77a6bd55b5c6b4ca6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/curti/yuzu/externals/vcpkg/buildtrees/versioning_/versions/zstd/259dc461801ecb946995e13fd3d94b1381d02441/usage",
+      "SPDXID": "SPDXRef-file-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0209c8da3b5758e619e5f4febc14e3f918c8f4ab59f4aa40bda1744d4e44b95c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/curti/yuzu/externals/vcpkg/buildtrees/versioning_/versions/zstd/259dc461801ecb946995e13fd3d94b1381d02441/vcpkg.json",
+      "SPDXID": "SPDXRef-file-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "70603d7fedc2a444c1c0f3b6fbdef9d2e907bd0b40807840f484afde3b0a226c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

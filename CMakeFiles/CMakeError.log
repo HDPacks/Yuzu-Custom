@@ -1,0 +1,918 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-pib8iy
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_19a8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19a8a.dir\Debug\\" /Fd"cmTC_19a8a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pib8iy\src.c"
+  src.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pib8iy\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pib8iy\cmTC_19a8a.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-wv4vtz
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_69dd2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69dd2.dir\Debug\\" /Fd"cmTC_69dd2.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-wv4vtz\CheckFunctionExists.c"
+  CheckFunctionExists.c
+LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-wv4vtz\cmTC_69dd2.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-izw5rf
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e2e13.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2e13.dir\Debug\\" /Fd"cmTC_e2e13.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-izw5rf\CheckFunctionExists.c"
+  CheckFunctionExists.c
+LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-izw5rf\cmTC_e2e13.vcxproj]
+
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8004 : '/V' requires an argument
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8004 : '/V' requires an argument
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '-qversion'
+cl : Command line error D8003 : missing source filename
+Determining if files asm/types.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-wqinua
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c1428.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1428.dir\Debug\\" /Fd"cmTC_c1428.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-wqinua\HAVE_ASM_TYPES_H.c"
+  HAVE_ASM_TYPES_H.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-wqinua\HAVE_ASM_TYPES_H.c(2,10): error C1083: Cannot open include file: 'asm/types.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-wqinua\cmTC_c1428.vcxproj]
+
+
+Source:
+/* */
+#include <asm/types.h>
+
+
+int main(void){return 0;}
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-mu8qg9
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_81827.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81827.dir\Debug\\" /Fd"cmTC_81827.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-mu8qg9\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol gettimeofday referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-mu8qg9\cmTC_81827.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-mu8qg9\Debug\cmTC_81827.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-mu8qg9\cmTC_81827.vcxproj]
+
+
+
+Determining if files linux/filter.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-i75e0e
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fe32d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe32d.dir\Debug\\" /Fd"cmTC_fe32d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-i75e0e\HAVE_LINUX_FILTER_H.c"
+  HAVE_LINUX_FILTER_H.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-i75e0e\HAVE_LINUX_FILTER_H.c(2,10): error C1083: Cannot open include file: 'linux/filter.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-i75e0e\cmTC_fe32d.vcxproj]
+
+
+Source:
+/* */
+#include <linux/filter.h>
+
+
+int main(void){return 0;}
+
+Determining if files linux/netlink.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-4ua6qg
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_09d29.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09d29.dir\Debug\\" /Fd"cmTC_09d29.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4ua6qg\HAVE_LINUX_NETLINK_H.c"
+  HAVE_LINUX_NETLINK_H.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4ua6qg\HAVE_LINUX_NETLINK_H.c(2,10): error C1083: Cannot open include file: 'linux/netlink.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4ua6qg\cmTC_09d29.vcxproj]
+
+
+Source:
+/* */
+#include <linux/netlink.h>
+
+
+int main(void){return 0;}
+
+Determining if files poll.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-l34d75
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_70698.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70698.dir\Debug\\" /Fd"cmTC_70698.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-l34d75\HAVE_POLL_H.c"
+  HAVE_POLL_H.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-l34d75\HAVE_POLL_H.c(2,10): error C1083: Cannot open include file: 'poll.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-l34d75\cmTC_70698.vcxproj]
+
+
+Source:
+/* */
+#include <poll.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-rl91rh
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f5abf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f5abf.dir\Debug\\" /Fd"cmTC_f5abf.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-rl91rh\HAVE_STRINGS_H.c"
+  HAVE_STRINGS_H.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-rl91rh\HAVE_STRINGS_H.c(2,10): error C1083: Cannot open include file: 'strings.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-rl91rh\cmTC_f5abf.vcxproj]
+
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining size of struct timespec failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-r901el
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_eff8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eff8a.dir\Debug\\" /Fd"cmTC_eff8a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c"
+  STRUCT_TIMESPEC.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(29,12): error C2027: use of undefined type 'timespec' [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\cmTC_eff8a.vcxproj]
+  F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(29,12):
+  see declaration of 'timespec'
+  
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(30,12): error C2027: use of undefined type 'timespec' [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\cmTC_eff8a.vcxproj]
+  F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(29,12):
+  see declaration of 'timespec'
+  
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(31,12): error C2027: use of undefined type 'timespec' [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\cmTC_eff8a.vcxproj]
+  F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(29,12):
+  see declaration of 'timespec'
+  
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(32,12): error C2027: use of undefined type 'timespec' [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\cmTC_eff8a.vcxproj]
+  F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(29,12):
+  see declaration of 'timespec'
+  
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(33,12): error C2027: use of undefined type 'timespec' [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\cmTC_eff8a.vcxproj]
+  F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-r901el\STRUCT_TIMESPEC.c(29,12):
+  see declaration of 'timespec'
+  
+
+
+STRUCT_TIMESPEC.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(struct timespec))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function syslog exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-sc1hiv
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9e66a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=syslog /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e66a.dir\Debug\\" /Fd"cmTC_9e66a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-sc1hiv\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol syslog referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-sc1hiv\cmTC_9e66a.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-sc1hiv\Debug\cmTC_9e66a.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-sc1hiv\cmTC_9e66a.vcxproj]
+
+
+
+Determining if files syslog.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-d7xavx
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ed9ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed9ce.dir\Debug\\" /Fd"cmTC_ed9ce.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-d7xavx\HAVE_SYSLOG_H.c"
+  HAVE_SYSLOG_H.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-d7xavx\HAVE_SYSLOG_H.c(2,10): error C1083: Cannot open include file: 'syslog.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-d7xavx\cmTC_ed9ce.vcxproj]
+
+
+Source:
+/* */
+#include <syslog.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/socket.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-tqvefb
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4f8a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f8a7.dir\Debug\\" /Fd"cmTC_4f8a7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-tqvefb\HAVE_SYS_SOCKET_H.c"
+  HAVE_SYS_SOCKET_H.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-tqvefb\HAVE_SYS_SOCKET_H.c(2,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-tqvefb\cmTC_4f8a7.vcxproj]
+
+
+Source:
+/* */
+#include <sys/socket.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-vbebqy
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6eb85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6eb85.dir\Debug\\" /Fd"cmTC_6eb85.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-vbebqy\HAVE_SYS_TIME_H.c"
+  HAVE_SYS_TIME_H.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-vbebqy\HAVE_SYS_TIME_H.c(2,10): error C1083: Cannot open include file: 'sys/time.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-vbebqy\cmTC_6eb85.vcxproj]
+
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining size of nfds_t failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-nn52hf
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c12cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c12cc.dir\Debug\\" /Fd"cmTC_c12cc.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-nn52hf\nfds_t.c"
+  nfds_t.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-nn52hf\nfds_t.c(4,10): error C1083: Cannot open include file: 'poll.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-nn52hf\cmTC_c12cc.vcxproj]
+
+
+nfds_t.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "poll.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(nfds_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files sys/timerfd.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-3banv7
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_678b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_678b1.dir\Debug\\" /Fd"cmTC_678b1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-3banv7\USBI_TIMERFD_AVAILABLE.c"
+  USBI_TIMERFD_AVAILABLE.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-3banv7\USBI_TIMERFD_AVAILABLE.c(2,10): error C1083: Cannot open include file: 'sys/timerfd.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-3banv7\cmTC_678b1.vcxproj]
+
+
+Source:
+/* */
+#include <sys/timerfd.h>
+
+
+int main(void){return 0;}
+
+Determining if the function fcntl exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-s6wfca
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f769d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fcntl /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f769d.dir\Debug\\" /Fd"cmTC_f769d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-s6wfca\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fcntl referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-s6wfca\cmTC_f769d.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-s6wfca\Debug\cmTC_f769d.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-s6wfca\cmTC_f769d.vcxproj]
+
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-oeyr9d
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8dbbf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8dbbf.dir\Debug\\" /Fd"cmTC_8dbbf.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-oeyr9d\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol poll referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-oeyr9d\cmTC_8dbbf.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-oeyr9d\Debug\cmTC_8dbbf.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-oeyr9d\cmTC_8dbbf.vcxproj]
+
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-pp6qkw
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_851cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_851cf.dir\Debug\\" /Fd"cmTC_851cf.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pp6qkw\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getaddrinfo referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pp6qkw\cmTC_851cf.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pp6qkw\Debug\cmTC_851cf.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pp6qkw\cmTC_851cf.vcxproj]
+
+
+
+Determining if the function getnameinfo exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-0sgb87
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1474a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getnameinfo /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1474a.dir\Debug\\" /Fd"cmTC_1474a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-0sgb87\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getnameinfo referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-0sgb87\cmTC_1474a.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-0sgb87\Debug\cmTC_1474a.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-0sgb87\cmTC_1474a.vcxproj]
+
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-agmgur
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4c507.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname_r /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c507.dir\Debug\\" /Fd"cmTC_4c507.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-agmgur\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyname_r referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-agmgur\cmTC_4c507.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-agmgur\Debug\cmTC_4c507.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-agmgur\cmTC_4c507.vcxproj]
+
+
+
+Determining if the function gethostbyaddr_r exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-4wwl6n
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_73430.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr_r /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73430.dir\Debug\\" /Fd"cmTC_73430.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4wwl6n\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol gethostbyaddr_r referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4wwl6n\cmTC_73430.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4wwl6n\Debug\cmTC_73430.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4wwl6n\cmTC_73430.vcxproj]
+
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-6370rn
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ec929.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec929.dir\Debug\\" /Fd"cmTC_ec929.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-6370rn\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_pton referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-6370rn\cmTC_ec929.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-6370rn\Debug\cmTC_ec929.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-6370rn\cmTC_ec929.vcxproj]
+
+
+
+Determining if the function inet_ntop exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-e3nxfe
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_989fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_ntop /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_989fd.dir\Debug\\" /Fd"cmTC_989fd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-e3nxfe\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol inet_ntop referenced in function main [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-e3nxfe\cmTC_989fd.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-e3nxfe\Debug\cmTC_989fd.exe : fatal error LNK1120: 1 unresolved externals [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-e3nxfe\cmTC_989fd.vcxproj]
+
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-30zovs
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2fe3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSGHDR_FLAGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2fe3f.dir\Debug\\" /Fd"cmTC_2fe3f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-30zovs\src.c"
+  src.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-30zovs\src.c(3,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-30zovs\cmTC_2fe3f.vcxproj]
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct msghdr *)0)->msg_flags);
+  return 0;
+}
+
+
+Determining size of socklen_t failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-t3ydnf
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_44734.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_44734.dir\Debug\\" /Fd"cmTC_44734.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-t3ydnf\HAS_SOCKLEN_T.c"
+  HAS_SOCKLEN_T.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-t3ydnf\HAS_SOCKLEN_T.c(2,10): error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-t3ydnf\cmTC_44734.vcxproj]
+
+
+HAS_SOCKLEN_T.c:
+#include "sys/types.h"
+#include "sys/socket.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-fuz4u0
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_16329.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16329.dir\Debug\\" /Fd"cmTC_16329.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\src.cxx"
+  src.cxx
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\src.cxx(1,16): error C2065: '__deprecated__': undeclared identifier [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\cmTC_16329.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\src.cxx(1,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\cmTC_16329.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\src.cxx(1,33): error C2062: type 'int' unexpected [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\cmTC_16329.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\src.cxx(1,48): error C2143: syntax error: missing ';' before '{' [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\cmTC_16329.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\src.cxx(1,48): error C2447: '{': missing function header (old-style formal list?) [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\cmTC_16329.vcxproj]
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\src.cxx(2,25): error C3861: 'somefunc': identifier not found [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-fuz4u0\cmTC_16329.vcxproj]
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+
+Determining if files pulse/pulseaudio.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-ht506e
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3e279.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e279.dir\Debug\\" /Fd"cmTC_3e279.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-ht506e\USE_PULSE.c"
+  USE_PULSE.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-ht506e\USE_PULSE.c(2,10): error C1083: Cannot open include file: 'pulse/pulseaudio.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-ht506e\cmTC_3e279.vcxproj]
+
+
+Source:
+/* */
+#include <pulse/pulseaudio.h>
+
+
+int main(void){return 0;}
+
+Determining if files alsa/asoundlib.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-nc8s4v
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_450fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_450fa.dir\Debug\\" /Fd"cmTC_450fa.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-nc8s4v\USE_ALSA.c"
+  USE_ALSA.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-nc8s4v\USE_ALSA.c(2,10): error C1083: Cannot open include file: 'alsa/asoundlib.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-nc8s4v\cmTC_450fa.vcxproj]
+
+
+Source:
+/* */
+#include <alsa/asoundlib.h>
+
+
+int main(void){return 0;}
+
+Determining if files jack/jack.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-u10i4u
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fbc2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fbc2e.dir\Debug\\" /Fd"cmTC_fbc2e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-u10i4u\USE_JACK.c"
+  USE_JACK.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-u10i4u\USE_JACK.c(2,10): error C1083: Cannot open include file: 'jack/jack.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-u10i4u\cmTC_fbc2e.vcxproj]
+
+
+Source:
+/* */
+#include <jack/jack.h>
+
+
+int main(void){return 0;}
+
+Determining if files sndio.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-8wm9lz
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5eb28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5eb28.dir\Debug\\" /Fd"cmTC_5eb28.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-8wm9lz\USE_SNDIO.c"
+  USE_SNDIO.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-8wm9lz\USE_SNDIO.c(2,10): error C1083: Cannot open include file: 'sndio.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-8wm9lz\cmTC_5eb28.vcxproj]
+
+
+Source:
+/* */
+#include <sndio.h>
+
+
+int main(void){return 0;}
+
+Determining if files aaudio/AAudio.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-4qhrpd
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_26d32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26d32.dir\Debug\\" /Fd"cmTC_26d32.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4qhrpd\USE_AAUDIO.c"
+  USE_AAUDIO.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4qhrpd\USE_AAUDIO.c(2,10): error C1083: Cannot open include file: 'aaudio/AAudio.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4qhrpd\cmTC_26d32.vcxproj]
+
+
+Source:
+/* */
+#include <aaudio/AAudio.h>
+
+
+int main(void){return 0;}
+
+Determining if files AudioUnit/AudioUnit.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-4are1m
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4498e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4498e.dir\Debug\\" /Fd"cmTC_4498e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4are1m\USE_AUDIOUNIT.c"
+  USE_AUDIOUNIT.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4are1m\USE_AUDIOUNIT.c(2,10): error C1083: Cannot open include file: 'AudioUnit/AudioUnit.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-4are1m\cmTC_4498e.vcxproj]
+
+
+Source:
+/* */
+#include <AudioUnit/AudioUnit.h>
+
+
+int main(void){return 0;}
+
+Determining if files SLES/OpenSLES.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-femtt5
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_27ebd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27ebd.dir\Debug\\" /Fd"cmTC_27ebd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-femtt5\USE_OPENSL.c"
+  USE_OPENSL.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-femtt5\USE_OPENSL.c(2,10): error C1083: Cannot open include file: 'SLES/OpenSLES.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-femtt5\cmTC_27ebd.vcxproj]
+
+
+Source:
+/* */
+#include <SLES/OpenSLES.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/soundcard.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-yv6svw
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8a5fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a5fa.dir\Debug\\" /Fd"cmTC_8a5fa.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-yv6svw\HAVE_SYS_SOUNDCARD_H.c"
+  HAVE_SYS_SOUNDCARD_H.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-yv6svw\HAVE_SYS_SOUNDCARD_H.c(2,10): error C1083: Cannot open include file: 'sys/soundcard.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-yv6svw\cmTC_8a5fa.vcxproj]
+
+
+Source:
+/* */
+#include <sys/soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files android/log.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-lzr3b8
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_67add.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67add.dir\Debug\\" /Fd"cmTC_67add.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-lzr3b8\USE_AUDIOTRACK.c"
+  USE_AUDIOTRACK.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-lzr3b8\USE_AUDIOTRACK.c(2,10): error C1083: Cannot open include file: 'android/log.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-lzr3b8\cmTC_67add.vcxproj]
+
+
+Source:
+/* */
+#include <android/log.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/audioio.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-hojkgm
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_defbe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_defbe.dir\Debug\\" /Fd"cmTC_defbe.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-hojkgm\USE_SUN.c"
+  USE_SUN.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-hojkgm\USE_SUN.c(2,10): error C1083: Cannot open include file: 'sys/audioio.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-hojkgm\cmTC_defbe.vcxproj]
+
+
+Source:
+/* */
+#include <sys/audioio.h>
+
+
+int main(void){return 0;}
+
+Determining if files kai.h exist failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-mcro9f
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4033e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4033e.dir\Debug\\" /Fd"cmTC_4033e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-mcro9f\USE_KAI.c"
+  USE_KAI.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-mcro9f\USE_KAI.c(2,10): error C1083: Cannot open include file: 'kai.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-mcro9f\cmTC_4033e.vcxproj]
+
+
+Source:
+/* */
+#include <kai.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file alloca.h exists failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-q16w4p
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cbdc1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_cbdc1.dir\Debug\\" /Fd"cmTC_cbdc1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-q16w4p\CheckIncludeFile.c"
+  CheckIncludeFile.c
+F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-q16w4p\CheckIncludeFile.c(1,1): error C1083: Cannot open include file: 'alloca.h': No such file or directory [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-q16w4p\cmTC_cbdc1.vcxproj]
+
+
+
+Determining if the function floor exists in the m failed with the following output:
+Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-41f11z
+
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_373b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=floor /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_373b0.dir\Debug\\" /Fd"cmTC_373b0.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-41f11z\CheckFunctionExists.c"
+  CheckFunctionExists.c
+LINK : fatal error LNK1104: cannot open file 'm.lib' [F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-41f11z\cmTC_373b0.vcxproj]
+
+
+

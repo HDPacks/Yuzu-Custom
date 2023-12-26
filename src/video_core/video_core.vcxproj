@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7CF417DD-48CC-36B1-966A-85866DE898B6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>video_core</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\src\video_core\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">video_core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">video_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\src\video_core\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">video_core.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">video_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;F:\custom-build\Yuzu-1662\externals\ffmpeg-6.0\include;F:\custom-build\Yuzu-1662\src\video_core\host_shaders\include;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\glad\include;C:\Users\curti\yuzu\externals\sirit\src\..\include;C:\Users\curti\yuzu\externals\sirit\externals\SPIRV-Headers\include;C:\Users\curti\yuzu\externals\.\bc_decoder;C:\Users\curti\yuzu\externals\Vulkan-Headers\include;C:\Users\curti\yuzu\externals\VulkanMemoryAllocator\include;C:\Users\curti\yuzu\externals\xbyak;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4324;4201;4702</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1662/src/video_core/video_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <TreatSpecificWarningsAsErrors>4062;4189;4265;4388;4389;4456;4457;4458;4459;4505;4547;4549;4555;4826;5038;5233;5245;4242;4244</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;F:\custom-build\Yuzu-1662\externals\ffmpeg-6.0\include;F:\custom-build\Yuzu-1662\src\video_core\host_shaders\include;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\glad\include;C:\Users\curti\yuzu\externals\sirit\src\..\include;C:\Users\curti\yuzu\externals\sirit\externals\SPIRV-Headers\include;C:\Users\curti\yuzu\externals\.\bc_decoder;C:\Users\curti\yuzu\externals\Vulkan-Headers\include;C:\Users\curti\yuzu\externals\VulkanMemoryAllocator\include;C:\Users\curti\yuzu\externals\xbyak;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;F:\custom-build\Yuzu-1662\externals\ffmpeg-6.0\include;F:\custom-build\Yuzu-1662\src\video_core\host_shaders\include;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\glad\include;C:\Users\curti\yuzu\externals\sirit\src\..\include;C:\Users\curti\yuzu\externals\sirit\externals\SPIRV-Headers\include;C:\Users\curti\yuzu\externals\.\bc_decoder;C:\Users\curti\yuzu\externals\Vulkan-Headers\include;C:\Users\curti\yuzu\externals\VulkanMemoryAllocator\include;C:\Users\curti\yuzu\externals\xbyak;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;F:\custom-build\Yuzu-1662\externals\ffmpeg-6.0\include;F:\custom-build\Yuzu-1662\src\video_core\host_shaders\include;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\glad\include;C:\Users\curti\yuzu\externals\sirit\src\..\include;C:\Users\curti\yuzu\externals\sirit\externals\SPIRV-Headers\include;C:\Users\curti\yuzu\externals\.\bc_decoder;C:\Users\curti\yuzu\externals\Vulkan-Headers\include;C:\Users\curti\yuzu\externals\VulkanMemoryAllocator\include;C:\Users\curti\yuzu\externals\xbyak;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4324;4201;4702</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1662/src/video_core/video_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <TreatSpecificWarningsAsErrors>4062;4189;4265;4388;4389;4456;4457;4458;4459;4505;4547;4549;4555;4826;5038;5233;5245;4242;4244</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;F:\custom-build\Yuzu-1662\externals\ffmpeg-6.0\include;F:\custom-build\Yuzu-1662\src\video_core\host_shaders\include;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\glad\include;C:\Users\curti\yuzu\externals\sirit\src\..\include;C:\Users\curti\yuzu\externals\sirit\externals\SPIRV-Headers\include;C:\Users\curti\yuzu\externals\.\bc_decoder;C:\Users\curti\yuzu\externals\Vulkan-Headers\include;C:\Users\curti\yuzu\externals\VulkanMemoryAllocator\include;C:\Users\curti\yuzu\externals\xbyak;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;F:\custom-build\Yuzu-1662\externals\ffmpeg-6.0\include;F:\custom-build\Yuzu-1662\src\video_core\host_shaders\include;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\glad\include;C:\Users\curti\yuzu\externals\sirit\src\..\include;C:\Users\curti\yuzu\externals\sirit\externals\SPIRV-Headers\include;C:\Users\curti\yuzu\externals\.\bc_decoder;C:\Users\curti\yuzu\externals\Vulkan-Headers\include;C:\Users\curti\yuzu\externals\VulkanMemoryAllocator\include;C:\Users\curti\yuzu\externals\xbyak;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/curti/yuzu/src/video_core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/curti/yuzu/src/video_core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\video_core.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/video_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/video_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\buffer_base.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\buffer_cache_base.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\buffer_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\buffer_cache.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\memory_tracker_base.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\usage_tracker.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\word_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\cache_types.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\cdma_pusher.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\cdma_pusher.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\compatible_formats.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\compatible_formats.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\control\channel_state.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\control\channel_state.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\control\channel_state_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\control\channel_state_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\control\scheduler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\control\scheduler.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\delayed_destruction_ring.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\dirty_flags.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\dirty_flags.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\dma_pusher.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\dma_pusher.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\sw_blitter\blitter.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\sw_blitter\blitter.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\sw_blitter\converter.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\sw_blitter\converter.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\const_buffer_info.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\draw_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\draw_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\engine_interface.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\engine_upload.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\engine_upload.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\fermi_2d.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\fermi_2d.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\kepler_compute.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\kepler_compute.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\kepler_memory.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\kepler_memory.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\maxwell_3d.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\maxwell_3d.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\maxwell_dma.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\maxwell_dma.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\puller.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\puller.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\framebuffer_config.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\fsr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\fsr.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\codec.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\codec.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\h264.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\h264.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp8.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp8.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp9.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp9.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp9_types.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\ffmpeg\ffmpeg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\ffmpeg\ffmpeg.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\control.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\control.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\host1x.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\host1x.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\nvdec.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\nvdec.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\nvdec_common.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\sync_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\sync_manager.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\syncpoint_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\syncpoint_manager.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\vic.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\vic.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\macro\macro.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\macro\macro.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\macro\macro_hle.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\macro\macro_hle.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\macro\macro_interpreter.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\macro\macro_interpreter.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\fence_manager.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\gpu.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\gpu.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\gpu_thread.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\gpu_thread.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\invalidation_accumulator.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\memory_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\memory_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\pte_kind.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\bank_base.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\query_base.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\query_cache_base.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\query_cache.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\query_stream.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\types.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\rasterizer_accelerated.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\rasterizer_accelerated.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\rasterizer_interface.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_base.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_null\null_rasterizer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_null\null_rasterizer.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_null\renderer_null.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_null\renderer_null.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\blit_image.cpp">
+      <ObjectFileName>$(IntDir)/renderer_opengl/blit_image.cpp.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\blit_image.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_buffer_cache_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_buffer_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_buffer_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_compute_pipeline.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_compute_pipeline.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_device.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_device.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fence_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fence_manager.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fsr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fsr.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_graphics_pipeline.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_graphics_pipeline.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_rasterizer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_rasterizer.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_resource_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_resource_manager.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_context.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_util.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_util.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_state_tracker.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_state_tracker.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_staging_buffer_pool.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_staging_buffer_pool.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_texture_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_texture_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_texture_cache_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_query_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_query_cache.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\maxwell_to_gl.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\renderer_opengl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\renderer_opengl.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\util_shaders.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\util_shaders.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\blit_image.cpp">
+      <ObjectFileName>$(IntDir)/renderer_vulkan/blit_image.cpp.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\blit_image.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\fixed_pipeline_state.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\fixed_pipeline_state.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\maxwell_to_vk.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\maxwell_to_vk.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\pipeline_helper.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\pipeline_statistics.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\pipeline_statistics.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\renderer_vulkan.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\renderer_vulkan.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_blit_screen.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_blit_screen.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_buffer_cache_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_buffer_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_buffer_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_command_pool.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_command_pool.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_compute_pass.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_compute_pass.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_compute_pipeline.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_compute_pipeline.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_descriptor_pool.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_descriptor_pool.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fence_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fence_manager.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fsr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fsr.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_graphics_pipeline.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_graphics_pipeline.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_master_semaphore.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_master_semaphore.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_pipeline_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_pipeline_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_present_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_present_manager.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_query_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_query_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_rasterizer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_rasterizer.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_render_pass_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_render_pass_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_resource_pool.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_resource_pool.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_scheduler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_scheduler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_shader_util.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_shader_util.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_smaa.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_smaa.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_staging_buffer_pool.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_staging_buffer_pool.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_state_tracker.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_state_tracker.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_swapchain.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_swapchain.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_texture_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_texture_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_texture_cache_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_turbo_mode.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_turbo_mode.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_update_descriptor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_update_descriptor.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\shader_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\shader_cache.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\shader_environment.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\shader_environment.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\shader_notify.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\shader_notify.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\smaa_area_tex.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\smaa_search_tex.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\surface.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\surface.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\accelerated_swizzle.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\accelerated_swizzle.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\decode_bc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\decode_bc.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\descriptor_table.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\formatter.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\formatter.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\format_lookup_table.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\format_lookup_table.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_base.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_info.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_info.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_view_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_view_base.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_view_info.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_view_info.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\render_targets.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\samples_helper.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\slot_vector.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\texture_cache.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\texture_cache.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\texture_cache_base.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\types.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\util.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\util.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\astc.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\astc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\bcn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\bcn.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\decoders.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\decoders.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\texture.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\texture.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\workers.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\workers.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\transform_feedback.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\transform_feedback.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\video_core.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\video_core.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_debug_callback.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_debug_callback.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_device.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_device.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_instance.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_instance.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_library.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_library.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_memory_allocator.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_memory_allocator.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_surface.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_surface.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_wrapper.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_wrapper.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\nsight_aftermath_tracker.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\nsight_aftermath_tracker.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vma.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vma.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\macro\macro_jit_x64.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/video_core/CMakeFiles/video_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\macro\macro_jit_x64.h" />
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\video_core.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\video_core.dir\Release\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\ZERO_CHECK.vcxproj">
+      <Project>{FDE67142-5329-3EF2-8FDA-CA87BF889FCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore\Zycore.vcxproj">
+      <Project>{85430FCC-353C-3234-B481-BC7533FF6729}</Project>
+      <Name>Zycore</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\Zydis.vcxproj">
+      <Project>{A01DDB7C-3151-3554-A907-BB69EAACA275}</Project>
+      <Name>Zydis</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\bc_decoder.vcxproj">
+      <Project>{314DC99B-5C74-3E1E-B8F9-E93F10FBCDAB}</Project>
+      <Name>bc_decoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\common\common.vcxproj">
+      <Project>{84A688A6-C4BB-326C-BF65-E16995C2F68E}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\cubeb\cubeb.vcxproj">
+      <Project>{BB5A6262-CBBE-3324-9157-159156A95632}</Project>
+      <Name>cubeb</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\demangle.vcxproj">
+      <Project>{0BDA3756-3946-3565-AC15-6CC3ECCFB81F}</Project>
+      <Name>demangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\dynarmic\src\dynarmic\dynarmic.vcxproj">
+      <Project>{9C970C9F-16CC-32EE-AA34-7552DF907AB6}</Project>
+      <Name>dynarmic</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\enet\enet.vcxproj">
+      <Project>{65C861B1-5430-3E73-98C6-ECAEF08D4F6A}</Project>
+      <Name>enet</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\glad\glad.vcxproj">
+      <Project>{9A598A8F-047D-3A67-9C1F-545523D54E8F}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\video_core\host_shaders\host_shaders.vcxproj">
+      <Project>{D9E0BFAA-0621-3330-B948-7A805538EC03}</Project>
+      <Name>host_shaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedcrypto.vcxproj">
+      <Project>{873672A2-659A-32C7-8F09-9B661235BEB7}</Project>
+      <Name>mbedcrypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedtls.vcxproj">
+      <Project>{87D392A0-5974-3389-BD3A-E45D6013182B}</Project>
+      <Name>mbedtls</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.vcxproj">
+      <Project>{73145E89-BAA0-3437-BD11-73C7890DAC60}</Project>
+      <Name>mbedx509</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\dynarmic\externals\mcl\src\mcl.vcxproj">
+      <Project>{036BAAE6-1EDA-3A41-B575-82DFC56D64B7}</Project>
+      <Name>mcl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\network\network.vcxproj">
+      <Project>{19B361C6-8B88-38FA-9209-2E5CC6FECF39}</Project>
+      <Name>network</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\nx_tzdb.vcxproj">
+      <Project>{A9A189F7-D99F-3A11-98A4-5B27A8EBA45D}</Project>
+      <Name>nx_tzdb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\opus\opus.vcxproj">
+      <Project>{41C30CC6-E685-3AAA-A819-4C8453BF136F}</Project>
+      <Name>opus</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\shader_recompiler\shader_recompiler.vcxproj">
+      <Project>{52AE99B1-659B-33C6-B75D-C75A46B228E0}</Project>
+      <Name>shader_recompiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\sirit\src\sirit.vcxproj">
+      <Project>{E95B2E59-2D76-37AC-800E-8887FEA10DC3}</Project>
+      <Name>sirit</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\cubeb\speex.vcxproj">
+      <Project>{4610D6AE-D9E3-355C-866B-6FC353E3E07E}</Project>
+      <Name>speex</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\stb.vcxproj">
+      <Project>{38CC4347-4020-32BC-BD7D-C2F9C9DD80A9}</Project>
+      <Name>stb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

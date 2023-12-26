@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/curti/yuzu/src/web_service/CMakeLists.txt
+  cmake_pch.cxx
+  announce_room_json.cpp
+  telemetry_json.cpp
+  verify_login.cpp
+  verify_user_jwt.cpp
+  web_backend.cpp
+  web_service.vcxproj -> F:\custom-build\Yuzu-1662\src\web_service\Release\web_service.lib

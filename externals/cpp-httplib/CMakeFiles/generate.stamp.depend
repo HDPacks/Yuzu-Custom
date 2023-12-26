@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/BasicConfigVersion-SameMinorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindOpenSSL.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/curti/yuzu/externals/cpp-httplib/CMakeLists.txt
+C:/Users/curti/yuzu/externals/cpp-httplib/cmake/FindBrotli.cmake
+C:/Users/curti/yuzu/externals/cpp-httplib/httplibConfig.cmake.in
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/openssl/vcpkg-cmake-wrapper.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake

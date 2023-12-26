@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/curti/yuzu/externals/mbedtls/library/CMakeLists.txt
+  certs.c
+  pkcs11.c
+  x509.c
+  x509_create.c
+  x509_crl.c
+  x509_crt.c
+  x509_csr.c
+  x509write_crt.c
+  x509write_csr.c
+  Generating Code...
+  mbedx509.vcxproj -> F:\custom-build\Yuzu-1662\externals\mbedtls\library\Release\mbedx509.lib

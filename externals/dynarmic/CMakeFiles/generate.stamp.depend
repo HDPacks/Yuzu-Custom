@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-ASM.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindBoost.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/curti/yuzu/externals/dynarmic/CMakeLists.txt
+C:/Users/curti/yuzu/externals/dynarmic/CMakeModules/DetectArchitecture.cmake
+C:/Users/curti/yuzu/externals/dynarmic/CMakeModules/dynarmicConfig.cmake.in
+F:/custom-build/Yuzu-1662/CMakeFiles/3.25.1/CMakeASMCompiler.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/fmt/fmt-config-version.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/fmt/fmt-config.cmake

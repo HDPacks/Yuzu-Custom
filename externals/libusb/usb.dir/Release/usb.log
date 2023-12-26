@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/curti/yuzu/externals/libusb/CMakeLists.txt
+  core.c
+  descriptor.c
+  hotplug.c
+  io.c
+  strerror.c
+  sync.c
+  threads_windows.c
+  windows_winusb.c
+  windows_usbdk.c
+  windows_common.c
+  events_windows.c
+  Generating Code...
+  usb.vcxproj -> F:\custom-build\Yuzu-1662\externals\libusb\Release\usb.lib

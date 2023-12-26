@@ -1,0 +1,848 @@
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\ASTC_DECODER.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/astc_decoder.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/astc_decoder_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\BLIT_COLOR_FLOAT.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/blit_color_float.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/blit_color_float_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\BLOCK_LINEAR_UNSWIZZLE_2D.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/block_linear_unswizzle_2d.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/block_linear_unswizzle_2d_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\BLOCK_LINEAR_UNSWIZZLE_3D.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/block_linear_unswizzle_3d.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/block_linear_unswizzle_3d_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CONVERT_ABGR8_TO_D24S8.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/convert_abgr8_to_d24s8.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_abgr8_to_d24s8_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CONVERT_ABGR8_TO_D32F.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/convert_abgr8_to_d32f.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_abgr8_to_d32f_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CONVERT_D32F_TO_ABGR8.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/convert_d32f_to_abgr8.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_d32f_to_abgr8_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CONVERT_D24S8_TO_ABGR8.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/convert_d24s8_to_abgr8.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_d24s8_to_abgr8_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CONVERT_DEPTH_TO_FLOAT.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/convert_depth_to_float.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_depth_to_float_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CONVERT_FLOAT_TO_DEPTH.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/convert_float_to_depth.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_float_to_depth_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CONVERT_MSAA_TO_NON_MSAA.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/convert_msaa_to_non_msaa.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_msaa_to_non_msaa_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CONVERT_NON_MSAA_TO_MSAA.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/convert_non_msaa_to_msaa.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_non_msaa_to_msaa_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CONVERT_S8D24_TO_ABGR8.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/convert_s8d24_to_abgr8.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_s8d24_to_abgr8_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\FULL_SCREEN_TRIANGLE.VERT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/full_screen_triangle.vert F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/full_screen_triangle_vert.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\FXAA.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/fxaa.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/fxaa_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\FXAA.VERT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/fxaa.vert F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/fxaa_vert.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_CONVERT_S8D24.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_convert_s8d24.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_convert_s8d24_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_COPY_BC4.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_copy_bc4.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_copy_bc4_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_FIDELITYFX_FSR.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_fidelityfx_fsr.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_fidelityfx_fsr_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_FIDELITYFX_FSR_EASU.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_fidelityfx_fsr_easu.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_fidelityfx_fsr_easu_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_FIDELITYFX_FSR_RCAS.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_fidelityfx_fsr_rcas.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_fidelityfx_fsr_rcas_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_LMEM_WARMUP.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_lmem_warmup.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_lmem_warmup_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_PRESENT.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_present.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_present_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_PRESENT.VERT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_present.vert F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_present_vert.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_PRESENT_SCALEFORCE.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_present_scaleforce.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_present_scaleforce_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\OPENGL_SMAA.GLSL
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/opengl_smaa.glsl F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/opengl_smaa_glsl.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\PITCH_UNSWIZZLE.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/pitch_unswizzle.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/pitch_unswizzle_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\PRESENT_BICUBIC.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/present_bicubic.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/present_bicubic_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\PRESENT_GAUSSIAN.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/present_gaussian.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/present_gaussian_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\QUERIES_PREFIX_SCAN_SUM.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/queries_prefix_scan_sum.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/queries_prefix_scan_sum_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\QUERIES_PREFIX_SCAN_SUM_NOSUBGROUPS.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/queries_prefix_scan_sum_nosubgroups.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/queries_prefix_scan_sum_nosubgroups_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\RESOLVE_CONDITIONAL_RENDER.COMP
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/resolve_conditional_render.comp F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/resolve_conditional_render_comp.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\SMAA_EDGE_DETECTION.VERT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_edge_detection.vert F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_edge_detection_vert.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\SMAA_EDGE_DETECTION.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_edge_detection.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_edge_detection_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\SMAA_BLENDING_WEIGHT_CALCULATION.VERT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_blending_weight_calculation.vert F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_blending_weight_calculation_vert.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\SMAA_BLENDING_WEIGHT_CALCULATION.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_blending_weight_calculation.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_blending_weight_calculation_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\SMAA_NEIGHBORHOOD_BLENDING.VERT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_neighborhood_blending.vert F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_neighborhood_blending_vert.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\SMAA_NEIGHBORHOOD_BLENDING.FRAG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_neighborhood_blending.frag F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_neighborhood_blending_frag.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_BLIT_DEPTH_STENCIL.FRAG
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_BLIT_DEPTH_STENCIL_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_blit_depth_stencil_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_blit_depth_stencil.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_COLOR_CLEAR.FRAG
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_COLOR_CLEAR_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_color_clear_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_color_clear.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_COLOR_CLEAR.VERT
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_COLOR_CLEAR_VERT_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_color_clear_vert_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_color_clear.vert --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_DEPTHSTENCIL_CLEAR.FRAG
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_DEPTHSTENCIL_CLEAR_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_depthstencil_clear_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_depthstencil_clear.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_FIDELITYFX_FSR_EASU_FP16.COMP
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_FIDELITYFX_FSR_EASU_FP16_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_fidelityfx_fsr_easu_fp16_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_fidelityfx_fsr_easu_fp16.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_FIDELITYFX_FSR_EASU_FP32.COMP
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_FIDELITYFX_FSR_EASU_FP32_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_fidelityfx_fsr_easu_fp32_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_fidelityfx_fsr_easu_fp32.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_FIDELITYFX_FSR_RCAS_FP16.COMP
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_FIDELITYFX_FSR_RCAS_FP16_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_fidelityfx_fsr_rcas_fp16_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_fidelityfx_fsr_rcas_fp16.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_FIDELITYFX_FSR_RCAS_FP32.COMP
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_FIDELITYFX_FSR_RCAS_FP32_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_fidelityfx_fsr_rcas_fp32_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_fidelityfx_fsr_rcas_fp32.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_PRESENT.FRAG
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_PRESENT_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_present_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_present.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_PRESENT.VERT
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_PRESENT_VERT_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_present_vert_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_present.vert --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_PRESENT_SCALEFORCE_FP16.FRAG
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_PRESENT_SCALEFORCE_FP16_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_present_scaleforce_fp16_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_present_scaleforce_fp16.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_PRESENT_SCALEFORCE_FP32.FRAG
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_PRESENT_SCALEFORCE_FP32_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_present_scaleforce_fp32_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_present_scaleforce_fp32.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_QUAD_INDEXED.COMP
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_QUAD_INDEXED_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_quad_indexed_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_quad_indexed.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_TURBO_MODE.COMP
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_TURBO_MODE_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_turbo_mode_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_turbo_mode.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\VULKAN_UINT8.COMP
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name VULKAN_UINT8_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/vulkan_uint8_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/vulkan_uint8.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\EXTERNALS\FIDELITYFX-FSR\FFX-FSR\FFX_A.H
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr/ffx_a.h F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/ffx_a_h.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\EXTERNALS\FIDELITYFX-FSR\FFX-FSR\FFX_FSR1.H
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/curti/yuzu/src/video_core/host_shaders/StringShaderHeader.cmake C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr/ffx_fsr1.h F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/ffx_fsr1_h.h C:/Users/curti/yuzu/src/video_core/host_shaders/source_shader.h.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\ASTC_DECODER_COMP_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name ASTC_DECODER_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/astc_decoder_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/astc_decoder.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\BLIT_COLOR_FLOAT_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name BLIT_COLOR_FLOAT_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/blit_color_float_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/blit_color_float.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\BLOCK_LINEAR_UNSWIZZLE_2D_COMP_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name BLOCK_LINEAR_UNSWIZZLE_2D_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/block_linear_unswizzle_2d_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/block_linear_unswizzle_2d.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\BLOCK_LINEAR_UNSWIZZLE_3D_COMP_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name BLOCK_LINEAR_UNSWIZZLE_3D_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/block_linear_unswizzle_3d_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/block_linear_unswizzle_3d.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\CONVERT_ABGR8_TO_D24S8_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name CONVERT_ABGR8_TO_D24S8_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_abgr8_to_d24s8_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/convert_abgr8_to_d24s8.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\CONVERT_ABGR8_TO_D32F_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name CONVERT_ABGR8_TO_D32F_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_abgr8_to_d32f_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/convert_abgr8_to_d32f.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\CONVERT_D24S8_TO_ABGR8_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name CONVERT_D24S8_TO_ABGR8_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_d24s8_to_abgr8_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/convert_d24s8_to_abgr8.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\CONVERT_D32F_TO_ABGR8_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name CONVERT_D32F_TO_ABGR8_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_d32f_to_abgr8_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/convert_d32f_to_abgr8.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\CONVERT_DEPTH_TO_FLOAT_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name CONVERT_DEPTH_TO_FLOAT_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_depth_to_float_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/convert_depth_to_float.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\CONVERT_FLOAT_TO_DEPTH_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name CONVERT_FLOAT_TO_DEPTH_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_float_to_depth_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/convert_float_to_depth.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\CONVERT_MSAA_TO_NON_MSAA_COMP_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name CONVERT_MSAA_TO_NON_MSAA_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_msaa_to_non_msaa_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/convert_msaa_to_non_msaa.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\CONVERT_NON_MSAA_TO_MSAA_COMP_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name CONVERT_NON_MSAA_TO_MSAA_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_non_msaa_to_msaa_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/convert_non_msaa_to_msaa.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\CONVERT_S8D24_TO_ABGR8_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name CONVERT_S8D24_TO_ABGR8_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/convert_s8d24_to_abgr8_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/convert_s8d24_to_abgr8.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\FULL_SCREEN_TRIANGLE_VERT_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name FULL_SCREEN_TRIANGLE_VERT_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/full_screen_triangle_vert_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/full_screen_triangle.vert --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\FXAA_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name FXAA_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/fxaa_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/fxaa.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\FXAA_VERT_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name FXAA_VERT_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/fxaa_vert_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/fxaa.vert --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\PITCH_UNSWIZZLE_COMP_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name PITCH_UNSWIZZLE_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/pitch_unswizzle_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/pitch_unswizzle.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\PRESENT_BICUBIC_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name PRESENT_BICUBIC_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/present_bicubic_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/present_bicubic.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\PRESENT_GAUSSIAN_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name PRESENT_GAUSSIAN_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/present_gaussian_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/present_gaussian.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\QUERIES_PREFIX_SCAN_SUM_COMP_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name QUERIES_PREFIX_SCAN_SUM_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/queries_prefix_scan_sum_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/queries_prefix_scan_sum.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\QUERIES_PREFIX_SCAN_SUM_NOSUBGROUPS_COMP_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name QUERIES_PREFIX_SCAN_SUM_NOSUBGROUPS_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/queries_prefix_scan_sum_nosubgroups_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/queries_prefix_scan_sum_nosubgroups.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\RESOLVE_CONDITIONAL_RENDER_COMP_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name RESOLVE_CONDITIONAL_RENDER_COMP_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/resolve_conditional_render_comp_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/resolve_conditional_render.comp --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\SMAA_BLENDING_WEIGHT_CALCULATION_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name SMAA_BLENDING_WEIGHT_CALCULATION_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_blending_weight_calculation_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_blending_weight_calculation.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\SMAA_BLENDING_WEIGHT_CALCULATION_VERT_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name SMAA_BLENDING_WEIGHT_CALCULATION_VERT_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_blending_weight_calculation_vert_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_blending_weight_calculation.vert --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\SMAA_EDGE_DETECTION_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name SMAA_EDGE_DETECTION_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_edge_detection_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_edge_detection.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\SMAA_EDGE_DETECTION_VERT_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name SMAA_EDGE_DETECTION_VERT_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_edge_detection_vert_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_edge_detection.vert --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\SMAA_NEIGHBORHOOD_BLENDING_FRAG_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name SMAA_NEIGHBORHOOD_BLENDING_FRAG_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_neighborhood_blending_frag_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_neighborhood_blending.frag --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\B5FACF7186E8BCD2D91EF7708A8B9F3E\SMAA_NEIGHBORHOOD_BLENDING_VERT_SPV.H.RULE
+setlocal
+C:\VulkanSDK\1.3.268.0\Bin\glslangValidator.exe -V --quiet -I"C:/Users/curti/yuzu/externals/FidelityFX-FSR/ffx-fsr" --variable-name SMAA_NEIGHBORHOOD_BLENDING_VERT_SPV -o F:/custom-build/Yuzu-1662/src/video_core/host_shaders/include/video_core/host_shaders/smaa_neighborhood_blending_vert_spv.h C:/Users/curti/yuzu/src/video_core/host_shaders/smaa_neighborhood_blending.vert --target-env spirv1.3
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CUSTOM-BUILD\YUZU-1662\CMAKEFILES\C0536EA63E9B6DA5EFD3D79680C2B409\HOST_SHADERS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURTI\YUZU\SRC\VIDEO_CORE\HOST_SHADERS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/src/video_core/host_shaders/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

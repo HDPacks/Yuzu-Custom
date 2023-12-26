@@ -1,0 +1,47 @@
+﻿  Building Custom Rule C:/Users/curti/yuzu/externals/cubeb/CMakeLists.txt
+  cubeb.c
+  cubeb_strings.c
+  cubeb_winmm.c
+C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(962,43): warning C4312: 'type cast': conversion from 'UINT' to 'HWAVEOUT' of greater size
+C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(968,43): warning C4312: 'type cast': conversion from 'UINT' to 'HWAVEOUT' of greater size
+C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(993,34): warning C4312: 'type cast': conversion from 'UINT' to 'cubeb_devid' of greater size
+C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(1018,34): warning C4312: 'type cast': conversion from 'UINT' to 'cubeb_devid' of greater size
+C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(1044,41): warning C4312: 'type cast': conversion from 'UINT' to 'HWAVEIN' of greater size
+C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(1050,41): warning C4312: 'type cast': conversion from 'UINT' to 'HWAVEIN' of greater size
+C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(1064,34): warning C4312: 'type cast': conversion from 'UINT' to 'cubeb_devid' of greater size
+C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(1089,34): warning C4312: 'type cast': conversion from 'UINT' to 'cubeb_devid' of greater size
+  Generating Code...
+  cubeb_mixer.cpp
+  cubeb_resampler.cpp
+  cubeb_log.cpp
+  cubeb_utils.cpp
+  cubeb_wasapi.cpp
+C:\Users\curti\yuzu\externals\cubeb\src\cubeb_wasapi.cpp(7,1): warning C4005: '_WIN32_WINNT': macro redefinition
+  C:\Users\curti\yuzu\externals\cubeb\src\cubeb_wasapi.cpp(7,1):
+  '_WIN32_WINNT' previously declared on the command line
+  
+E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(1526,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'C:/Users/curti/yuzu/externals/cubeb/src/cubeb_wasapi.cpp')
+  E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(1526,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\curti\yuzu\externals\cubeb\src\cubeb_wasapi.cpp(427,21):
+  	see reference to class template instantiation 'std::vector<BYTE,std::allocator<BYTE>>' being compiled
+  	E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(1588,23):
+  	while compiling class template member function 'void std::vector<BYTE,std::allocator<BYTE>>::resize(const unsigned __int64)'
+  		C:\Users\curti\yuzu\externals\cubeb\src\cubeb_wasapi.cpp(2663,27):
+  		see the first reference to 'std::vector<BYTE,std::allocator<BYTE>>::resize' in '`anonymous-namespace'::setup_wasapi_stream'
+  	E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(1590,9):
+  	see reference to function template instantiation 'void std::vector<BYTE,std::allocator<BYTE>>::_Resize<std::_Value_init_tag>(const unsigned __int64,const _Ty2 &)' being compiled
+          with
+          [
+              _Ty2=std::_Value_init_tag
+          ]
+  	E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(1568,17):
+  	see reference to function template instantiation 'void std::vector<BYTE,std::allocator<BYTE>>::_Resize_reallocate<_Ty2>(const unsigned __int64,const _Ty2 &)' being compiled
+          with
+          [
+              _Ty2=std::_Value_init_tag
+          ]
+  
+  Generating Code...
+  cubeb.vcxproj -> F:\custom-build\Yuzu-1662\externals\cubeb\Release\cubeb.lib

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\descriptor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\hotplug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\strerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\sync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\threads_windows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\windows_winusb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\windows_usbdk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\windows_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\events_windows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\externals\libusb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3104A6DE-D7AA-3B7E-9FAB-B244AE277FFA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

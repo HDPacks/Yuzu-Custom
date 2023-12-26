@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu_cmd\CMakeFiles\yuzu-cmd.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu_cmd\emu_window\emu_window_sdl2.cpp">
+      <Filter>emu_window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu_cmd\emu_window\emu_window_sdl2_gl.cpp">
+      <Filter>emu_window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu_cmd\emu_window\emu_window_sdl2_null.cpp">
+      <Filter>emu_window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu_cmd\emu_window\emu_window_sdl2_vk.cpp">
+      <Filter>emu_window</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu_cmd\sdl_config.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu_cmd\yuzu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu_cmd\emu_window\emu_window_sdl2.h">
+      <Filter>emu_window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu_cmd\emu_window\emu_window_sdl2_gl.h">
+      <Filter>emu_window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu_cmd\emu_window\emu_window_sdl2_null.h">
+      <Filter>emu_window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu_cmd\emu_window\emu_window_sdl2_vk.h">
+      <Filter>emu_window</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu_cmd\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu_cmd\sdl_config.h" />
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu_cmd\CMakeFiles\yuzu-cmd.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu_cmd\CMakeFiles\yuzu-cmd.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\yuzu_cmd\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\curti\yuzu\src\yuzu_cmd\yuzu.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emu_window">
+      <UniqueIdentifier>{6E192B8E-91EE-3CC9-A3C5-C0105F1FCC3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

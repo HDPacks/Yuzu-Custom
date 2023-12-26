@@ -1,0 +1,14 @@
+﻿  Automatic MOC and UIC for target yuzu
+  shared_translation.cpp
+qtmain.lib(qtmain_win.obj) : warning LNK4099: PDB '' was not found with 'qtmain.lib(qtmain_win.obj)' or at ''; linking object as if no debug info
+     Creating library F:/custom-build/Yuzu-1662/src/yuzu/Release/yuzu.lib and object F:/custom-build/Yuzu-1662/src/yuzu/Release/yuzu.exp
+  yuzu.vcxproj -> F:\custom-build\Yuzu-1662\bin\Release\yuzu.exe
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(2583,5): warning : Remote deployment might be slow/inefficient. '.', hexadecimal value 0x00, is an invalid character. Line 1, position 1.
+  
+  
+  
+  
+  
+  
+  
+  

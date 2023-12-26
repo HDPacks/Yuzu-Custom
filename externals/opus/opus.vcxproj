@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41C30CC6-E685-3AAA-A819-4C8453BF136F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>opus</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\externals\opus\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opus.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\externals\opus\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opus.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opus</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\opus\include;F:\custom-build\Yuzu-1662\externals\opus;C:\Users\curti\yuzu\externals\opus;C:\Users\curti\yuzu\externals\opus\celt;C:\Users\curti\yuzu\externals\opus\silk;C:\Users\curti\yuzu\externals\opus\silk\float;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;OPUS_BUILD;ENABLE_HARDENING;USE_ALLOCA;OPUS_HAVE_RTCD;OPUS_X86_MAY_HAVE_SSE;OPUS_X86_PRESUME_SSE;OPUS_X86_MAY_HAVE_SSE2;OPUS_X86_PRESUME_SSE2;OPUS_X86_MAY_HAVE_SSE4_1;OPUS_X86_MAY_HAVE_AVX;HAVE_LRINT;HAVE_LRINTF;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;OPUS_BUILD;ENABLE_HARDENING;USE_ALLOCA;OPUS_HAVE_RTCD;OPUS_X86_MAY_HAVE_SSE;OPUS_X86_PRESUME_SSE;OPUS_X86_MAY_HAVE_SSE2;OPUS_X86_PRESUME_SSE2;OPUS_X86_MAY_HAVE_SSE4_1;OPUS_X86_MAY_HAVE_AVX;HAVE_LRINT;HAVE_LRINTF;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\opus\include;F:\custom-build\Yuzu-1662\externals\opus;C:\Users\curti\yuzu\externals\opus;C:\Users\curti\yuzu\externals\opus\celt;C:\Users\curti\yuzu\externals\opus\silk;C:\Users\curti\yuzu\externals\opus\silk\float;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\opus\include;F:\custom-build\Yuzu-1662\externals\opus;C:\Users\curti\yuzu\externals\opus;C:\Users\curti\yuzu\externals\opus\celt;C:\Users\curti\yuzu\externals\opus\silk;C:\Users\curti\yuzu\externals\opus\silk\float;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\opus\include;F:\custom-build\Yuzu-1662\externals\opus;C:\Users\curti\yuzu\externals\opus;C:\Users\curti\yuzu\externals\opus\celt;C:\Users\curti\yuzu\externals\opus\silk;C:\Users\curti\yuzu\externals\opus\silk\float;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OPUS_BUILD;ENABLE_HARDENING;USE_ALLOCA;OPUS_HAVE_RTCD;OPUS_X86_MAY_HAVE_SSE;OPUS_X86_PRESUME_SSE;OPUS_X86_MAY_HAVE_SSE2;OPUS_X86_PRESUME_SSE2;OPUS_X86_MAY_HAVE_SSE4_1;OPUS_X86_MAY_HAVE_AVX;HAVE_LRINT;HAVE_LRINTF;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;OPUS_BUILD;ENABLE_HARDENING;USE_ALLOCA;OPUS_HAVE_RTCD;OPUS_X86_MAY_HAVE_SSE;OPUS_X86_PRESUME_SSE;OPUS_X86_MAY_HAVE_SSE2;OPUS_X86_PRESUME_SSE2;OPUS_X86_MAY_HAVE_SSE4_1;OPUS_X86_MAY_HAVE_AVX;HAVE_LRINT;HAVE_LRINTF;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\opus\include;F:\custom-build\Yuzu-1662\externals\opus;C:\Users\curti\yuzu\externals\opus;C:\Users\curti\yuzu\externals\opus\celt;C:\Users\curti\yuzu\externals\opus\silk;C:\Users\curti\yuzu\externals\opus\silk\float;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\opus\include;F:\custom-build\Yuzu-1662\externals\opus;C:\Users\curti\yuzu\externals\opus;C:\Users\curti\yuzu\externals\opus\celt;C:\Users\curti\yuzu\externals\opus\silk;C:\Users\curti\yuzu\externals\opus\silk\float;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\externals\opus\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/curti/yuzu/externals/opus/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/externals/opus/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Users\curti\yuzu\externals\opus\cmake\CFeatureCheck.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusBuildtype.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusConfig.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusFunctions.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusPackageVersion.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusSources.cmake;C:\Users\curti\yuzu\externals\opus\cmake\config.h.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\externals\opus\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/curti/yuzu/externals/opus/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/externals/opus/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FeatureSummary.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Users\curti\yuzu\externals\opus\cmake\CFeatureCheck.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusBuildtype.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusConfig.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusFunctions.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusPackageVersion.cmake;C:\Users\curti\yuzu\externals\opus\cmake\OpusSources.cmake;C:\Users\curti\yuzu\externals\opus\cmake\config.h.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\externals\opus\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\include\opus.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\include\opus_multistream.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\include\opus_projection.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\src\opus_private.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\src\analysis.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\src\mapping_matrix.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\src\mlp.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\src\tansig_table.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\opus.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\opus_decoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\opus_encoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\opus_multistream.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\opus_multistream_encoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\opus_multistream_decoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\repacketizer.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\opus_projection_encoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\opus_projection_decoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\mapping_matrix.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\analysis.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\mlp.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\src\mlp_data.c" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\include\opus_defines.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\include\opus_types.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\debug.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\control.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\errors.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\API.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\typedef.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\define.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\main.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\x86\main_sse.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\PLC.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\structs.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\tables.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\tuning_parameters.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\Inlines.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\MacroCount.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\MacroDebug.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\macros.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\NSQ.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\pitch_est_defines.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_private.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_rom.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_structs.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\SigProc_FIX.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\x86\SigProc_FIX_sse.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\arm\biquad_alt_arm.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\arm\LPC_inv_pred_gain_arm.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\arm\macros_armv4.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\arm\macros_armv5e.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\arm\macros_arm64.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\arm\SigProc_FIX_armv4.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\arm\SigProc_FIX_armv5e.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\arm\NSQ_del_dec_arm.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\arm\NSQ_neon.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\fixed\main_FIX.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\fixed\structs_FIX.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\fixed\arm\warped_autocorrelation_FIX_arm.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\fixed\mips\noise_shape_analysis_FIX_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\fixed\mips\warped_autocorrelation_FIX_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\float\main_FLP.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\float\structs_FLP.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\float\SigProc_FLP.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\mips\macros_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\mips\NSQ_del_dec_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\silk\mips\sigproc_fix_mipsr1.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\CNG.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\code_signs.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\init_decoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\decode_core.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\decode_frame.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\decode_parameters.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\decode_indices.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\decode_pulses.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\decoder_set_fs.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\dec_API.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\enc_API.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\encode_indices.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\encode_pulses.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\gain_quant.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\interpolate.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\LP_variable_cutoff.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NLSF_decode.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NSQ.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NSQ_del_dec.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\PLC.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\shell_coder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\tables_gain.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\tables_LTP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\tables_NLSF_CB_NB_MB.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\tables_NLSF_CB_WB.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\tables_other.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\tables_pitch_lag.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\tables_pulses_per_block.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\VAD.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\control_audio_bandwidth.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\quant_LTP_gains.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\VQ_WMat_EC.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\HP_variable_cutoff.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NLSF_encode.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NLSF_VQ.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NLSF_unpack.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NLSF_del_dec_quant.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\process_NLSFs.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\stereo_LR_to_MS.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\stereo_MS_to_LR.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\check_control_input.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\control_SNR.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\init_encoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\control_codec.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\A2NLSF.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\ana_filt_bank_1.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\biquad_alt.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\bwexpander_32.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\bwexpander.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\debug.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\decode_pitch.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\inner_prod_aligned.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\lin2log.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\log2lin.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\LPC_analysis_filter.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\LPC_inv_pred_gain.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\table_LSF_cos.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NLSF2A.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NLSF_stabilize.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\NLSF_VQ_weights_laroia.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\pitch_est_tables.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\resampler.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_down2_3.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_down2.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_private_AR2.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_private_down_FIR.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_private_IIR_FIR.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_private_up2_HQ.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\resampler_rom.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\sigm_Q15.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\sort.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\sum_sqr_shift.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\stereo_decode_pred.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\stereo_encode_pred.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\stereo_find_predictor.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\stereo_quant_pred.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\LPC_fit.c" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arch.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\bands.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\celt.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\cpu_support.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\include\opus_custom.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\cwrs.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\ecintrin.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\entcode.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\entdec.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\entenc.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\fixed_debug.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\fixed_generic.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\float_cast.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\_kiss_fft_guts.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\kiss_fft.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\laplace.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\mathops.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\mdct.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\mfrngcod.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\modes.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\os_support.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\pitch.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\celt_lpc.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\x86\celt_lpc_sse.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\quant_bands.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\rate.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\stack_alloc.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\vq.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\static_modes_float.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\static_modes_fixed.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\static_modes_float_arm_ne10.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\static_modes_fixed_arm_ne10.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arm\armcpu.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arm\fixed_armv4.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arm\fixed_armv5e.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arm\fixed_arm64.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arm\kiss_fft_armv4.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arm\kiss_fft_armv5e.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arm\pitch_arm.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arm\fft_arm.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\arm\mdct_arm.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\mips\celt_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\mips\fixed_generic_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\mips\kiss_fft_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\mips\mdct_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\mips\pitch_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\mips\vq_mipsr1.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\x86\pitch_sse.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\x86\vq_sse.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\opus\celt\x86\x86cpu.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\bands.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\celt.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\celt_encoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\celt_decoder.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\cwrs.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\entcode.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\entdec.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\entenc.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\kiss_fft.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\laplace.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\mathops.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\mdct.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\modes.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\pitch.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\celt_lpc.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\quant_bands.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\rate.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\vq.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\apply_sine_window_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\corrMatrix_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\encode_frame_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\find_LPC_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\find_LTP_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\find_pitch_lags_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\find_pred_coefs_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\LPC_analysis_filter_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\LTP_analysis_filter_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\LTP_scale_ctrl_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\noise_shape_analysis_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\process_gains_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\regularize_correlations_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\residual_energy_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\warped_autocorrelation_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\wrappers_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\autocorrelation_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\burg_modified_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\bwexpander_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\energy_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\inner_product_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\k2a_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\LPC_inv_pred_gain_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\pitch_analysis_core_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\scale_copy_vector_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\scale_vector_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\schur_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\float\sort_FLP.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\x86\x86cpu.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\x86\x86_celt_map.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\x86\x86_silk_map.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\x86\pitch_sse.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\x86\pitch_sse2.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\x86\vq_sse2.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\x86\celt_lpc_sse4_1.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\celt\x86\pitch_sse4_1.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\x86\NSQ_sse4_1.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\x86\NSQ_del_dec_sse4_1.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\x86\VAD_sse4_1.c" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\opus\silk\x86\VQ_WMat_EC_sse4_1.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\ZERO_CHECK.vcxproj">
+      <Project>{FDE67142-5329-3EF2-8FDA-CA87BF889FCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\input_common\CMakeFiles\input_common.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\camera.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\keyboard.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\mouse.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\tas_input.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\touch_screen.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\udp_client.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\virtual_amiibo.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\virtual_gamepad.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\stick_from_buttons.cpp">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\touch_from_buttons.cpp">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\udp_protocol.cpp">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\input_engine.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\input_mapping.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\input_poller.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\main.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\joycon.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\sdl_driver.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_driver.cpp">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\calibration.cpp">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\common_protocol.cpp">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\generic_functions.cpp">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\irs.cpp">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\nfc.cpp">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\poller.cpp">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\ringcon.cpp">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\rumble.cpp">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\gc_adapter.cpp">
+      <Filter>drivers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\camera.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\keyboard.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\mouse.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\tas_input.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\touch_screen.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\udp_client.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\virtual_amiibo.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\virtual_gamepad.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\stick_from_buttons.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\touch_from_buttons.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\udp_protocol.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\input_engine.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\input_mapping.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\input_poller.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\main.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\joycon.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\sdl_driver.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_driver.h">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\calibration.h">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\common_protocol.h">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\generic_functions.h">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\joycon_types.h">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\irs.h">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\nfc.h">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\poller.h">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\ringcon.h">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\helpers\joycon_protocol\rumble.h">
+      <Filter>helpers\joycon_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\gc_adapter.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\input_common\CMakeFiles\input_common.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\input_common\CMakeFiles\input_common.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\input_common\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers">
+      <UniqueIdentifier>{24430C86-9FE5-3205-B7CE-686A07D44AB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helpers">
+      <UniqueIdentifier>{083FFA75-D31C-3D7E-8324-E9BBA1884613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helpers\joycon_protocol">
+      <UniqueIdentifier>{FD1E36F7-DDF8-354A-AC1B-9FB22758C322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,119 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CTestTargets.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/DartConfiguration.tcl.in
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindBoost.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/SelectLibraryConfigurations.cmake
+C:/Users/curti/yuzu/CMakeLists.txt
+C:/Users/curti/yuzu/CMakeModules/DownloadExternals.cmake
+C:/Users/curti/yuzu/CMakeModules/FindLLVM.cmake
+C:/Users/curti/yuzu/CMakeModules/FindOpus.cmake
+C:/Users/curti/yuzu/CMakeModules/FindRenderDoc.cmake
+C:/Users/curti/yuzu/CMakeModules/FindSimpleIni.cmake
+C:/Users/curti/yuzu/CMakeModules/Findenet.cmake
+C:/Users/curti/yuzu/CMakeModules/Findhttplib.cmake
+C:/Users/curti/yuzu/CMakeModules/Findlibusb.cmake
+C:/Users/curti/yuzu/CMakeModules/Findlz4.cmake
+C:/Users/curti/yuzu/CMakeModules/Findstb.cmake
+C:/Users/curti/yuzu/CMakeModules/Findzstd.cmake
+C:/Users/curti/yuzu/dist/compatibility_list/compatibility_list.qrc
+C:/Users/curti/yuzu/externals/vcpkg/scripts/buildsystems/vcpkg.cmake
+C:/Users/curti/yuzu/vcpkg.json
+F:/custom-build/Yuzu-1662/CMakeFiles/3.25.1/CMakeCCompiler.cmake
+F:/custom-build/Yuzu-1662/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake
+F:/custom-build/Yuzu-1662/CMakeFiles/3.25.1/CMakeRCCompiler.cmake
+F:/custom-build/Yuzu-1662/CMakeFiles/3.25.1/CMakeSystem.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5/Qt5Config.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_DSServicePlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWasapiPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWindowsAudioPlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_WMFServicePlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
+F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/fmt/fmt-config-version.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/fmt/fmt-config.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/fmt/fmt-targets-debug.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/fmt/fmt-targets-release.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/fmt/fmt-targets.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/lz4/lz4-config-debug.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/lz4/lz4-config-release.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/lz4/lz4-config.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/nlohmann_json/nlohmann_jsonConfig.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/nlohmann_json/nlohmann_jsonTargets.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/zstd/zstdConfig.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/zstd/zstdConfigVersion.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/zstd/zstdTargets-debug.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/zstd/zstdTargets-release.cmake
+F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/share/zstd/zstdTargets.cmake

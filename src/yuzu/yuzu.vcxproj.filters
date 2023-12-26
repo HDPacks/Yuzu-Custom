@@ -1,0 +1,2367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\CMakeFiles\yuzu.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\about_dialog.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_amiibo_settings.cpp">
+      <Filter>applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_controller.cpp">
+      <Filter>applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_error.cpp">
+      <Filter>applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_profile_select.cpp">
+      <Filter>applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_software_keyboard.cpp">
+      <Filter>applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_web_browser.cpp">
+      <Filter>applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\bootmanager.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\compatibility_list.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configuration_shared.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_audio.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_camera.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_cpu.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_cpu_debug.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_debug.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_debug_controller.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_debug_tab.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_dialog.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_filesystem.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_general.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_graphics.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_graphics_advanced.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_hotkeys.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_advanced.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_per_game.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_player.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_player_widget.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_profile_dialog.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_mouse_panning.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_motion_touch.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_per_game.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_per_game_addons.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_profile_manager.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_ringcon.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_network.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_system.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_tas.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_touch_from_button.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_touchscreen_advanced.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_ui.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_vibration.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_web.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\input_profiles.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\shared_translation.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\shared_widget.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\qt_config.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\debugger\console.cpp">
+      <Filter>debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\debugger\controller.cpp">
+      <Filter>debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\debugger\profiler.cpp">
+      <Filter>debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\debugger\wait_tree.cpp">
+      <Filter>debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\game_list.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\game_list_worker.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\hotkeys.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\install_dialog.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\loading_screen.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\main.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\chat_room.cpp">
+      <Filter>multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\client_room.cpp">
+      <Filter>multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\direct_connect.cpp">
+      <Filter>multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\host_room.cpp">
+      <Filter>multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\lobby.cpp">
+      <Filter>multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\message.cpp">
+      <Filter>multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\moderation_dialog.cpp">
+      <Filter>multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\state.cpp">
+      <Filter>multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\play_time_manager.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\qt_common.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\startup_checks.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\uisettings.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\util\clickable_label.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\util\controller_navigation.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\util\limitable_input_dialog.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\util\overlay_dialog.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\util\sequence_dialog\sequence_dialog.cpp">
+      <Filter>util\sequence_dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\util\url_request_interceptor.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\util\util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\vk_device_info.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\compatdb.cpp" />
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\EWIEGA46WW\qrc_yuzu.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\IEX2ANJCOF\qrc_compatibility_list.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\JQYOR47KWS\qrc_controller.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\FPLSJTADT4\qrc_overlay.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\JJST62K4FD\qrc_style.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\QWG25RC7ZP\qrc_style.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\4OYJP4GYF3\qrc_style.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\L6763PLDTS\qrc_default.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\FCKMUTAFBG\qrc_style.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\3JV3SOUGRX\qrc_style.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\37D3MJFPTG\qrc_style.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\mocs_compilation_Release.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\about_dialog.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_amiibo_settings.h">
+      <Filter>applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_controller.h">
+      <Filter>applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_error.h">
+      <Filter>applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_profile_select.h">
+      <Filter>applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_software_keyboard.h">
+      <Filter>applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_web_browser.h">
+      <Filter>applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_web_browser_scripts.h">
+      <Filter>applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\bootmanager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\compatibility_list.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configuration_shared.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_audio.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_camera.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_cpu.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_cpu_debug.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_debug.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_debug_controller.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_debug_tab.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_dialog.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_filesystem.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_general.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_graphics.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_graphics_advanced.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_hotkeys.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_advanced.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_per_game.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_player.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_player_widget.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_profile_dialog.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_mouse_panning.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_motion_touch.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_per_game.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_per_game_addons.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_profile_manager.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_ringcon.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_network.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_system.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_tas.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_touch_from_button.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_touchscreen_advanced.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_touch_widget.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_ui.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_vibration.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_web.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\input_profiles.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\shared_translation.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\shared_widget.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\qt_config.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\debugger\console.h">
+      <Filter>debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\debugger\controller.h">
+      <Filter>debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\debugger\profiler.h">
+      <Filter>debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\debugger\wait_tree.h">
+      <Filter>debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\discord.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\game_list.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\game_list_p.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\game_list_worker.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\hotkeys.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\install_dialog.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\loading_screen.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\main.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\chat_room.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\client_room.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\direct_connect.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\host_room.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\lobby.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\lobby_p.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\message.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\moderation_dialog.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\state.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\validation.h">
+      <Filter>multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\play_time_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\qt_common.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\startup_checks.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\uisettings.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\util\clickable_label.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\util\controller_navigation.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\util\limitable_input_dialog.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\util\overlay_dialog.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\util\sequence_dialog\sequence_dialog.h">
+      <Filter>util\sequence_dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\util\url_request_interceptor.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\util\util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\vk_device_info.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\compatdb.h" />
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\CMakeFiles\yuzu.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\CMakeFiles\yuzu.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\ui_aboutdialog.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\applets\ui_qt_amiibo_settings.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\applets\ui_qt_controller.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\applets\ui_qt_software_keyboard.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\ui_compatdb.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_audio.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_camera.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_cpu.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_cpu_debug.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_debug.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_debug_controller.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_debug_tab.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_filesystem.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_general.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_graphics.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_graphics_advanced.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_hotkeys.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_advanced.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_per_game.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_player.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_profile_dialog.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_mouse_panning.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_motion_touch.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_per_game.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_per_game_addons.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_profile_manager.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_ringcon.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_network.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_system.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_tas.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_touch_from_button.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_touchscreen_advanced.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_ui.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_vibration.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_web.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\ui_loading_screen.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\ui_main.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_chat_room.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_client_room.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_direct_connect.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_host_room.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_lobby.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_moderation_dialog.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\util\ui_overlay_dialog.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\ui_aboutdialog.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\applets\ui_qt_amiibo_settings.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\applets\ui_qt_controller.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\applets\ui_qt_software_keyboard.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\ui_compatdb.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_audio.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_camera.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_cpu.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_cpu_debug.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_debug.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_debug_controller.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_debug_tab.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_filesystem.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_general.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_graphics.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_graphics_advanced.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_hotkeys.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_advanced.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_per_game.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_player.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_profile_dialog.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_mouse_panning.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_motion_touch.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_per_game.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_per_game_addons.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_profile_manager.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_ringcon.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_network.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_system.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_tas.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_touch_from_button.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_touchscreen_advanced.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_ui.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_vibration.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_web.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\ui_loading_screen.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\ui_main.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_chat_room.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_client_room.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_direct_connect.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_host_room.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_lobby.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_moderation_dialog.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\util\ui_overlay_dialog.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\c90f9ee58c09cba024483f162c16069c\autouic_(CONFIG).stamp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\43ccc6f82db345dd5e3b0c0d540fab5c\qrc_yuzu.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\fda64cdacf9c6eac53bb1a83ce73079e\qrc_compatibility_list.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\17c5810aba96a08fe73b7db7912c48a0\qrc_controller.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\ed6ff82546912514116cb5297f4032ca\qrc_overlay.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\0885962d65860b00d03e2c55f65071df\qrc_style.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\d1396b316b34c90e089ce15fab9ce9cb\qrc_style.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\95dabfb1f5d497dcc951da46b8dc5045\qrc_style.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\7f2da13cfa5f6936c7528dcc64888153\qrc_default.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\ad382c5d2f4ada3811b359d980377038\qrc_style.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\33395e01dacad5fc1284fd0fa2582f30\qrc_style.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\d0dd581a2c1632001789edf1cfde54a8\qrc_style.cpp.rule">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\yuzu\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_dual_joycon.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_dual_joycon_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_dual_joycon_dark_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_dual_joycon_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_dual_joycon_midnight.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_dual_joycon_midnight_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_handheld.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_handheld_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_handheld_dark_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_handheld_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_handheld_midnight.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_handheld_midnight_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_pro_controller.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_pro_controller_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_pro_controller_dark_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_pro_controller_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_pro_controller_midnight.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_pro_controller_midnight_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_left.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_left_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_left_dark_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_left_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_left_midnight.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_left_midnight_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_right.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_right_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_right_dark_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_right_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_right_midnight.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\controller\applet_single_joycon_right_midnight_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\arrow_left.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\arrow_left_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\arrow_right.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\arrow_right_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_A.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_A_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_B.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_B_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_L.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_L_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_R.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_R_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_X.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_X_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_Y.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_Y_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_minus.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_minus_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_plus.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_plus_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_press_stick.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\button_press_stick_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_dual_joycon.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_dual_joycon_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_handheld.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_handheld_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_pro.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_pro_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left_a.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left_a_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left_b.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left_b_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left_x.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left_x_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left_y.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_left_y_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_right.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\controller_single_joycon_right_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_B.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_B_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_B_dark_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_B_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_Y.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_Y_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_Y_dark_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_Y_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_backspace.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_backspace_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_plus.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_plus_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_plus_dark_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_plus_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_shift.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_shift_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_shift_lock_off.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_shift_lock_on.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_shift_on.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\icons\overlay\osk_button_shift_on_dark.png">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16\checked.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16\connected.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16\connected_notification.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16\disconnected.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16\failed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16\info.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16\lock.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16\sync.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16\view-refresh.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\256x256\plus_folder.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\256x256</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48\bad_folder.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48\chip.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48\folder.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48\list-add.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48\no_avatar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48\sd_card.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48\star.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons\16x16\lock.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons\16x16\view-refresh.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16\connected.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16\connected_notification.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16\disconnected.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16\lock.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\256x256\plus_folder.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\256x256</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\256x256\yuzu.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\256x256</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48\bad_folder.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48\chip.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48\folder.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48\list-add.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48\sd_card.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48\star.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16\connected.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16\connected_notification.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16\disconnected.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16\lock.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16\view-refresh.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\256x256\plus_folder.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\256x256</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48\bad_folder.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48\chip.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48\folder.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48\list-add.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48\no_avatar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48\sd_card.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48\star.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\Hmovetoolbar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\Hsepartoolbar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\Vmovetoolbar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\Vsepartoolbar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\branch_closed-on.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\branch_closed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\branch_open-on.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\branch_open.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\checkbox_checked.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\checkbox_checked_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\checkbox_checked_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\checkbox_indeterminate.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\checkbox_indeterminate_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\checkbox_indeterminate_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\checkbox_unchecked.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\checkbox_unchecked_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\checkbox_unchecked_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\close-hover.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\close-pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\close.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\down_arrow.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\down_arrow_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\left_arrow.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\left_arrow_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\radio_checked.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\radio_checked_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\radio_checked_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\radio_unchecked.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\radio_unchecked_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\radio_unchecked_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\right_arrow.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\right_arrow_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\sizegrip.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\stylesheet-branch-end.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\stylesheet-branch-more.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\stylesheet-vline.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\transparent.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\undock.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\up_arrow.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc\up_arrow_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\Hmovetoolbar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\Hsepartoolbar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\Vmovetoolbar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\Vsepartoolbar.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_down.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_down@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_down_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_down_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_down_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_down_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_down_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_down_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_left.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_left@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_left_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_left_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_left_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_left_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_left_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_left_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_right.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_right@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_right_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_right_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_right_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_right_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_right_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_right_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_up.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_up@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_up_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_up_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_up_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_up_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_up_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\arrow_up_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\base_icon.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\base_icon@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\base_icon_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\base_icon_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\base_icon_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\base_icon_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\base_icon_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\base_icon_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_closed-on.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_closed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_closed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_closed_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_closed_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_closed_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_closed_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_closed_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_closed_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_end.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_end@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_end_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_end_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_end_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_end_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_end_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_end_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_line.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_line@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_line_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_line_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_line_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_line_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_line_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_line_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_more.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_more@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_more_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_more_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_more_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_more_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_more_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_more_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_open-on.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_open.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_open@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_open_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_open_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_open_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_open_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_open_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\branch_open_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_checked.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_checked@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_checked_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_checked_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_checked_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_checked_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_checked_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_checked_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_indeterminate.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_indeterminate@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_indeterminate_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_indeterminate_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_indeterminate_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_indeterminate_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_indeterminate_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_indeterminate_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_unchecked.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_unchecked@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_unchecked_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_unchecked_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_unchecked_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_unchecked_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_unchecked_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\checkbox_unchecked_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\close-hover.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\close-pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\close.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\down_arrow.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\down_arrow_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\left_arrow.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\left_arrow_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_horizontal.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_horizontal@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_horizontal_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_horizontal_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_horizontal_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_horizontal_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_horizontal_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_horizontal_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_vertical.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_vertical@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_vertical_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_vertical_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_vertical_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_vertical_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_vertical_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\line_vertical_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_checked.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_checked@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_checked_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_checked_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_checked_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_checked_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_checked_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_checked_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_unchecked.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_unchecked@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_unchecked_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_unchecked_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_unchecked_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_unchecked_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_unchecked_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\radio_unchecked_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\right_arrow.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\right_arrow_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\sizegrip.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\stylesheet-branch-end.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\stylesheet-branch-more.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\stylesheet-vline.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_horizontal.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_horizontal@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_horizontal_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_horizontal_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_horizontal_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_horizontal_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_horizontal_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_horizontal_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_vertical.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_vertical@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_vertical_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_vertical_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_vertical_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_vertical_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_vertical_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_move_vertical_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_horizontal.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_horizontal@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_horizontal_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_horizontal_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_horizontal_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_horizontal_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_horizontal_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_horizontal_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_vertical.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_vertical@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_vertical_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_vertical_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_vertical_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_vertical_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_vertical_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\toolbar_separator_vertical_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\transparent.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\transparent@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\transparent_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\transparent_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\transparent_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\transparent_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\transparent_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\transparent_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\undock.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\up_arrow.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\up_arrow_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_close.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_close@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_close_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_close_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_close_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_close_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_close_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_close_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_grip.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_grip@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_grip_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_grip_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_grip_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_grip_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_grip_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_grip_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_minimize.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_minimize@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_minimize_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_minimize_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_minimize_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_minimize_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_minimize_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_minimize_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_undock.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_undock@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_undock_disabled.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_undock_disabled@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_undock_focus.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_undock_focus@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_undock_pressed.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+    <Image Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc\window_undock_pressed@2x.png">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\Info.plist" />
+    <None Include="C:\Users\curti\yuzu\src\yuzu\aboutdialog.ui" />
+    <None Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_amiibo_settings.ui">
+      <Filter>applets</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_controller.ui">
+      <Filter>applets</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\applets\qt_software_keyboard.ui">
+      <Filter>applets</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\compatdb.ui" />
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_audio.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_camera.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_cpu.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_cpu_debug.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_debug.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_debug_controller.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_debug_tab.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_filesystem.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_general.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_graphics.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_graphics_advanced.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_hotkeys.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_advanced.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_per_game.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_player.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_profile_dialog.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_mouse_panning.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_motion_touch.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_per_game.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_per_game_addons.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_profile_manager.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_ringcon.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_network.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_system.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_tas.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_touch_from_button.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_touchscreen_advanced.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_ui.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_vibration.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_web.ui">
+      <Filter>configuration</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\loading_screen.ui" />
+    <None Include="C:\Users\curti\yuzu\src\yuzu\main.ui" />
+    <None Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\chat_room.ui">
+      <Filter>multiplayer</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\client_room.ui">
+      <Filter>multiplayer</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\direct_connect.ui">
+      <Filter>multiplayer</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\host_room.ui">
+      <Filter>multiplayer</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\lobby.ui">
+      <Filter>multiplayer</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\multiplayer\moderation_dialog.ui">
+      <Filter>multiplayer</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\util\overlay_dialog.ui">
+      <Filter>util</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\yuzu.qrc" />
+    <None Include="F:\custom-build\Yuzu-1662\dist\compatibility_list\compatibility_list.json">
+      <Filter>F:\custom-build\Yuzu-1662\dist\compatibility_list</Filter>
+    </None>
+    <None Include="F:\custom-build\Yuzu-1662\dist\compatibility_list\compatibility_list.qrc">
+      <Filter>F:\custom-build\Yuzu-1662\dist\compatibility_list</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\icons\controller\controller.qrc">
+      <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\icons\overlay\overlay.qrc">
+      <Filter>C:\Users\curti\yuzu\dist\icons\overlay</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\index.theme">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful\icons</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\style.qrc">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons\index.theme">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\style.qrc">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful_dark</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_midnight_blue\icons\index.theme">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful_midnight_blue\icons</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_midnight_blue\style.qrc">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\colorful_midnight_blue</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\default\default.qrc">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\index.theme">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default\icons</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\default\style.qss">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\default_dark\icons\index.theme">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default_dark\icons</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\default_dark\style.qrc">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default_dark</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\default_dark\style.qss">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\default_dark</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\LICENSE.md">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\index.theme">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\style.qrc">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\style.qss">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\LICENSE.rst">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\icons\index.theme">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\icons</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\style.qrc">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\style.qss">
+      <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue</Filter>
+    </None>
+    <None Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\autouic_Debug.stamp">
+      <Filter>Other Files</Filter>
+    </None>
+    <None Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\autouic_Release.stamp">
+      <Filter>Other Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\curti\yuzu\src\yuzu\yuzu.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="C:">
+      <UniqueIdentifier>{069AB02D-EA1F-3065-9D0C-7A26D3315ADE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{C78C7351-3350-3EBE-A969-ABCA729F19DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti">
+      <UniqueIdentifier>{8E4E6552-607E-348E-BCD4-EC6197A9E1A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu">
+      <UniqueIdentifier>{86DCA0E5-BA39-3725-9A58-6C6CFB5F2E62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist">
+      <UniqueIdentifier>{B8A0448C-0A68-3588-A5CF-BDAF6A8365AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\icons">
+      <UniqueIdentifier>{5574B982-C40B-398B-86D8-EE1DAF42532D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\icons\controller">
+      <UniqueIdentifier>{F5CDAA8E-9C4B-3640-84A2-90A3C9FF92D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\icons\overlay">
+      <UniqueIdentifier>{C79AB15B-E02A-3AE5-8B4B-EB5F01505C35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes">
+      <UniqueIdentifier>{3B06E1F7-C3AE-3BF4-8584-7D2B24760693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful">
+      <UniqueIdentifier>{CB4ABD0A-3521-3E89-A8A9-480C32FD2351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons">
+      <UniqueIdentifier>{044BE623-58C7-3A22-B417-21BA0A07D116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16">
+      <UniqueIdentifier>{B00427C9-6F55-3021-8E47-7ABF12194D83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\256x256">
+      <UniqueIdentifier>{A0A7E40C-C49D-3F96-A75E-EFBB332BE8D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48">
+      <UniqueIdentifier>{C99A9F55-0A92-3292-9CDC-257D24C6F55A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark">
+      <UniqueIdentifier>{B2B83BDF-AE4A-3C23-9B1F-CB1D3693C612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons">
+      <UniqueIdentifier>{9F35DC2C-B430-333A-B02E-FC51A684BFD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons\16x16">
+      <UniqueIdentifier>{8F9B2CFF-9458-3C95-9BC0-334CD6D136E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_midnight_blue">
+      <UniqueIdentifier>{B1CC7659-9457-3F2A-81EF-81BDA82E6CC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_midnight_blue\icons">
+      <UniqueIdentifier>{9B2F3E3F-E4C0-3193-B9B7-604A65A4AB95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default">
+      <UniqueIdentifier>{FBF081C7-C797-3AF4-B18C-9D012D3D8023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons">
+      <UniqueIdentifier>{A03837F0-8E68-3592-B160-D0CCF440B349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16">
+      <UniqueIdentifier>{2E5252AD-9E56-3E24-9257-675653609466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\256x256">
+      <UniqueIdentifier>{C40434CF-98F0-30A2-B467-0F71470627BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48">
+      <UniqueIdentifier>{63630BC6-C5F0-3CA9-BD48-67E6D46E2FF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default_dark">
+      <UniqueIdentifier>{A0FD809A-6A19-3B09-B67B-B50EED2E5217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default_dark\icons">
+      <UniqueIdentifier>{EF59CBCC-7382-3432-B07F-65ABF3AF687F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle">
+      <UniqueIdentifier>{E2A7579D-1040-3FD0-8933-9334520C85FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons">
+      <UniqueIdentifier>{98473BC4-6B3B-3D3D-9AF5-7A4D42A096A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16">
+      <UniqueIdentifier>{A80D290B-41F5-3F92-97CE-1913D5BEC7A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\256x256">
+      <UniqueIdentifier>{C4AB2346-E501-3F5D-A38C-ADBA692C3BB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48">
+      <UniqueIdentifier>{93981587-394A-3646-88A6-FD77E0A8289D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc">
+      <UniqueIdentifier>{0FE15988-6361-3AED-8D73-C5E3F8869582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue">
+      <UniqueIdentifier>{F385EB3C-5886-3105-ADBF-CFAB8C6193EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\icons">
+      <UniqueIdentifier>{B09E7B83-CC29-3168-BED7-7AFD03D5ABB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc">
+      <UniqueIdentifier>{490E6B0C-4B76-3584-A0E2-7DDE5853123F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F:">
+      <UniqueIdentifier>{D0585245-4006-353A-80FA-2C8857FA0A92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F:\custom-build">
+      <UniqueIdentifier>{79DAA7FA-D8A6-3157-9E35-62067667ED22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F:\custom-build\Yuzu-1662">
+      <UniqueIdentifier>{E3155506-7007-314B-814D-F9805C50676C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F:\custom-build\Yuzu-1662\dist">
+      <UniqueIdentifier>{FAC93C9D-EF8B-359B-9A99-22DCAC9D9D52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F:\custom-build\Yuzu-1662\dist\compatibility_list">
+      <UniqueIdentifier>{650A8B09-248D-37E0-9E90-E44E2E0A9CBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="applets">
+      <UniqueIdentifier>{40413017-F48E-3005-9521-39E03B8A36D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="configuration">
+      <UniqueIdentifier>{D702F07E-8D31-30CE-9AB7-651EC10A6D7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugger">
+      <UniqueIdentifier>{16E6E63E-1F2C-3F5B-9A4E-7F3DD6122571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="multiplayer">
+      <UniqueIdentifier>{A37D5D42-0F45-3681-B99B-2DAFA4CB9B68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{178D04A0-46A4-3D38-A344-B5D24A200348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\sequence_dialog">
+      <UniqueIdentifier>{D8180CD4-029F-382D-86C7-B90CAD131FEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

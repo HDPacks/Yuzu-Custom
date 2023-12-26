@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\bb9e87a878a1ad595b183f697f4b6165\Nightly.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\curti\yuzu\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\custom-build\Yuzu-1662\CMakeFiles\Nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C7040C7C-281C-3CA1-944D-EE938F8DFC14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

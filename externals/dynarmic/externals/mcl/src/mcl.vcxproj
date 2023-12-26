@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{036BAAE6-1EDA-3A41-B575-82DFC56D64B7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>mcl</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\externals\dynarmic\externals\mcl\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mcl.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mcl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\externals\dynarmic\externals\mcl\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mcl.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mcl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /experimental:external /w44263 /w44265 /w44456 /w44457 /w44458 /w44459 /w44946 /Zo /Zc:externConstexpr /Zc:throwingNew /volatile:iso /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4592</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;FMT_SHARED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;FMT_SHARED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\..\include;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\..\include;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /experimental:external /w44263 /w44265 /w44456 /w44457 /w44458 /w44459 /w44946 /Zo /Zc:externConstexpr /Zc:throwingNew /volatile:iso /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4592</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;FMT_SHARED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;FMT_SHARED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\..\include;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\..\include;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/curti/yuzu/externals/dynarmic/externals/mcl/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/externals/dynarmic/externals/mcl/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\CMakeModules\CreateTargetDirectoryGroups.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\externals\dynarmic\externals\mcl\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/curti/yuzu/externals/dynarmic/externals/mcl/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/externals/dynarmic/externals/mcl/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\CMakeModules\CreateTargetDirectoryGroups.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\externals\dynarmic\externals\mcl\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\assert.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit\bit_count.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit\bit_field.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit\rotate.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit\swap.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit_cast.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bitsizeof.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\concepts\bit_integral.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\concepts\is_any_of.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\concepts\same_as.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\container\intrusive_list.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\hint\assume.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\iterator\reverse.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\macro\anonymous_variable.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\macro\architecture.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\macro\concatenate_tokens.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metafunction\apply.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metafunction\bind.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metafunction\identity.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metafunction\map.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\bit_and.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\bit_not.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\bit_or.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\bit_xor.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\conjunction.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\disjunction.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\lift_value.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\logic_and.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\logic_if.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\logic_not.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\logic_or.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\product.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\sum.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\value.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\value_cast.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\value_equal.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\misc\argument_count.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\append.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\cartesian_product.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\concat.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\contains.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\drop.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\get.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\head.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\length.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\lift_sequence.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\list.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\lower_to_tuple.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\prepend.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\tail.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\scope_exit.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\stdint.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\type_traits\function_info.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\type_traits\integer_of_size.hpp" />
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\type_traits\is_instance_of_template.hpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\assert.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\ZERO_CHECK.vcxproj">
+      <Project>{FDE67142-5329-3EF2-8FDA-CA87BF889FCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

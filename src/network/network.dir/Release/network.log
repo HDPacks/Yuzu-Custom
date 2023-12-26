@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/curti/yuzu/src/network/CMakeLists.txt
+  cmake_pch.cxx
+  announce_multiplayer_session.cpp
+  network.cpp
+  packet.cpp
+  room.cpp
+  room_member.cpp
+  verify_user.cpp
+  network.vcxproj -> F:\custom-build\Yuzu-1662\src\network\Release\network.lib

@@ -1,0 +1,10 @@
+^C:\USERS\CURTI\YUZU\EXTERNALS\LIBUSB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/externals/libusb/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

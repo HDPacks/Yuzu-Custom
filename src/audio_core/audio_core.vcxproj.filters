@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\audio_core.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\adsp.cpp">
+      <Filter>adsp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\audio_renderer.cpp">
+      <Filter>adsp\apps\audio_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\command_list_processor.cpp">
+      <Filter>adsp\apps\audio_renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_decoder.cpp">
+      <Filter>adsp\apps\opus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_decode_object.cpp">
+      <Filter>adsp\apps\opus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_multistream_decode_object.cpp">
+      <Filter>adsp\apps\opus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_core.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_event.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_render_manager.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_in_manager.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_out_manager.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_manager.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\device\device_session.cpp">
+      <Filter>device</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\in\audio_in.cpp">
+      <Filter>in</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\in\audio_in_system.cpp">
+      <Filter>in</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\opus\hardware_opus.cpp">
+      <Filter>opus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\opus\decoder_manager.cpp">
+      <Filter>opus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\opus\decoder.cpp">
+      <Filter>opus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\out\audio_out.cpp">
+      <Filter>out</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\out\audio_out_system.cpp">
+      <Filter>out</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\audio_device.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\audio_renderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\behavior\behavior_info.cpp">
+      <Filter>renderer\behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\behavior\info_updater.cpp">
+      <Filter>renderer\behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\adpcm.cpp">
+      <Filter>renderer\command\data_source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\decode.cpp">
+      <Filter>renderer\command\data_source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\pcm_float.cpp">
+      <Filter>renderer\command\data_source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\pcm_int16.cpp">
+      <Filter>renderer\command\data_source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\aux_.cpp">
+      <Filter>renderer\command\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\biquad_filter.cpp">
+      <Filter>renderer\command\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\capture.cpp">
+      <Filter>renderer\command\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\compressor.cpp">
+      <Filter>renderer\command\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\delay.cpp">
+      <Filter>renderer\command\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\i3dl2_reverb.cpp">
+      <Filter>renderer\command\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\light_limiter.cpp">
+      <Filter>renderer\command\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\multi_tap_biquad_filter.cpp">
+      <Filter>renderer\command\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\reverb.cpp">
+      <Filter>renderer\command\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\clear_mix.cpp">
+      <Filter>renderer\command\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\copy_mix.cpp">
+      <Filter>renderer\command\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\depop_for_mix_buffers.cpp">
+      <Filter>renderer\command\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\depop_prepare.cpp">
+      <Filter>renderer\command\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix.cpp">
+      <Filter>renderer\command\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix_ramp.cpp">
+      <Filter>renderer\command\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix_ramp_grouped.cpp">
+      <Filter>renderer\command\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\volume.cpp">
+      <Filter>renderer\command\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\volume_ramp.cpp">
+      <Filter>renderer\command\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\performance\performance.cpp">
+      <Filter>renderer\command\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\downmix_6ch_to_2ch.cpp">
+      <Filter>renderer\command\resample</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\resample.cpp">
+      <Filter>renderer\command\resample</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\upsample.cpp">
+      <Filter>renderer\command\resample</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\sink\device.cpp">
+      <Filter>renderer\command\sink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\sink\circular_buffer.cpp">
+      <Filter>renderer\command\sink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_buffer.cpp">
+      <Filter>renderer\command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_generator.cpp">
+      <Filter>renderer\command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_processing_time_estimator.cpp">
+      <Filter>renderer\command</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\aux_.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\biquad_filter.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\buffer_mixer.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\capture.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\compressor.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\delay.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_context.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\i3dl2.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\light_limiter.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\reverb.cpp">
+      <Filter>renderer\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\mix\mix_context.cpp">
+      <Filter>renderer\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\mix\mix_info.cpp">
+      <Filter>renderer\mix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\memory_pool_info.cpp">
+      <Filter>renderer\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\pool_mapper.cpp">
+      <Filter>renderer\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\edge_matrix.cpp">
+      <Filter>renderer\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\node_states.cpp">
+      <Filter>renderer\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\detail_aspect.cpp">
+      <Filter>renderer\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\entry_aspect.cpp">
+      <Filter>renderer\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_manager.cpp">
+      <Filter>renderer\performance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\circular_buffer_sink_info.cpp">
+      <Filter>renderer\sink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\device_sink_info.cpp">
+      <Filter>renderer\sink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\sink_context.cpp">
+      <Filter>renderer\sink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\sink_info_base.cpp">
+      <Filter>renderer\sink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_context.cpp">
+      <Filter>renderer\splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_destinations_data.cpp">
+      <Filter>renderer\splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_info.cpp">
+      <Filter>renderer\splitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\system.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\system_manager.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\upsampler\upsampler_manager.cpp">
+      <Filter>renderer\upsampler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_context.cpp">
+      <Filter>renderer\voice</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_info.cpp">
+      <Filter>renderer\voice</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\sink_details.cpp">
+      <Filter>sink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\sink_stream.cpp">
+      <Filter>sink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\cubeb_sink.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\sdl2_sink.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\adsp.h">
+      <Filter>adsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\mailbox.h">
+      <Filter>adsp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\audio_renderer.h">
+      <Filter>adsp\apps\audio_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\command_buffer.h">
+      <Filter>adsp\apps\audio_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\command_list_processor.h">
+      <Filter>adsp\apps\audio_renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_decoder.h">
+      <Filter>adsp\apps\opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_decode_object.h">
+      <Filter>adsp\apps\opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_multistream_decode_object.h">
+      <Filter>adsp\apps\opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\shared_memory.h">
+      <Filter>adsp\apps\opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_core.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_event.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_render_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_in_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_out_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\common\audio_renderer_parameter.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\common\feature_support.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\common\wave_buffer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\common\workbuffer_allocator.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\device\audio_buffer.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\device\audio_buffers.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\device\device_session.h">
+      <Filter>device</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\in\audio_in.h">
+      <Filter>in</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\in\audio_in_system.h">
+      <Filter>in</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\opus\hardware_opus.h">
+      <Filter>opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\opus\decoder_manager.h">
+      <Filter>opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\opus\decoder.h">
+      <Filter>opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\opus\parameters.h">
+      <Filter>opus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\out\audio_out.h">
+      <Filter>out</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\out\audio_out_system.h">
+      <Filter>out</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\audio_device.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\audio_renderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\behavior\behavior_info.h">
+      <Filter>renderer\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\behavior\info_updater.h">
+      <Filter>renderer\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\adpcm.h">
+      <Filter>renderer\command\data_source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\decode.h">
+      <Filter>renderer\command\data_source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\pcm_float.h">
+      <Filter>renderer\command\data_source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\pcm_int16.h">
+      <Filter>renderer\command\data_source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\aux_.h">
+      <Filter>renderer\command\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\biquad_filter.h">
+      <Filter>renderer\command\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\capture.h">
+      <Filter>renderer\command\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\compressor.h">
+      <Filter>renderer\command\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\delay.h">
+      <Filter>renderer\command\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\i3dl2_reverb.h">
+      <Filter>renderer\command\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\light_limiter.h">
+      <Filter>renderer\command\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\multi_tap_biquad_filter.h">
+      <Filter>renderer\command\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\reverb.h">
+      <Filter>renderer\command\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\clear_mix.h">
+      <Filter>renderer\command\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\copy_mix.h">
+      <Filter>renderer\command\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\depop_for_mix_buffers.h">
+      <Filter>renderer\command\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\depop_prepare.h">
+      <Filter>renderer\command\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix.h">
+      <Filter>renderer\command\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix_ramp.h">
+      <Filter>renderer\command\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix_ramp_grouped.h">
+      <Filter>renderer\command\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\volume.h">
+      <Filter>renderer\command\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\volume_ramp.h">
+      <Filter>renderer\command\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\performance\performance.h">
+      <Filter>renderer\command\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\downmix_6ch_to_2ch.h">
+      <Filter>renderer\command\resample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\resample.h">
+      <Filter>renderer\command\resample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\upsample.h">
+      <Filter>renderer\command\resample</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\sink\device.h">
+      <Filter>renderer\command\sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\sink\circular_buffer.h">
+      <Filter>renderer\command\sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_buffer.h">
+      <Filter>renderer\command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_generator.h">
+      <Filter>renderer\command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_list_header.h">
+      <Filter>renderer\command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_processing_time_estimator.h">
+      <Filter>renderer\command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\commands.h">
+      <Filter>renderer\command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\icommand.h">
+      <Filter>renderer\command</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\aux_.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\biquad_filter.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\buffer_mixer.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\capture.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\compressor.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\delay.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_context.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_info_base.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_reset.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_result_state.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\i3dl2.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\light_limiter.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\reverb.h">
+      <Filter>renderer\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\mix\mix_context.h">
+      <Filter>renderer\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\mix\mix_info.h">
+      <Filter>renderer\mix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\address_info.h">
+      <Filter>renderer\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\memory_pool_info.h">
+      <Filter>renderer\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\pool_mapper.h">
+      <Filter>renderer\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\bit_array.h">
+      <Filter>renderer\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\edge_matrix.h">
+      <Filter>renderer\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\node_states.h">
+      <Filter>renderer\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\detail_aspect.h">
+      <Filter>renderer\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\entry_aspect.h">
+      <Filter>renderer\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_detail.h">
+      <Filter>renderer\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_entry.h">
+      <Filter>renderer\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_entry_addresses.h">
+      <Filter>renderer\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_frame_header.h">
+      <Filter>renderer\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_manager.h">
+      <Filter>renderer\performance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\circular_buffer_sink_info.h">
+      <Filter>renderer\sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\device_sink_info.h">
+      <Filter>renderer\sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\sink_context.h">
+      <Filter>renderer\sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\sink_info_base.h">
+      <Filter>renderer\sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_context.h">
+      <Filter>renderer\splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_destinations_data.h">
+      <Filter>renderer\splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_info.h">
+      <Filter>renderer\splitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\system.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\system_manager.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\upsampler\upsampler_info.h">
+      <Filter>renderer\upsampler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\upsampler\upsampler_manager.h">
+      <Filter>renderer\upsampler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\upsampler\upsampler_state.h">
+      <Filter>renderer\upsampler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_channel_resource.h">
+      <Filter>renderer\voice</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_context.h">
+      <Filter>renderer\voice</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_info.h">
+      <Filter>renderer\voice</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_state.h">
+      <Filter>renderer\voice</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\null_sink.h">
+      <Filter>sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\sink.h">
+      <Filter>sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\sink_details.h">
+      <Filter>sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\sink_stream.h">
+      <Filter>sink</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\cubeb_sink.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\sdl2_sink.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\audio_core.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\audio_core.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\audio_core\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="adsp">
+      <UniqueIdentifier>{8826131D-FF28-3036-ABF5-F240D9FACC27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="adsp\apps">
+      <UniqueIdentifier>{600D84D4-BB1B-3726-981C-39FE2450A270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="adsp\apps\audio_renderer">
+      <UniqueIdentifier>{CB9E6260-1834-395A-A79E-1E26A8FB73AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="adsp\apps\opus">
+      <UniqueIdentifier>{06F5004E-E81F-3705-9E7F-5878D3B8C2E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{006EEB2B-5ED2-338F-A4DB-0EF1A4DA00A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device">
+      <UniqueIdentifier>{FD38AEA0-6D22-3BFB-873D-BBB2E88D6EE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="in">
+      <UniqueIdentifier>{3E22AB2D-B3E0-3936-A8F5-7FC0F01C8B27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opus">
+      <UniqueIdentifier>{647DDEFB-7136-3F79-8592-3022B9348CF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="out">
+      <UniqueIdentifier>{0351B0F4-BDA7-3312-BEC8-A679CBE91871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{52B2D569-C0AD-32E8-82DB-4608565B65D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\behavior">
+      <UniqueIdentifier>{C2C923CE-A6D2-3B6F-BF97-D0431B64422D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\command">
+      <UniqueIdentifier>{AA15C9C5-5A3B-31D3-B6A6-E89D2F96E0FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\command\data_source">
+      <UniqueIdentifier>{327341B4-E870-3243-883F-C3B117A1EC4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\command\effect">
+      <UniqueIdentifier>{41947903-87E9-3C57-AC5E-976DA37264C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\command\mix">
+      <UniqueIdentifier>{A6B275F9-61FE-380E-A9FC-1FD1476C3EEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\command\performance">
+      <UniqueIdentifier>{1730A51D-5E74-3288-A53E-BB41F1713482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\command\resample">
+      <UniqueIdentifier>{B949AD61-25DF-33F3-9149-FE916EC8DA68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\command\sink">
+      <UniqueIdentifier>{CE139E9A-1D91-3228-93E4-21E7A6F1FA8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\effect">
+      <UniqueIdentifier>{188F1A8C-D554-3867-80A3-9FDC0896149A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\memory">
+      <UniqueIdentifier>{EEE5DD66-91ED-3529-9DE8-9DC300624D4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\mix">
+      <UniqueIdentifier>{B1F4BC7E-00E2-33E6-B215-D8AD5BF07D3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\nodes">
+      <UniqueIdentifier>{B5F93A36-41E6-36A0-83AC-9286766EA672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\performance">
+      <UniqueIdentifier>{4F7D16B8-4462-317A-B198-C9419162698C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\sink">
+      <UniqueIdentifier>{75B04513-29B2-339B-9FE7-167F8D4D02E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\splitter">
+      <UniqueIdentifier>{EC5480BA-E2F9-3EA3-9357-0B8210036FF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\upsampler">
+      <UniqueIdentifier>{DD617A85-C7C8-3EB0-853D-F68AD3F40A47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\voice">
+      <UniqueIdentifier>{0BBF500F-46EC-3ECE-A13B-D386C4D755A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sink">
+      <UniqueIdentifier>{987FC9D0-C745-369C-9C31-73CB223168A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+C:\Users\curti\yuzu\externals\mbedtls\library\certs.c;F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.dir\Release\certs.obj
+C:\Users\curti\yuzu\externals\mbedtls\library\pkcs11.c;F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.dir\Release\pkcs11.obj
+C:\Users\curti\yuzu\externals\mbedtls\library\x509.c;F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.dir\Release\x509.obj
+C:\Users\curti\yuzu\externals\mbedtls\library\x509_create.c;F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.dir\Release\x509_create.obj
+C:\Users\curti\yuzu\externals\mbedtls\library\x509_crl.c;F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.dir\Release\x509_crl.obj
+C:\Users\curti\yuzu\externals\mbedtls\library\x509_crt.c;F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.dir\Release\x509_crt.obj
+C:\Users\curti\yuzu\externals\mbedtls\library\x509_csr.c;F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.dir\Release\x509_csr.obj
+C:\Users\curti\yuzu\externals\mbedtls\library\x509write_crt.c;F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.dir\Release\x509write_crt.obj
+C:\Users\curti\yuzu\externals\mbedtls\library\x509write_csr.c;F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.dir\Release\x509write_csr.obj

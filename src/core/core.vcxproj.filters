@@ -1,0 +1,3065 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\core\CMakeFiles\core.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\arm\arm_interface.cpp">
+      <Filter>arm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\arm\debug.cpp">
+      <Filter>arm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\arm\exclusive_monitor.cpp">
+      <Filter>arm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\arm\symbols.cpp">
+      <Filter>arm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\constants.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\core.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\core_timing.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\cpu_manager.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\crypto\aes_util.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\crypto\encryption_layer.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\crypto\key_manager.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\crypto\partition_data_manager.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\crypto\ctr_encryption_layer.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\crypto\xts_encryption_layer.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\debugger\debugger.cpp">
+      <Filter>debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\debugger\gdbstub_arch.cpp">
+      <Filter>debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\debugger\gdbstub.cpp">
+      <Filter>debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\device_memory.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_aes_ctr_counter_extended_storage.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_aes_ctr_storage.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_aes_xts_storage.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_alignment_matching_storage_impl.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_bucket_tree.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_compression_configuration.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_crypto_configuration.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_hierarchical_integrity_verification_storage.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_hierarchical_sha256_storage.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_indirect_storage.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_integrity_romfs_storage.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_integrity_verification_storage.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_nca_file_system_driver.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_nca_header.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_nca_reader.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_pooled_buffer.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_sparse_storage.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_utility.cpp">
+      <Filter>file_sys\fssystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\bis_factory.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\card_image.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\content_archive.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\control_metadata.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\fsmitm_romfsbuild.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\ips_layer.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\kernel_executable.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\nca_metadata.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\partition_filesystem.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\patch_manager.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\program_metadata.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\registered_cache.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\romfs.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\romfs_factory.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\savedata_factory.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\sdmc_factory.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\submission_package.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_chinese_simplified.cpp">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_chinese_traditional.cpp">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_extended_chinese_simplified.cpp">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_korean.cpp">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_nintendo_extended.cpp">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_standard.cpp">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\mii_model.cpp">
+      <Filter>file_sys\system_archive</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\ng_word.cpp">
+      <Filter>file_sys\system_archive</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\shared_font.cpp">
+      <Filter>file_sys\system_archive</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\system_archive.cpp">
+      <Filter>file_sys\system_archive</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\system_version.cpp">
+      <Filter>file_sys\system_archive</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\time_zone_binary.cpp">
+      <Filter>file_sys\system_archive</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\vfs.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_cached.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_concat.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_layered.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_offset.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_real.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_vector.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\file_sys\xts_archive.cpp">
+      <Filter>file_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\applets\cabinet.cpp">
+      <Filter>frontend\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\applets\controller.cpp">
+      <Filter>frontend\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\applets\error.cpp">
+      <Filter>frontend\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\applets\general_frontend.cpp">
+      <Filter>frontend\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\applets\mii_edit.cpp">
+      <Filter>frontend\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\applets\profile_select.cpp">
+      <Filter>frontend\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\applets\software_keyboard.cpp">
+      <Filter>frontend\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\applets\web_browser.cpp">
+      <Filter>frontend\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\emu_window.cpp">
+      <Filter>frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\frontend\framebuffer_layout.cpp">
+      <Filter>frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hid\emulated_console.cpp">
+      <Filter>hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hid\emulated_controller.cpp">
+      <Filter>hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hid\emulated_devices.cpp">
+      <Filter>hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hid\hid_core.cpp">
+      <Filter>hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hid\input_converter.cpp">
+      <Filter>hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hid\input_interpreter.cpp">
+      <Filter>hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hid\motion_input.cpp">
+      <Filter>hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\board\nintendo\nx\k_memory_layout.cpp">
+      <Filter>hle\kernel\board\nintendo\nx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\board\nintendo\nx\k_system_control.cpp">
+      <Filter>hle\kernel\board\nintendo\nx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\code_set.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\global_scheduler_context.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\init\init_slab_setup.cpp">
+      <Filter>hle\kernel\init</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_address_arbiter.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_address_space_info.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_auto_object.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_auto_object_container.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_capabilities.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_class_token.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_client_port.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_client_session.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_code_memory.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_condition_variable.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_device_address_space.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_event.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_handle_table.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_hardware_timer.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_interrupt_manager.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_client_session.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_condition_variable.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_lock.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_server_session.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_session.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_memory_block_manager.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_memory_layout.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_memory_manager.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_object_name.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_buffer.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_heap.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_group.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_table_base.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_port.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_process.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_readable_event.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_resource_limit.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_scheduler.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_server_port.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_server_session.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_session.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_session_request.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_shared_memory.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_spin_lock.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_synchronization_object.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_system_resource.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_thread.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_thread_local_page.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_thread_queue.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_transfer_memory.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_worker_task_manager.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\kernel.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\physical_core.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc.cpp">
+      <Filter>hle\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_activity.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_address_arbiter.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_address_translation.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_cache.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_code_memory.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_condition_variable.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_debug.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_debug_string.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_device_address_space.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_event.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_exception.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_info.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_insecure_memory.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_interrupt_event.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_io_pool.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_ipc.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_kernel_debug.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_light_ipc.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_lock.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_memory.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_physical_memory.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_port.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_power_management.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_process.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_process_memory.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_processor.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_query_memory.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_register.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_resource_limit.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_secure_monitor_call.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_session.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_shared_memory.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_synchronization.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_thread.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_thread_profiler.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_tick.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc\svc_transfer_memory.cpp">
+      <Filter>hle\kernel\svc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc.cpp">
+      <Filter>hle\service\acc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc_aa.cpp">
+      <Filter>hle\service\acc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc_su.cpp">
+      <Filter>hle\service\acc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc_u0.cpp">
+      <Filter>hle\service\acc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc_u1.cpp">
+      <Filter>hle\service\acc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\acc\async_context.cpp">
+      <Filter>hle\service\acc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\acc\profile_manager.cpp">
+      <Filter>hle\service\acc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\am.cpp">
+      <Filter>hle\service\am</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applet_ae.cpp">
+      <Filter>hle\service\am</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applet_oe.cpp">
+      <Filter>hle\service\am</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_cabinet.cpp">
+      <Filter>hle\service\am\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_controller.cpp">
+      <Filter>hle\service\am\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_error.cpp">
+      <Filter>hle\service\am\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_general_backend.cpp">
+      <Filter>hle\service\am\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_mii_edit.cpp">
+      <Filter>hle\service\am\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_profile_select.cpp">
+      <Filter>hle\service\am\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_software_keyboard.cpp">
+      <Filter>hle\service\am\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_web_browser.cpp">
+      <Filter>hle\service\am\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applets.cpp">
+      <Filter>hle\service\am\applets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\idle.cpp">
+      <Filter>hle\service\am</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\omm.cpp">
+      <Filter>hle\service\am</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\am\spsm.cpp">
+      <Filter>hle\service\am</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\aoc\aoc_u.cpp">
+      <Filter>hle\service\aoc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\apm\apm.cpp">
+      <Filter>hle\service\apm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\apm\apm_controller.cpp">
+      <Filter>hle\service\apm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\apm\apm_interface.cpp">
+      <Filter>hle\service\apm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audctl.cpp">
+      <Filter>hle\service\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audin_u.cpp">
+      <Filter>hle\service\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audio.cpp">
+      <Filter>hle\service\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audout_u.cpp">
+      <Filter>hle\service\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audrec_a.cpp">
+      <Filter>hle\service\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audrec_u.cpp">
+      <Filter>hle\service\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audren_u.cpp">
+      <Filter>hle\service\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\audio\hwopus.cpp">
+      <Filter>hle\service\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\bcat\backend\backend.cpp">
+      <Filter>hle\service\bcat\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\bcat\bcat.cpp">
+      <Filter>hle\service\bcat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\bcat\bcat_module.cpp">
+      <Filter>hle\service\bcat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\bpc\bpc.cpp">
+      <Filter>hle\service\bpc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\btdrv\btdrv.cpp">
+      <Filter>hle\service\btdrv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\btm\btm.cpp">
+      <Filter>hle\service\btm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps.cpp">
+      <Filter>hle\service\caps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_a.cpp">
+      <Filter>hle\service\caps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_c.cpp">
+      <Filter>hle\service\caps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_manager.cpp">
+      <Filter>hle\service\caps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_sc.cpp">
+      <Filter>hle\service\caps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_ss.cpp">
+      <Filter>hle\service\caps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_su.cpp">
+      <Filter>hle\service\caps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_u.cpp">
+      <Filter>hle\service\caps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\erpt\erpt.cpp">
+      <Filter>hle\service\erpt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\es\es.cpp">
+      <Filter>hle\service\es</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\eupld\eupld.cpp">
+      <Filter>hle\service\eupld</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\fatal\fatal.cpp">
+      <Filter>hle\service\fatal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\fatal\fatal_p.cpp">
+      <Filter>hle\service\fatal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\fatal\fatal_u.cpp">
+      <Filter>hle\service\fatal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\filesystem\filesystem.cpp">
+      <Filter>hle\service\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\filesystem\fsp_ldr.cpp">
+      <Filter>hle\service\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\filesystem\fsp_pr.cpp">
+      <Filter>hle\service\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\filesystem\fsp_srv.cpp">
+      <Filter>hle\service\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\fgm\fgm.cpp">
+      <Filter>hle\service\fgm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\friend\friend.cpp">
+      <Filter>hle\service\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\friend\friend_interface.cpp">
+      <Filter>hle\service\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\glue\arp.cpp">
+      <Filter>hle\service\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\glue\bgtc.cpp">
+      <Filter>hle\service\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\glue\ectx.cpp">
+      <Filter>hle\service\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\glue\glue.cpp">
+      <Filter>hle\service\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\glue\glue_manager.cpp">
+      <Filter>hle\service\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\glue\notif.cpp">
+      <Filter>hle\service\glue</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\grc\grc.cpp">
+      <Filter>hle\service\grc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid.cpp">
+      <Filter>hle\service\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid_debug_server.cpp">
+      <Filter>hle\service\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid_firmware_settings.cpp">
+      <Filter>hle\service\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid_server.cpp">
+      <Filter>hle\service\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid_system_server.cpp">
+      <Filter>hle\service\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus.cpp">
+      <Filter>hle\service\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irs.cpp">
+      <Filter>hle\service\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\resource_manager.cpp">
+      <Filter>hle\service\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\xcd.cpp">
+      <Filter>hle\service\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\applet_resource.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\console_six_axis.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\controller_base.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\debug_pad.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\gesture.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\keyboard.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\mouse.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\npad.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\palma.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\seven_six_axis.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\shared_memory_holder.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\six_axis.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\stubbed.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\touchscreen.cpp">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus\hidbus_base.cpp">
+      <Filter>hle\service\hid\hidbus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus\ringcon.cpp">
+      <Filter>hle\service\hid\hidbus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus\starlink.cpp">
+      <Filter>hle\service\hid\hidbus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus\stubbed.cpp">
+      <Filter>hle\service\hid\hidbus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\clustering_processor.cpp">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\image_transfer_processor.cpp">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\ir_led_processor.cpp">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\moment_processor.cpp">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\pointing_processor.cpp">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\processor_base.cpp">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\tera_plugin_processor.cpp">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\lbl\lbl.cpp">
+      <Filter>hle\service\lbl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ldn\lan_discovery.cpp">
+      <Filter>hle\service\ldn</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ldn\ldn.cpp">
+      <Filter>hle\service\ldn</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ldr\ldr.cpp">
+      <Filter>hle\service\ldr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\lm\lm.cpp">
+      <Filter>hle\service\lm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mig\mig.cpp">
+      <Filter>hle\service\mig</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\char_info.cpp">
+      <Filter>hle\service\mii\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\core_data.cpp">
+      <Filter>hle\service\mii\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\raw_data.cpp">
+      <Filter>hle\service\mii\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\store_data.cpp">
+      <Filter>hle\service\mii\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\ver3_store_data.cpp">
+      <Filter>hle\service\mii\types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii.cpp">
+      <Filter>hle\service\mii</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii_database.cpp">
+      <Filter>hle\service\mii</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii_database_manager.cpp">
+      <Filter>hle\service\mii</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii_manager.cpp">
+      <Filter>hle\service\mii</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mm\mm_u.cpp">
+      <Filter>hle\service\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mnpp\mnpp_app.cpp">
+      <Filter>hle\service\mnpp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ncm\ncm.cpp">
+      <Filter>hle\service\ncm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\common\amiibo_crypto.cpp">
+      <Filter>hle\service\nfc\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\common\device.cpp">
+      <Filter>hle\service\nfc\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\common\device_manager.cpp">
+      <Filter>hle\service\nfc\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\nfc.cpp">
+      <Filter>hle\service\nfc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\nfc_interface.cpp">
+      <Filter>hle\service\nfc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nfp\nfp.cpp">
+      <Filter>hle\service\nfp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nfp\nfp_interface.cpp">
+      <Filter>hle\service\nfp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ngc\ngc.cpp">
+      <Filter>hle\service\ngc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nifm\nifm.cpp">
+      <Filter>hle\service\nifm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nim\nim.cpp">
+      <Filter>hle\service\nim</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\npns\npns.cpp">
+      <Filter>hle\service\npns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ns\iplatform_service_manager.cpp">
+      <Filter>hle\service\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ns\language.cpp">
+      <Filter>hle\service\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ns\ns.cpp">
+      <Filter>hle\service\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ns\pdm_qry.cpp">
+      <Filter>hle\service\ns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\core\container.cpp">
+      <Filter>hle\service\nvdrv\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\core\nvmap.cpp">
+      <Filter>hle\service\nvdrv\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\core\syncpoint_manager.cpp">
+      <Filter>hle\service\nvdrv\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvdisp_disp0.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_as_gpu.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_ctrl.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_ctrl_gpu.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_gpu.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_nvdec.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_nvdec_common.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_nvjpg.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_vic.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvmap.cpp">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\nvdrv.cpp">
+      <Filter>hle\service\nvdrv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\nvdrv_interface.cpp">
+      <Filter>hle\service\nvdrv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\nvmemp.cpp">
+      <Filter>hle\service\nvdrv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_item_consumer.cpp">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_queue_consumer.cpp">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_queue_core.cpp">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_queue_producer.cpp">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\consumer_base.cpp">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\fb_share_buffer_manager.cpp">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\graphic_buffer_producer.cpp">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\hos_binder_driver_server.cpp">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\nvnflinger.cpp">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\ui\graphic_buffer.cpp">
+      <Filter>hle\service\nvnflinger\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\olsc\olsc.cpp">
+      <Filter>hle\service\olsc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\pcie\pcie.cpp">
+      <Filter>hle\service\pcie</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\pctl\pctl.cpp">
+      <Filter>hle\service\pctl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\pctl\pctl_module.cpp">
+      <Filter>hle\service\pctl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\pcv\pcv.cpp">
+      <Filter>hle\service\pcv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\pm\pm.cpp">
+      <Filter>hle\service\pm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\prepo\prepo.cpp">
+      <Filter>hle\service\prepo</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\psc\psc.cpp">
+      <Filter>hle\service\psc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ptm\psm.cpp">
+      <Filter>hle\service\ptm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ptm\ptm.cpp">
+      <Filter>hle\service\ptm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ptm\ts.cpp">
+      <Filter>hle\service\ptm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\hle_ipc.cpp">
+      <Filter>hle\service</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\kernel_helpers.cpp">
+      <Filter>hle\service</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\mutex.cpp">
+      <Filter>hle\service</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ro\ro_nro_utils.cpp">
+      <Filter>hle\service\ro</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ro\ro.cpp">
+      <Filter>hle\service\ro</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\server_manager.cpp">
+      <Filter>hle\service</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\service.cpp">
+      <Filter>hle\service</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\set\set.cpp">
+      <Filter>hle\service\set</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\set\appln_settings.cpp">
+      <Filter>hle\service\set</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\set\device_settings.cpp">
+      <Filter>hle\service\set</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\set\private_settings.cpp">
+      <Filter>hle\service\set</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\set\set_cal.cpp">
+      <Filter>hle\service\set</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\set\set_fd.cpp">
+      <Filter>hle\service\set</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\set\set_sys.cpp">
+      <Filter>hle\service\set</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\set\settings.cpp">
+      <Filter>hle\service\set</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\set\system_settings.cpp">
+      <Filter>hle\service\set</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\sm\sm.cpp">
+      <Filter>hle\service\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\sm\sm_controller.cpp">
+      <Filter>hle\service\sm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\bsd.cpp">
+      <Filter>hle\service\sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\nsd.cpp">
+      <Filter>hle\service\sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\sfdnsres.cpp">
+      <Filter>hle\service\sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\sockets.cpp">
+      <Filter>hle\service\sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\sockets_translate.cpp">
+      <Filter>hle\service\sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\spl\csrng.cpp">
+      <Filter>hle\service\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\spl\spl.cpp">
+      <Filter>hle\service\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\spl\spl_module.cpp">
+      <Filter>hle\service\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ssl\ssl.cpp">
+      <Filter>hle\service\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\standard_steady_clock_core.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\standard_user_system_clock_core.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\system_clock_context_update_callback.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\system_clock_core.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\tick_based_steady_clock_core.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\time.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_interface.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_manager.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_sharedmemory.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_zone_content_manager.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_zone_manager.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_zone_service.cpp">
+      <Filter>hle\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\usb\usb.cpp">
+      <Filter>hle\service\usb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\vi\display\vi_display.cpp">
+      <Filter>hle\service\vi\display</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\vi\layer\vi_layer.cpp">
+      <Filter>hle\service\vi\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\vi\vi.cpp">
+      <Filter>hle\service\vi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\vi\vi_m.cpp">
+      <Filter>hle\service\vi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\vi\vi_s.cpp">
+      <Filter>hle\service\vi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\vi\vi_u.cpp">
+      <Filter>hle\service\vi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\internal_network\network.cpp">
+      <Filter>internal_network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\internal_network\network_interface.cpp">
+      <Filter>internal_network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\internal_network\socket_proxy.cpp">
+      <Filter>internal_network</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\loader\deconstructed_rom_directory.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\loader\kip.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\loader\loader.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\loader\nax.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\loader\nca.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\loader\nro.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\loader\nso.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\loader\nsp.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\loader\xci.cpp">
+      <Filter>loader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\memory\cheat_engine.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\memory\dmnt_cheat_vm.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\memory.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\perf_stats.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\reporter.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\telemetry_session.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\tools\freezer.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\tools\renderdoc.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\arm\dynarmic\arm_dynarmic_64.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\arm\dynarmic\arm_dynarmic_32.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\arm\dynarmic\dynarmic_cp15.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\arm\dynarmic\dynarmic_exclusive_monitor.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\jit\jit_context.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\jit\jit.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\core\hle\service\ssl\ssl_backend_schannel.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\arm\arm_interface.h">
+      <Filter>arm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\arm\debug.h">
+      <Filter>arm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\arm\exclusive_monitor.h">
+      <Filter>arm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\arm\symbols.h">
+      <Filter>arm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\constants.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\core.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\core_timing.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\cpu_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\crypto\aes_util.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\crypto\encryption_layer.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\crypto\key_manager.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\crypto\partition_data_manager.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\crypto\ctr_encryption_layer.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\crypto\xts_encryption_layer.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\debugger\debugger_interface.h">
+      <Filter>debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\debugger\debugger.h">
+      <Filter>debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\debugger\gdbstub_arch.h">
+      <Filter>debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\debugger\gdbstub.h">
+      <Filter>debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\device_memory.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fs_i_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_aes_ctr_counter_extended_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_aes_ctr_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_aes_xts_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_alignment_matching_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_alignment_matching_storage_impl.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_bucket_tree.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_bucket_tree_utils.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_compressed_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_compression_common.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_compression_configuration.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_crypto_configuration.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_hierarchical_integrity_verification_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_hierarchical_sha256_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_indirect_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_integrity_romfs_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_integrity_verification_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_memory_resource_buffer_hold_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_nca_file_system_driver.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_nca_header.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_pooled_buffer.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_sparse_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_switch_storage.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fssystem_utility.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fssystem\fs_types.h">
+      <Filter>file_sys\fssystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\bis_factory.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\card_image.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\common_funcs.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\content_archive.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\control_metadata.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\directory.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\errors.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\fsmitm_romfsbuild.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\ips_layer.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\kernel_executable.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\mode.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\nca_metadata.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\partition_filesystem.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\patch_manager.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\program_metadata.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\registered_cache.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\romfs.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\romfs_factory.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\savedata_factory.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\sdmc_factory.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\submission_package.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_chinese_simplified.h">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_chinese_traditional.h">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_extended_chinese_simplified.h">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_korean.h">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_nintendo_extended.h">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\data\font_standard.h">
+      <Filter>file_sys\system_archive\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\mii_model.h">
+      <Filter>file_sys\system_archive</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\ng_word.h">
+      <Filter>file_sys\system_archive</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\shared_font.h">
+      <Filter>file_sys\system_archive</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\system_archive.h">
+      <Filter>file_sys\system_archive</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\system_version.h">
+      <Filter>file_sys\system_archive</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\system_archive\time_zone_binary.h">
+      <Filter>file_sys\system_archive</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\vfs.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_cached.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_concat.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_layered.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_offset.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_real.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_static.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_types.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\vfs_vector.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\file_sys\xts_archive.h">
+      <Filter>file_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\applets\cabinet.h">
+      <Filter>frontend\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\applets\controller.h">
+      <Filter>frontend\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\applets\error.h">
+      <Filter>frontend\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\applets\general_frontend.h">
+      <Filter>frontend\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\applets\mii_edit.h">
+      <Filter>frontend\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\applets\profile_select.h">
+      <Filter>frontend\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\applets\software_keyboard.h">
+      <Filter>frontend\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\applets\web_browser.h">
+      <Filter>frontend\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\emu_window.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\framebuffer_layout.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\frontend\graphics_context.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hid\emulated_console.h">
+      <Filter>hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hid\emulated_controller.h">
+      <Filter>hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hid\emulated_devices.h">
+      <Filter>hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hid\hid_core.h">
+      <Filter>hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hid\hid_types.h">
+      <Filter>hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hid\input_converter.h">
+      <Filter>hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hid\input_interpreter.h">
+      <Filter>hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hid\irs_types.h">
+      <Filter>hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hid\motion_input.h">
+      <Filter>hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\api_version.h">
+      <Filter>hle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\ipc.h">
+      <Filter>hle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\board\nintendo\nx\k_memory_layout.h">
+      <Filter>hle\kernel\board\nintendo\nx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\board\nintendo\nx\k_system_control.h">
+      <Filter>hle\kernel\board\nintendo\nx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\board\nintendo\nx\secure_monitor.h">
+      <Filter>hle\kernel\board\nintendo\nx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\code_set.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc_results.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\global_scheduler_context.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\init\init_slab_setup.h">
+      <Filter>hle\kernel\init</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\initial_process.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_address_arbiter.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_address_space_info.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_auto_object.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_auto_object_container.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_affinity_mask.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_capabilities.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_class_token.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_client_port.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_client_session.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_code_memory.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_condition_variable.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_debug.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_device_address_space.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_dynamic_page_manager.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_dynamic_resource_manager.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_dynamic_slab_heap.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_event.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_event_info.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_handle_table.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_hardware_timer_base.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_hardware_timer.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_interrupt_manager.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_client_session.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_condition_variable.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_lock.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_server_session.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_light_session.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_memory_block.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_memory_block_manager.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_memory_layout.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_memory_manager.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_memory_region.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_memory_region_type.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_object_name.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_bitmap.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_buffer.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_heap.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_group.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_table.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_table_base.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_table_manager.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_page_table_slab_heap.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_port.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_priority_queue.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_process.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_process_page_table.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_readable_event.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_resource_limit.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_scheduler.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_scheduler_lock.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_scoped_lock.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_scoped_resource_reservation.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_scoped_scheduler_lock_and_sleep.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_server_port.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_server_session.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_session.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_session_request.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_shared_memory.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_shared_memory_info.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_slab_heap.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_spin_lock.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_synchronization_object.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_system_control.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_system_resource.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_thread.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_thread_local_page.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_thread_queue.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_timer_task.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_trace.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_transfer_memory.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_typed_address.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_worker_task.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\k_worker_task_manager.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\kernel.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\memory_types.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\message_buffer.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\physical_core.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\physical_memory.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\slab_helpers.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc_common.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\kernel\svc_types.h">
+      <Filter>hle\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\result.h">
+      <Filter>hle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc.h">
+      <Filter>hle\service\acc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc_aa.h">
+      <Filter>hle\service\acc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc_su.h">
+      <Filter>hle\service\acc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc_u0.h">
+      <Filter>hle\service\acc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\acc\acc_u1.h">
+      <Filter>hle\service\acc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\acc\async_context.h">
+      <Filter>hle\service\acc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\acc\errors.h">
+      <Filter>hle\service\acc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\acc\profile_manager.h">
+      <Filter>hle\service\acc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\am.h">
+      <Filter>hle\service\am</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applet_ae.h">
+      <Filter>hle\service\am</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applet_oe.h">
+      <Filter>hle\service\am</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_cabinet.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_controller.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_error.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_general_backend.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_mii_edit.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_mii_edit_types.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_profile_select.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_software_keyboard.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_software_keyboard_types.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_web_browser.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applet_web_browser_types.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\applets\applets.h">
+      <Filter>hle\service\am\applets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\idle.h">
+      <Filter>hle\service\am</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\omm.h">
+      <Filter>hle\service\am</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\am\spsm.h">
+      <Filter>hle\service\am</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\aoc\aoc_u.h">
+      <Filter>hle\service\aoc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\apm\apm.h">
+      <Filter>hle\service\apm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\apm\apm_controller.h">
+      <Filter>hle\service\apm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\apm\apm_interface.h">
+      <Filter>hle\service\apm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audctl.h">
+      <Filter>hle\service\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audin_u.h">
+      <Filter>hle\service\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audio.h">
+      <Filter>hle\service\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audout_u.h">
+      <Filter>hle\service\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audrec_a.h">
+      <Filter>hle\service\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audrec_u.h">
+      <Filter>hle\service\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\audio\audren_u.h">
+      <Filter>hle\service\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\audio\errors.h">
+      <Filter>hle\service\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\audio\hwopus.h">
+      <Filter>hle\service\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\bcat\backend\backend.h">
+      <Filter>hle\service\bcat\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\bcat\bcat.h">
+      <Filter>hle\service\bcat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\bcat\bcat_module.h">
+      <Filter>hle\service\bcat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\bpc\bpc.h">
+      <Filter>hle\service\bpc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\btdrv\btdrv.h">
+      <Filter>hle\service\btdrv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\btm\btm.h">
+      <Filter>hle\service\btm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_a.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_c.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_manager.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_result.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_sc.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_ss.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_su.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_types.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\caps\caps_u.h">
+      <Filter>hle\service\caps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\erpt\erpt.h">
+      <Filter>hle\service\erpt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\es\es.h">
+      <Filter>hle\service\es</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\eupld\eupld.h">
+      <Filter>hle\service\eupld</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\fatal\fatal.h">
+      <Filter>hle\service\fatal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\fatal\fatal_p.h">
+      <Filter>hle\service\fatal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\fatal\fatal_u.h">
+      <Filter>hle\service\fatal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\filesystem\filesystem.h">
+      <Filter>hle\service\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\filesystem\fsp_ldr.h">
+      <Filter>hle\service\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\filesystem\fsp_pr.h">
+      <Filter>hle\service\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\filesystem\fsp_srv.h">
+      <Filter>hle\service\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\fgm\fgm.h">
+      <Filter>hle\service\fgm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\friend\friend.h">
+      <Filter>hle\service\friend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\friend\friend_interface.h">
+      <Filter>hle\service\friend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\glue\arp.h">
+      <Filter>hle\service\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\glue\bgtc.h">
+      <Filter>hle\service\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\glue\ectx.h">
+      <Filter>hle\service\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\glue\errors.h">
+      <Filter>hle\service\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\glue\glue.h">
+      <Filter>hle\service\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\glue\glue_manager.h">
+      <Filter>hle\service\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\glue\notif.h">
+      <Filter>hle\service\glue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\grc\grc.h">
+      <Filter>hle\service\grc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid_debug_server.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid_firmware_settings.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid_server.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid_system_server.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hid_util.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irs.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irs_ring_lifo.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\resource_manager.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\ring_lifo.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\xcd.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\errors.h">
+      <Filter>hle\service\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\types\debug_pad_types.h">
+      <Filter>hle\service\hid\controllers\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\types\keyboard_types.h">
+      <Filter>hle\service\hid\controllers\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\types\mouse_types.h">
+      <Filter>hle\service\hid\controllers\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\types\npad_types.h">
+      <Filter>hle\service\hid\controllers\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\types\touch_types.h">
+      <Filter>hle\service\hid\controllers\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\applet_resource.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\console_six_axis.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\controller_base.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\debug_pad.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\gesture.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\keyboard.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\mouse.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\npad.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\palma.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\seven_six_axis.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\shared_memory_format.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\shared_memory_holder.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\six_axis.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\stubbed.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\controllers\touchscreen.h">
+      <Filter>hle\service\hid\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus\hidbus_base.h">
+      <Filter>hle\service\hid\hidbus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus\ringcon.h">
+      <Filter>hle\service\hid\hidbus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus\starlink.h">
+      <Filter>hle\service\hid\hidbus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\hidbus\stubbed.h">
+      <Filter>hle\service\hid\hidbus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\clustering_processor.h">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\image_transfer_processor.h">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\ir_led_processor.h">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\moment_processor.h">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\pointing_processor.h">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\processor_base.h">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hid\irsensor\tera_plugin_processor.h">
+      <Filter>hle\service\hid\irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\lbl\lbl.h">
+      <Filter>hle\service\lbl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ldn\lan_discovery.h">
+      <Filter>hle\service\ldn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ldn\ldn_results.h">
+      <Filter>hle\service\ldn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ldn\ldn.h">
+      <Filter>hle\service\ldn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ldn\ldn_types.h">
+      <Filter>hle\service\ldn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ldr\ldr.h">
+      <Filter>hle\service\ldr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\lm\lm.h">
+      <Filter>hle\service\lm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mig\mig.h">
+      <Filter>hle\service\mig</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\char_info.h">
+      <Filter>hle\service\mii\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\core_data.h">
+      <Filter>hle\service\mii\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\raw_data.h">
+      <Filter>hle\service\mii\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\store_data.h">
+      <Filter>hle\service\mii\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\types\ver3_store_data.h">
+      <Filter>hle\service\mii\types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii.h">
+      <Filter>hle\service\mii</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii_database.h">
+      <Filter>hle\service\mii</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii_database_manager.h">
+      <Filter>hle\service\mii</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii_manager.h">
+      <Filter>hle\service\mii</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii_result.h">
+      <Filter>hle\service\mii</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii_types.h">
+      <Filter>hle\service\mii</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mii\mii_util.h">
+      <Filter>hle\service\mii</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mm\mm_u.h">
+      <Filter>hle\service\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mnpp\mnpp_app.h">
+      <Filter>hle\service\mnpp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ncm\ncm.h">
+      <Filter>hle\service\ncm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\common\amiibo_crypto.h">
+      <Filter>hle\service\nfc\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\common\device.h">
+      <Filter>hle\service\nfc\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\common\device_manager.h">
+      <Filter>hle\service\nfc\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\mifare_result.h">
+      <Filter>hle\service\nfc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\mifare_types.h">
+      <Filter>hle\service\nfc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\nfc.h">
+      <Filter>hle\service\nfc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\nfc_interface.h">
+      <Filter>hle\service\nfc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\nfc_result.h">
+      <Filter>hle\service\nfc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfc\nfc_types.h">
+      <Filter>hle\service\nfc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfp\nfp.h">
+      <Filter>hle\service\nfp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfp\nfp_interface.h">
+      <Filter>hle\service\nfp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfp\nfp_result.h">
+      <Filter>hle\service\nfp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nfp\nfp_types.h">
+      <Filter>hle\service\nfp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ngc\ngc.h">
+      <Filter>hle\service\ngc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nifm\nifm.h">
+      <Filter>hle\service\nifm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nim\nim.h">
+      <Filter>hle\service\nim</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\npns\npns.h">
+      <Filter>hle\service\npns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ns\errors.h">
+      <Filter>hle\service\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ns\iplatform_service_manager.h">
+      <Filter>hle\service\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ns\language.h">
+      <Filter>hle\service\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ns\ns.h">
+      <Filter>hle\service\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ns\pdm_qry.h">
+      <Filter>hle\service\ns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\core\container.h">
+      <Filter>hle\service\nvdrv\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\core\nvmap.h">
+      <Filter>hle\service\nvdrv\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\core\syncpoint_manager.h">
+      <Filter>hle\service\nvdrv\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvdevice.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvdisp_disp0.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_as_gpu.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_ctrl.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_ctrl_gpu.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_gpu.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_nvdec.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_nvdec_common.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_nvjpg.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvhost_vic.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\devices\nvmap.h">
+      <Filter>hle\service\nvdrv\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\nvdata.h">
+      <Filter>hle\service\nvdrv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\nvdrv.h">
+      <Filter>hle\service\nvdrv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\nvdrv_interface.h">
+      <Filter>hle\service\nvdrv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvdrv\nvmemp.h">
+      <Filter>hle\service\nvdrv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\binder.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_item.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_item_consumer.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_queue_consumer.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_queue_core.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_queue_defs.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_queue_producer.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_slot.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\buffer_transform_flags.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\consumer_base.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\consumer_listener.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\fb_share_buffer_manager.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\graphic_buffer_producer.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\hos_binder_driver_server.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\nvnflinger.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\parcel.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\pixel_format.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\producer_listener.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\status.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\ui\fence.h">
+      <Filter>hle\service\nvnflinger\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\ui\graphic_buffer.h">
+      <Filter>hle\service\nvnflinger\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\nvnflinger\window.h">
+      <Filter>hle\service\nvnflinger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\olsc\olsc.h">
+      <Filter>hle\service\olsc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\pcie\pcie.h">
+      <Filter>hle\service\pcie</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\pctl\pctl.h">
+      <Filter>hle\service\pctl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\pctl\pctl_module.h">
+      <Filter>hle\service\pctl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\pcv\pcv.h">
+      <Filter>hle\service\pcv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\pm\pm.h">
+      <Filter>hle\service\pm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\prepo\prepo.h">
+      <Filter>hle\service\prepo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\psc\psc.h">
+      <Filter>hle\service\psc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ptm\psm.h">
+      <Filter>hle\service\ptm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ptm\ptm.h">
+      <Filter>hle\service\ptm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ptm\ts.h">
+      <Filter>hle\service\ptm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\hle_ipc.h">
+      <Filter>hle\service</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ipc_helpers.h">
+      <Filter>hle\service</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\kernel_helpers.h">
+      <Filter>hle\service</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\mutex.h">
+      <Filter>hle\service</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ro\ro_nro_utils.h">
+      <Filter>hle\service\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ro\ro_results.h">
+      <Filter>hle\service\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ro\ro_types.h">
+      <Filter>hle\service\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ro\ro.h">
+      <Filter>hle\service\ro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\server_manager.h">
+      <Filter>hle\service</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\service.h">
+      <Filter>hle\service</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\set\set.h">
+      <Filter>hle\service\set</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\set\appln_settings.h">
+      <Filter>hle\service\set</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\set\device_settings.h">
+      <Filter>hle\service\set</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\set\private_settings.h">
+      <Filter>hle\service\set</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\set\set_cal.h">
+      <Filter>hle\service\set</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\set\set_fd.h">
+      <Filter>hle\service\set</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\set\set_sys.h">
+      <Filter>hle\service\set</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\set\settings.h">
+      <Filter>hle\service\set</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\set\system_settings.h">
+      <Filter>hle\service\set</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\sm\sm.h">
+      <Filter>hle\service\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\sm\sm_controller.h">
+      <Filter>hle\service\sm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\bsd.h">
+      <Filter>hle\service\sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\nsd.h">
+      <Filter>hle\service\sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\sfdnsres.h">
+      <Filter>hle\service\sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\sockets.h">
+      <Filter>hle\service\sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\sockets\sockets_translate.h">
+      <Filter>hle\service\sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\spl\csrng.h">
+      <Filter>hle\service\spl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\spl\spl.h">
+      <Filter>hle\service\spl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\spl\spl_module.h">
+      <Filter>hle\service\spl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\spl\spl_results.h">
+      <Filter>hle\service\spl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\spl\spl_types.h">
+      <Filter>hle\service\spl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ssl\ssl.h">
+      <Filter>hle\service\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\ssl\ssl_backend.h">
+      <Filter>hle\service\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\clock_types.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\ephemeral_network_system_clock_context_writer.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\ephemeral_network_system_clock_core.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\errors.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\local_system_clock_context_writer.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\network_system_clock_context_writer.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\standard_local_system_clock_core.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\standard_network_system_clock_core.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\standard_steady_clock_core.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\standard_user_system_clock_core.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\steady_clock_core.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\system_clock_context_update_callback.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\system_clock_core.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\tick_based_steady_clock_core.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\time.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_interface.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_manager.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_sharedmemory.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_zone_content_manager.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_zone_manager.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_zone_service.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\time\time_zone_types.h">
+      <Filter>hle\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\usb\usb.h">
+      <Filter>hle\service\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\vi\display\vi_display.h">
+      <Filter>hle\service\vi\display</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\vi\layer\vi_layer.h">
+      <Filter>hle\service\vi\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\vi\vi.h">
+      <Filter>hle\service\vi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\vi\vi_m.h">
+      <Filter>hle\service\vi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\vi\vi_s.h">
+      <Filter>hle\service\vi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\vi\vi_u.h">
+      <Filter>hle\service\vi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\internal_network\network.h">
+      <Filter>internal_network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\internal_network\network_interface.h">
+      <Filter>internal_network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\internal_network\sockets.h">
+      <Filter>internal_network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\internal_network\socket_proxy.h">
+      <Filter>internal_network</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\loader\deconstructed_rom_directory.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\loader\kip.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\loader\loader.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\loader\nax.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\loader\nca.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\loader\nro.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\loader\nso.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\loader\nsp.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\loader\xci.h">
+      <Filter>loader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\memory\cheat_engine.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\memory\dmnt_cheat_types.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\memory\dmnt_cheat_vm.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\memory.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\perf_stats.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\reporter.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\telemetry_session.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\tools\freezer.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\tools\renderdoc.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\arm\dynarmic\arm_dynarmic.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\arm\dynarmic\arm_dynarmic_64.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\arm\dynarmic\arm_dynarmic_32.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\arm\dynarmic\dynarmic_cp15.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\arm\dynarmic\dynarmic_exclusive_monitor.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\jit\jit_context.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\core\hle\service\jit\jit.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\core\CMakeFiles\core.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\core\CMakeFiles\core.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\core\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_json.natvis">
+      <Filter>Other Files</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arm">
+      <UniqueIdentifier>{E6ACB79F-6881-3C83-ADF9-875E5B200472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{6112C5A5-F64D-326B-AA82-EE9BF07FEE0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debugger">
+      <UniqueIdentifier>{16E6E63E-1F2C-3F5B-9A4E-7F3DD6122571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file_sys">
+      <UniqueIdentifier>{B306F78B-DDFB-3251-8416-A664B9F429B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file_sys\fssystem">
+      <UniqueIdentifier>{C3142AD5-4FA3-397E-8D23-406B72DEA769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file_sys\system_archive">
+      <UniqueIdentifier>{942441AB-9199-31D6-A9A8-FF78EA86A9A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file_sys\system_archive\data">
+      <UniqueIdentifier>{4C9EC6D9-A761-371E-861F-0DC261CA5E3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend">
+      <UniqueIdentifier>{82A2CA5A-28F4-39FD-87DD-250EAF587167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\applets">
+      <UniqueIdentifier>{A9785E7D-7C99-3F65-9AF3-AE4A3B3800F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hid">
+      <UniqueIdentifier>{25F44946-5095-328C-A8D2-D401C4980D41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle">
+      <UniqueIdentifier>{FA409BC3-644F-31EB-B7A9-23EFE20FC172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\kernel">
+      <UniqueIdentifier>{4F6C5B66-D54E-31D9-B3CE-9805CD69BD45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\kernel\board">
+      <UniqueIdentifier>{B870BC76-F399-3809-AF34-05C027599342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\kernel\board\nintendo">
+      <UniqueIdentifier>{A2D8EA44-767B-3961-8F5F-7E18E958C5C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\kernel\board\nintendo\nx">
+      <UniqueIdentifier>{5D06B864-1AC6-349B-87E9-5DF5B7B2E2D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\kernel\init">
+      <UniqueIdentifier>{A4931C20-D3F3-3F44-A761-8D1F41FC596B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\kernel\svc">
+      <UniqueIdentifier>{9F50C769-3E66-3150-B5D9-92364B9193FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service">
+      <UniqueIdentifier>{7FB4F96C-4D84-367E-96CE-15428A40674E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\acc">
+      <UniqueIdentifier>{0DE11F3F-FDDF-33EE-BC54-346A2F2BDEE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\am">
+      <UniqueIdentifier>{EE3A4279-DE6E-3D3A-8B67-1497DCED981A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\am\applets">
+      <UniqueIdentifier>{B7079BE5-A1D8-306A-B029-E53E289E3A53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\aoc">
+      <UniqueIdentifier>{27DBD7EB-BA6B-39A9-83D2-11DECA713323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\apm">
+      <UniqueIdentifier>{95C79F33-A881-3FC9-B442-BAB1369871A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\audio">
+      <UniqueIdentifier>{39BE3201-B325-3E14-BFC2-102ADF400965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\bcat">
+      <UniqueIdentifier>{0CF8593F-92EF-3099-A1F8-7ADCF0619974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\bcat\backend">
+      <UniqueIdentifier>{79781D3E-27B8-32FC-B3D8-A161E0B342A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\bpc">
+      <UniqueIdentifier>{7D3C5C4B-B5AC-39F2-ACE6-3423C1F9444F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\btdrv">
+      <UniqueIdentifier>{CE003E86-6B51-361D-AA36-77A358EC10E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\btm">
+      <UniqueIdentifier>{95622941-50E7-344D-89FE-3C7A5D17EC8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\caps">
+      <UniqueIdentifier>{EFA6D3AF-6B3B-3328-9463-B928AE54D18A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\erpt">
+      <UniqueIdentifier>{66D17A60-2B6B-341B-8352-E16B5EE221C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\es">
+      <UniqueIdentifier>{F0E5F2BB-9ED8-33F8-8AFA-DCB2E24738F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\eupld">
+      <UniqueIdentifier>{6E150CA2-5980-3226-A85E-5315A7D4D7F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\fatal">
+      <UniqueIdentifier>{C78B3BA2-0124-34CF-B3A0-5C6940F6DE56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\fgm">
+      <UniqueIdentifier>{6E2D16AA-04A1-3059-A4B2-FF19564D27DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\filesystem">
+      <UniqueIdentifier>{F37BFB5A-6670-3BA1-A9B6-8CFF21CECE53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\friend">
+      <UniqueIdentifier>{CBE0217A-FE6B-3107-9FE1-029E994AC5C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\glue">
+      <UniqueIdentifier>{A3936A18-3DCA-3BDE-9D72-762979C3DDED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\grc">
+      <UniqueIdentifier>{0FF8B244-5E4F-3E5B-9814-336574DDED62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\hid">
+      <UniqueIdentifier>{FC48A276-48E0-359B-AE37-53837A105DC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\hid\controllers">
+      <UniqueIdentifier>{579F15B8-E5B3-347C-804C-FACB3DDC5FBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\hid\controllers\types">
+      <UniqueIdentifier>{D1A8C3F6-0A40-3AD4-86D5-49B9C695D1E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\hid\hidbus">
+      <UniqueIdentifier>{E319C7C2-4145-363F-A7D1-500468E0097F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\hid\irsensor">
+      <UniqueIdentifier>{030088D7-C6C7-3D4C-A517-3B54C191ACC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\lbl">
+      <UniqueIdentifier>{4D6FC132-19C7-3296-B8E1-F0455FBCE197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\ldn">
+      <UniqueIdentifier>{AC25A5DC-EE76-31AA-B111-27AB78CCCA16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\ldr">
+      <UniqueIdentifier>{83C73DFD-98C9-31D9-813B-664984779BF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\lm">
+      <UniqueIdentifier>{BC210039-F9EB-3113-8653-66D4D7504A8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\mig">
+      <UniqueIdentifier>{DAE1C7B0-F036-3305-BEF2-C16470754B88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\mii">
+      <UniqueIdentifier>{9590C478-C478-395E-B856-F36A8548843B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\mii\types">
+      <UniqueIdentifier>{2601FC88-33D7-39E7-8146-AD75D507EC49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\mm">
+      <UniqueIdentifier>{12BFA4EC-95B9-3476-BDB5-E3AED2E3D772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\mnpp">
+      <UniqueIdentifier>{CAE9CFFF-8F68-3D91-8ECA-12D74C1A0AC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\ncm">
+      <UniqueIdentifier>{A6DE753C-871E-3549-81E3-F850499FCFC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nfc">
+      <UniqueIdentifier>{645947A3-1A74-3048-A10C-AE446D5CEB1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nfc\common">
+      <UniqueIdentifier>{B9ADF7AF-71D0-36D2-B04D-5E87BA13D363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nfp">
+      <UniqueIdentifier>{A3707CEE-0D28-3B38-B747-45D16BB8403D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\ngc">
+      <UniqueIdentifier>{4C4C8FB6-30C7-3E83-9BC6-7220E984E3BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nifm">
+      <UniqueIdentifier>{DB303DA9-9939-34BA-859B-21698D7C5383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nim">
+      <UniqueIdentifier>{49C37DDF-5F93-3F08-874D-A3BC5328B0FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\npns">
+      <UniqueIdentifier>{0E0FE82C-F631-30F9-AE9D-C73262F4299A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\ns">
+      <UniqueIdentifier>{C884CC12-445F-33AE-8C55-7459EB44122D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nvdrv">
+      <UniqueIdentifier>{69711D84-2F54-349C-B840-C5ECE1746EE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nvdrv\core">
+      <UniqueIdentifier>{A8424331-5919-3354-8D36-35C8E3462DF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nvdrv\devices">
+      <UniqueIdentifier>{E53E9533-BECC-3F7D-95FA-6683B3B07613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nvnflinger">
+      <UniqueIdentifier>{6BCE9ABD-DBEA-3DA9-8BFC-E220520F603F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\nvnflinger\ui">
+      <UniqueIdentifier>{60DF6DAF-BA89-3422-A208-C40F5A8C2DD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\olsc">
+      <UniqueIdentifier>{46B3DF97-C3A6-37CC-B941-FBE552C3EA85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\pcie">
+      <UniqueIdentifier>{CB932EB0-2157-318E-B7A6-1BF1E7062DB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\pctl">
+      <UniqueIdentifier>{B91F7738-2773-33D3-A028-5B61484D37CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\pcv">
+      <UniqueIdentifier>{63900166-A704-3298-98F5-99CCE071435C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\pm">
+      <UniqueIdentifier>{C0048E25-00E0-3E19-88E6-E4CB241C6846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\prepo">
+      <UniqueIdentifier>{E89FAA3F-A170-3DA3-9406-974ADC2C1C10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\psc">
+      <UniqueIdentifier>{A797D472-DC70-370C-9DAF-50858331DDA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\ptm">
+      <UniqueIdentifier>{300F3C43-C69A-3ED0-826B-FD9A47D1DBE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\ro">
+      <UniqueIdentifier>{EEF3A81A-B34E-3C31-8345-E5085CAFC66A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\set">
+      <UniqueIdentifier>{2C18FAF6-15AA-36CD-9B91-4A31AB2D4348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\sm">
+      <UniqueIdentifier>{C5DF49A1-14CF-3BB9-9866-70F603A612B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\sockets">
+      <UniqueIdentifier>{8840B5D4-B636-33C4-A41A-41812DA1F77C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\spl">
+      <UniqueIdentifier>{FEEB166B-DBF2-391A-9591-6598317682D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\ssl">
+      <UniqueIdentifier>{0595CEC7-1960-3DB3-ABC8-5173B3FB160C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\time">
+      <UniqueIdentifier>{BC5AAD33-BC5C-30E1-9DDF-557EDEB220F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\usb">
+      <UniqueIdentifier>{6A7B23FE-F4E9-36D9-8812-8F04B02394EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\vi">
+      <UniqueIdentifier>{8A5772AD-E9D7-3939-B889-9B42746D3363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\vi\display">
+      <UniqueIdentifier>{2F5263C8-C8E0-343C-876B-97943FFA3EFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hle\service\vi\layer">
+      <UniqueIdentifier>{435D38F3-4022-3580-AB87-27227C211EDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="internal_network">
+      <UniqueIdentifier>{186B93FB-A997-35D7-BB2F-B0CF8F90419F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader">
+      <UniqueIdentifier>{5A959014-6088-32D1-9966-23E15E691E04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{A44D5518-A407-31D7-A9A5-A39DBB35FBAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{6AAC9F00-7AFD-3700-B06F-3C0454BB5793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

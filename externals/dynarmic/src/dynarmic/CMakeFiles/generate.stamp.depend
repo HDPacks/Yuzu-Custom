@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/curti/yuzu/externals/dynarmic/CMakeModules/CreateDirectoryGroups.cmake
+C:/Users/curti/yuzu/externals/dynarmic/CMakeModules/TargetArchitectureSpecificSources.cmake
+C:/Users/curti/yuzu/externals/dynarmic/src/dynarmic/CMakeLists.txt

@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Users/curti/yuzu/CMakeModules/CopyYuzuFFmpegDeps.cmake
+C:/Users/curti/yuzu/CMakeModules/CopyYuzuQt5Deps.cmake
+C:/Users/curti/yuzu/CMakeModules/CopyYuzuSDLDeps.cmake
+C:/Users/curti/yuzu/CMakeModules/WindowsCopyFiles.cmake
+C:/Users/curti/yuzu/dist/icons/controller/controller.qrc
+C:/Users/curti/yuzu/dist/icons/overlay/overlay.qrc
+C:/Users/curti/yuzu/dist/qt_themes/colorful/style.qrc
+C:/Users/curti/yuzu/dist/qt_themes/colorful_dark/style.qrc
+C:/Users/curti/yuzu/dist/qt_themes/colorful_midnight_blue/style.qrc
+C:/Users/curti/yuzu/dist/qt_themes/default/default.qrc
+C:/Users/curti/yuzu/dist/qt_themes/default_dark/style.qrc
+C:/Users/curti/yuzu/dist/qt_themes/qdarkstyle/style.qrc
+C:/Users/curti/yuzu/dist/qt_themes/qdarkstyle_midnight_blue/style.qrc
+C:/Users/curti/yuzu/src/yuzu/CMakeLists.txt
+C:/Users/curti/yuzu/src/yuzu/yuzu.qrc
+F:/custom-build/Yuzu-1662/dist/compatibility_list/compatibility_list.qrc

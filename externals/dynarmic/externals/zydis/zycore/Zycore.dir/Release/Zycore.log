@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/curti/yuzu/externals/dynarmic/externals/zycore/CMakeLists.txt
+  Memory.c
+  Process.c
+  Synchronization.c
+  Terminal.c
+  Thread.c
+  Allocator.c
+  ArgParse.c
+  Bitset.c
+  Format.c
+  List.c
+  String.c
+  Vector.c
+  Zycore.c
+  Generating Code...
+  Zycore.vcxproj -> F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore\Release\Zycore.lib

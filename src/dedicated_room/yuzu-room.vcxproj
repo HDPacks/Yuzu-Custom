@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F3ED6653-F5C0-35F8-A45D-099381324924}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>yuzu-room</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">yuzu-room.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">yuzu-room</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">yuzu-room.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">yuzu-room</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\.\mbedtls\include;C:\Users\curti\yuzu\externals\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4324;4201;4702</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/yuzu-room.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1662/src/dedicated_room/yuzu-room.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <TreatSpecificWarningsAsErrors>4062;4189;4265;4388;4389;4456;4457;4458;4459;4505;4547;4549;4555;4826;5038;5233;5245</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ENABLE_WEB_SERVICE;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;STATIC_GETOPT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ENABLE_WEB_SERVICE;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;STATIC_GETOPT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\.\mbedtls\include;C:\Users\curti\yuzu\externals\getopt;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\.\mbedtls\include;C:\Users\curti\yuzu\externals\getopt;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/curti/yuzu/externals/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/custom-build/Yuzu-1662/bin/Debug/yuzu-room.exe -installedDir F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\common\Debug\common.lib;..\network\Debug\network.lib;..\web_service\Debug\web_service.lib;..\..\externals\mbedtls\library\Debug\mbedtls.lib;..\..\externals\mbedtls\library\Debug\mbedcrypto.lib;..\..\externals\getopt\Debug\getopt.lib;winmm.lib;ws2_32.lib;iphlpapi.lib;..\network\Debug\network.lib;..\web_service\Debug\web_service.lib;..\..\externals\enet\Debug\enet.lib;..\common\Debug\common.lib;ntdll.lib;..\..\vcpkg_installed\x64-windows\debug\lib\boost_context-vc140-mt-gd.lib;..\..\vcpkg_installed\x64-windows\debug\lib\fmtd.lib;..\..\externals\Debug\stb.lib;..\..\vcpkg_installed\x64-windows\debug\lib\lz4d.lib;..\..\vcpkg_installed\x64-windows\debug\lib\zstd.lib;..\..\externals\Debug\demangle.lib;crypt32.lib;cryptui.lib;..\..\vcpkg_installed\x64-windows\debug\lib\zlibd.lib;..\..\vcpkg_installed\x64-windows\debug\lib\libssl.lib;..\..\vcpkg_installed\x64-windows\debug\lib\libcrypto.lib;..\..\vcpkg_installed\x64-windows\debug\lib\libssl.lib;..\..\vcpkg_installed\x64-windows\debug\lib\libcrypto.lib;..\..\externals\mbedtls\library\Debug\mbedx509.lib;..\..\externals\mbedtls\library\Debug\mbedcrypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/custom-build/Yuzu-1662/src/dedicated_room/Debug/yuzu-room.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/custom-build/Yuzu-1662/bin/Debug/yuzu-room.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\.\mbedtls\include;C:\Users\curti\yuzu\externals\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4324;4201;4702</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/yuzu-room.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1662/src/dedicated_room/yuzu-room.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <TreatSpecificWarningsAsErrors>4062;4189;4265;4388;4389;4456;4457;4458;4459;4505;4547;4549;4555;4826;5038;5233;5245</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENABLE_WEB_SERVICE;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;STATIC_GETOPT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ENABLE_WEB_SERVICE;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;STATIC_GETOPT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\.\mbedtls\include;C:\Users\curti\yuzu\externals\getopt;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\.\mbedtls\include;C:\Users\curti\yuzu\externals\getopt;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/curti/yuzu/externals/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/custom-build/Yuzu-1662/bin/Release/yuzu-room.exe -installedDir F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\common\Release\common.lib;..\network\Release\network.lib;..\web_service\Release\web_service.lib;..\..\externals\mbedtls\library\Release\mbedtls.lib;..\..\externals\mbedtls\library\Release\mbedcrypto.lib;..\..\externals\getopt\Release\getopt.lib;winmm.lib;ws2_32.lib;iphlpapi.lib;..\network\Release\network.lib;..\web_service\Release\web_service.lib;..\..\externals\enet\Release\enet.lib;..\common\Release\common.lib;ntdll.lib;..\..\vcpkg_installed\x64-windows\lib\boost_context-vc140-mt.lib;..\..\vcpkg_installed\x64-windows\lib\fmt.lib;..\..\externals\Release\stb.lib;..\..\vcpkg_installed\x64-windows\lib\lz4.lib;..\..\vcpkg_installed\x64-windows\lib\zstd.lib;..\..\externals\Release\demangle.lib;crypt32.lib;cryptui.lib;..\..\vcpkg_installed\x64-windows\lib\zlib.lib;..\..\vcpkg_installed\x64-windows\lib\libssl.lib;..\..\vcpkg_installed\x64-windows\lib\libcrypto.lib;..\..\vcpkg_installed\x64-windows\lib\libssl.lib;..\..\vcpkg_installed\x64-windows\lib\libcrypto.lib;..\..\externals\mbedtls\library\Release\mbedx509.lib;..\..\externals\mbedtls\library\Release\mbedcrypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /OPT:REF,ICF</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/custom-build/Yuzu-1662/src/dedicated_room/Release/yuzu-room.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/custom-build/Yuzu-1662/bin/Release/yuzu-room.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\dedicated_room\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/curti/yuzu/src/dedicated_room/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\src\dedicated_room\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/curti/yuzu/src/dedicated_room/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\src\dedicated_room\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\dedicated_room\CMakeFiles\yuzu-room.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/yuzu-room.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/yuzu-room.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/dedicated_room/yuzu-room.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/yuzu-room.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/yuzu-room.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/dedicated_room/yuzu-room.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\dedicated_room\precompiled_headers.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\dedicated_room\yuzu_room.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/yuzu-room.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/dedicated_room/CMakeFiles/yuzu-room.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile Include="C:\Users\curti\yuzu\src\dedicated_room\yuzu_room.rc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ResourceCompile>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\dedicated_room\CMakeFiles\yuzu-room.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\dedicated_room\CMakeFiles\yuzu-room.dir\Release\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\ZERO_CHECK.vcxproj">
+      <Project>{FDE67142-5329-3EF2-8FDA-CA87BF889FCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\common\common.vcxproj">
+      <Project>{84A688A6-C4BB-326C-BF65-E16995C2F68E}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\demangle.vcxproj">
+      <Project>{0BDA3756-3946-3565-AC15-6CC3ECCFB81F}</Project>
+      <Name>demangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\enet\enet.vcxproj">
+      <Project>{65C861B1-5430-3E73-98C6-ECAEF08D4F6A}</Project>
+      <Name>enet</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\getopt\getopt.vcxproj">
+      <Project>{9FFC82A0-100C-32C7-B953-F3DFBEAE0C96}</Project>
+      <Name>getopt</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedcrypto.vcxproj">
+      <Project>{873672A2-659A-32C7-8F09-9B661235BEB7}</Project>
+      <Name>mbedcrypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedtls.vcxproj">
+      <Project>{87D392A0-5974-3389-BD3A-E45D6013182B}</Project>
+      <Name>mbedtls</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.vcxproj">
+      <Project>{73145E89-BAA0-3437-BD11-73C7890DAC60}</Project>
+      <Name>mbedx509</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\network\network.vcxproj">
+      <Project>{19B361C6-8B88-38FA-9209-2E5CC6FECF39}</Project>
+      <Name>network</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\stb.vcxproj">
+      <Project>{38CC4347-4020-32BC-BD7D-C2F9C9DD80A9}</Project>
+      <Name>stb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

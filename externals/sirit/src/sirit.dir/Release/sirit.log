@@ -1,0 +1,21 @@
+﻿  Building Custom Rule C:/Users/curti/yuzu/externals/sirit/src/CMakeLists.txt
+  sirit.cpp
+  type.cpp
+  constant.cpp
+  function.cpp
+  flow.cpp
+  debug.cpp
+  derivatives.cpp
+  memory.cpp
+  annotation.cpp
+  misc.cpp
+  logical.cpp
+  conversion.cpp
+  bit.cpp
+  arithmetic.cpp
+  extension.cpp
+  image.cpp
+  group.cpp
+  barrier.cpp
+  atomic.cpp
+  sirit.vcxproj -> F:\custom-build\Yuzu-1662\externals\sirit\src\Release\sirit.lib

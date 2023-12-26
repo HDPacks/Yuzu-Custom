@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\shader_recompiler\CMakeFiles\shader_recompiler.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_barriers.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_bitwise_conversion.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_composite.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_context_get_set.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_control_flow.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_convert.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_floating_point.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_image.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_integer.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_logical.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_memory.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_not_implemented.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_select.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_shared_memory.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_special.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_undefined.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_warp.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\glasm_emit_context.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\reg_alloc.cpp">
+      <Filter>backend\glasm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_atomic.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_barriers.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_bitwise_conversion.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_composite.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_context_get_set.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_control_flow.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_convert.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_floating_point.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_image.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_integer.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_logical.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_memory.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_not_implemented.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_select.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_shared_memory.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_special.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_undefined.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_warp.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\glsl_emit_context.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\var_alloc.cpp">
+      <Filter>backend\glsl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_atomic.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_barriers.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_bitwise_conversion.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_composite.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_context_get_set.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_control_flow.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_convert.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_floating_point.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_image.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_image_atomic.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_integer.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_logical.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_memory.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_select.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_shared_memory.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_special.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_undefined.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_warp.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\spirv_emit_context.cpp">
+      <Filter>backend\spirv</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\attribute.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\basic_block.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\condition.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\flow_test.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\ir_emitter.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\microinstruction.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\opcodes.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\patch.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\post_order.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\program.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\type.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\value.cpp">
+      <Filter>frontend\ir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\control_flow.cpp">
+      <Filter>frontend\maxwell</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\decode.cpp">
+      <Filter>frontend\maxwell</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\indirect_branch_table_track.cpp">
+      <Filter>frontend\maxwell</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\opcodes.cpp">
+      <Filter>frontend\maxwell</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\structured_control_flow.cpp">
+      <Filter>frontend\maxwell</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\atomic_operations_global_memory.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\atomic_operations_shared_memory.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\attribute_memory_to_physical.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\barrier_operations.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\bitfield_extract.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\bitfield_insert.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\branch_indirect.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\common_funcs.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\condition_code_set.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\double_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\double_compare_and_set.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\double_fused_multiply_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\double_min_max.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\double_multiply.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\double_set_predicate.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\exit_program.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\find_leading_one.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_compare.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_compare_and_set.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_conversion_floating_point.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_conversion_integer.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_fused_multiply_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_min_max.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_multi_function.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_multiply.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_range_reduction.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_set_predicate.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\floating_point_swizzled_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\half_floating_point_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\half_floating_point_fused_multiply_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\half_floating_point_helper.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\half_floating_point_multiply.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\half_floating_point_set.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\half_floating_point_set_predicate.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\impl.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_add_three_input.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_compare.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_compare_and_set.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_floating_point_conversion.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_funnel_shift.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_minimum_maximum.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_popcount.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_scaled_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_set_predicate.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_shift_left.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_shift_right.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_short_multiply_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\integer_to_integer_conversion.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\internal_stage_buffer_entry_read.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\load_constant.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\load_effective_address.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\load_store_attribute.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\load_store_local_shared.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\load_store_memory.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\logic_operation.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\logic_operation_three_input.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\move_predicate_to_register.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\move_register.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\move_register_to_predicate.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\move_special_register.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\not_implemented.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\output_geometry.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\pixel_load.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\predicate_set_predicate.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\predicate_set_register.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\select_source_with_predicate.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\surface_atomic_operations.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\surface_load_store.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\texture_fetch.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\texture_fetch_swizzled.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\texture_gather.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\texture_gather_swizzled.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\texture_gradient.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\texture_load.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\texture_load_swizzled.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\texture_mipmap_level.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\texture_query.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\video_helper.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\video_minimum_maximum.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\video_multiply_add.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\video_set_predicate.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\vote.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\warp_shuffle.cpp">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\translate.cpp">
+      <Filter>frontend\maxwell\translate</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate_program.cpp">
+      <Filter>frontend\maxwell</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\collect_shader_info_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\conditional_barrier_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\constant_propagation_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\dead_code_elimination_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\dual_vertex_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\global_memory_to_storage_buffer_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\identity_removal_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\layer_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\lower_fp16_to_fp32.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\lower_fp64_to_fp32.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\lower_int64_to_int32.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\position_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\rescaling_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\ssa_rewrite_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\texture_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\vendor_workaround_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\verification_pass.cpp">
+      <Filter>ir_opt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\bindings.h">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm.h">
+      <Filter>backend\glasm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm_instructions.h">
+      <Filter>backend\glasm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\glasm_emit_context.h">
+      <Filter>backend\glasm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\reg_alloc.h">
+      <Filter>backend\glasm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl.h">
+      <Filter>backend\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\emit_glsl_instructions.h">
+      <Filter>backend\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\glsl_emit_context.h">
+      <Filter>backend\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glsl\var_alloc.h">
+      <Filter>backend\glsl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv.h">
+      <Filter>backend\spirv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\emit_spirv_instructions.h">
+      <Filter>backend\spirv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\spirv\spirv_emit_context.h">
+      <Filter>backend\spirv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\environment.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\exception.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\abstract_syntax_list.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\attribute.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\basic_block.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\breadth_first_search.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\condition.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\flow_test.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\ir_emitter.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\modifiers.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\opcodes.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\patch.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\post_order.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\pred.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\program.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\reg.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\type.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\value.h">
+      <Filter>frontend\ir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\control_flow.h">
+      <Filter>frontend\maxwell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\decode.h">
+      <Filter>frontend\maxwell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\indirect_branch_table_track.h">
+      <Filter>frontend\maxwell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\instruction.h">
+      <Filter>frontend\maxwell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\location.h">
+      <Filter>frontend\maxwell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\opcodes.h">
+      <Filter>frontend\maxwell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\structured_control_flow.h">
+      <Filter>frontend\maxwell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\common_encoding.h">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\common_funcs.h">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\half_floating_point_helper.h">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\impl.h">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\load_constant.h">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\impl\video_helper.h">
+      <Filter>frontend\maxwell\translate\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate\translate.h">
+      <Filter>frontend\maxwell\translate</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\translate_program.h">
+      <Filter>frontend\maxwell</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\host_translate_info.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\ir_opt\passes.h">
+      <Filter>ir_opt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\object_pool.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\profile.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\program_header.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\runtime_info.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\shader_info.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\varying_state.h" />
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\shader_recompiler\CMakeFiles\shader_recompiler.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\shader_recompiler\CMakeFiles\shader_recompiler.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\shader_recompiler\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\ir\opcodes.inc">
+      <Filter>frontend\ir</Filter>
+    </None>
+    <None Include="C:\Users\curti\yuzu\src\shader_recompiler\frontend\maxwell\maxwell.inc">
+      <Filter>frontend\maxwell</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend">
+      <UniqueIdentifier>{B003326D-BB22-3112-8E3A-3440A5F44B03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend\glasm">
+      <UniqueIdentifier>{EDCFEFFC-5A0F-3406-A1C0-B553F519C1B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend\glsl">
+      <UniqueIdentifier>{854D792B-7BAA-3F14-900B-792D6C14264B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="backend\spirv">
+      <UniqueIdentifier>{FCCB95E3-B41B-309D-801F-AB8D42682DB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend">
+      <UniqueIdentifier>{82A2CA5A-28F4-39FD-87DD-250EAF587167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\ir">
+      <UniqueIdentifier>{0699D9BA-7C2A-31F9-8D8C-60C2536A86E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\maxwell">
+      <UniqueIdentifier>{05F1F0F8-F51A-30AB-A662-7AA544CE104C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\maxwell\translate">
+      <UniqueIdentifier>{CC787A07-E121-336C-B1ED-64B99CF93A4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend\maxwell\translate\impl">
+      <UniqueIdentifier>{70F87C79-25EB-334D-A36F-5A1A4FD82C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ir_opt">
+      <UniqueIdentifier>{723A0DDE-B056-33E8-AE97-F7760095C943}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+prefix=C:/Program Files (x86)/yuzu
+includedir=${prefix}/include
+
+Name: SPIRV-Headers
+Description: Header files from the SPIR-V registry
+Version: 
+Requires:
+Libs:
+Cflags: -I${includedir}

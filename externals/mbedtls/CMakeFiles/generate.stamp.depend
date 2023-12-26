@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindCygwin.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindMsys.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPerl.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPythonInterp.cmake
+C:/Users/curti/yuzu/externals/mbedtls/CMakeLists.txt

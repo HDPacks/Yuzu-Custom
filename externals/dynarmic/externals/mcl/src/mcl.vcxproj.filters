@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\assert.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\assert.hpp">
+      <Filter>..\include\mcl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit\bit_count.hpp">
+      <Filter>..\include\mcl\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit\bit_field.hpp">
+      <Filter>..\include\mcl\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit\rotate.hpp">
+      <Filter>..\include\mcl\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit\swap.hpp">
+      <Filter>..\include\mcl\bit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bit_cast.hpp">
+      <Filter>..\include\mcl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\bitsizeof.hpp">
+      <Filter>..\include\mcl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\concepts\bit_integral.hpp">
+      <Filter>..\include\mcl\concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\concepts\is_any_of.hpp">
+      <Filter>..\include\mcl\concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\concepts\same_as.hpp">
+      <Filter>..\include\mcl\concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\container\intrusive_list.hpp">
+      <Filter>..\include\mcl\container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\hint\assume.hpp">
+      <Filter>..\include\mcl\hint</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\iterator\reverse.hpp">
+      <Filter>..\include\mcl\iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\macro\anonymous_variable.hpp">
+      <Filter>..\include\mcl\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\macro\architecture.hpp">
+      <Filter>..\include\mcl\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\macro\concatenate_tokens.hpp">
+      <Filter>..\include\mcl\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metafunction\apply.hpp">
+      <Filter>..\include\mcl\mp\metafunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metafunction\bind.hpp">
+      <Filter>..\include\mcl\mp\metafunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metafunction\identity.hpp">
+      <Filter>..\include\mcl\mp\metafunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metafunction\map.hpp">
+      <Filter>..\include\mcl\mp\metafunction</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\bit_and.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\bit_not.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\bit_or.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\bit_xor.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\conjunction.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\disjunction.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\lift_value.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\logic_and.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\logic_if.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\logic_not.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\logic_or.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\product.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\sum.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\value.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\value_cast.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\metavalue\value_equal.hpp">
+      <Filter>..\include\mcl\mp\metavalue</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\misc\argument_count.hpp">
+      <Filter>..\include\mcl\mp\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\append.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\cartesian_product.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\concat.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\contains.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\drop.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\get.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\head.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\length.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\lift_sequence.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\list.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\lower_to_tuple.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\prepend.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\mp\typelist\tail.hpp">
+      <Filter>..\include\mcl\mp\typelist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\scope_exit.hpp">
+      <Filter>..\include\mcl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\stdint.hpp">
+      <Filter>..\include\mcl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\type_traits\function_info.hpp">
+      <Filter>..\include\mcl\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\type_traits\integer_of_size.hpp">
+      <Filter>..\include\mcl\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\include\mcl\type_traits\is_instance_of_template.hpp">
+      <Filter>..\include\mcl\type_traits</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\externals\dynarmic\externals\mcl\src\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{7E5DE39B-B94B-38CA-91FE-B2B9543074C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include">
+      <UniqueIdentifier>{2A494121-D171-3BBA-A62B-C1CECFC4EE62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl">
+      <UniqueIdentifier>{F645FD81-D640-3EB7-8F30-F9A10EAAA463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\bit">
+      <UniqueIdentifier>{EA906C82-62EB-3313-9B91-056D7A6FA485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\concepts">
+      <UniqueIdentifier>{C24660D9-F955-376C-91AC-C254BD97B094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\container">
+      <UniqueIdentifier>{144D3B8C-BDEF-3059-99F5-36796683CF14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\hint">
+      <UniqueIdentifier>{E345AA50-F0AA-3C55-8641-A7B5EBB2181B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\iterator">
+      <UniqueIdentifier>{100A016D-CC2C-3619-98C3-D401DC465DDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\macro">
+      <UniqueIdentifier>{1160255A-FD02-3853-AF56-BFF7E790FD0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\mp">
+      <UniqueIdentifier>{5153B043-1AF0-3626-BD81-AF4BCF94E0B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\mp\metafunction">
+      <UniqueIdentifier>{BA4C5AC8-6F9E-3CE2-B4CC-F3ACD3A1092F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\mp\metavalue">
+      <UniqueIdentifier>{91CCDF1F-280B-375D-9F48-ACE675818AA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\mp\misc">
+      <UniqueIdentifier>{187D13E7-F2CF-333C-B09F-D59986E38E49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\mp\typelist">
+      <UniqueIdentifier>{5D950BFA-E954-3FB4-B8F5-9FFE04E2FA06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\include\mcl\type_traits">
+      <UniqueIdentifier>{1C01CC2B-239B-3A33-929A-0533FD1A26DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\core.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\core.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\descriptor.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\descriptor.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\hotplug.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\hotplug.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\io.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\io.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\strerror.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\strerror.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\sync.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\sync.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\threads_windows.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\threads_windows.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\windows_winusb.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\windows_winusb.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\windows_usbdk.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\windows_usbdk.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\windows_common.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\windows_common.obj
+C:\Users\curti\yuzu\externals\libusb\libusb\libusb\os\events_windows.c;F:\custom-build\Yuzu-1662\externals\libusb\usb.dir\Release\events_windows.obj

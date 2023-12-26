@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\common\CMakeFiles\common.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\address_space.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\assert.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\cityhash.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\demangle.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\detached_tasks.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\dynamic_library.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\error.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\fiber.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\fs\file.cpp">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\fs\fs.cpp">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\fs\fs_util.cpp">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\fs\path_util.cpp">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\hex_util.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\host_memory.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\logging\backend.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\logging\filter.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\logging\text_formatter.cpp">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\lz4_compression.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\memory_detect.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\microprofile.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\multi_level_page_table.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\nvidia_flags.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\page_table.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\param_package.cpp" />
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\common\scm_rev.cpp">
+      <Filter>F:\custom-build\Yuzu-1662\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\settings.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\settings_common.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\settings_input.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\spin_lock.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\stb.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\steady_clock.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\stream.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\string_util.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\telemetry.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\thread.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\time_zone.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\uuid.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\virtual_buffer.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\wall_clock.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\zstd_compression.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\windows\timer_resolution.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\x64\cpu_detect.cpp">
+      <Filter>x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\x64\cpu_wait.cpp">
+      <Filter>x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\x64\native_clock.cpp">
+      <Filter>x64</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\x64\rdtsc.cpp">
+      <Filter>x64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\address_space.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\algorithm.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\alignment.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\announce_multiplayer_room.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\assert.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\atomic_helpers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\atomic_ops.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\bit_cast.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\bit_field.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\bit_set.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\bit_util.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\bounded_threadsafe_queue.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\cityhash.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\common_funcs.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\common_precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\common_types.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\concepts.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\container_hash.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\demangle.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\detached_tasks.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\div_ceil.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\dynamic_library.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\elf.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\error.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\expected.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\fiber.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\fixed_point.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\free_region_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\fs\file.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\fs\fs.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\fs\fs_paths.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\fs\fs_types.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\fs\fs_util.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\fs\path_util.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\hash.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\hex_util.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\host_memory.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\input.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\intrusive_red_black_tree.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\literals.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\logging\backend.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\logging\filter.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\logging\formatter.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\logging\log.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\logging\log_entry.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\logging\text_formatter.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\logging\types.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\lz4_compression.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\make_unique_for_overwrite.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\math_util.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\memory_detect.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\microprofile.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\microprofileui.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\multi_level_page_table.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\nvidia_flags.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\overflow.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\page_table.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\param_package.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\parent_of_member.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\point.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\quaternion.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\range_map.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\reader_writer_queue.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\ring_buffer.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\scm_rev.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\scope_exit.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\scratch_buffer.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\settings.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\settings_common.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\settings_enums.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\settings_input.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\settings_setting.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\socket_types.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\spin_lock.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\stb.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\steady_clock.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\stream.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\string_util.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\swap.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\telemetry.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\thread.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\thread_queue_list.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\thread_worker.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\threadsafe_queue.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\time_zone.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\tiny_mt.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\tree.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\typed_address.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\uint128.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\unique_function.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\uuid.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\vector_math.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\virtual_buffer.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\wall_clock.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\zstd_compression.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\windows\timer_resolution.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\x64\cpu_detect.h">
+      <Filter>x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\x64\cpu_wait.h">
+      <Filter>x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\x64\native_clock.h">
+      <Filter>x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\x64\rdtsc.h">
+      <Filter>x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\x64\xbyak_abi.h">
+      <Filter>x64</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\x64\xbyak_util.h">
+      <Filter>x64</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\common\CMakeFiles\common.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\common\CMakeFiles\common.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\common\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="F:">
+      <UniqueIdentifier>{D0585245-4006-353A-80FA-2C8857FA0A92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F:\custom-build">
+      <UniqueIdentifier>{79DAA7FA-D8A6-3157-9E35-62067667ED22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F:\custom-build\Yuzu-1662">
+      <UniqueIdentifier>{E3155506-7007-314B-814D-F9805C50676C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F:\custom-build\Yuzu-1662\src">
+      <UniqueIdentifier>{5693FA47-2DA4-34BC-900B-A65A82797CB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="F:\custom-build\Yuzu-1662\src\common">
+      <UniqueIdentifier>{BE8F3FCA-1C6A-3068-A8E5-C0A6260840D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fs">
+      <UniqueIdentifier>{FAD30148-6B5F-3CB7-8450-2B74A75F724D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logging">
+      <UniqueIdentifier>{85CAC274-1732-3CF3-A848-0C3CD1C92C69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{1D8E356E-ADC4-3832-8B01-E901DED1AF8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="x64">
+      <UniqueIdentifier>{298267EE-A886-32B4-A0A4-613E6CF513C7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

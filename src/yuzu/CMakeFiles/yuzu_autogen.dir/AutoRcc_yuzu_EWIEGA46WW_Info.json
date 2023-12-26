@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen",
+	"CMAKE_BINARY_DIR" : "F:/custom-build/Yuzu-1662",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/curti/yuzu/src/yuzu",
+	"CMAKE_SOURCE_DIR" : "C:/Users/curti/yuzu",
+	"INCLUDE_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include_Release",
+	"INPUTS" : [ "C:/Users/curti/yuzu/dist/yuzu.ico" ],
+	"LOCK_FILE" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_yuzu_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "yuzu" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_yuzu.cpp",
+	"RCC_EXECUTABLE" : "F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_yuzu_EWIEGA46WW_Used.txt",
+	"SETTINGS_FILE_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_yuzu_EWIEGA46WW_Used_Debug.txt",
+	"SETTINGS_FILE_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_yuzu_EWIEGA46WW_Used_Release.txt",
+	"SOURCE" : "C:/Users/curti/yuzu/src/yuzu/yuzu.qrc",
+	"VERBOSITY" : 0
+}

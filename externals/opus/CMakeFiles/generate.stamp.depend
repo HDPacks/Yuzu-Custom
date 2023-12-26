@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FeatureSummary.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+C:/Users/curti/yuzu/externals/opus/CMakeLists.txt
+C:/Users/curti/yuzu/externals/opus/cmake/CFeatureCheck.cmake
+C:/Users/curti/yuzu/externals/opus/cmake/OpusBuildtype.cmake
+C:/Users/curti/yuzu/externals/opus/cmake/OpusConfig.cmake
+C:/Users/curti/yuzu/externals/opus/cmake/OpusFunctions.cmake
+C:/Users/curti/yuzu/externals/opus/cmake/OpusPackageVersion.cmake
+C:/Users/curti/yuzu/externals/opus/cmake/OpusSources.cmake
+C:/Users/curti/yuzu/externals/opus/cmake/config.h.cmake.in

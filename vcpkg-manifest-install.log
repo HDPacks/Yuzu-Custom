@@ -1,0 +1,66 @@
+A suitable version of cmake was not found (required v3.27.1) Downloading portable cmake 3.27.1...
+Downloading cmake...
+https://github.com/Kitware/CMake/releases/download/v3.27.1/cmake-3.27.1-windows-i386.zip->C:\Users\curti\yuzu\externals\vcpkg\downloads\cmake-3.27.1-windows-i386.zip
+Downloading https://github.com/Kitware/CMake/releases/download/v3.27.1/cmake-3.27.1-windows-i386.zip
+Extracting cmake...
+Detecting compiler hash for triplet x64-windows...
+A suitable version of powershell-core was not found (required v7.2.11) Downloading portable powershell-core 7.2.11...
+Downloading powershell-core...
+https://github.com/PowerShell/PowerShell/releases/download/v7.2.11/PowerShell-7.2.11-win-x86.zip->C:\Users\curti\yuzu\externals\vcpkg\downloads\PowerShell-7.2.11-win-x86.zip
+Downloading https://github.com/PowerShell/PowerShell/releases/download/v7.2.11/PowerShell-7.2.11-win-x86.zip
+Extracting powershell-core...
+All requested packages are currently installed.
+A suitable version of 7zip was not found (required v23.1.0) Downloading portable 7zip 23.1.0...
+Downloading 7zip...
+https://www.7-zip.org/a/7z2301-extra.7z->C:\Users\curti\yuzu\externals\vcpkg\downloads\7z2301-extra.7z
+Downloading https://www.7-zip.org/a/7z2301-extra.7z
+Extracting 7zip...
+Total install time: 500 ns
+The package boost is compatible with built-in CMake targets:
+
+    find_package(Boost REQUIRED [COMPONENTS <libs>...])
+    target_link_libraries(main PRIVATE Boost::boost Boost::<lib1> Boost::<lib2> ...)
+
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+lz4 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(lz4 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE lz4::lz4)
+
+The package nlohmann-json provides CMake targets:
+
+    find_package(nlohmann_json CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)
+
+The package nlohmann-json can be configured to not provide implicit conversions via a custom triplet file:
+
+    set(nlohmann-json_IMPLICIT_CONVERSIONS OFF)
+
+For more information, see the docs here:
+    
+    https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
+
+The package zlib is compatible with built-in CMake targets:
+
+    find_package(ZLIB REQUIRED)
+    target_link_libraries(main PRIVATE ZLIB::ZLIB)
+
+The package zstd provides CMake targets:
+
+    find_package(zstd CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:zstd::libzstd_shared>,zstd::libzstd_shared,zstd::libzstd_static>)
+
+The package openssl is compatible with built-in CMake targets:
+
+    find_package(OpenSSL REQUIRED)
+    target_link_libraries(main PRIVATE OpenSSL::SSL OpenSSL::Crypto)
+

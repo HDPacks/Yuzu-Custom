@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\video_core.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\buffer_cache.cpp">
+      <Filter>buffer_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\cdma_pusher.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\compatible_formats.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\control\channel_state.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\control\channel_state_cache.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\control\scheduler.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\dirty_flags.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\dma_pusher.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\sw_blitter\blitter.cpp">
+      <Filter>engines\sw_blitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\sw_blitter\converter.cpp">
+      <Filter>engines\sw_blitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\draw_manager.cpp">
+      <Filter>engines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\engine_upload.cpp">
+      <Filter>engines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\fermi_2d.cpp">
+      <Filter>engines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\kepler_compute.cpp">
+      <Filter>engines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\kepler_memory.cpp">
+      <Filter>engines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\maxwell_3d.cpp">
+      <Filter>engines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\maxwell_dma.cpp">
+      <Filter>engines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\puller.cpp">
+      <Filter>engines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\fsr.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\codec.cpp">
+      <Filter>host1x\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\h264.cpp">
+      <Filter>host1x\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp8.cpp">
+      <Filter>host1x\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp9.cpp">
+      <Filter>host1x\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\ffmpeg\ffmpeg.cpp">
+      <Filter>host1x\ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\control.cpp">
+      <Filter>host1x</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\host1x.cpp">
+      <Filter>host1x</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\nvdec.cpp">
+      <Filter>host1x</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\sync_manager.cpp">
+      <Filter>host1x</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\syncpoint_manager.cpp">
+      <Filter>host1x</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\vic.cpp">
+      <Filter>host1x</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\macro\macro.cpp">
+      <Filter>macro</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\macro\macro_hle.cpp">
+      <Filter>macro</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\macro\macro_interpreter.cpp">
+      <Filter>macro</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\gpu.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\gpu_thread.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\memory_manager.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\rasterizer_accelerated.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_base.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_null\null_rasterizer.cpp">
+      <Filter>renderer_null</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_null\renderer_null.cpp">
+      <Filter>renderer_null</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\blit_image.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_buffer_cache_base.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_buffer_cache.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_compute_pipeline.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_device.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fence_manager.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fsr.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_graphics_pipeline.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_rasterizer.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_resource_manager.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_cache.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_manager.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_util.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_state_tracker.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_staging_buffer_pool.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_texture_cache.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_texture_cache_base.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_query_cache.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\renderer_opengl.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\util_shaders.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\blit_image.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\fixed_pipeline_state.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\maxwell_to_vk.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\pipeline_statistics.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\renderer_vulkan.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_blit_screen.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_buffer_cache_base.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_buffer_cache.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_command_pool.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_compute_pass.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_compute_pipeline.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_descriptor_pool.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fence_manager.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fsr.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_graphics_pipeline.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_master_semaphore.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_pipeline_cache.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_present_manager.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_query_cache.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_rasterizer.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_render_pass_cache.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_resource_pool.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_scheduler.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_shader_util.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_smaa.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_staging_buffer_pool.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_state_tracker.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_swapchain.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_texture_cache.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_texture_cache_base.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_turbo_mode.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_update_descriptor.cpp">
+      <Filter>renderer_vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\shader_cache.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\shader_environment.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\shader_notify.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\surface.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\accelerated_swizzle.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\decode_bc.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\formatter.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\format_lookup_table.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_base.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_info.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_view_base.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_view_info.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\texture_cache.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\texture_cache\util.cpp">
+      <Filter>texture_cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\astc.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\bcn.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\decoders.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\texture.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\textures\workers.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\transform_feedback.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\video_core.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_debug_callback.cpp">
+      <Filter>vulkan_common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_device.cpp">
+      <Filter>vulkan_common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_instance.cpp">
+      <Filter>vulkan_common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_library.cpp">
+      <Filter>vulkan_common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_memory_allocator.cpp">
+      <Filter>vulkan_common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_surface.cpp">
+      <Filter>vulkan_common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_wrapper.cpp">
+      <Filter>vulkan_common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\nsight_aftermath_tracker.cpp">
+      <Filter>vulkan_common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vma.cpp">
+      <Filter>vulkan_common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\macro\macro_jit_x64.cpp">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\buffer_base.h">
+      <Filter>buffer_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\buffer_cache_base.h">
+      <Filter>buffer_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\buffer_cache.h">
+      <Filter>buffer_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\memory_tracker_base.h">
+      <Filter>buffer_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\usage_tracker.h">
+      <Filter>buffer_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\word_manager.h">
+      <Filter>buffer_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\cache_types.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\cdma_pusher.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\compatible_formats.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\control\channel_state.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\control\channel_state_cache.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\control\scheduler.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\delayed_destruction_ring.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\dirty_flags.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\dma_pusher.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\sw_blitter\blitter.h">
+      <Filter>engines\sw_blitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\sw_blitter\converter.h">
+      <Filter>engines\sw_blitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\const_buffer_info.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\draw_manager.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\engine_interface.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\engine_upload.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\fermi_2d.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\kepler_compute.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\kepler_memory.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\maxwell_3d.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\maxwell_dma.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\engines\puller.h">
+      <Filter>engines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\framebuffer_config.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\fsr.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\codec.h">
+      <Filter>host1x\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\h264.h">
+      <Filter>host1x\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp8.h">
+      <Filter>host1x\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp9.h">
+      <Filter>host1x\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\vp9_types.h">
+      <Filter>host1x\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\ffmpeg\ffmpeg.h">
+      <Filter>host1x\ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\control.h">
+      <Filter>host1x</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\host1x.h">
+      <Filter>host1x</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\nvdec.h">
+      <Filter>host1x</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\nvdec_common.h">
+      <Filter>host1x</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\sync_manager.h">
+      <Filter>host1x</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\syncpoint_manager.h">
+      <Filter>host1x</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\vic.h">
+      <Filter>host1x</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\macro\macro.h">
+      <Filter>macro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\macro\macro_hle.h">
+      <Filter>macro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\macro\macro_interpreter.h">
+      <Filter>macro</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\fence_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\gpu.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\gpu_thread.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\invalidation_accumulator.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\memory_manager.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\pte_kind.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\bank_base.h">
+      <Filter>query_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\query_base.h">
+      <Filter>query_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\query_cache_base.h">
+      <Filter>query_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\query_cache.h">
+      <Filter>query_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\query_stream.h">
+      <Filter>query_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache\types.h">
+      <Filter>query_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\rasterizer_accelerated.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\rasterizer_interface.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_base.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_null\null_rasterizer.h">
+      <Filter>renderer_null</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_null\renderer_null.h">
+      <Filter>renderer_null</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\blit_image.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_buffer_cache.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_compute_pipeline.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_device.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fence_manager.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fsr.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_graphics_pipeline.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_rasterizer.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_resource_manager.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_cache.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_manager.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_context.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_shader_util.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_state_tracker.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_staging_buffer_pool.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_texture_cache.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_query_cache.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\maxwell_to_gl.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\renderer_opengl.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\util_shaders.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\blit_image.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\fixed_pipeline_state.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\maxwell_to_vk.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\pipeline_helper.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\pipeline_statistics.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\renderer_vulkan.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_blit_screen.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_buffer_cache.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_command_pool.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_compute_pass.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_compute_pipeline.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_descriptor_pool.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fence_manager.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fsr.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_graphics_pipeline.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_master_semaphore.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_pipeline_cache.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_present_manager.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_query_cache.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_rasterizer.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_render_pass_cache.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_resource_pool.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_scheduler.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_shader_util.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_smaa.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_staging_buffer_pool.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_state_tracker.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_swapchain.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_texture_cache.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_turbo_mode.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_update_descriptor.h">
+      <Filter>renderer_vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\shader_cache.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\shader_environment.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\shader_notify.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\smaa_area_tex.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\smaa_search_tex.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\surface.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\accelerated_swizzle.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\decode_bc.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\descriptor_table.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\formatter.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\format_lookup_table.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_base.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_info.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_view_base.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\image_view_info.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\render_targets.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\samples_helper.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\slot_vector.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\texture_cache.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\texture_cache_base.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\types.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\texture_cache\util.h">
+      <Filter>texture_cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\astc.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\bcn.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\decoders.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\texture.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\textures\workers.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\transform_feedback.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\video_core.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_debug_callback.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_device.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_instance.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_library.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_memory_allocator.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_surface.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan_wrapper.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\nsight_aftermath_tracker.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vma.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\vulkan_common\vulkan.h">
+      <Filter>vulkan_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\macro\macro_jit_x64.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\video_core.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\video_core.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="buffer_cache">
+      <UniqueIdentifier>{63C7D329-D7F7-312D-AA93-49503A890B29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{462CFA82-A47D-3A04-9CD3-8121095664EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines">
+      <UniqueIdentifier>{346B4EB9-819B-3362-AA3F-94521E69B4A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engines\sw_blitter">
+      <UniqueIdentifier>{31B0A92C-B08F-3925-8747-A94EEE7B76E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host1x">
+      <UniqueIdentifier>{42BC942E-B966-31B1-B0F4-F779BD7ED85C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host1x\codecs">
+      <UniqueIdentifier>{6CBB1164-92A2-342F-B677-35A92272FC11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="host1x\ffmpeg">
+      <UniqueIdentifier>{745FA5C9-FBA4-3AA5-AE60-C61F0A533230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="macro">
+      <UniqueIdentifier>{45F4C50D-B6D3-3C3E-94CF-58BFD8C05E5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="query_cache">
+      <UniqueIdentifier>{2E39F8F1-66EE-3BE5-B919-0A11711B16C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer_null">
+      <UniqueIdentifier>{36E01EDD-7601-3F5C-BFDF-BB83210A8C33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer_opengl">
+      <UniqueIdentifier>{F262B6BE-E3AC-3659-8BBA-99A18FA7E7E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer_vulkan">
+      <UniqueIdentifier>{ACF06A3B-B210-3CE9-8D40-B2EF44A3D9D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texture_cache">
+      <UniqueIdentifier>{93CCD3AF-8CE9-3C83-B1FF-C9A602FCB224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{F48AC32E-CADA-3049-B336-E233210DD63B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vulkan_common">
+      <UniqueIdentifier>{706DAB29-3B37-311F-B815-3FD475771D9B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

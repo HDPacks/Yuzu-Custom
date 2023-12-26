@@ -1,0 +1,23 @@
+﻿  Generating include/nx_tzdb/base.h
+  Generating include/nx_tzdb/zoneinfo.h
+  Generating include/nx_tzdb/africa.h
+  Generating include/nx_tzdb/america.h
+  Generating include/nx_tzdb/america_argentina.h
+  Generating include/nx_tzdb/america_indiana.h
+  Generating include/nx_tzdb/america_kentucky.h
+  Generating include/nx_tzdb/america_north_dakota.h
+  Generating include/nx_tzdb/antarctica.h
+  Generating include/nx_tzdb/arctic.h
+  Generating include/nx_tzdb/asia.h
+  Generating include/nx_tzdb/atlantic.h
+  Generating include/nx_tzdb/australia.h
+  Generating include/nx_tzdb/brazil.h
+  Generating include/nx_tzdb/canada.h
+  Generating include/nx_tzdb/chile.h
+  Generating include/nx_tzdb/etc.h
+  Generating include/nx_tzdb/europe.h
+  Generating include/nx_tzdb/indian.h
+  Generating include/nx_tzdb/mexico.h
+  Generating include/nx_tzdb/pacific.h
+  Generating include/nx_tzdb/us.h
+  Building Custom Rule C:/Users/curti/yuzu/externals/nx_tzdb/CMakeLists.txt

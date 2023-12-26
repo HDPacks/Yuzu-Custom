@@ -1,0 +1,32 @@
+﻿  Building Custom Rule C:/Users/curti/yuzu/src/input_common/CMakeLists.txt
+  cmake_pch.cxx
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(614,5): warning MSB8015: All source files are not up-to-date:  forcing a rebuild of all source files due to the contents of 'F:\custom-build\Yuzu-1662\src\input_common\input_common.dir\Release\input_common.tlog\CL.command.1.tlog' being invalid.
+  camera.cpp
+  keyboard.cpp
+  mouse.cpp
+  tas_input.cpp
+  touch_screen.cpp
+  udp_client.cpp
+  virtual_amiibo.cpp
+  virtual_gamepad.cpp
+  stick_from_buttons.cpp
+  touch_from_buttons.cpp
+  udp_protocol.cpp
+  input_engine.cpp
+  input_mapping.cpp
+  input_poller.cpp
+  main.cpp
+  joycon.cpp
+  sdl_driver.cpp
+  joycon_driver.cpp
+  calibration.cpp
+  common_protocol.cpp
+  generic_functions.cpp
+  irs.cpp
+  nfc.cpp
+  poller.cpp
+  ringcon.cpp
+  rumble.cpp
+  gc_adapter.cpp
+  input_common.vcxproj -> F:\custom-build\Yuzu-1662\src\input_common\Release\input_common.lib
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(2583,5): warning : Remote deployment might be slow/inefficient. '.', hexadecimal value 0x00, is an invalid character. Line 1, position 1.

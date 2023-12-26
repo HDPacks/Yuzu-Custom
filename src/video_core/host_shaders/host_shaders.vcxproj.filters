@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\astc_decoder.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\blit_color_float.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\block_linear_unswizzle_2d.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\block_linear_unswizzle_3d.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\convert_abgr8_to_d24s8.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\convert_abgr8_to_d32f.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\convert_d32f_to_abgr8.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\convert_d24s8_to_abgr8.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\convert_depth_to_float.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\convert_float_to_depth.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\convert_msaa_to_non_msaa.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\convert_non_msaa_to_msaa.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\convert_s8d24_to_abgr8.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\full_screen_triangle.vert" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\fxaa.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\fxaa.vert" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_convert_s8d24.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_copy_bc4.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_fidelityfx_fsr.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_fidelityfx_fsr_easu.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_fidelityfx_fsr_rcas.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_lmem_warmup.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_present.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_present.vert" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_present_scaleforce.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\opengl_smaa.glsl" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\pitch_unswizzle.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\present_bicubic.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\present_gaussian.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\queries_prefix_scan_sum.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\queries_prefix_scan_sum_nosubgroups.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\resolve_conditional_render.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\smaa_edge_detection.vert" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\smaa_edge_detection.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\smaa_blending_weight_calculation.vert" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\smaa_blending_weight_calculation.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\smaa_neighborhood_blending.vert" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\smaa_neighborhood_blending.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_blit_depth_stencil.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_color_clear.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_color_clear.vert" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_depthstencil_clear.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_fidelityfx_fsr_easu_fp16.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_fidelityfx_fsr_easu_fp32.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_fidelityfx_fsr_rcas_fp16.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_fidelityfx_fsr_rcas_fp32.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_present.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_present.vert" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_present_scaleforce_fp16.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_present_scaleforce_fp32.frag" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_quad_indexed.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_turbo_mode.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\vulkan_uint8.comp" />
+    <CustomBuild Include="C:\Users\curti\yuzu\externals\FidelityFX-FSR\ffx-fsr\ffx_a.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\curti\yuzu\externals\FidelityFX-FSR\ffx-fsr\ffx_fsr1.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\astc_decoder_comp_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\blit_color_float_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\block_linear_unswizzle_2d_comp_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\block_linear_unswizzle_3d_comp_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\convert_abgr8_to_d24s8_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\convert_abgr8_to_d32f_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\convert_d24s8_to_abgr8_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\convert_d32f_to_abgr8_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\convert_depth_to_float_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\convert_float_to_depth_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\convert_msaa_to_non_msaa_comp_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\convert_non_msaa_to_msaa_comp_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\convert_s8d24_to_abgr8_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\full_screen_triangle_vert_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\fxaa_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\fxaa_vert_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\pitch_unswizzle_comp_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\present_bicubic_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\present_gaussian_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\queries_prefix_scan_sum_comp_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\queries_prefix_scan_sum_nosubgroups_comp_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\resolve_conditional_render_comp_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\smaa_blending_weight_calculation_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\smaa_blending_weight_calculation_vert_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\smaa_edge_detection_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\smaa_edge_detection_vert_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\smaa_neighborhood_blending_frag_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\b5facf7186e8bcd2d91ef7708a8b9f3e\smaa_neighborhood_blending_vert_spv.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\c0536ea63e9b6da5efd3d79680c2b409\host_shaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\video_core\host_shaders\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\curti\yuzu\src\video_core\host_shaders\fidelityfx_fsr.comp" />
+    <None Include="F:\custom-build\Yuzu-1662\src\video_core\host_shaders\CMakeFiles\host_shaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C7040C7C-281C-3CA1-944D-EE938F8DFC14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AF38D0D1-B3BC-3F71-BF8F-847C9FA93712}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
