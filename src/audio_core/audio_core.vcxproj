@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{779009A1-4074-3E65-9EF8-04369C85F12B}</ProjectGuid>
+    <ProjectGuid>{557EDFBC-1F54-3331-B77C-DF5E62E6D7AA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <VcpkgEnabled>false</VcpkgEnabled>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
@@ -42,19 +42,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\src\audio_core\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\src\audio_core\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">audio_core.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">audio_core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\src\audio_core\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\src\audio_core\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">audio_core.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">audio_core</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1662\exports;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /external:I "F:/custom-build/Yuzu-1662/externals/SDL2-2.28.2/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1703\exports;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1703/vcpkg_installed/x64-windows/include" /external:I "F:/custom-build/Yuzu-1703/externals/SDL2-2.28.2/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <ConformanceMode>true</ConformanceMode>
@@ -69,8 +69,8 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1662/src/audio_core/audio_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1703/src/audio_core/audio_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
       <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
@@ -81,13 +81,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;HAVE_CUBEB=1;HAVE_SDL2;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;HAVE_CUBEB=1;HAVE_SDL2;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1662\exports;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;F:\custom-build\Yuzu-1662\externals\SDL2-2.28.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1703\exports;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;F:\custom-build\Yuzu-1703\externals\SDL2-2.28.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1662\exports;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;F:\custom-build\Yuzu-1662\externals\SDL2-2.28.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1703\exports;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;F:\custom-build\Yuzu-1703\externals\SDL2-2.28.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -100,8 +101,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1662\exports;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /external:I "F:/custom-build/Yuzu-1662/externals/SDL2-2.28.2/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1703\exports;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1703/vcpkg_installed/x64-windows/include" /external:I "F:/custom-build/Yuzu-1703/externals/SDL2-2.28.2/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <ConformanceMode>true</ConformanceMode>
@@ -116,8 +117,8 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1662/src/audio_core/audio_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1703/src/audio_core/audio_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
       <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
@@ -128,13 +129,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CUBEB=1;HAVE_SDL2;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CUBEB=1;HAVE_SDL2;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1662\exports;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;F:\custom-build\Yuzu-1662\externals\SDL2-2.28.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1703\exports;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;F:\custom-build\Yuzu-1703\externals\SDL2-2.28.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1662\exports;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;F:\custom-build\Yuzu-1662\externals\SDL2-2.28.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\opus\include;C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\..;C:\Users\curti\yuzu\externals\cubeb\include;F:\custom-build\Yuzu-1703\exports;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;F:\custom-build\Yuzu-1703\externals\SDL2-2.28.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -150,7 +152,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/curti/yuzu/src/audio_core/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,11 +161,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\src\audio_core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/curti/yuzu/src/audio_core/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -172,83 +174,83 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\src\audio_core\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\audio_core.dir\cmake_pch.cxx">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\audio_core\CMakeFiles\audio_core.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/audio_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/audio_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/audio_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/audio_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\adsp.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\adsp.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\mailbox.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\audio_renderer.cpp">
       <ObjectFileName>$(IntDir)/adsp/apps/audio_renderer/audio_renderer.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\audio_renderer.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\command_buffer.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\command_list_processor.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\audio_renderer\command_list_processor.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_decoder.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_decoder.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_decode_object.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_decode_object.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_multistream_decode_object.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\opus_multistream_decode_object.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\adsp\apps\opus\shared_memory.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_core.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_core.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_event.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_event.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_render_manager.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_render_manager.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_in_manager.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_in_manager.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_out_manager.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_out_manager.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\audio_manager.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\audio_manager.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\common\audio_renderer_parameter.h" />
@@ -259,333 +261,333 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\device\audio_buffer.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\device\audio_buffers.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\device\device_session.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\device\device_session.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\in\audio_in.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\in\audio_in.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\in\audio_in_system.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\in\audio_in_system.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\opus\hardware_opus.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\opus\hardware_opus.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\opus\decoder_manager.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\opus\decoder_manager.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\opus\decoder.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\opus\decoder.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\opus\parameters.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\out\audio_out.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\out\audio_out.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\out\audio_out_system.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\out\audio_out_system.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\precompiled_headers.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\audio_device.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\audio_device.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\audio_renderer.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\audio_renderer.cpp">
       <ObjectFileName>$(IntDir)/renderer/audio_renderer.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\behavior\behavior_info.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\behavior\behavior_info.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\behavior\info_updater.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\behavior\info_updater.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\adpcm.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\adpcm.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\decode.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\decode.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\pcm_float.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\pcm_float.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\pcm_int16.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\data_source\pcm_int16.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\aux_.cpp">
       <ObjectFileName>$(IntDir)/renderer/command/effect/aux_.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\aux_.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\biquad_filter.cpp">
       <ObjectFileName>$(IntDir)/renderer/command/effect/biquad_filter.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\biquad_filter.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\capture.cpp">
       <ObjectFileName>$(IntDir)/renderer/command/effect/capture.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\capture.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\compressor.cpp">
       <ObjectFileName>$(IntDir)/renderer/command/effect/compressor.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\compressor.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\delay.cpp">
       <ObjectFileName>$(IntDir)/renderer/command/effect/delay.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\delay.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\i3dl2_reverb.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\i3dl2_reverb.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\light_limiter.cpp">
       <ObjectFileName>$(IntDir)/renderer/command/effect/light_limiter.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\light_limiter.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\multi_tap_biquad_filter.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\multi_tap_biquad_filter.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\reverb.cpp">
       <ObjectFileName>$(IntDir)/renderer/command/effect/reverb.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\effect\reverb.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\clear_mix.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\clear_mix.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\copy_mix.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\copy_mix.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\depop_for_mix_buffers.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\depop_for_mix_buffers.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\depop_prepare.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\depop_prepare.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix_ramp.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix_ramp.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix_ramp_grouped.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\mix_ramp_grouped.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\volume.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\volume.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\volume_ramp.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\mix\volume_ramp.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\performance\performance.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\performance\performance.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\downmix_6ch_to_2ch.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\downmix_6ch_to_2ch.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\resample.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\resample.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\upsample.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\resample\upsample.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\sink\device.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\sink\device.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\sink\circular_buffer.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\sink\circular_buffer.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_buffer.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_buffer.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_generator.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_generator.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_list_header.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_processing_time_estimator.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\command_processing_time_estimator.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\commands.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\command\icommand.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\aux_.cpp">
       <ObjectFileName>$(IntDir)/renderer/effect/aux_.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\aux_.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\biquad_filter.cpp">
       <ObjectFileName>$(IntDir)/renderer/effect/biquad_filter.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\biquad_filter.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\buffer_mixer.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\buffer_mixer.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\capture.cpp">
       <ObjectFileName>$(IntDir)/renderer/effect/capture.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\capture.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\compressor.cpp">
       <ObjectFileName>$(IntDir)/renderer/effect/compressor.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\compressor.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\delay.cpp">
       <ObjectFileName>$(IntDir)/renderer/effect/delay.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\delay.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_context.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_context.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_info_base.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_reset.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\effect_result_state.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\i3dl2.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\i3dl2.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\light_limiter.cpp">
       <ObjectFileName>$(IntDir)/renderer/effect/light_limiter.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\light_limiter.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\reverb.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\effect\reverb.cpp">
       <ObjectFileName>$(IntDir)/renderer/effect/reverb.cpp.obj</ObjectFileName>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\mix\mix_context.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\mix\mix_context.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\mix\mix_info.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\mix\mix_info.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\address_info.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\memory_pool_info.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\memory_pool_info.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\pool_mapper.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\memory\pool_mapper.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\bit_array.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\edge_matrix.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\edge_matrix.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\node_states.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\nodes\node_states.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\detail_aspect.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\detail_aspect.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\entry_aspect.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\entry_aspect.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_detail.h" />
@@ -593,102 +595,102 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_entry_addresses.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_frame_header.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_manager.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\performance\performance_manager.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\circular_buffer_sink_info.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\circular_buffer_sink_info.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\device_sink_info.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\device_sink_info.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\sink_context.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\sink_context.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\sink_info_base.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\sink\sink_info_base.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_context.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_context.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_destinations_data.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_destinations_data.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_info.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\splitter\splitter_info.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\system.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\system.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\system_manager.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\system_manager.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\upsampler\upsampler_info.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\upsampler\upsampler_manager.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\upsampler\upsampler_manager.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\upsampler\upsampler_state.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_channel_resource.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_context.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_context.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_info.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_info.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\renderer\voice\voice_state.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\null_sink.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\sink.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\sink_details.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\sink_details.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\sink_stream.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\sink_stream.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\cubeb_sink.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\cubeb_sink.h" />
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\sdl2_sink.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1662/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/audio_core/CMakeFiles/audio_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\sdl2_sink.h" />
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\audio_core.dir\Debug\cmake_pch.hxx" />
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\audio_core.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\audio_core\CMakeFiles\audio_core.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\audio_core\CMakeFiles\audio_core.dir\Release\cmake_pch.hxx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\video_core\video_core.vcxproj">
-      <Project>{7CF417DD-48CC-36B1-966A-85866DE898B6}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\src\video_core\video_core.vcxproj">
+      <Project>{AE753315-CB89-3E76-8629-E8BABDFDC209}</Project>
       <Name>video_core</Name>
     </ProjectReference>
   </ItemGroup>

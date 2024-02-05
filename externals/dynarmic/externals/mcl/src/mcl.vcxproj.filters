@@ -177,52 +177,52 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="..">
-      <UniqueIdentifier>{7E5DE39B-B94B-38CA-91FE-B2B9543074C5}</UniqueIdentifier>
+      <UniqueIdentifier>{4FBF37BC-B535-3F70-901E-B66837F75AFA}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include">
-      <UniqueIdentifier>{2A494121-D171-3BBA-A62B-C1CECFC4EE62}</UniqueIdentifier>
+      <UniqueIdentifier>{872BD523-25BB-384F-8B55-9D4839F32E97}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl">
-      <UniqueIdentifier>{F645FD81-D640-3EB7-8F30-F9A10EAAA463}</UniqueIdentifier>
+      <UniqueIdentifier>{43BB0A18-AB4B-321E-B45C-2FF23AF2E72A}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\bit">
-      <UniqueIdentifier>{EA906C82-62EB-3313-9B91-056D7A6FA485}</UniqueIdentifier>
+      <UniqueIdentifier>{5AB5D32D-D0C4-3E72-8424-01E28B1E6AFB}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\concepts">
-      <UniqueIdentifier>{C24660D9-F955-376C-91AC-C254BD97B094}</UniqueIdentifier>
+      <UniqueIdentifier>{2CD2B8D5-E2F6-3163-96BB-2F73E2013642}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\container">
-      <UniqueIdentifier>{144D3B8C-BDEF-3059-99F5-36796683CF14}</UniqueIdentifier>
+      <UniqueIdentifier>{744B627E-FC42-361E-8A0D-EB6D00D78B2F}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\hint">
-      <UniqueIdentifier>{E345AA50-F0AA-3C55-8641-A7B5EBB2181B}</UniqueIdentifier>
+      <UniqueIdentifier>{2CA6515E-D84B-34B2-9D12-42762F0D8F31}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\iterator">
-      <UniqueIdentifier>{100A016D-CC2C-3619-98C3-D401DC465DDE}</UniqueIdentifier>
+      <UniqueIdentifier>{DC1FF50F-B605-3B0B-992E-5AAA1E7EC2A9}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\macro">
-      <UniqueIdentifier>{1160255A-FD02-3853-AF56-BFF7E790FD0E}</UniqueIdentifier>
+      <UniqueIdentifier>{C971604F-6E34-3859-BB2F-2E7E69DA9303}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\mp">
-      <UniqueIdentifier>{5153B043-1AF0-3626-BD81-AF4BCF94E0B7}</UniqueIdentifier>
+      <UniqueIdentifier>{CDEE56AE-5A5C-3CBD-8C67-B41E5617AD3D}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\mp\metafunction">
-      <UniqueIdentifier>{BA4C5AC8-6F9E-3CE2-B4CC-F3ACD3A1092F}</UniqueIdentifier>
+      <UniqueIdentifier>{E5A5BBE2-9A7D-3CAF-983C-374B77490014}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\mp\metavalue">
-      <UniqueIdentifier>{91CCDF1F-280B-375D-9F48-ACE675818AA1}</UniqueIdentifier>
+      <UniqueIdentifier>{F612781D-C80E-32BF-9C39-139D88CF8F81}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\mp\misc">
-      <UniqueIdentifier>{187D13E7-F2CF-333C-B09F-D59986E38E49}</UniqueIdentifier>
+      <UniqueIdentifier>{77E96F2F-4795-316C-87AA-F4A8FDF1D995}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\mp\typelist">
-      <UniqueIdentifier>{5D950BFA-E954-3FB4-B8F5-9FFE04E2FA06}</UniqueIdentifier>
+      <UniqueIdentifier>{9C00A4C0-4DD2-36AD-8302-FA27FB0509C1}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\include\mcl\type_traits">
-      <UniqueIdentifier>{1C01CC2B-239B-3A33-929A-0533FD1A26DE}</UniqueIdentifier>
+      <UniqueIdentifier>{CFA6E678-FE13-339E-A859-2F864FA33049}</UniqueIdentifier>
     </Filter>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

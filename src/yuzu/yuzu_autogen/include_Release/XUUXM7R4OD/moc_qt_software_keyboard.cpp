@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_QtSoftwareKeyboardDialog_t {
     QByteArrayData data[15];
-    char stringdata0[221];
+    char stringdata0[223];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -35,25 +35,25 @@ static const qt_meta_stringdata_QtSoftwareKeyboardDialog_t qt_meta_stringdata_Qt
 QT_MOC_LITERAL(0, 0, 24), // "QtSoftwareKeyboardDialog"
 QT_MOC_LITERAL(1, 25, 16), // "SubmitNormalText"
 QT_MOC_LITERAL(2, 42, 0), // ""
-QT_MOC_LITERAL(3, 43, 33), // "Service::AM::Applets::SwkbdRe..."
-QT_MOC_LITERAL(4, 77, 6), // "result"
-QT_MOC_LITERAL(5, 84, 14), // "std::u16string"
-QT_MOC_LITERAL(6, 99, 14), // "submitted_text"
-QT_MOC_LITERAL(7, 114, 9), // "confirmed"
-QT_MOC_LITERAL(8, 124, 16), // "SubmitInlineText"
-QT_MOC_LITERAL(9, 141, 36), // "Service::AM::Applets::SwkbdRe..."
-QT_MOC_LITERAL(10, 178, 10), // "reply_type"
-QT_MOC_LITERAL(11, 189, 3), // "s32"
-QT_MOC_LITERAL(12, 193, 15), // "cursor_position"
-QT_MOC_LITERAL(13, 209, 4), // "open"
-QT_MOC_LITERAL(14, 214, 6) // "reject"
+QT_MOC_LITERAL(3, 43, 34), // "Service::AM::Frontend::SwkbdR..."
+QT_MOC_LITERAL(4, 78, 6), // "result"
+QT_MOC_LITERAL(5, 85, 14), // "std::u16string"
+QT_MOC_LITERAL(6, 100, 14), // "submitted_text"
+QT_MOC_LITERAL(7, 115, 9), // "confirmed"
+QT_MOC_LITERAL(8, 125, 16), // "SubmitInlineText"
+QT_MOC_LITERAL(9, 142, 37), // "Service::AM::Frontend::SwkbdR..."
+QT_MOC_LITERAL(10, 180, 10), // "reply_type"
+QT_MOC_LITERAL(11, 191, 3), // "s32"
+QT_MOC_LITERAL(12, 195, 15), // "cursor_position"
+QT_MOC_LITERAL(13, 211, 4), // "open"
+QT_MOC_LITERAL(14, 216, 6) // "reject"
 
     },
     "QtSoftwareKeyboardDialog\0SubmitNormalText\0"
-    "\0Service::AM::Applets::SwkbdResult\0"
+    "\0Service::AM::Frontend::SwkbdResult\0"
     "result\0std::u16string\0submitted_text\0"
     "confirmed\0SubmitInlineText\0"
-    "Service::AM::Applets::SwkbdReplyType\0"
+    "Service::AM::Frontend::SwkbdReplyType\0"
     "reply_type\0s32\0cursor_position\0open\0"
     "reject"
 };
@@ -99,9 +99,9 @@ void QtSoftwareKeyboardDialog::qt_static_metacall(QObject *_o, QMetaObject::Call
         auto *_t = static_cast<QtSoftwareKeyboardDialog *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->SubmitNormalText((*reinterpret_cast< Service::AM::Applets::SwkbdResult(*)>(_a[1])),(*reinterpret_cast< std::u16string(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3]))); break;
-        case 1: _t->SubmitNormalText((*reinterpret_cast< Service::AM::Applets::SwkbdResult(*)>(_a[1])),(*reinterpret_cast< std::u16string(*)>(_a[2]))); break;
-        case 2: _t->SubmitInlineText((*reinterpret_cast< Service::AM::Applets::SwkbdReplyType(*)>(_a[1])),(*reinterpret_cast< std::u16string(*)>(_a[2])),(*reinterpret_cast< s32(*)>(_a[3]))); break;
+        case 0: _t->SubmitNormalText((*reinterpret_cast< Service::AM::Frontend::SwkbdResult(*)>(_a[1])),(*reinterpret_cast< std::u16string(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3]))); break;
+        case 1: _t->SubmitNormalText((*reinterpret_cast< Service::AM::Frontend::SwkbdResult(*)>(_a[1])),(*reinterpret_cast< std::u16string(*)>(_a[2]))); break;
+        case 2: _t->SubmitInlineText((*reinterpret_cast< Service::AM::Frontend::SwkbdReplyType(*)>(_a[1])),(*reinterpret_cast< std::u16string(*)>(_a[2])),(*reinterpret_cast< s32(*)>(_a[3]))); break;
         case 3: _t->open(); break;
         case 4: _t->reject(); break;
         default: ;
@@ -109,14 +109,14 @@ void QtSoftwareKeyboardDialog::qt_static_metacall(QObject *_o, QMetaObject::Call
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QtSoftwareKeyboardDialog::*)(Service::AM::Applets::SwkbdResult , std::u16string , bool ) const;
+            using _t = void (QtSoftwareKeyboardDialog::*)(Service::AM::Frontend::SwkbdResult , std::u16string , bool ) const;
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QtSoftwareKeyboardDialog::SubmitNormalText)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QtSoftwareKeyboardDialog::*)(Service::AM::Applets::SwkbdReplyType , std::u16string , s32 ) const;
+            using _t = void (QtSoftwareKeyboardDialog::*)(Service::AM::Frontend::SwkbdReplyType , std::u16string , s32 ) const;
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QtSoftwareKeyboardDialog::SubmitInlineText)) {
                 *result = 2;
                 return;
@@ -166,21 +166,21 @@ int QtSoftwareKeyboardDialog::qt_metacall(QMetaObject::Call _c, int _id, void **
 }
 
 // SIGNAL 0
-void QtSoftwareKeyboardDialog::SubmitNormalText(Service::AM::Applets::SwkbdResult _t1, std::u16string _t2, bool _t3)const
+void QtSoftwareKeyboardDialog::SubmitNormalText(Service::AM::Frontend::SwkbdResult _t1, std::u16string _t2, bool _t3)const
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
     QMetaObject::activate(const_cast< QtSoftwareKeyboardDialog *>(this), &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 2
-void QtSoftwareKeyboardDialog::SubmitInlineText(Service::AM::Applets::SwkbdReplyType _t1, std::u16string _t2, s32 _t3)const
+void QtSoftwareKeyboardDialog::SubmitInlineText(Service::AM::Frontend::SwkbdReplyType _t1, std::u16string _t2, s32 _t3)const
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))) };
     QMetaObject::activate(const_cast< QtSoftwareKeyboardDialog *>(this), &staticMetaObject, 2, _a);
 }
 struct qt_meta_stringdata_QtSoftwareKeyboard_t {
     QByteArrayData data[20];
-    char stringdata0[499];
+    char stringdata0[500];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -197,18 +197,18 @@ QT_MOC_LITERAL(4, 59, 44), // "Core::Frontend::KeyboardIniti..."
 QT_MOC_LITERAL(5, 104, 21), // "initialize_parameters"
 QT_MOC_LITERAL(6, 126, 28), // "MainWindowShowNormalKeyboard"
 QT_MOC_LITERAL(7, 155, 29), // "MainWindowShowTextCheckDialog"
-QT_MOC_LITERAL(8, 185, 42), // "Service::AM::Applets::SwkbdTe..."
-QT_MOC_LITERAL(9, 228, 17), // "text_check_result"
-QT_MOC_LITERAL(10, 246, 14), // "std::u16string"
-QT_MOC_LITERAL(11, 261, 18), // "text_check_message"
-QT_MOC_LITERAL(12, 280, 28), // "MainWindowShowInlineKeyboard"
-QT_MOC_LITERAL(13, 309, 38), // "Core::Frontend::InlineAppearP..."
-QT_MOC_LITERAL(14, 348, 17), // "appear_parameters"
-QT_MOC_LITERAL(15, 366, 28), // "MainWindowHideInlineKeyboard"
-QT_MOC_LITERAL(16, 395, 27), // "MainWindowInlineTextChanged"
-QT_MOC_LITERAL(17, 423, 36), // "Core::Frontend::InlineTextPar..."
-QT_MOC_LITERAL(18, 460, 15), // "text_parameters"
-QT_MOC_LITERAL(19, 476, 22) // "MainWindowExitKeyboard"
+QT_MOC_LITERAL(8, 185, 43), // "Service::AM::Frontend::SwkbdT..."
+QT_MOC_LITERAL(9, 229, 17), // "text_check_result"
+QT_MOC_LITERAL(10, 247, 14), // "std::u16string"
+QT_MOC_LITERAL(11, 262, 18), // "text_check_message"
+QT_MOC_LITERAL(12, 281, 28), // "MainWindowShowInlineKeyboard"
+QT_MOC_LITERAL(13, 310, 38), // "Core::Frontend::InlineAppearP..."
+QT_MOC_LITERAL(14, 349, 17), // "appear_parameters"
+QT_MOC_LITERAL(15, 367, 28), // "MainWindowHideInlineKeyboard"
+QT_MOC_LITERAL(16, 396, 27), // "MainWindowInlineTextChanged"
+QT_MOC_LITERAL(17, 424, 36), // "Core::Frontend::InlineTextPar..."
+QT_MOC_LITERAL(18, 461, 15), // "text_parameters"
+QT_MOC_LITERAL(19, 477, 22) // "MainWindowExitKeyboard"
 
     },
     "QtSoftwareKeyboard\0MainWindowInitializeKeyboard\0"
@@ -216,7 +216,7 @@ QT_MOC_LITERAL(19, 476, 22) // "MainWindowExitKeyboard"
     "initialize_parameters\0"
     "MainWindowShowNormalKeyboard\0"
     "MainWindowShowTextCheckDialog\0"
-    "Service::AM::Applets::SwkbdTextCheckResult\0"
+    "Service::AM::Frontend::SwkbdTextCheckResult\0"
     "text_check_result\0std::u16string\0"
     "text_check_message\0MainWindowShowInlineKeyboard\0"
     "Core::Frontend::InlineAppearParameters\0"
@@ -269,7 +269,7 @@ void QtSoftwareKeyboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         switch (_id) {
         case 0: _t->MainWindowInitializeKeyboard((*reinterpret_cast< bool(*)>(_a[1])),(*reinterpret_cast< Core::Frontend::KeyboardInitializeParameters(*)>(_a[2]))); break;
         case 1: _t->MainWindowShowNormalKeyboard(); break;
-        case 2: _t->MainWindowShowTextCheckDialog((*reinterpret_cast< Service::AM::Applets::SwkbdTextCheckResult(*)>(_a[1])),(*reinterpret_cast< std::u16string(*)>(_a[2]))); break;
+        case 2: _t->MainWindowShowTextCheckDialog((*reinterpret_cast< Service::AM::Frontend::SwkbdTextCheckResult(*)>(_a[1])),(*reinterpret_cast< std::u16string(*)>(_a[2]))); break;
         case 3: _t->MainWindowShowInlineKeyboard((*reinterpret_cast< Core::Frontend::InlineAppearParameters(*)>(_a[1]))); break;
         case 4: _t->MainWindowHideInlineKeyboard(); break;
         case 5: _t->MainWindowInlineTextChanged((*reinterpret_cast< Core::Frontend::InlineTextParameters(*)>(_a[1]))); break;
@@ -293,7 +293,7 @@ void QtSoftwareKeyboard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
             }
         }
         {
-            using _t = void (QtSoftwareKeyboard::*)(Service::AM::Applets::SwkbdTextCheckResult , std::u16string ) const;
+            using _t = void (QtSoftwareKeyboard::*)(Service::AM::Frontend::SwkbdTextCheckResult , std::u16string ) const;
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QtSoftwareKeyboard::MainWindowShowTextCheckDialog)) {
                 *result = 2;
                 return;
@@ -386,7 +386,7 @@ void QtSoftwareKeyboard::MainWindowShowNormalKeyboard()const
 }
 
 // SIGNAL 2
-void QtSoftwareKeyboard::MainWindowShowTextCheckDialog(Service::AM::Applets::SwkbdTextCheckResult _t1, std::u16string _t2)const
+void QtSoftwareKeyboard::MainWindowShowTextCheckDialog(Service::AM::Frontend::SwkbdTextCheckResult _t1, std::u16string _t2)const
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
     QMetaObject::activate(const_cast< QtSoftwareKeyboard *>(this), &staticMetaObject, 2, _a);

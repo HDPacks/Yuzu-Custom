@@ -18,4 +18,4 @@
   group.cpp
   barrier.cpp
   atomic.cpp
-  sirit.vcxproj -> F:\custom-build\Yuzu-1662\externals\sirit\src\Release\sirit.lib
+  sirit.vcxproj -> F:\custom-build\Yuzu-1703\externals\sirit\src\Release\sirit.lib

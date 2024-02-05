@@ -1,4 +1,4 @@
-prefix=C:/Program Files (x86)/yuzu
+prefix=F:/custom-build/yuzu
 includedir=${prefix}/include
 
 Name: SPIRV-Headers

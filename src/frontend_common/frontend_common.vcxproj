@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AC19775D-DE69-3645-8D43-8EC3D05DA4C5}</ProjectGuid>
+    <ProjectGuid>{0C8327FA-E0D5-394A-BE4E-72B6CBB28434}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <VcpkgEnabled>false</VcpkgEnabled>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
@@ -42,11 +42,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\src\frontend_common\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\src\frontend_common\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">frontend_common.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">frontend_common</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\src\frontend_common\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\src\frontend_common\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">frontend_common.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">frontend_common</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
@@ -54,7 +54,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1703/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <ConformanceMode>true</ConformanceMode>
@@ -79,13 +79,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +100,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1703/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <ConformanceMode>true</ConformanceMode>
@@ -124,13 +125,14 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;F:\custom-build\Yuzu-1662\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;C:\Users\curti\yuzu\externals\simpleini\.;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -146,7 +148,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/curti/yuzu/src/frontend_common/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/src/frontend_common/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/src/frontend_common/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -155,11 +157,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\src\frontend_common\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\src\frontend_common\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/curti/yuzu/src/frontend_common/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/src/frontend_common/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/src/frontend_common/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -168,108 +170,119 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\src\frontend_common\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\src\frontend_common\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\curti\yuzu\src\frontend_common\config.cpp" />
     <ClInclude Include="C:\Users\curti\yuzu\src\frontend_common\config.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\frontend_common\content_manager.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\ZERO_CHECK.vcxproj">
-      <Project>{FDE67142-5329-3EF2-8FDA-CA87BF889FCF}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\ZERO_CHECK.vcxproj">
+      <Project>{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore\Zycore.vcxproj">
-      <Project>{85430FCC-353C-3234-B481-BC7533FF6729}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\Vulkan-Utility-Libraries\include\VulkanUtilityHeaders.vcxproj">
+      <Project>{31E6D7FF-9ADF-3349-849A-F6078A9360CD}</Project>
+      <Name>VulkanUtilityHeaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\zycore\Zycore.vcxproj">
+      <Project>{2A2812E2-22C7-3686-AA10-A8FBA9231DD4}</Project>
       <Name>Zycore</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\Zydis.vcxproj">
-      <Project>{A01DDB7C-3151-3554-A907-BB69EAACA275}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\Zydis.vcxproj">
+      <Project>{5A1ABF7C-8DAF-3D00-8152-C1862E0C93A7}</Project>
       <Name>Zydis</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\bc_decoder.vcxproj">
-      <Project>{314DC99B-5C74-3E1E-B8F9-E93F10FBCDAB}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\bc_decoder.vcxproj">
+      <Project>{952E54FE-8942-32D5-9065-D6B2AEB3D7C9}</Project>
       <Name>bc_decoder</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\common\common.vcxproj">
-      <Project>{84A688A6-C4BB-326C-BF65-E16995C2F68E}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\src\common\common.vcxproj">
+      <Project>{9C247918-7C3D-3073-AB9C-5622FE269B36}</Project>
       <Name>common</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\core\core.vcxproj">
-      <Project>{67E127DC-6214-3A29-8C7C-0C4BE0AFBF25}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\src\core\core.vcxproj">
+      <Project>{FA9635B7-FB58-3F7C-A9E9-A0F6D73BEC13}</Project>
       <Name>core</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\cubeb\cubeb.vcxproj">
-      <Project>{BB5A6262-CBBE-3324-9157-159156A95632}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\cubeb\cubeb.vcxproj">
+      <Project>{72F2BDAD-4A90-3F9A-9861-651E72A4400A}</Project>
       <Name>cubeb</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\demangle.vcxproj">
-      <Project>{0BDA3756-3946-3565-AC15-6CC3ECCFB81F}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\demangle.vcxproj">
+      <Project>{177D64BA-81AB-3CC2-AC2C-F38684BD3384}</Project>
       <Name>demangle</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\dynarmic\src\dynarmic\dynarmic.vcxproj">
-      <Project>{9C970C9F-16CC-32EE-AA34-7552DF907AB6}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\dynarmic\src\dynarmic\dynarmic.vcxproj">
+      <Project>{B541D955-8874-3307-8D56-CAFFB9E0256D}</Project>
       <Name>dynarmic</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\enet\enet.vcxproj">
-      <Project>{65C861B1-5430-3E73-98C6-ECAEF08D4F6A}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\enet\enet.vcxproj">
+      <Project>{398A6660-A291-3A71-9F43-D1F378B5F274}</Project>
       <Name>enet</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\glad\glad.vcxproj">
-      <Project>{9A598A8F-047D-3A67-9C1F-545523D54E8F}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\glad\glad.vcxproj">
+      <Project>{89826F8E-3170-3945-A080-DB254DAE911B}</Project>
       <Name>glad</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedcrypto.vcxproj">
-      <Project>{873672A2-659A-32C7-8F09-9B661235BEB7}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\mbedcrypto.vcxproj">
+      <Project>{5686E016-8B47-3559-8F62-5D71BA8B2E81}</Project>
       <Name>mbedcrypto</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedtls.vcxproj">
-      <Project>{87D392A0-5974-3389-BD3A-E45D6013182B}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\mbedtls.vcxproj">
+      <Project>{FB032D93-05CD-3C5A-BC7E-CCE2EE47A98A}</Project>
       <Name>mbedtls</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.vcxproj">
-      <Project>{73145E89-BAA0-3437-BD11-73C7890DAC60}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\mbedx509.vcxproj">
+      <Project>{3F0CC2E8-6CBE-3298-819C-F3AF533D6CD5}</Project>
       <Name>mbedx509</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\dynarmic\externals\mcl\src\mcl.vcxproj">
-      <Project>{036BAAE6-1EDA-3A41-B575-82DFC56D64B7}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\dynarmic\externals\mcl\src\mcl.vcxproj">
+      <Project>{53D31EC0-0C42-325A-A521-620CA5439A48}</Project>
       <Name>mcl</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\network\network.vcxproj">
-      <Project>{19B361C6-8B88-38FA-9209-2E5CC6FECF39}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\src\network\network.vcxproj">
+      <Project>{98D30B26-AB4D-3746-A248-BB48DAC5C6B2}</Project>
       <Name>network</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\nx_tzdb.vcxproj">
-      <Project>{A9A189F7-D99F-3A11-98A4-5B27A8EBA45D}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\nx_tzdb.vcxproj">
+      <Project>{507665B0-4E9B-31E8-A802-2025E9A5EB86}</Project>
       <Name>nx_tzdb</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\opus\opus.vcxproj">
-      <Project>{41C30CC6-E685-3AAA-A819-4C8453BF136F}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\opus\opus.vcxproj">
+      <Project>{61044A3C-18E8-3C25-B3F0-FA6BFBAB412F}</Project>
       <Name>opus</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\src\shader_recompiler\shader_recompiler.vcxproj">
-      <Project>{52AE99B1-659B-33C6-B75D-C75A46B228E0}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\src\shader_recompiler\shader_recompiler.vcxproj">
+      <Project>{726D7C51-B542-3BFE-B043-FE3F6370735E}</Project>
       <Name>shader_recompiler</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\sirit\src\sirit.vcxproj">
-      <Project>{E95B2E59-2D76-37AC-800E-8887FEA10DC3}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\sirit\src\sirit.vcxproj">
+      <Project>{01F32683-09E8-38A4-BCCB-95EDFC4D0B14}</Project>
       <Name>sirit</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\cubeb\speex.vcxproj">
-      <Project>{4610D6AE-D9E3-355C-866B-6FC353E3E07E}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\cubeb\speex.vcxproj">
+      <Project>{424890CB-71E7-3616-AE2B-7F39F32B5BAF}</Project>
       <Name>speex</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\stb.vcxproj">
-      <Project>{38CC4347-4020-32BC-BD7D-C2F9C9DD80A9}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\stb.vcxproj">
+      <Project>{DF3BFA6F-2E98-3BD4-B5A4-CB6B86D451D3}</Project>
       <Name>stb</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\tz.vcxproj">
+      <Project>{5B2C71F2-9D64-3F6C-8EE9-7E5E89109D31}</Project>
+      <Name>tz</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

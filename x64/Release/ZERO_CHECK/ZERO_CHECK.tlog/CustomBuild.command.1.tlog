@@ -1,0 +1,10 @@
+^F:\CUSTOM-BUILD\YUZU-1703\CMAKEFILES\BD1D88F9C00758D48A7ECBC1644D7E3D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/custom-build/Yuzu-1703/yuzu.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

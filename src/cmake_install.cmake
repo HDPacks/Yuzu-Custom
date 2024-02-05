@@ -34,61 +34,66 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/common/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/core/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/audio_core/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/audio_core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/video_core/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/video_core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/network/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/hid_core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/input_common/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/network/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/frontend_common/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/input_common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/shader_recompiler/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/frontend_common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/dedicated_room/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/shader_recompiler/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/yuzu_cmd/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/dedicated_room/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/yuzu/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/yuzu_cmd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/custom-build/Yuzu-1662/src/web_service/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/src/yuzu/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("F:/custom-build/Yuzu-1703/src/web_service/cmake_install.cmake")
 endif()
 

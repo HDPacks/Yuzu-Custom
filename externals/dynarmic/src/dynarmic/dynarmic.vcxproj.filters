@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\externals\dynarmic\src\dynarmic\CMakeFiles\dynarmic.dir\cmake_pch.cxx">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\externals\dynarmic\src\dynarmic\CMakeFiles\dynarmic.dir\cmake_pch.cxx">
       <Filter>Other Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\block_range_information.cpp">
@@ -894,10 +894,10 @@
     <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\src\dynarmic\backend\x64\a64_jitstate.h">
       <Filter>backend\x64</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\externals\dynarmic\src\dynarmic\CMakeFiles\dynarmic.dir\Debug\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\externals\dynarmic\src\dynarmic\CMakeFiles\dynarmic.dir\Debug\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\externals\dynarmic\src\dynarmic\CMakeFiles\dynarmic.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\externals\dynarmic\src\dynarmic\CMakeFiles\dynarmic.dir\Release\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\externals\dynarmic\externals\robin-map\include\tsl\robin_growth_policy.h">
@@ -951,73 +951,73 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
     <Filter Include="backend">
-      <UniqueIdentifier>{B003326D-BB22-3112-8E3A-3440A5F44B03}</UniqueIdentifier>
+      <UniqueIdentifier>{1AC2ECAB-18B2-3BAB-B878-C304BFAE8CFE}</UniqueIdentifier>
     </Filter>
     <Filter Include="backend\x64">
-      <UniqueIdentifier>{E8A07881-B9A7-3A9F-9E05-04FBF6D15246}</UniqueIdentifier>
+      <UniqueIdentifier>{9BA9DE70-4B91-3B68-AF35-7FAFB1632B72}</UniqueIdentifier>
     </Filter>
     <Filter Include="common">
-      <UniqueIdentifier>{006EEB2B-5ED2-338F-A4DB-0EF1A4DA00A0}</UniqueIdentifier>
+      <UniqueIdentifier>{AD0D8BB1-E999-3130-8331-A3A43DC9A339}</UniqueIdentifier>
     </Filter>
     <Filter Include="common\crypto">
-      <UniqueIdentifier>{2B74DF14-FF12-3F13-B5E2-4739AA100E51}</UniqueIdentifier>
+      <UniqueIdentifier>{F9E87232-D7C6-342A-BD76-2D3105EACA6C}</UniqueIdentifier>
     </Filter>
     <Filter Include="common\fp">
-      <UniqueIdentifier>{C54CDD53-DE85-37D3-9AA5-DCD1681BAAFA}</UniqueIdentifier>
+      <UniqueIdentifier>{C0F2F81C-7CC8-3201-9687-2D11D6DA8E90}</UniqueIdentifier>
     </Filter>
     <Filter Include="common\fp\op">
-      <UniqueIdentifier>{60244A4F-5663-3C03-A12E-1D7A3D5A644D}</UniqueIdentifier>
+      <UniqueIdentifier>{48C58679-63EF-372B-932A-93820C03BD22}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend">
-      <UniqueIdentifier>{82A2CA5A-28F4-39FD-87DD-250EAF587167}</UniqueIdentifier>
+      <UniqueIdentifier>{9E64F4F0-FF35-3664-8744-F5AF5FB85158}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\A32">
-      <UniqueIdentifier>{D5CC25A8-5DD7-34E4-B636-239156EAC38D}</UniqueIdentifier>
+      <UniqueIdentifier>{FFB8D474-3B11-37D2-92FD-432D63E58FC5}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\A32\decoder">
-      <UniqueIdentifier>{561D1CC7-040B-3A99-8102-279E994FD88F}</UniqueIdentifier>
+      <UniqueIdentifier>{D82320DF-58C4-3A40-8319-E2EFB5A6DE4B}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\A32\disassembler">
-      <UniqueIdentifier>{DAFFC402-A8B3-3325-9C9B-48EED4D6ADC5}</UniqueIdentifier>
+      <UniqueIdentifier>{D9F0D315-6F1F-35E6-BC9F-A993716ABF7E}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\A32\translate">
-      <UniqueIdentifier>{F73391BC-B01B-3BC4-9FB1-48277C144C40}</UniqueIdentifier>
+      <UniqueIdentifier>{81759C53-3EAE-335A-BB67-2D51AE752BD7}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\A32\translate\impl">
-      <UniqueIdentifier>{3FFF36D6-5460-303D-9AD9-3B1DF3852986}</UniqueIdentifier>
+      <UniqueIdentifier>{23A6F68B-3E6A-31AF-A76A-3980B1DA7FE2}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\A64">
-      <UniqueIdentifier>{D0B54E30-CC02-3136-974E-4A74429419E1}</UniqueIdentifier>
+      <UniqueIdentifier>{F0977FBD-53A3-3078-BDD2-45CB4C339E49}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\A64\decoder">
-      <UniqueIdentifier>{4725D0BA-8E4E-3EB8-BE41-0D25279EC9B6}</UniqueIdentifier>
+      <UniqueIdentifier>{7B1F8F8F-C4CF-3100-9196-74B459C3C562}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\A64\translate">
-      <UniqueIdentifier>{7BEF59A8-BCA4-3C8C-B0A8-7C7D37E600BC}</UniqueIdentifier>
+      <UniqueIdentifier>{DB96AF92-9BCF-317E-8DE0-0DD8635E44AE}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\A64\translate\impl">
-      <UniqueIdentifier>{90713E07-40EF-3559-A6DD-E557DC4C8154}</UniqueIdentifier>
+      <UniqueIdentifier>{8C990105-A767-3A41-93E4-EAF0F3AEA563}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\decoder">
-      <UniqueIdentifier>{E6CFFC10-8A4A-33B4-AE28-F7F25933F2A9}</UniqueIdentifier>
+      <UniqueIdentifier>{89E9AF26-7F4A-3262-B6C2-6B2123AB7950}</UniqueIdentifier>
     </Filter>
     <Filter Include="interface">
-      <UniqueIdentifier>{3190A687-A33A-333F-BC78-5A6EEF68B48A}</UniqueIdentifier>
+      <UniqueIdentifier>{4CC75ED1-57AA-3C08-AA8A-258EEBD6AB58}</UniqueIdentifier>
     </Filter>
     <Filter Include="interface\A32">
-      <UniqueIdentifier>{3F63B36C-E8E6-3C1D-B271-D4130FA10A15}</UniqueIdentifier>
+      <UniqueIdentifier>{9B1CC102-D1B5-3B85-8D1F-2EB94E836DC6}</UniqueIdentifier>
     </Filter>
     <Filter Include="interface\A64">
-      <UniqueIdentifier>{4B2FF92D-09DA-387F-9C80-DB0073CBD4C7}</UniqueIdentifier>
+      <UniqueIdentifier>{56578395-580A-340E-A416-D5FD4385AE14}</UniqueIdentifier>
     </Filter>
     <Filter Include="ir">
-      <UniqueIdentifier>{ABD27B12-8603-31B7-9E44-B131013A85C3}</UniqueIdentifier>
+      <UniqueIdentifier>{96609907-FF93-39E3-871B-A12B0288F56C}</UniqueIdentifier>
     </Filter>
     <Filter Include="ir\opt">
-      <UniqueIdentifier>{8911297E-85FA-3154-9CEC-8A50802BAC1D}</UniqueIdentifier>
+      <UniqueIdentifier>{1D7CDD75-1545-3A2A-9535-AE335D02FD08}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

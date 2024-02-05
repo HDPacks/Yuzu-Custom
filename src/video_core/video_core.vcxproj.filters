@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\video_core.dir\cmake_pch.cxx">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\video_core\CMakeFiles\video_core.dir\cmake_pch.cxx">
       <Filter>Other Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\buffer_cache\buffer_cache.cpp">
@@ -50,6 +50,7 @@
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\engines\puller.cpp">
       <Filter>engines</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\framebuffer_config.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\fsr.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\codecs\codec.cpp">
       <Filter>host1x\codecs</Filter>
@@ -67,6 +68,9 @@
       <Filter>host1x\ffmpeg</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\control.cpp">
+      <Filter>host1x</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\gpu_device_memory_manager.cpp">
       <Filter>host1x</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\host1x\host1x.cpp">
@@ -96,7 +100,6 @@
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\gpu.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\gpu_thread.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\memory_manager.cpp" />
-    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\rasterizer_accelerated.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_base.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_null\null_rasterizer.cpp">
       <Filter>renderer_null</Filter>
@@ -104,7 +107,28 @@
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_null\renderer_null.cpp">
       <Filter>renderer_null</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\filters.cpp">
+      <Filter>renderer_opengl\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\fsr.cpp">
+      <Filter>renderer_opengl\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\fxaa.cpp">
+      <Filter>renderer_opengl\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\layer.cpp">
+      <Filter>renderer_opengl\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\smaa.cpp">
+      <Filter>renderer_opengl\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\window_adapt_pass.cpp">
+      <Filter>renderer_opengl\present</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\blit_image.cpp">
+      <Filter>renderer_opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_blit_screen.cpp">
       <Filter>renderer_opengl</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_buffer_cache_base.cpp">
@@ -120,9 +144,6 @@
       <Filter>renderer_opengl</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fence_manager.cpp">
-      <Filter>renderer_opengl</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fsr.cpp">
       <Filter>renderer_opengl</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_graphics_pipeline.cpp">
@@ -164,6 +185,27 @@
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\util_shaders.cpp">
       <Filter>renderer_opengl</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\filters.cpp">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\fsr.cpp">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\fxaa.cpp">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\layer.cpp">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\smaa.cpp">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\util.cpp">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\window_adapt_pass.cpp">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\blit_image.cpp">
       <Filter>renderer_vulkan</Filter>
     </ClCompile>
@@ -203,9 +245,6 @@
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fence_manager.cpp">
       <Filter>renderer_vulkan</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fsr.cpp">
-      <Filter>renderer_vulkan</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_graphics_pipeline.cpp">
       <Filter>renderer_vulkan</Filter>
     </ClCompile>
@@ -234,9 +273,6 @@
       <Filter>renderer_vulkan</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_shader_util.cpp">
-      <Filter>renderer_vulkan</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_smaa.cpp">
       <Filter>renderer_vulkan</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_staging_buffer_pool.cpp">
@@ -339,7 +375,7 @@
       <Filter>vulkan_common</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\video_core\macro\macro_jit_x64.cpp">
-      <Filter>Other Files</Filter>
+      <Filter>macro</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -435,6 +471,9 @@
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\control.h">
       <Filter>host1x</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\gpu_device_memory_manager.h">
+      <Filter>host1x</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\host1x\host1x.h">
       <Filter>host1x</Filter>
     </ClInclude>
@@ -465,6 +504,7 @@
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\fence_manager.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\gpu.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\gpu_thread.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\guest_memory.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\invalidation_accumulator.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\memory_manager.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\precompiled_headers.h" />
@@ -488,7 +528,6 @@
       <Filter>query_cache</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\query_cache.h" />
-    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\rasterizer_accelerated.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\rasterizer_interface.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_base.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_null\null_rasterizer.h">
@@ -497,7 +536,34 @@
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_null\renderer_null.h">
       <Filter>renderer_null</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\filters.h">
+      <Filter>renderer_opengl\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\fsr.h">
+      <Filter>renderer_opengl\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\fxaa.h">
+      <Filter>renderer_opengl\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\layer.h">
+      <Filter>renderer_opengl\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\present_uniforms.h">
+      <Filter>renderer_opengl\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\smaa.h">
+      <Filter>renderer_opengl\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\util.h">
+      <Filter>renderer_opengl\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\present\window_adapt_pass.h">
+      <Filter>renderer_opengl\present</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\blit_image.h">
+      <Filter>renderer_opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_blit_screen.h">
       <Filter>renderer_opengl</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_buffer_cache.h">
@@ -510,9 +576,6 @@
       <Filter>renderer_opengl</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fence_manager.h">
-      <Filter>renderer_opengl</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_fsr.h">
       <Filter>renderer_opengl</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\gl_graphics_pipeline.h">
@@ -557,6 +620,33 @@
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_opengl\util_shaders.h">
       <Filter>renderer_opengl</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\anti_alias_pass.h">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\filters.h">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\fsr.h">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\fxaa.h">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\layer.h">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\present_push_constants.h">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\smaa.h">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\util.h">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\present\window_adapt_pass.h">
+      <Filter>renderer_vulkan\present</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\blit_image.h">
       <Filter>renderer_vulkan</Filter>
     </ClInclude>
@@ -596,9 +686,6 @@
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fence_manager.h">
       <Filter>renderer_vulkan</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_fsr.h">
-      <Filter>renderer_vulkan</Filter>
-    </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_graphics_pipeline.h">
       <Filter>renderer_vulkan</Filter>
     </ClInclude>
@@ -627,9 +714,6 @@
       <Filter>renderer_vulkan</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_shader_util.h">
-      <Filter>renderer_vulkan</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_smaa.h">
       <Filter>renderer_vulkan</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\renderer_vulkan\vk_staging_buffer_pool.h">
@@ -752,12 +836,12 @@
       <Filter>vulkan_common</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\video_core\macro\macro_jit_x64.h">
+      <Filter>macro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\video_core\CMakeFiles\video_core.dir\Debug\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\video_core.dir\Debug\cmake_pch.hxx">
-      <Filter>Other Files</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\video_core\CMakeFiles\video_core.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\video_core\CMakeFiles\video_core.dir\Release\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -768,52 +852,58 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
     <Filter Include="buffer_cache">
-      <UniqueIdentifier>{63C7D329-D7F7-312D-AA93-49503A890B29}</UniqueIdentifier>
+      <UniqueIdentifier>{38AEABF8-2671-3F7B-839C-5E6E1DDE2CF1}</UniqueIdentifier>
     </Filter>
     <Filter Include="control">
-      <UniqueIdentifier>{462CFA82-A47D-3A04-9CD3-8121095664EB}</UniqueIdentifier>
+      <UniqueIdentifier>{F35A91C5-9426-3095-BC70-C4F2B0A6FDA3}</UniqueIdentifier>
     </Filter>
     <Filter Include="engines">
-      <UniqueIdentifier>{346B4EB9-819B-3362-AA3F-94521E69B4A7}</UniqueIdentifier>
+      <UniqueIdentifier>{C0BBD654-5E74-3F9D-9C04-00FC2AB0DDC7}</UniqueIdentifier>
     </Filter>
     <Filter Include="engines\sw_blitter">
-      <UniqueIdentifier>{31B0A92C-B08F-3925-8747-A94EEE7B76E9}</UniqueIdentifier>
+      <UniqueIdentifier>{8FC7367B-5F6C-324D-B75A-666C818DF7D9}</UniqueIdentifier>
     </Filter>
     <Filter Include="host1x">
-      <UniqueIdentifier>{42BC942E-B966-31B1-B0F4-F779BD7ED85C}</UniqueIdentifier>
+      <UniqueIdentifier>{1B563BA0-56D1-3C38-A725-B162DDBEDCD4}</UniqueIdentifier>
     </Filter>
     <Filter Include="host1x\codecs">
-      <UniqueIdentifier>{6CBB1164-92A2-342F-B677-35A92272FC11}</UniqueIdentifier>
+      <UniqueIdentifier>{A24060F3-6016-3CD6-848E-D2A37ED29F28}</UniqueIdentifier>
     </Filter>
     <Filter Include="host1x\ffmpeg">
-      <UniqueIdentifier>{745FA5C9-FBA4-3AA5-AE60-C61F0A533230}</UniqueIdentifier>
+      <UniqueIdentifier>{8769FC67-22F7-3C5A-BC03-E13E66D867ED}</UniqueIdentifier>
     </Filter>
     <Filter Include="macro">
-      <UniqueIdentifier>{45F4C50D-B6D3-3C3E-94CF-58BFD8C05E5E}</UniqueIdentifier>
+      <UniqueIdentifier>{C1697A36-526E-3CB1-8C7F-F1332029ABBD}</UniqueIdentifier>
     </Filter>
     <Filter Include="query_cache">
-      <UniqueIdentifier>{2E39F8F1-66EE-3BE5-B919-0A11711B16C9}</UniqueIdentifier>
+      <UniqueIdentifier>{4513194F-D304-3755-A9CE-9DBCE71DF80B}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer_null">
-      <UniqueIdentifier>{36E01EDD-7601-3F5C-BFDF-BB83210A8C33}</UniqueIdentifier>
+      <UniqueIdentifier>{86C03046-6E92-3B11-830E-A15B0ADECC68}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer_opengl">
-      <UniqueIdentifier>{F262B6BE-E3AC-3659-8BBA-99A18FA7E7E6}</UniqueIdentifier>
+      <UniqueIdentifier>{C3B76BD0-C0C3-3514-9667-8601A9AF2007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer_opengl\present">
+      <UniqueIdentifier>{11B8B680-305A-322D-9B7C-0E6AAECFEBF2}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer_vulkan">
-      <UniqueIdentifier>{ACF06A3B-B210-3CE9-8D40-B2EF44A3D9D7}</UniqueIdentifier>
+      <UniqueIdentifier>{6184714F-CFD6-3EA8-BC2D-3E9B4DAE4047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer_vulkan\present">
+      <UniqueIdentifier>{2E0D99E1-E5C4-3B05-ABB3-E499BF11ACE4}</UniqueIdentifier>
     </Filter>
     <Filter Include="texture_cache">
-      <UniqueIdentifier>{93CCD3AF-8CE9-3C83-B1FF-C9A602FCB224}</UniqueIdentifier>
+      <UniqueIdentifier>{828B49F1-E7C0-3825-B50B-2EE40D8BDA72}</UniqueIdentifier>
     </Filter>
     <Filter Include="textures">
-      <UniqueIdentifier>{F48AC32E-CADA-3049-B336-E233210DD63B}</UniqueIdentifier>
+      <UniqueIdentifier>{AC90373B-15BA-38AD-B9EC-E8AACA96A62D}</UniqueIdentifier>
     </Filter>
     <Filter Include="vulkan_common">
-      <UniqueIdentifier>{706DAB29-3B37-311F-B815-3FD475771D9B}</UniqueIdentifier>
+      <UniqueIdentifier>{FA17393C-1EDD-3E32-B2E5-66C73922F415}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -36,21 +36,11 @@ R"(// SPDX-FileCopyrightText: 2020 BreadFish64
 )" R"(
 )" R"(#endif
 )" R"(
-)" R"(#ifdef VULKAN
-)" R"(
-)" R"(#define BINDING_COLOR_TEXTURE 1
-)" R"(
-)" R"(#else // ^^^ Vulkan ^^^ // vvv OpenGL vvv
-)" R"(
-)" R"(#define BINDING_COLOR_TEXTURE 0
-)" R"(
-)" R"(#endif
-)" R"(
 )" R"(layout (location = 0) in vec2 tex_coord;
 )" R"(
 )" R"(layout (location = 0) out vec4 frag_color;
 )" R"(
-)" R"(layout (binding = BINDING_COLOR_TEXTURE) uniform sampler2D input_texture;
+)" R"(layout (binding = 0) uniform sampler2D input_texture;
 )" R"(
 )" R"(const bool ignore_alpha = true;
 )" R"(

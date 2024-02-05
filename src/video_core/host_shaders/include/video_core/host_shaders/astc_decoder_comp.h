@@ -805,7 +805,7 @@ R"(// SPDX-FileCopyrightText: Copyright 2021 yuzu Emulator Project
 )" R"(    }
 )" R"(}
 )" R"(
-)" R"(uint GetUnquantizedTexelWieght(uint offset_base, uint plane, bool is_dual_plane) {
+)" R"(uint GetUnquantizedTexelWeight(uint offset_base, uint plane, bool is_dual_plane) {
 )" R"(    const uint offset = is_dual_plane ? 2 * offset_base + plane : offset_base;
 )" R"(    return result_vector[offset];
 )" R"(}
@@ -835,23 +835,23 @@ R"(// SPDX-FileCopyrightText: Copyright 2021 yuzu Emulator Project
 )" R"(
 )" R"(    if (v0 < area) {
 )" R"(        const uint offset_base = v0;
-)" R"(        p0.x = GetUnquantizedTexelWieght(offset_base, 0, is_dual_plane);
-)" R"(        p1.x = GetUnquantizedTexelWieght(offset_base, 1, is_dual_plane);
+)" R"(        p0.x = GetUnquantizedTexelWeight(offset_base, 0, is_dual_plane);
+)" R"(        p1.x = GetUnquantizedTexelWeight(offset_base, 1, is_dual_plane);
 )" R"(    }
 )" R"(    if ((v0 + 1) < (area)) {
 )" R"(        const uint offset_base = v0 + 1;
-)" R"(        p0.y = GetUnquantizedTexelWieght(offset_base, 0, is_dual_plane);
-)" R"(        p1.y = GetUnquantizedTexelWieght(offset_base, 1, is_dual_plane);
+)" R"(        p0.y = GetUnquantizedTexelWeight(offset_base, 0, is_dual_plane);
+)" R"(        p1.y = GetUnquantizedTexelWeight(offset_base, 1, is_dual_plane);
 )" R"(    }
 )" R"(    if ((v0 + size.x) < (area)) {
 )" R"(        const uint offset_base = v0 + size.x;
-)" R"(        p0.z = GetUnquantizedTexelWieght(offset_base, 0, is_dual_plane);
-)" R"(        p1.z = GetUnquantizedTexelWieght(offset_base, 1, is_dual_plane);
+)" R"(        p0.z = GetUnquantizedTexelWeight(offset_base, 0, is_dual_plane);
+)" R"(        p1.z = GetUnquantizedTexelWeight(offset_base, 1, is_dual_plane);
 )" R"(    }
 )" R"(    if ((v0 + size.x + 1) < (area)) {
 )" R"(        const uint offset_base = v0 + size.x + 1;
-)" R"(        p0.w = GetUnquantizedTexelWieght(offset_base, 0, is_dual_plane);
-)" R"(        p1.w = GetUnquantizedTexelWieght(offset_base, 1, is_dual_plane);
+)" R"(        p0.w = GetUnquantizedTexelWeight(offset_base, 0, is_dual_plane);
+)" R"(        p1.w = GetUnquantizedTexelWeight(offset_base, 1, is_dual_plane);
 )" R"(    }
 )" R"(
 )" R"(    const uint primary_weight = (uint(dot(p0, w)) + 8) >> 4;

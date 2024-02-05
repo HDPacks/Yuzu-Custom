@@ -1,9 +1,114 @@
 ﻿  Automatic MOC and UIC for target yuzu
+  AutoUic: C:\Users\curti\yuzu\src\yuzu\main.ui: Warning: action `action_Rederive' not declared
+  AutoMoc: C:/Users/curti/yuzu/src/yuzu/util/url_request_interceptor.h(0): Note: No relevant classes found. No output generated.
+  9>Automatic RCC for ../../dist/qt_themes/colorful/style.qrc
+  4>Automatic RCC for ../../dist/compatibility_list/compatibility_list.qrc
+  7>Automatic RCC for yuzu.qrc
+  2>Automatic RCC for ../../dist/qt_themes/default_dark/style.qrc
+  6>Automatic RCC for ../../dist/qt_themes/colorful_dark/style.qrc
+  1>
+  10>Automatic RCC for ../../dist/qt_themes/colorful_midnight_blue/style.qrc
+  11>Automatic RCC for ../../dist/qt_themes/default/default.qrc
+  5>Automatic RCC for ../../dist/icons/overlay/overlay.qrc
+  12>Automatic RCC for ../../dist/qt_themes/qdarkstyle/style.qrc
+  3>Automatic RCC for ../../dist/qt_themes/qdarkstyle_midnight_blue/style.qrc
+  8>Automatic RCC for ../../dist/icons/controller/controller.qrc
+  Building Custom Rule C:/Users/curti/yuzu/src/yuzu/CMakeLists.txt
+  cmake_pch.cxx
+  about_dialog.cpp
+  qt_amiibo_settings.cpp
+  qt_controller.cpp
+  qt_error.cpp
+  qt_profile_select.cpp
+  qt_software_keyboard.cpp
+  qt_web_browser.cpp
+  bootmanager.cpp
+  compatibility_list.cpp
+  configuration_shared.cpp
+  configure_audio.cpp
+  configure_camera.cpp
+  configure_cpu.cpp
+  configure_cpu_debug.cpp
+  configure_debug.cpp
+  configure_debug_controller.cpp
+  configure_debug_tab.cpp
+  configure_dialog.cpp
+  configure_filesystem.cpp
+  configure_general.cpp
+  configure_graphics.cpp
+  configure_graphics_advanced.cpp
+  configure_hotkeys.cpp
+  configure_input.cpp
+  configure_input_advanced.cpp
+  configure_input_per_game.cpp
+  configure_input_player.cpp
+  configure_input_player_widget.cpp
+  configure_input_profile_dialog.cpp
+  configure_linux_tab.cpp
+  configure_mouse_panning.cpp
+  configure_motion_touch.cpp
+  configure_per_game.cpp
+  configure_per_game_addons.cpp
+  configure_profile_manager.cpp
+  configure_ringcon.cpp
+  configure_network.cpp
+  configure_system.cpp
+  configure_tas.cpp
+  configure_touch_from_button.cpp
+  configure_touchscreen_advanced.cpp
+  configure_ui.cpp
+  configure_vibration.cpp
+  configure_web.cpp
+  input_profiles.cpp
   shared_translation.cpp
+  shared_widget.cpp
+  qt_config.cpp
+  console.cpp
+  controller.cpp
+  profiler.cpp
+  wait_tree.cpp
+  game_list.cpp
+  game_list_worker.cpp
+  hotkeys.cpp
+  install_dialog.cpp
+  loading_screen.cpp
+  main.cpp
+  chat_room.cpp
+  client_room.cpp
+  direct_connect.cpp
+  host_room.cpp
+  lobby.cpp
+  message.cpp
+  moderation_dialog.cpp
+  state.cpp
+  play_time_manager.cpp
+  qt_common.cpp
+  startup_checks.cpp
+  uisettings.cpp
+  clickable_label.cpp
+  controller_navigation.cpp
+  limitable_input_dialog.cpp
+  overlay_dialog.cpp
+  sequence_dialog.cpp
+  url_request_interceptor.cpp
+  util.cpp
+  vk_device_info.cpp
+  compatdb.cpp
+  qrc_yuzu.cpp
+  qrc_compatibility_list.cpp
+  qrc_controller.cpp
+  qrc_overlay.cpp
+  qrc_default.cpp
+  mocs_compilation_Release.cpp
+  qrc_style.cpp
+  qrc_style.cpp
+  qrc_style.cpp
+  qrc_style.cpp
+  qrc_style.cpp
+  qrc_style.cpp
 qtmain.lib(qtmain_win.obj) : warning LNK4099: PDB '' was not found with 'qtmain.lib(qtmain_win.obj)' or at ''; linking object as if no debug info
-     Creating library F:/custom-build/Yuzu-1662/src/yuzu/Release/yuzu.lib and object F:/custom-build/Yuzu-1662/src/yuzu/Release/yuzu.exp
-  yuzu.vcxproj -> F:\custom-build\Yuzu-1662\bin\Release\yuzu.exe
-E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(2583,5): warning : Remote deployment might be slow/inefficient. '.', hexadecimal value 0x00, is an invalid character. Line 1, position 1.
+     Creating library F:/custom-build/Yuzu-1703/src/yuzu/Release/yuzu.lib and object F:/custom-build/Yuzu-1703/src/yuzu/Release/yuzu.exp
+  yuzu.vcxproj -> F:\custom-build\Yuzu-1703\bin\Release\yuzu.exe
   
   
   

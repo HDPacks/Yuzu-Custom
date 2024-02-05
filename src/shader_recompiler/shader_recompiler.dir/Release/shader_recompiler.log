@@ -182,4 +182,4 @@
   verification_pass.cpp
   opcodes.cpp
   opcodes.cpp
-  shader_recompiler.vcxproj -> F:\custom-build\Yuzu-1662\src\shader_recompiler\Release\shader_recompiler.lib
+  shader_recompiler.vcxproj -> F:\custom-build\Yuzu-1703\src\shader_recompiler\Release\shader_recompiler.lib

@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/custom-build/Yuzu-1662/externals/dynarmic/externals/mcl/cmake_install.cmake")
-  include("F:/custom-build/Yuzu-1662/externals/dynarmic/externals/oaknut/cmake_install.cmake")
-  include("F:/custom-build/Yuzu-1662/externals/dynarmic/externals/robin-map/cmake_install.cmake")
-  include("F:/custom-build/Yuzu-1662/externals/dynarmic/externals/zydis/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/externals/dynarmic/externals/mcl/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/externals/dynarmic/externals/oaknut/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/externals/dynarmic/externals/robin-map/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/externals/dynarmic/externals/zydis/cmake_install.cmake")
 
 endif()
 

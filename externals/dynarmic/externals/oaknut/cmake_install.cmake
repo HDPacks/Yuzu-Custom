@@ -36,7 +36,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/oaknut/oaknutTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/oaknut/oaknutTargets.cmake"
-         "F:/custom-build/Yuzu-1662/externals/dynarmic/externals/oaknut/CMakeFiles/Export/bad939e5173cdc87c5e26ddd5856e514/oaknutTargets.cmake")
+         "F:/custom-build/Yuzu-1703/externals/dynarmic/externals/oaknut/CMakeFiles/Export/bad939e5173cdc87c5e26ddd5856e514/oaknutTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/oaknut/oaknutTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -49,6 +49,17 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/oaknut" TYPE FILE FILES "F:/custom-build/Yuzu-1662/externals/dynarmic/externals/oaknut/CMakeFiles/Export/bad939e5173cdc87c5e26ddd5856e514/oaknutTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/oaknut" TYPE FILE FILES "F:/custom-build/Yuzu-1703/externals/dynarmic/externals/oaknut/CMakeFiles/Export/bad939e5173cdc87c5e26ddd5856e514/oaknutTargets.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/oaknut" TYPE FILE FILES
+    "F:/custom-build/Yuzu-1703/externals/dynarmic/externals/oaknut/oaknutConfig.cmake"
+    "F:/custom-build/Yuzu-1703/externals/dynarmic/externals/oaknut/oaknutConfigVersion.cmake"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/curti/yuzu/externals/dynarmic/externals/oaknut/include/oaknut")
 endif()
 

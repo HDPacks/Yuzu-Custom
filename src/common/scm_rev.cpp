@@ -3,13 +3,13 @@
 
 #include "common/scm_rev.h"
 
-#define GIT_REV      "05e3db3ac9edbff0e4885ef8b42d3a2427c9f027"
+#define GIT_REV      "4cccbe7989a6a2571ffb1a21790f3884786c557a"
 #define GIT_BRANCH   "HDPacks.com_12GB"
-#define GIT_DESC     "1.0"
+#define GIT_DESC     "1.0.1"
 #define BUILD_NAME   ""
-#define BUILD_DATE   "2023-12-26T04:12:06Z"
+#define BUILD_DATE   "2024-02-05T08:42:02Z"
 #define BUILD_FULLNAME ""
-#define BUILD_VERSION "1.0"
+#define BUILD_VERSION "0"
 #define BUILD_ID ""
 #define TITLE_BAR_FORMAT_IDLE ""
 #define TITLE_BAR_FORMAT_RUNNING ""

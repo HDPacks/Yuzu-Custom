@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B5B5D99B-57A3-3A94-8988-F4139494CBDB}</ProjectGuid>
+    <ProjectGuid>{83D3A2A5-A152-3EFA-92B6-412F5461685A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -65,7 +65,7 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\55602b77b46e72017b82d11271172f47\lib.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\dbb8e1d6501e0d8132f3abccfabc72ae\lib.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -74,8 +74,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\externals\mbedtls\library\Debug\mbedcrypto.lib;F:\custom-build\Yuzu-1662\externals\mbedtls\library\Debug\mbedx509.lib;F:\custom-build\Yuzu-1662\externals\mbedtls\library\Debug\mbedtls.lib;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\externals\mbedtls\library\CMakeFiles\lib</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\externals\mbedtls\library\Debug\mbedcrypto.lib;F:\custom-build\Yuzu-1703\externals\mbedtls\library\Debug\mbedx509.lib;F:\custom-build\Yuzu-1703\externals\mbedtls\library\Debug\mbedtls.lib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\externals\mbedtls\library\CMakeFiles\lib</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -86,8 +86,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\externals\mbedtls\library\Release\mbedcrypto.lib;F:\custom-build\Yuzu-1662\externals\mbedtls\library\Release\mbedx509.lib;F:\custom-build\Yuzu-1662\externals\mbedtls\library\Release\mbedtls.lib;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\externals\mbedtls\library\CMakeFiles\lib</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\externals\mbedtls\library\Release\mbedcrypto.lib;F:\custom-build\Yuzu-1703\externals\mbedtls\library\Release\mbedx509.lib;F:\custom-build\Yuzu-1703\externals\mbedtls\library\Release\mbedtls.lib;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\externals\mbedtls\library\CMakeFiles\lib</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
@@ -97,7 +97,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/curti/yuzu/externals/mbedtls/library/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/externals/mbedtls/library/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/externals/mbedtls/library/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -106,11 +106,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\externals\mbedtls\library\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\externals\mbedtls\library\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/curti/yuzu/externals/mbedtls/library/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/externals/mbedtls/library/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/externals/mbedtls/library/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -119,31 +119,31 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\externals\mbedtls\library\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\externals\mbedtls\library\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\CMakeFiles\lib">
+    <None Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\CMakeFiles\lib">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\ZERO_CHECK.vcxproj">
-      <Project>{FDE67142-5329-3EF2-8FDA-CA87BF889FCF}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\ZERO_CHECK.vcxproj">
+      <Project>{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedcrypto.vcxproj">
-      <Project>{873672A2-659A-32C7-8F09-9B661235BEB7}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\mbedcrypto.vcxproj">
+      <Project>{5686E016-8B47-3559-8F62-5D71BA8B2E81}</Project>
       <Name>mbedcrypto</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedtls.vcxproj">
-      <Project>{87D392A0-5974-3389-BD3A-E45D6013182B}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\mbedtls.vcxproj">
+      <Project>{FB032D93-05CD-3C5A-BC7E-CCE2EE47A98A}</Project>
       <Name>mbedtls</Name>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\mbedtls\library\mbedx509.vcxproj">
-      <Project>{73145E89-BAA0-3437-BD11-73C7890DAC60}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\mbedx509.vcxproj">
+      <Project>{3F0CC2E8-6CBE-3298-819C-F3AF533D6CD5}</Project>
       <Name>mbedx509</Name>
     </ProjectReference>
   </ItemGroup>

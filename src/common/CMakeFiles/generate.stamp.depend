@@ -1,7 +1,7 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.25/Modules/FindGit.cmake
-C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
 C:/Users/curti/yuzu/.git/HEAD
 C:/Users/curti/yuzu/.git/refs/heads/master
 C:/Users/curti/yuzu/CMakeModules/GenerateSCMRev.cmake
@@ -9,4 +9,4 @@ C:/Users/curti/yuzu/externals/cmake-modules/GetGitRevisionDescription.cmake
 C:/Users/curti/yuzu/externals/cmake-modules/GetGitRevisionDescription.cmake.in
 C:/Users/curti/yuzu/src/common/CMakeLists.txt
 C:/Users/curti/yuzu/src/common/scm_rev.cpp.in
-F:/custom-build/Yuzu-1662/src/common/CMakeFiles/git-data/grabRef.cmake
+F:/custom-build/Yuzu-1703/src/common/CMakeFiles/git-data/grabRef.cmake

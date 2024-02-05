@@ -1,12 +1,13 @@
 {
-	"BUILD_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen",
-	"CMAKE_BINARY_DIR" : "F:/custom-build/Yuzu-1662",
-	"CMAKE_CURRENT_BINARY_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu",
+	"BUILD_DIR" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen",
+	"CMAKE_BINARY_DIR" : "F:/custom-build/Yuzu-1703",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/custom-build/Yuzu-1703/src/yuzu",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/curti/yuzu/src/yuzu",
 	"CMAKE_SOURCE_DIR" : "C:/Users/curti/yuzu",
-	"INCLUDE_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include",
-	"INCLUDE_DIR_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include_Debug",
-	"INCLUDE_DIR_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include_Release",
+	"GENERATOR" : "Visual Studio 17 2022",
+	"INCLUDE_DIR" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/include_Release",
 	"INPUTS" : 
 	[
 		"C:/Users/curti/yuzu/dist/qt_themes/default/style.qss",
@@ -24,16 +25,16 @@
 		"C:/Users/curti/yuzu/dist/qt_themes/default/icons/48x48/chip.png",
 		"C:/Users/curti/yuzu/dist/qt_themes/default/icons/48x48/folder.png"
 	],
-	"LOCK_FILE" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_default_L6763PLDTS_Lock.lock",
+	"LOCK_FILE" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_default_L6763PLDTS_Lock.lock",
 	"MULTI_CONFIG" : true,
 	"OPTIONS" : [ "-name", "default" ],
 	"OUTPUT_CHECKSUM" : "L6763PLDTS",
 	"OUTPUT_NAME" : "qrc_default.cpp",
-	"RCC_EXECUTABLE" : "F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/bin/rcc.exe",
+	"RCC_EXECUTABLE" : "F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/bin/rcc.exe",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_default_L6763PLDTS_Used.txt",
-	"SETTINGS_FILE_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_default_L6763PLDTS_Used_Debug.txt",
-	"SETTINGS_FILE_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_default_L6763PLDTS_Used_Release.txt",
+	"SETTINGS_FILE" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_default_L6763PLDTS_Used.txt",
+	"SETTINGS_FILE_Debug" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_default_L6763PLDTS_Used_Debug.txt",
+	"SETTINGS_FILE_Release" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_default_L6763PLDTS_Used_Release.txt",
 	"SOURCE" : "C:/Users/curti/yuzu/dist/qt_themes/default/default.qrc",
 	"VERBOSITY" : 0
 }

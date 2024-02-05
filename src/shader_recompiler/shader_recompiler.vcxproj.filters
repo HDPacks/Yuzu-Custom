@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\shader_recompiler\CMakeFiles\shader_recompiler.dir\cmake_pch.cxx">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\shader_recompiler\CMakeFiles\shader_recompiler.dir\cmake_pch.cxx">
       <Filter>Other Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\shader_recompiler\backend\glasm\emit_glasm.cpp">
@@ -694,10 +694,10 @@
     <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\runtime_info.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\shader_info.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\shader_recompiler\varying_state.h" />
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\shader_recompiler\CMakeFiles\shader_recompiler.dir\Debug\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\shader_recompiler\CMakeFiles\shader_recompiler.dir\Debug\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\shader_recompiler\CMakeFiles\shader_recompiler.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\shader_recompiler\CMakeFiles\shader_recompiler.dir\Release\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -716,37 +716,37 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
     <Filter Include="backend">
-      <UniqueIdentifier>{B003326D-BB22-3112-8E3A-3440A5F44B03}</UniqueIdentifier>
+      <UniqueIdentifier>{1AC2ECAB-18B2-3BAB-B878-C304BFAE8CFE}</UniqueIdentifier>
     </Filter>
     <Filter Include="backend\glasm">
-      <UniqueIdentifier>{EDCFEFFC-5A0F-3406-A1C0-B553F519C1B1}</UniqueIdentifier>
+      <UniqueIdentifier>{BEAD0E72-AA11-350F-AEB9-200D9309A636}</UniqueIdentifier>
     </Filter>
     <Filter Include="backend\glsl">
-      <UniqueIdentifier>{854D792B-7BAA-3F14-900B-792D6C14264B}</UniqueIdentifier>
+      <UniqueIdentifier>{DB588485-E6FC-36AB-BA9C-12D99B96819D}</UniqueIdentifier>
     </Filter>
     <Filter Include="backend\spirv">
-      <UniqueIdentifier>{FCCB95E3-B41B-309D-801F-AB8D42682DB8}</UniqueIdentifier>
+      <UniqueIdentifier>{9AC62CFD-8475-3118-BD94-4BEAB826A5B1}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend">
-      <UniqueIdentifier>{82A2CA5A-28F4-39FD-87DD-250EAF587167}</UniqueIdentifier>
+      <UniqueIdentifier>{9E64F4F0-FF35-3664-8744-F5AF5FB85158}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\ir">
-      <UniqueIdentifier>{0699D9BA-7C2A-31F9-8D8C-60C2536A86E0}</UniqueIdentifier>
+      <UniqueIdentifier>{95D2B0B4-C116-352A-ACF0-81ADCBDD1AD4}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\maxwell">
-      <UniqueIdentifier>{05F1F0F8-F51A-30AB-A662-7AA544CE104C}</UniqueIdentifier>
+      <UniqueIdentifier>{B20844C5-D2C4-3F89-A168-CCCC978A8762}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\maxwell\translate">
-      <UniqueIdentifier>{CC787A07-E121-336C-B1ED-64B99CF93A4F}</UniqueIdentifier>
+      <UniqueIdentifier>{26BE6195-9D41-3F3F-883D-84512B5D80B4}</UniqueIdentifier>
     </Filter>
     <Filter Include="frontend\maxwell\translate\impl">
-      <UniqueIdentifier>{70F87C79-25EB-334D-A36F-5A1A4FD82C63}</UniqueIdentifier>
+      <UniqueIdentifier>{004D9D4B-9C21-341D-BF9D-CE293E2334B3}</UniqueIdentifier>
     </Filter>
     <Filter Include="ir_opt">
-      <UniqueIdentifier>{723A0DDE-B056-33E8-AE97-F7760095C943}</UniqueIdentifier>
+      <UniqueIdentifier>{E594FD97-B9BA-3959-BB44-934D3DF44055}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

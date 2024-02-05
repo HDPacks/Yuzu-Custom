@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{50D13396-CAFD-33B7-9EAC-655F3E75C0D1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>hid_core</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\src\hid_core\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hid_core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hid_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\src\hid_core\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hid_core.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hid_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1703/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4324;4201;4702</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1703/src/hid_core/hid_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <TreatSpecificWarningsAsErrors>4062;4189;4265;4388;4389;4456;4457;4458;4459;4505;4547;4549;4555;4826;5038;5233;5245;4242;4244;4245;4254;4800</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/custom-build/Yuzu-1703/vcpkg_installed/x64-windows/include" /Zm200 /Zo /utf-8 /volatile:iso /Zc:externConstexpr /Zc:throwingNew /experimental:module-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4324;4201;4702</DisableSpecificWarnings>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntelJCCErratum>true</IntelJCCErratum>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/custom-build/Yuzu-1703/src/hid_core/hid_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
+      <TreatSpecificWarningsAsErrors>4062;4189;4265;4388;4389;4456;4457;4458;4459;4505;4547;4549;4555;4826;5038;5233;5245;4242;4244;4245;4254;4800</TreatSpecificWarningsAsErrors>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NOMINMAX;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;BOOST_ALL_NO_LIB;FMT_SHARED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\src\.;C:\Users\curti\yuzu\externals\.\microprofile;C:\Users\curti\yuzu\externals\.\stb;F:\custom-build\Yuzu-1703\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\hid_core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/curti/yuzu/src/hid_core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\src\hid_core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/curti/yuzu/src/hid_core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\src\hid_core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\hid_core\CMakeFiles\hid_core.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/hid_core.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/hid_core.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_console.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_console.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_controller.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_controller.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_devices.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_devices.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\input_converter.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\input_converter.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\input_interpreter.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\input_interpreter.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\motion_input.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\motion_input.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hidbus\hidbus_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hidbus\hidbus_base.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hidbus\ringcon.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hidbus\ringcon.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hidbus\starlink.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hidbus\starlink.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hidbus\stubbed.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hidbus\stubbed.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\clustering_processor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\clustering_processor.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\image_transfer_processor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\image_transfer_processor.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\ir_led_processor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\ir_led_processor.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\moment_processor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\moment_processor.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\pointing_processor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\pointing_processor.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\processor_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\processor_base.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\tera_plugin_processor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\tera_plugin_processor.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_battery_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_battery_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_button_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_button_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_ir_sensor_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_ir_sensor_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_led_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_led_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_mcu_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_mcu_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_nfc_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_nfc_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_pad.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_pad.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_pad_holder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_pad_holder.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_palma_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_palma_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_properties_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_properties_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_sixaxis_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_sixaxis_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_vibration_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_vibration_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\debug_pad\debug_pad.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\debug_pad\debug_pad.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\debug_pad\debug_pad_types.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\digitizer\digitizer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\digitizer\digitizer.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\keyboard\keyboard.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\keyboard\keyboard.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\keyboard\keyboard_types.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\debug_mouse.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\debug_mouse.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\mouse.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\mouse.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\mouse_types.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_data.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_data.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_resource.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_resource.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_types.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_vibration.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_vibration.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\palma\palma.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\palma\palma.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\console_six_axis.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\console_six_axis.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\seven_six_axis.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\seven_six_axis.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\six_axis.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\six_axis.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\capture_button.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\capture_button.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\home_button.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\home_button.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\sleep_button.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\sleep_button.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\system_button_types.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\gesture.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\gesture.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\gesture_handler.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\gesture_handler.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen_driver.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen_driver.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen_resource.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen_resource.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_types.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\unique_pad\unique_pad.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\unique_pad\unique_pad.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\gc_vibration_device.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\gc_vibration_device.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\n64_vibration_device.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\n64_vibration_device.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\vibration_base.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\vibration_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\vibration_device.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\vibration_device.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\applet_resource.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\applet_resource.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\controller_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\controller_base.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\hid_firmware_settings.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\hid_firmware_settings.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\irs_ring_lifo.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\ring_lifo.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\shared_memory_format.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\shared_memory_holder.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\shared_memory_holder.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hid_core.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hid_core.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hid_result.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hid_types.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hid_util.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\precompiled_headers.h" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resource_manager.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/custom-build/Yuzu-1703/src/hid_core/CMakeFiles/hid_core.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resource_manager.h" />
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\hid_core\CMakeFiles\hid_core.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\hid_core\CMakeFiles\hid_core.dir\Release\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\ZERO_CHECK.vcxproj">
+      <Project>{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\Vulkan-Utility-Libraries\include\VulkanUtilityHeaders.vcxproj">
+      <Project>{31E6D7FF-9ADF-3349-849A-F6078A9360CD}</Project>
+      <Name>VulkanUtilityHeaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\zycore\Zycore.vcxproj">
+      <Project>{2A2812E2-22C7-3686-AA10-A8FBA9231DD4}</Project>
+      <Name>Zycore</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\Zydis.vcxproj">
+      <Project>{5A1ABF7C-8DAF-3D00-8152-C1862E0C93A7}</Project>
+      <Name>Zydis</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\bc_decoder.vcxproj">
+      <Project>{952E54FE-8942-32D5-9065-D6B2AEB3D7C9}</Project>
+      <Name>bc_decoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\src\common\common.vcxproj">
+      <Project>{9C247918-7C3D-3073-AB9C-5622FE269B36}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\cubeb\cubeb.vcxproj">
+      <Project>{72F2BDAD-4A90-3F9A-9861-651E72A4400A}</Project>
+      <Name>cubeb</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\demangle.vcxproj">
+      <Project>{177D64BA-81AB-3CC2-AC2C-F38684BD3384}</Project>
+      <Name>demangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\dynarmic\src\dynarmic\dynarmic.vcxproj">
+      <Project>{B541D955-8874-3307-8D56-CAFFB9E0256D}</Project>
+      <Name>dynarmic</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\enet\enet.vcxproj">
+      <Project>{398A6660-A291-3A71-9F43-D1F378B5F274}</Project>
+      <Name>enet</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\glad\glad.vcxproj">
+      <Project>{89826F8E-3170-3945-A080-DB254DAE911B}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\src\video_core\host_shaders\host_shaders.vcxproj">
+      <Project>{D95A88D7-E0A6-36A6-9F65-EB871EEEBEDD}</Project>
+      <Name>host_shaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\mbedcrypto.vcxproj">
+      <Project>{5686E016-8B47-3559-8F62-5D71BA8B2E81}</Project>
+      <Name>mbedcrypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\mbedtls.vcxproj">
+      <Project>{FB032D93-05CD-3C5A-BC7E-CCE2EE47A98A}</Project>
+      <Name>mbedtls</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\mbedtls\library\mbedx509.vcxproj">
+      <Project>{3F0CC2E8-6CBE-3298-819C-F3AF533D6CD5}</Project>
+      <Name>mbedx509</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\dynarmic\externals\mcl\src\mcl.vcxproj">
+      <Project>{53D31EC0-0C42-325A-A521-620CA5439A48}</Project>
+      <Name>mcl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\src\network\network.vcxproj">
+      <Project>{98D30B26-AB4D-3746-A248-BB48DAC5C6B2}</Project>
+      <Name>network</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\nx_tzdb.vcxproj">
+      <Project>{507665B0-4E9B-31E8-A802-2025E9A5EB86}</Project>
+      <Name>nx_tzdb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\opus\opus.vcxproj">
+      <Project>{61044A3C-18E8-3C25-B3F0-FA6BFBAB412F}</Project>
+      <Name>opus</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\src\shader_recompiler\shader_recompiler.vcxproj">
+      <Project>{726D7C51-B542-3BFE-B043-FE3F6370735E}</Project>
+      <Name>shader_recompiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\sirit\src\sirit.vcxproj">
+      <Project>{01F32683-09E8-38A4-BCCB-95EDFC4D0B14}</Project>
+      <Name>sirit</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\cubeb\speex.vcxproj">
+      <Project>{424890CB-71E7-3616-AE2B-7F39F32B5BAF}</Project>
+      <Name>speex</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\stb.vcxproj">
+      <Project>{DF3BFA6F-2E98-3BD4-B5A4-CB6B86D451D3}</Project>
+      <Name>stb</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\tz.vcxproj">
+      <Project>{5B2C71F2-9D64-3F6C-8EE9-7E5E89109D31}</Project>
+      <Name>tz</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

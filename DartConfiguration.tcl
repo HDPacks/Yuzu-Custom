@@ -5,7 +5,7 @@
 
 # Configuration directories and files
 SourceDirectory: C:/Users/curti/yuzu
-BuildDirectory: F:/custom-build/Yuzu-1662
+BuildDirectory: F:/custom-build/Yuzu-1703
 
 # Where to place the cost data store
 CostDataFile: 

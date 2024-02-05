@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\mocs_compilation_Debug.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\CMakeFiles\yuzu.dir\cmake_pch.cxx">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\CMakeFiles\yuzu.dir\cmake_pch.cxx">
       <Filter>Other Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\about_dialog.cpp" />
@@ -86,6 +86,9 @@
       <Filter>configuration</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_profile_dialog.cpp">
+      <Filter>configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_linux_tab.cpp">
       <Filter>configuration</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_mouse_panning.cpp">
@@ -211,40 +214,40 @@
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\vk_device_info.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\yuzu\compatdb.cpp" />
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\EWIEGA46WW\qrc_yuzu.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\EWIEGA46WW\qrc_yuzu.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\IEX2ANJCOF\qrc_compatibility_list.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\IEX2ANJCOF\qrc_compatibility_list.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\JQYOR47KWS\qrc_controller.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\JQYOR47KWS\qrc_controller.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\FPLSJTADT4\qrc_overlay.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\FPLSJTADT4\qrc_overlay.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\JJST62K4FD\qrc_style.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\JJST62K4FD\qrc_style.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\QWG25RC7ZP\qrc_style.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\QWG25RC7ZP\qrc_style.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\4OYJP4GYF3\qrc_style.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\4OYJP4GYF3\qrc_style.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\L6763PLDTS\qrc_default.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\L6763PLDTS\qrc_default.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\FCKMUTAFBG\qrc_style.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\FCKMUTAFBG\qrc_style.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\3JV3SOUGRX\qrc_style.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\3JV3SOUGRX\qrc_style.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\37D3MJFPTG\qrc_style.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\37D3MJFPTG\qrc_style.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\mocs_compilation_Release.cpp">
       <Filter>Other Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -331,6 +334,9 @@
       <Filter>configuration</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_profile_dialog.h">
+      <Filter>configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_linux_tab.h">
       <Filter>configuration</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_mouse_panning.h">
@@ -468,324 +474,330 @@
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\vk_device_info.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\yuzu\compatdb.h" />
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\CMakeFiles\yuzu.dir\Debug\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\CMakeFiles\yuzu.dir\Debug\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\CMakeFiles\yuzu.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\CMakeFiles\yuzu.dir\Release\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\ui_aboutdialog.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\ui_aboutdialog.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\applets\ui_qt_amiibo_settings.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\applets\ui_qt_amiibo_settings.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\applets\ui_qt_controller.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\applets\ui_qt_controller.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\applets\ui_qt_software_keyboard.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\applets\ui_qt_software_keyboard.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\ui_compatdb.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\ui_compatdb.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_audio.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_audio.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_camera.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_camera.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_cpu.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_cpu.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_cpu_debug.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_cpu_debug.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_debug.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_debug.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_debug_controller.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_debug_controller.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_debug_tab.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_debug_tab.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_filesystem.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_filesystem.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_general.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_general.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_graphics.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_graphics.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_graphics_advanced.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_graphics_advanced.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_hotkeys.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_hotkeys.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_advanced.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_advanced.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_per_game.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_per_game.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_player.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_player.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_profile_dialog.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_input_profile_dialog.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_mouse_panning.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_linux_tab.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_motion_touch.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_mouse_panning.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_per_game.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_motion_touch.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_per_game_addons.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_per_game.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_profile_manager.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_per_game_addons.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_ringcon.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_profile_manager.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_network.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_ringcon.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_system.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_network.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_tas.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_system.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_touch_from_button.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_tas.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_touchscreen_advanced.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_touch_from_button.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_ui.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_touchscreen_advanced.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_vibration.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_ui.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_web.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_vibration.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\ui_loading_screen.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\configuration\ui_configure_web.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\ui_main.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\ui_loading_screen.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_chat_room.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\ui_main.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_client_room.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_chat_room.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_direct_connect.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_client_room.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_host_room.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_direct_connect.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_lobby.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_host_room.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_moderation_dialog.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_lobby.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Debug\util\ui_overlay_dialog.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\multiplayer\ui_moderation_dialog.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\ui_aboutdialog.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Debug\util\ui_overlay_dialog.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\applets\ui_qt_amiibo_settings.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\ui_aboutdialog.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\applets\ui_qt_controller.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\applets\ui_qt_amiibo_settings.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\applets\ui_qt_software_keyboard.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\applets\ui_qt_controller.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\ui_compatdb.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\applets\ui_qt_software_keyboard.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\ui_compatdb.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_audio.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_camera.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_audio.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_cpu.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_camera.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_cpu_debug.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_cpu.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_debug.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_cpu_debug.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_debug_controller.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_debug.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_debug_tab.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_debug_controller.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_filesystem.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_debug_tab.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_general.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_filesystem.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_graphics.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_general.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_graphics_advanced.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_graphics.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_hotkeys.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_graphics_advanced.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_hotkeys.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_advanced.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_per_game.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_advanced.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_player.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_per_game.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_profile_dialog.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_player.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_mouse_panning.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_input_profile_dialog.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_motion_touch.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_linux_tab.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_per_game.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_mouse_panning.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_per_game_addons.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_motion_touch.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_profile_manager.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_per_game.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_ringcon.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_per_game_addons.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_network.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_profile_manager.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_system.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_ringcon.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_tas.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_network.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_touch_from_button.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_system.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_touchscreen_advanced.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_tas.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_ui.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_touch_from_button.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_vibration.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_touchscreen_advanced.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_web.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_ui.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\ui_loading_screen.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_vibration.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\ui_main.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\configuration\ui_configure_web.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_chat_room.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\ui_loading_screen.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_client_room.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\ui_main.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_direct_connect.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_chat_room.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_host_room.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_client_room.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_lobby.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_direct_connect.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_moderation_dialog.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_host_room.h">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\include_Release\util\ui_overlay_dialog.h">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_lobby.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\multiplayer\ui_moderation_dialog.h">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\include_Release\util\ui_overlay_dialog.h">
       <Filter>Other Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\c90f9ee58c09cba024483f162c16069c\autouic_(CONFIG).stamp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\b123cafff057bf3c685252fb9e45ab8b\autouic_(CONFIG).stamp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\43ccc6f82db345dd5e3b0c0d540fab5c\qrc_yuzu.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\f7ed1ed92c64720375bd5ede91ca4fdb\qrc_yuzu.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\fda64cdacf9c6eac53bb1a83ce73079e\qrc_compatibility_list.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\620a1c4e968c8a31b18857022ee1a520\qrc_compatibility_list.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\17c5810aba96a08fe73b7db7912c48a0\qrc_controller.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\80f5bcd8ee3e4c644cc4b85110b5d0b9\qrc_controller.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\ed6ff82546912514116cb5297f4032ca\qrc_overlay.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\bdb26ea16f08558571fda63914665645\qrc_overlay.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\0885962d65860b00d03e2c55f65071df\qrc_style.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\befcea1063f6caf8afc571f95c44d8ca\qrc_style.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\d1396b316b34c90e089ce15fab9ce9cb\qrc_style.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\0932fb406e1fbb02a3a97da3d07bf810\qrc_style.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\95dabfb1f5d497dcc951da46b8dc5045\qrc_style.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\46610d9634c2ee1b7daa530294591343\qrc_style.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\7f2da13cfa5f6936c7528dcc64888153\qrc_default.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\c9e67ceb43fca6ccd0341500d99fd192\qrc_default.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\ad382c5d2f4ada3811b359d980377038\qrc_style.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\ef72385071e192a427469a905626d7e2\qrc_style.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\33395e01dacad5fc1284fd0fa2582f30\qrc_style.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\cf5b8cd3e6afd1bd35d4ded3cf2d81fe\qrc_style.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\d0dd581a2c1632001789edf1cfde54a8\qrc_style.cpp.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\84ec04f4682cbf7f053107ccb371191a\qrc_style.cpp.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
     <CustomBuild Include="C:\Users\curti\yuzu\src\yuzu\CMakeLists.txt">
@@ -2073,6 +2085,9 @@
     <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_input_profile_dialog.ui">
       <Filter>configuration</Filter>
     </None>
+    <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_linux_tab.ui">
+      <Filter>configuration</Filter>
+    </None>
     <None Include="C:\Users\curti\yuzu\src\yuzu\configuration\configure_mouse_panning.ui">
       <Filter>configuration</Filter>
     </None>
@@ -2139,11 +2154,11 @@
       <Filter>util</Filter>
     </None>
     <None Include="C:\Users\curti\yuzu\src\yuzu\yuzu.qrc" />
-    <None Include="F:\custom-build\Yuzu-1662\dist\compatibility_list\compatibility_list.json">
-      <Filter>F:\custom-build\Yuzu-1662\dist\compatibility_list</Filter>
+    <None Include="F:\custom-build\Yuzu-1703\dist\compatibility_list\compatibility_list.json">
+      <Filter>F:\custom-build\Yuzu-1703\dist\compatibility_list</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\dist\compatibility_list\compatibility_list.qrc">
-      <Filter>F:\custom-build\Yuzu-1662\dist\compatibility_list</Filter>
+    <None Include="F:\custom-build\Yuzu-1703\dist\compatibility_list\compatibility_list.qrc">
+      <Filter>F:\custom-build\Yuzu-1703\dist\compatibility_list</Filter>
     </None>
     <None Include="C:\Users\curti\yuzu\dist\icons\controller\controller.qrc">
       <Filter>C:\Users\curti\yuzu\dist\icons\controller</Filter>
@@ -2211,10 +2226,10 @@
     <None Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\style.qss">
       <Filter>C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\autouic_Debug.stamp">
+    <None Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\autouic_Debug.stamp">
       <Filter>Other Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\src\yuzu\yuzu_autogen\autouic_Release.stamp">
+    <None Include="F:\custom-build\Yuzu-1703\src\yuzu\yuzu_autogen\autouic_Release.stamp">
       <Filter>Other Files</Filter>
     </None>
   </ItemGroup>
@@ -2223,145 +2238,145 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="C:">
-      <UniqueIdentifier>{069AB02D-EA1F-3065-9D0C-7A26D3315ADE}</UniqueIdentifier>
+      <UniqueIdentifier>{8C58D7EE-54C8-3D0A-A9B1-0BEF00C93478}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users">
-      <UniqueIdentifier>{C78C7351-3350-3EBE-A969-ABCA729F19DE}</UniqueIdentifier>
+      <UniqueIdentifier>{63C5286E-B93C-36CC-996D-13D9C6F5C10F}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti">
-      <UniqueIdentifier>{8E4E6552-607E-348E-BCD4-EC6197A9E1A4}</UniqueIdentifier>
+      <UniqueIdentifier>{2A736F68-3B9F-3744-BD3F-6AE0B55A6E80}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu">
-      <UniqueIdentifier>{86DCA0E5-BA39-3725-9A58-6C6CFB5F2E62}</UniqueIdentifier>
+      <UniqueIdentifier>{4972967F-B32C-3C8F-A573-F501EE3795B6}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist">
-      <UniqueIdentifier>{B8A0448C-0A68-3588-A5CF-BDAF6A8365AC}</UniqueIdentifier>
+      <UniqueIdentifier>{0093ADE0-9D4C-3646-B8B5-7D5C4E15B31D}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\icons">
-      <UniqueIdentifier>{5574B982-C40B-398B-86D8-EE1DAF42532D}</UniqueIdentifier>
+      <UniqueIdentifier>{1FDFDAAC-40FD-3110-BCCF-3BAA89117AE4}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\icons\controller">
-      <UniqueIdentifier>{F5CDAA8E-9C4B-3640-84A2-90A3C9FF92D7}</UniqueIdentifier>
+      <UniqueIdentifier>{3EA6FDCC-E9FA-33A6-9593-ED2CB8B93DF9}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\icons\overlay">
-      <UniqueIdentifier>{C79AB15B-E02A-3AE5-8B4B-EB5F01505C35}</UniqueIdentifier>
+      <UniqueIdentifier>{927883BF-3155-3B6B-8A7F-35FD024A3808}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes">
-      <UniqueIdentifier>{3B06E1F7-C3AE-3BF4-8584-7D2B24760693}</UniqueIdentifier>
+      <UniqueIdentifier>{C60FB36E-D00E-36B3-8697-9F24B4F812AE}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful">
-      <UniqueIdentifier>{CB4ABD0A-3521-3E89-A8A9-480C32FD2351}</UniqueIdentifier>
+      <UniqueIdentifier>{5F65237F-FC04-3279-9742-4C0778D375DE}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons">
-      <UniqueIdentifier>{044BE623-58C7-3A22-B417-21BA0A07D116}</UniqueIdentifier>
+      <UniqueIdentifier>{D5AE0111-A4DB-31E0-915B-444E7D5FE6ED}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\16x16">
-      <UniqueIdentifier>{B00427C9-6F55-3021-8E47-7ABF12194D83}</UniqueIdentifier>
+      <UniqueIdentifier>{1DBDB863-62CD-325E-B53F-30352DFBB6DE}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\256x256">
-      <UniqueIdentifier>{A0A7E40C-C49D-3F96-A75E-EFBB332BE8D0}</UniqueIdentifier>
+      <UniqueIdentifier>{F6746E8A-6DB8-3CF3-980F-C5D412572180}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful\icons\48x48">
-      <UniqueIdentifier>{C99A9F55-0A92-3292-9CDC-257D24C6F55A}</UniqueIdentifier>
+      <UniqueIdentifier>{28BC9B83-BC3C-3032-91B1-E9E0312E6E06}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark">
-      <UniqueIdentifier>{B2B83BDF-AE4A-3C23-9B1F-CB1D3693C612}</UniqueIdentifier>
+      <UniqueIdentifier>{46F8795D-E2F5-3833-92F4-2326B032A493}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons">
-      <UniqueIdentifier>{9F35DC2C-B430-333A-B02E-FC51A684BFD2}</UniqueIdentifier>
+      <UniqueIdentifier>{60E0D4C8-3B5D-3873-A868-AC4BACA45609}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_dark\icons\16x16">
-      <UniqueIdentifier>{8F9B2CFF-9458-3C95-9BC0-334CD6D136E0}</UniqueIdentifier>
+      <UniqueIdentifier>{8DE9B2EA-127D-3E67-8AD0-D659CAA8BF71}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_midnight_blue">
-      <UniqueIdentifier>{B1CC7659-9457-3F2A-81EF-81BDA82E6CC6}</UniqueIdentifier>
+      <UniqueIdentifier>{7512A4A1-0AB0-3EEE-926B-4283DA7F78A4}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\colorful_midnight_blue\icons">
-      <UniqueIdentifier>{9B2F3E3F-E4C0-3193-B9B7-604A65A4AB95}</UniqueIdentifier>
+      <UniqueIdentifier>{C960D961-544F-348B-B643-6C6657A8DC37}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default">
-      <UniqueIdentifier>{FBF081C7-C797-3AF4-B18C-9D012D3D8023}</UniqueIdentifier>
+      <UniqueIdentifier>{22E1BF4A-005F-3E55-9DD3-A3F01486FE42}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons">
-      <UniqueIdentifier>{A03837F0-8E68-3592-B160-D0CCF440B349}</UniqueIdentifier>
+      <UniqueIdentifier>{ABB59678-A7F7-3F35-8A3D-D7E2BE5441D4}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\16x16">
-      <UniqueIdentifier>{2E5252AD-9E56-3E24-9257-675653609466}</UniqueIdentifier>
+      <UniqueIdentifier>{BEF222F5-8182-39AE-82EC-1E9E53CD0BDE}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\256x256">
-      <UniqueIdentifier>{C40434CF-98F0-30A2-B467-0F71470627BD}</UniqueIdentifier>
+      <UniqueIdentifier>{251B9A0E-C9A1-3BDC-AB64-7D8258787B9C}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default\icons\48x48">
-      <UniqueIdentifier>{63630BC6-C5F0-3CA9-BD48-67E6D46E2FF9}</UniqueIdentifier>
+      <UniqueIdentifier>{30010C74-B164-3198-A813-93091FB4F84E}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default_dark">
-      <UniqueIdentifier>{A0FD809A-6A19-3B09-B67B-B50EED2E5217}</UniqueIdentifier>
+      <UniqueIdentifier>{EB22CD72-A596-308F-9533-47BC3FB60634}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\default_dark\icons">
-      <UniqueIdentifier>{EF59CBCC-7382-3432-B07F-65ABF3AF687F}</UniqueIdentifier>
+      <UniqueIdentifier>{CBE30AE3-B75D-3408-9BB7-4251B1F1FA39}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle">
-      <UniqueIdentifier>{E2A7579D-1040-3FD0-8933-9334520C85FE}</UniqueIdentifier>
+      <UniqueIdentifier>{6B759EBD-2741-35AB-A59C-5C1C49E4A427}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons">
-      <UniqueIdentifier>{98473BC4-6B3B-3D3D-9AF5-7A4D42A096A9}</UniqueIdentifier>
+      <UniqueIdentifier>{AEB19555-D46E-366A-A5AE-4FC942317517}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\16x16">
-      <UniqueIdentifier>{A80D290B-41F5-3F92-97CE-1913D5BEC7A9}</UniqueIdentifier>
+      <UniqueIdentifier>{5F7B75BC-3015-3E95-A742-AF9AD0EC99F8}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\256x256">
-      <UniqueIdentifier>{C4AB2346-E501-3F5D-A38C-ADBA692C3BB1}</UniqueIdentifier>
+      <UniqueIdentifier>{A1618114-0D65-3BEE-BFDF-B4124E194F02}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\icons\48x48">
-      <UniqueIdentifier>{93981587-394A-3646-88A6-FD77E0A8289D}</UniqueIdentifier>
+      <UniqueIdentifier>{6E703C1C-32BF-32EA-AE9B-837F93DBB185}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle\rc">
-      <UniqueIdentifier>{0FE15988-6361-3AED-8D73-C5E3F8869582}</UniqueIdentifier>
+      <UniqueIdentifier>{D458407C-23C7-357A-9D42-A0E340E5CEA9}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue">
-      <UniqueIdentifier>{F385EB3C-5886-3105-ADBF-CFAB8C6193EF}</UniqueIdentifier>
+      <UniqueIdentifier>{ED600655-71FC-3100-B776-656DE0006DD6}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\icons">
-      <UniqueIdentifier>{B09E7B83-CC29-3168-BED7-7AFD03D5ABB5}</UniqueIdentifier>
+      <UniqueIdentifier>{B08BFCF3-938E-3E7C-9BD3-5DDDF5C2B09A}</UniqueIdentifier>
     </Filter>
     <Filter Include="C:\Users\curti\yuzu\dist\qt_themes\qdarkstyle_midnight_blue\rc">
-      <UniqueIdentifier>{490E6B0C-4B76-3584-A0E2-7DDE5853123F}</UniqueIdentifier>
+      <UniqueIdentifier>{7E722CAB-F766-3C84-932F-8B84E2C9047C}</UniqueIdentifier>
     </Filter>
     <Filter Include="F:">
-      <UniqueIdentifier>{D0585245-4006-353A-80FA-2C8857FA0A92}</UniqueIdentifier>
+      <UniqueIdentifier>{8F7662BE-82B9-3E1C-A954-D84223BB867E}</UniqueIdentifier>
     </Filter>
     <Filter Include="F:\custom-build">
-      <UniqueIdentifier>{79DAA7FA-D8A6-3157-9E35-62067667ED22}</UniqueIdentifier>
+      <UniqueIdentifier>{DCFCD256-C3C1-3368-B5ED-70053119B98F}</UniqueIdentifier>
     </Filter>
-    <Filter Include="F:\custom-build\Yuzu-1662">
-      <UniqueIdentifier>{E3155506-7007-314B-814D-F9805C50676C}</UniqueIdentifier>
+    <Filter Include="F:\custom-build\Yuzu-1703">
+      <UniqueIdentifier>{823DEB36-5E5A-331A-9DE8-AF69041E355B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="F:\custom-build\Yuzu-1662\dist">
-      <UniqueIdentifier>{FAC93C9D-EF8B-359B-9A99-22DCAC9D9D52}</UniqueIdentifier>
+    <Filter Include="F:\custom-build\Yuzu-1703\dist">
+      <UniqueIdentifier>{94028D44-D1AA-3B14-B7A2-02305D8527D5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="F:\custom-build\Yuzu-1662\dist\compatibility_list">
-      <UniqueIdentifier>{650A8B09-248D-37E0-9E90-E44E2E0A9CBA}</UniqueIdentifier>
+    <Filter Include="F:\custom-build\Yuzu-1703\dist\compatibility_list">
+      <UniqueIdentifier>{3E9D01B9-84EB-3706-B788-F9507A78B9D2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
     <Filter Include="applets">
-      <UniqueIdentifier>{40413017-F48E-3005-9521-39E03B8A36D8}</UniqueIdentifier>
+      <UniqueIdentifier>{6E52271C-D9FB-3D0A-9C95-0506AFBA503F}</UniqueIdentifier>
     </Filter>
     <Filter Include="configuration">
-      <UniqueIdentifier>{D702F07E-8D31-30CE-9AB7-651EC10A6D7C}</UniqueIdentifier>
+      <UniqueIdentifier>{8C2DD009-237A-3050-81FE-B653FF00703D}</UniqueIdentifier>
     </Filter>
     <Filter Include="debugger">
-      <UniqueIdentifier>{16E6E63E-1F2C-3F5B-9A4E-7F3DD6122571}</UniqueIdentifier>
+      <UniqueIdentifier>{A8FC9C11-89DA-3469-84A1-F48E8C187712}</UniqueIdentifier>
     </Filter>
     <Filter Include="multiplayer">
-      <UniqueIdentifier>{A37D5D42-0F45-3681-B99B-2DAFA4CB9B68}</UniqueIdentifier>
+      <UniqueIdentifier>{7796FF2E-031F-3679-938D-0EE5E843EC7B}</UniqueIdentifier>
     </Filter>
     <Filter Include="util">
-      <UniqueIdentifier>{178D04A0-46A4-3D38-A344-B5D24A200348}</UniqueIdentifier>
+      <UniqueIdentifier>{CA31AF31-4A1B-3022-853E-D38C04FFA181}</UniqueIdentifier>
     </Filter>
     <Filter Include="util\sequence_dialog">
-      <UniqueIdentifier>{D8180CD4-029F-382D-86C7-B90CAD131FEB}</UniqueIdentifier>
+      <UniqueIdentifier>{ABDACD7E-1ECE-3CDA-B751-CCD97CF674BF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

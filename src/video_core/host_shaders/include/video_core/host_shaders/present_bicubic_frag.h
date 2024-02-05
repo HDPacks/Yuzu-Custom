@@ -13,22 +13,12 @@ R"(// SPDX-FileCopyrightText: Copyright 2021 yuzu Emulator Project
 )" R"(
 )" R"(#version 460 core
 )" R"(
-)" R"(#ifdef VULKAN
-)" R"(
-)" R"(#define BINDING_COLOR_TEXTURE 1
-)" R"(
-)" R"(#else // ^^^ Vulkan ^^^ // vvv OpenGL vvv
-)" R"(
-)" R"(#define BINDING_COLOR_TEXTURE 0
-)" R"(
-)" R"(#endif
-)" R"(
 )" R"(
 )" R"(layout (location = 0) in vec2 frag_tex_coord;
 )" R"(
 )" R"(layout (location = 0) out vec4 color;
 )" R"(
-)" R"(layout (binding = BINDING_COLOR_TEXTURE) uniform sampler2D color_texture;
+)" R"(layout (binding = 0) uniform sampler2D color_texture;
 )" R"(
 )" R"(vec4 cubic(float v) {
 )" R"(    vec4 n = vec4(1.0, 2.0, 3.0, 4.0) - v;

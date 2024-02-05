@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\36ed5234f91fdbd94fd3c75cefb97c50\INSTALL_force.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\899f5f04ad0a3f825eb26412d2d7aa6a\INSTALL_force.rule">
       <Filter>Other Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

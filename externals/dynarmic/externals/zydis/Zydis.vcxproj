@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A01DDB7C-3151-3554-A907-BB69EAACA275}</ProjectGuid>
+    <ProjectGuid>{5A1ABF7C-8DAF-3D00-8152-C1862E0C93A7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <VcpkgEnabled>false</VcpkgEnabled>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
@@ -42,18 +42,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Zydis.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Zydis</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Zydis.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Zydis</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -67,13 +67,14 @@
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ZYDIS_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;ZYCORE_STATIC_BUILD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ZYDIS_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;ZYCORE_STATIC_BUILD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +87,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4201</DisableSpecificWarnings>
       <ExceptionHandling>
@@ -100,13 +101,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ZYDIS_STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;ARCHITECTURE_x86_64=1;BOOST_ASIO_DISABLE_CONCEPTS;_HAS_DEPRECATED_RESULT_OF;_WIN32_WINNT=0x0A00;WINVER=0x0A00;ZYCORE_STATIC_BUILD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src;C:\Users\curti\yuzu\externals\dynarmic\externals\zycore\include;F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\zycore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,7 +124,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/curti/yuzu/externals/dynarmic/externals/zydis/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/externals/dynarmic/externals/zydis/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/externals/dynarmic/externals/zydis/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,12 +132,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\cmake\zydis-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\cmake\zydis-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/curti/yuzu/externals/dynarmic/externals/zydis/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1662 --check-stamp-file F:/custom-build/Yuzu-1662/externals/dynarmic/externals/zydis/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curti/yuzu -BF:/custom-build/Yuzu-1703 --check-stamp-file F:/custom-build/Yuzu-1703/externals/dynarmic/externals/zydis/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,8 +145,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\cmake\zydis-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\cmake\zydis-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -192,14 +194,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\curti\yuzu\externals\dynarmic\externals\zydis\src\FormatterIntel.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\ZERO_CHECK.vcxproj">
-      <Project>{FDE67142-5329-3EF2-8FDA-CA87BF889FCF}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\ZERO_CHECK.vcxproj">
+      <Project>{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="F:\custom-build\Yuzu-1662\externals\dynarmic\externals\zydis\zycore\Zycore.vcxproj">
-      <Project>{85430FCC-353C-3234-B481-BC7533FF6729}</Project>
+    <ProjectReference Include="F:\custom-build\Yuzu-1703\externals\dynarmic\externals\zydis\zycore\Zycore.vcxproj">
+      <Project>{2A2812E2-22C7-3686-AA10-A8FBA9231DD4}</Project>
       <Name>Zycore</Name>
     </ProjectReference>
   </ItemGroup>

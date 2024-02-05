@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\hid_core\CMakeFiles\hid_core.dir\cmake_pch.cxx">
+      <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_console.cpp">
+      <Filter>frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_controller.cpp">
+      <Filter>frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_devices.cpp">
+      <Filter>frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\input_converter.cpp">
+      <Filter>frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\input_interpreter.cpp">
+      <Filter>frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\frontend\motion_input.cpp">
+      <Filter>frontend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hidbus\hidbus_base.cpp">
+      <Filter>hidbus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hidbus\ringcon.cpp">
+      <Filter>hidbus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hidbus\starlink.cpp">
+      <Filter>hidbus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hidbus\stubbed.cpp">
+      <Filter>hidbus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\clustering_processor.cpp">
+      <Filter>irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\image_transfer_processor.cpp">
+      <Filter>irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\ir_led_processor.cpp">
+      <Filter>irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\moment_processor.cpp">
+      <Filter>irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\pointing_processor.cpp">
+      <Filter>irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\processor_base.cpp">
+      <Filter>irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\irsensor\tera_plugin_processor.cpp">
+      <Filter>irsensor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_battery_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_button_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_ir_sensor_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_led_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_mcu_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_nfc_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_pad.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_pad_holder.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_palma_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_properties_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_sixaxis_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_vibration_handler.cpp">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\debug_pad\debug_pad.cpp">
+      <Filter>resources\debug_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\digitizer\digitizer.cpp">
+      <Filter>resources\digitizer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\keyboard\keyboard.cpp">
+      <Filter>resources\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\debug_mouse.cpp">
+      <Filter>resources\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\mouse.cpp">
+      <Filter>resources\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad.cpp">
+      <Filter>resources\npad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_data.cpp">
+      <Filter>resources\npad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_resource.cpp">
+      <Filter>resources\npad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_vibration.cpp">
+      <Filter>resources\npad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\palma\palma.cpp">
+      <Filter>resources\palma</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\console_six_axis.cpp">
+      <Filter>resources\six_axis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\seven_six_axis.cpp">
+      <Filter>resources\six_axis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\six_axis.cpp">
+      <Filter>resources\six_axis</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\capture_button.cpp">
+      <Filter>resources\system_buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\home_button.cpp">
+      <Filter>resources\system_buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\sleep_button.cpp">
+      <Filter>resources\system_buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\gesture.cpp">
+      <Filter>resources\touch_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\gesture_handler.cpp">
+      <Filter>resources\touch_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen.cpp">
+      <Filter>resources\touch_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen_driver.cpp">
+      <Filter>resources\touch_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen_resource.cpp">
+      <Filter>resources\touch_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\unique_pad\unique_pad.cpp">
+      <Filter>resources\unique_pad</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\gc_vibration_device.cpp">
+      <Filter>resources\vibration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\n64_vibration_device.cpp">
+      <Filter>resources\vibration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\vibration_base.cpp">
+      <Filter>resources\vibration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\vibration_device.cpp">
+      <Filter>resources\vibration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\applet_resource.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\controller_base.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\hid_firmware_settings.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resources\shared_memory_holder.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\hid_core.cpp" />
+    <ClCompile Include="C:\Users\curti\yuzu\src\hid_core\resource_manager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_console.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_controller.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\emulated_devices.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\input_converter.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\input_interpreter.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\frontend\motion_input.h">
+      <Filter>frontend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hidbus\hidbus_base.h">
+      <Filter>hidbus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hidbus\ringcon.h">
+      <Filter>hidbus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hidbus\starlink.h">
+      <Filter>hidbus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hidbus\stubbed.h">
+      <Filter>hidbus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\clustering_processor.h">
+      <Filter>irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\image_transfer_processor.h">
+      <Filter>irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\ir_led_processor.h">
+      <Filter>irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\moment_processor.h">
+      <Filter>irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\pointing_processor.h">
+      <Filter>irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\processor_base.h">
+      <Filter>irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\irsensor\tera_plugin_processor.h">
+      <Filter>irsensor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_battery_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_button_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_ir_sensor_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_led_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_mcu_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_nfc_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_pad.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_pad_holder.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_palma_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_properties_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_sixaxis_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\abstracted_pad\abstract_vibration_handler.h">
+      <Filter>resources\abstracted_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\debug_pad\debug_pad.h">
+      <Filter>resources\debug_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\debug_pad\debug_pad_types.h">
+      <Filter>resources\debug_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\digitizer\digitizer.h">
+      <Filter>resources\digitizer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\keyboard\keyboard.h">
+      <Filter>resources\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\keyboard\keyboard_types.h">
+      <Filter>resources\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\debug_mouse.h">
+      <Filter>resources\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\mouse.h">
+      <Filter>resources\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\mouse\mouse_types.h">
+      <Filter>resources\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad.h">
+      <Filter>resources\npad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_data.h">
+      <Filter>resources\npad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_resource.h">
+      <Filter>resources\npad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_types.h">
+      <Filter>resources\npad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\npad\npad_vibration.h">
+      <Filter>resources\npad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\palma\palma.h">
+      <Filter>resources\palma</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\console_six_axis.h">
+      <Filter>resources\six_axis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\seven_six_axis.h">
+      <Filter>resources\six_axis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\six_axis\six_axis.h">
+      <Filter>resources\six_axis</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\capture_button.h">
+      <Filter>resources\system_buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\home_button.h">
+      <Filter>resources\system_buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\sleep_button.h">
+      <Filter>resources\system_buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\system_buttons\system_button_types.h">
+      <Filter>resources\system_buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\gesture.h">
+      <Filter>resources\touch_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\gesture_handler.h">
+      <Filter>resources\touch_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen.h">
+      <Filter>resources\touch_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen_driver.h">
+      <Filter>resources\touch_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_screen_resource.h">
+      <Filter>resources\touch_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\touch_screen\touch_types.h">
+      <Filter>resources\touch_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\unique_pad\unique_pad.h">
+      <Filter>resources\unique_pad</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\gc_vibration_device.h">
+      <Filter>resources\vibration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\n64_vibration_device.h">
+      <Filter>resources\vibration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\vibration_base.h">
+      <Filter>resources\vibration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\vibration\vibration_device.h">
+      <Filter>resources\vibration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\applet_resource.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\controller_base.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\hid_firmware_settings.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\irs_ring_lifo.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\ring_lifo.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\shared_memory_format.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resources\shared_memory_holder.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hid_core.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hid_result.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hid_types.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\hid_util.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\precompiled_headers.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\hid_core\resource_manager.h" />
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\hid_core\CMakeFiles\hid_core.dir\Debug\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\hid_core\CMakeFiles\hid_core.dir\Release\cmake_pch.hxx">
+      <Filter>Other Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\curti\yuzu\src\hid_core\CMakeLists.txt">
+      <Filter>Other Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Other Files">
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frontend">
+      <UniqueIdentifier>{9E64F4F0-FF35-3664-8744-F5AF5FB85158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hidbus">
+      <UniqueIdentifier>{55252551-B977-3CEA-80AC-17D9ED4E1E3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="irsensor">
+      <UniqueIdentifier>{3E9BE81D-388D-3D0B-B954-764D20B96E32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{F4EEFA6C-4EEA-3349-9A19-699308848B0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\abstracted_pad">
+      <UniqueIdentifier>{C6D43A8F-2093-335E-B0A7-955F92B776E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\debug_pad">
+      <UniqueIdentifier>{018682DC-2A7E-3B4D-83AD-C7FA40C8D3A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\digitizer">
+      <UniqueIdentifier>{9FEBD64E-86F0-3926-A504-F51A8C0C65C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\keyboard">
+      <UniqueIdentifier>{D0DE7F8F-590B-3542-BB54-7E21D594F227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\mouse">
+      <UniqueIdentifier>{EA153D37-77F6-3C6D-9DA1-F3C31CD9B026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\npad">
+      <UniqueIdentifier>{BB7CE358-A7B2-3E7D-8B91-AD507F683D1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\palma">
+      <UniqueIdentifier>{DE1C658F-F2CC-35B1-943C-2673E38408AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\six_axis">
+      <UniqueIdentifier>{AC3AAC39-2D7A-36B4-A7BC-93A8CFE6B672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\system_buttons">
+      <UniqueIdentifier>{D5EC0854-ED13-3086-A855-E9A3C691FDE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\touch_screen">
+      <UniqueIdentifier>{8275BDFA-74B5-3754-8874-D212FCAD40D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\unique_pad">
+      <UniqueIdentifier>{2578D353-66F3-34D7-B4B8-CBE437B65067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\vibration">
+      <UniqueIdentifier>{77BE040E-5983-3F61-8782-D8870E7D267D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

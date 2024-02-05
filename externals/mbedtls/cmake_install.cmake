@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/custom-build/Yuzu-1662/externals/mbedtls/library/cmake_install.cmake")
-  include("F:/custom-build/Yuzu-1662/externals/mbedtls/include/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/externals/mbedtls/library/cmake_install.cmake")
+  include("F:/custom-build/Yuzu-1703/externals/mbedtls/include/cmake_install.cmake")
 
 endif()
 

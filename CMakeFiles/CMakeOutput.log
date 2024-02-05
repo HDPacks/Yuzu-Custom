@@ -7,9 +7,9 @@ Id flags:
 The output was:
 0
 MSBuild version 17.8.3+195e7f5a3 for .NET Framework
-Build started 2023-12-25 9:32:54 PM.
+Build started 2024-02-05 2:30:33 AM.
 
-Project "F:\custom-build\Yuzu-1662\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Project "F:\custom-build\Yuzu-1703\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -22,7 +22,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.exe
+  CompilerIdC.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -30,20 +30,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "F:\custom-build\Yuzu-1662\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "F:\custom-build\Yuzu-1703\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.95
+Time Elapsed 00:00:00.80
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "F:/custom-build/Yuzu-1662/CMakeFiles/3.25.1/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "F:/custom-build/Yuzu-1703/CMakeFiles/3.25.1/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -53,9 +53,9 @@ Id flags:
 The output was:
 0
 MSBuild version 17.8.3+195e7f5a3 for .NET Framework
-Build started 2023-12-25 9:32:55 PM.
+Build started 2024-02-05 2:30:34 AM.
 
-Project "F:\custom-build\Yuzu-1662\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Project "F:\custom-build\Yuzu-1703\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -68,7 +68,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -76,57 +76,57 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "F:\custom-build\Yuzu-1662\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "F:\custom-build\Yuzu-1703\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.55
+Time Elapsed 00:00:00.49
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "F:/custom-build/Yuzu-1662/CMakeFiles/3.25.1/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "F:/custom-build/Yuzu-1703/CMakeFiles/3.25.1/CompilerIdCXX/CompilerIdCXX.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-no72xt
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-2lrjxc
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_496e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0c5e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_496e4.dir\Debug\\" /Fd"cmTC_496e4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c5e0.dir\Debug\\" /Fd"cmTC_0c5e0.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
   CMakeCCompilerABI.c
-  cmTC_496e4.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-no72xt\Debug\cmTC_496e4.exe
+  cmTC_0c5e0.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-2lrjxc\Debug\cmTC_0c5e0.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-60jelf
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-8gmswo
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0f8a1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_01007.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f8a1.dir\Debug\\" /Fd"cmTC_0f8a1.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01007.dir\Debug\\" /Fd"cmTC_01007.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
   CMakeCXXCompilerABI.cpp
-  cmTC_0f8a1.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-60jelf\Debug\cmTC_0f8a1.exe
+  cmTC_01007.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-8gmswo\Debug\cmTC_01007.exe
 
 
 
 Determining if the _M_AMD64 exist passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-i2yxcy
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-rgw8hn
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_faab7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_249c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_faab7.dir\Debug\\" /Fd"cmTC_faab7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-i2yxcy\CheckSymbolExists.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_249c6.dir\Debug\\" /Fd"cmTC_249c6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-rgw8hn\CheckSymbolExists.c"
   CheckSymbolExists.c
-  cmTC_faab7.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-i2yxcy\Debug\cmTC_faab7.exe
+  cmTC_249c6.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-rgw8hn\Debug\cmTC_249c6.exe
 
 
 File CheckSymbolExists.c:
@@ -374,67 +374,67 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 /options:strict unrecognized compiler options are an error
 
 Determining if files signal.h exist passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-plalqr
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-j1yaqa
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6c961.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d617e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c961.dir\Debug\\" /Fd"cmTC_6c961.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-plalqr\HAVE_SIGNAL_H.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d617e.dir\Debug\\" /Fd"cmTC_d617e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-j1yaqa\HAVE_SIGNAL_H.c"
   HAVE_SIGNAL_H.c
-  cmTC_6c961.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-plalqr\Debug\cmTC_6c961.exe
+  cmTC_d617e.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-j1yaqa\Debug\cmTC_d617e.exe
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-7t8ztt
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-mlkojr
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_71cfd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_02bcc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71cfd.dir\Debug\\" /Fd"cmTC_71cfd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-7t8ztt\CheckIncludeFile.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02bcc.dir\Debug\\" /Fd"cmTC_02bcc.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-mlkojr\CheckIncludeFile.c"
   CheckIncludeFile.c
-  cmTC_71cfd.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-7t8ztt\Debug\cmTC_71cfd.exe
+  cmTC_02bcc.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-mlkojr\Debug\cmTC_02bcc.exe
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-eei8tv
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-ln6nd6
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3aa91.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9e6a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3aa91.dir\Debug\\" /Fd"cmTC_3aa91.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-eei8tv\CheckIncludeFile.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e6a6.dir\Debug\\" /Fd"cmTC_9e6a6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-ln6nd6\CheckIncludeFile.c"
   CheckIncludeFile.c
-  cmTC_3aa91.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-eei8tv\Debug\cmTC_3aa91.exe
+  cmTC_9e6a6.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-ln6nd6\Debug\cmTC_9e6a6.exe
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-pb92nr
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-wxi5o2
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_81782.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_979fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81782.dir\Debug\\" /Fd"cmTC_81782.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pb92nr\CheckIncludeFile.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_979fc.dir\Debug\\" /Fd"cmTC_979fc.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-wxi5o2\CheckIncludeFile.c"
   CheckIncludeFile.c
-  cmTC_81782.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pb92nr\Debug\cmTC_81782.exe
+  cmTC_979fc.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-wxi5o2\Debug\cmTC_979fc.exe
 
 
 
 Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED succeeded with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-udojuv
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-429dge
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a9b50.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6e011.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9b50.dir\Debug\\" /Fd"cmTC_a9b50.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-udojuv\src.cxx"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e011.dir\Debug\\" /Fd"cmTC_6e011.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-429dge\src.cxx"
   src.cxx
-  cmTC_a9b50.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-udojuv\Debug\cmTC_a9b50.exe
+  cmTC_6e011.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-429dge\Debug\cmTC_6e011.exe
 
 
 Source file was:
@@ -442,41 +442,41 @@ __declspec(deprecated) int somefunc() { return 0; }
     int main() { return somefunc();}
 
 Determining if files audioclient.h exist passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-zp19tf
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-u0n1af
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5f044.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b019b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f044.dir\Debug\\" /Fd"cmTC_5f044.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-zp19tf\USE_WASAPI.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b019b.dir\Debug\\" /Fd"cmTC_b019b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-u0n1af\USE_WASAPI.c"
   USE_WASAPI.c
-  cmTC_5f044.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-zp19tf\Debug\cmTC_5f044.exe
+  cmTC_b019b.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-u0n1af\Debug\cmTC_b019b.exe
 
 
 
 Determining if files windows.h;mmsystem.h exist passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-gs1pax
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-86xl51
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_491c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fa76a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_491c6.dir\Debug\\" /Fd"cmTC_491c6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-gs1pax\USE_WINMM.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa76a.dir\Debug\\" /Fd"cmTC_fa76a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-86xl51\USE_WINMM.c"
   USE_WINMM.c
-  cmTC_491c6.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-gs1pax\Debug\cmTC_491c6.exe
+  cmTC_fa76a.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-86xl51\Debug\cmTC_fa76a.exe
 
 
 
 Determining if the alloca exist passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-yz7q4y
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-3qa1va
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f8c28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3e078.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f8c28.dir\Debug\\" /Fd"cmTC_f8c28.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-yz7q4y\CheckSymbolExists.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_3e078.dir\Debug\\" /Fd"cmTC_3e078.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-3qa1va\CheckSymbolExists.c"
   CheckSymbolExists.c
-  cmTC_f8c28.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-yz7q4y\Debug\cmTC_f8c28.exe
+  cmTC_3e078.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-3qa1va\Debug\cmTC_3e078.exe
 
 
 File CheckSymbolExists.c:
@@ -495,15 +495,15 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the lrintf exist passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-hut3pd
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-cbgh18
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_869af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cc67d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_869af.dir\Debug\\" /Fd"cmTC_869af.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-hut3pd\CheckSymbolExists.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_cc67d.dir\Debug\\" /Fd"cmTC_cc67d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-cbgh18\CheckSymbolExists.c"
   CheckSymbolExists.c
-  cmTC_869af.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-hut3pd\Debug\cmTC_869af.exe
+  cmTC_cc67d.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-cbgh18\Debug\cmTC_cc67d.exe
 
 
 File CheckSymbolExists.c:
@@ -521,15 +521,15 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the lrint exist passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-f8mjdi
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-ucmzv0
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2f625.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_763bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_2f625.dir\Debug\\" /Fd"cmTC_2f625.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-f8mjdi\CheckSymbolExists.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_763bd.dir\Debug\\" /Fd"cmTC_763bd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-ucmzv0\CheckSymbolExists.c"
   CheckSymbolExists.c
-  cmTC_2f625.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-f8mjdi\Debug\cmTC_2f625.exe
+  cmTC_763bd.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-ucmzv0\Debug\cmTC_763bd.exe
 
 
 File CheckSymbolExists.c:
@@ -547,125 +547,125 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the include file intrin.h exists passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-glstfo
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-zisdel
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_908e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_53db7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_908e2.dir\Debug\\" /Fd"cmTC_908e2.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-glstfo\CheckIncludeFile.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_53db7.dir\Debug\\" /Fd"cmTC_53db7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-zisdel\CheckIncludeFile.c"
   CheckIncludeFile.c
-  cmTC_908e2.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-glstfo\Debug\cmTC_908e2.exe
+  cmTC_53db7.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-zisdel\Debug\cmTC_53db7.exe
 
 
 
 Determining if the include file xmmintrin.h exists passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-dc2zjz
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-tyubk0
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c8ef5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d4e28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_c8ef5.dir\Debug\\" /Fd"cmTC_c8ef5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-dc2zjz\CheckIncludeFile.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_d4e28.dir\Debug\\" /Fd"cmTC_d4e28.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-tyubk0\CheckIncludeFile.c"
   CheckIncludeFile.c
-  cmTC_c8ef5.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-dc2zjz\Debug\cmTC_c8ef5.exe
+  cmTC_d4e28.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-tyubk0\Debug\cmTC_d4e28.exe
 
 
 
 Determining if the include file emmintrin.h exists passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-6xdzg1
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-ma3m53
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4a462.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b7ac3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_4a462.dir\Debug\\" /Fd"cmTC_4a462.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-6xdzg1\CheckIncludeFile.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_b7ac3.dir\Debug\\" /Fd"cmTC_b7ac3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-ma3m53\CheckIncludeFile.c"
   CheckIncludeFile.c
-  cmTC_4a462.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-6xdzg1\Debug\cmTC_4a462.exe
+  cmTC_b7ac3.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-ma3m53\Debug\cmTC_b7ac3.exe
 
 
 
 Determining if the include file smmintrin.h exists passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-a5raut
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-k5bymi
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_36d96.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_21c78.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_36d96.dir\Debug\\" /Fd"cmTC_36d96.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-a5raut\CheckIncludeFile.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_21c78.dir\Debug\\" /Fd"cmTC_21c78.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-k5bymi\CheckIncludeFile.c"
   CheckIncludeFile.c
-  cmTC_36d96.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-a5raut\Debug\cmTC_36d96.exe
+  cmTC_21c78.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-k5bymi\Debug\cmTC_21c78.exe
 
 
 
 Determining if the include file immintrin.h exists passed with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-bsez3n
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-58ptqj
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_13357.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb17a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_13357.dir\Debug\\" /Fd"cmTC_13357.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-bsez3n\CheckIncludeFile.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_bb17a.dir\Debug\\" /Fd"cmTC_bb17a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-58ptqj\CheckIncludeFile.c"
   CheckIncludeFile.c
-  cmTC_13357.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-bsez3n\Debug\cmTC_13357.exe
+  cmTC_bb17a.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-58ptqj\Debug\cmTC_bb17a.exe
 
 
 
 Performing C SOURCE FILE Test AVX_SUPPORTED succeeded with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-ro0ipq
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-f4vk4c
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0ce58.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_170e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D AVX_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /arch:AVX /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_0ce58.dir\Debug\\" /Fd"cmTC_0ce58.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-ro0ipq\src.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D AVX_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /arch:AVX /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_170e5.dir\Debug\\" /Fd"cmTC_170e5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-f4vk4c\src.c"
   src.c
-  cmTC_0ce58.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-ro0ipq\Debug\cmTC_0ce58.exe
+  cmTC_170e5.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-f4vk4c\Debug\cmTC_170e5.exe
 
 
 Source file was:
 int main(void) { return 0; }
 
 Performing C SOURCE FILE Test FAST_MATH_SUPPORTED succeeded with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-pcf2o8
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-qfou8b
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8d133.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dd7af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D FAST_MATH_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_8d133.dir\Debug\\" /Fd"cmTC_8d133.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pcf2o8\src.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D FAST_MATH_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_dd7af.dir\Debug\\" /Fd"cmTC_dd7af.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-qfou8b\src.c"
   src.c
-  cmTC_8d133.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-pcf2o8\Debug\cmTC_8d133.exe
+  cmTC_dd7af.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-qfou8b\Debug\cmTC_dd7af.exe
 
 
 Source file was:
 int main(void) { return 0; }
 
 Performing C SOURCE FILE Test STACK_PROTECTOR_SUPPORTED succeeded with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-tsmwwd
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-lh0efz
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b1d54.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fc1d9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D STACK_PROTECTOR_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_b1d54.dir\Debug\\" /Fd"cmTC_b1d54.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-tsmwwd\src.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D STACK_PROTECTOR_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_fc1d9.dir\Debug\\" /Fd"cmTC_fc1d9.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-lh0efz\src.c"
   src.c
-  cmTC_b1d54.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-tsmwwd\Debug\cmTC_b1d54.exe
+  cmTC_fc1d9.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-lh0efz\Debug\cmTC_fc1d9.exe
 
 
 Source file was:
 int main(void) { return 0; }
 
 Performing C SOURCE FILE Test STACK_PROTECTOR_DISABLED_SUPPORTED succeeded with the following output:
-Change Dir: F:/custom-build/Yuzu-1662/CMakeFiles/CMakeScratch/TryCompile-nafkzc
+Change Dir: F:/custom-build/Yuzu-1703/CMakeFiles/CMakeScratch/TryCompile-4bfqiq
 
-Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6f994.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
+Run Build Command(s):E:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f2bd8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.8.3+195e7f5a3 for .NET Framework
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33130 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D STACK_PROTECTOR_DISABLED_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6f994.dir\Debug\\" /Fd"cmTC_6f994.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-nafkzc\src.c"
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D STACK_PROTECTOR_DISABLED_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f2bd8.dir\Debug\\" /Fd"cmTC_f2bd8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-4bfqiq\src.c"
   src.c
-  cmTC_6f994.vcxproj -> F:\custom-build\Yuzu-1662\CMakeFiles\CMakeScratch\TryCompile-nafkzc\Debug\cmTC_6f994.exe
+  cmTC_f2bd8.vcxproj -> F:\custom-build\Yuzu-1703\CMakeFiles\CMakeScratch\TryCompile-4bfqiq\Debug\cmTC_f2bd8.exe
 
 
 Source file was:

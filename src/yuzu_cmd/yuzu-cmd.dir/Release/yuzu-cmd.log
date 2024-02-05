@@ -1,4 +1,3 @@
-﻿     Creating library F:/custom-build/Yuzu-1662/src/yuzu_cmd/Release/yuzu-cmd.lib and object F:/custom-build/Yuzu-1662/src/yuzu_cmd/Release/yuzu-cmd.exp
-  yuzu-cmd.vcxproj -> F:\custom-build\Yuzu-1662\bin\Release\yuzu-cmd.exe
-E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(2583,5): warning : Remote deployment might be slow/inefficient. '.', hexadecimal value 0x00, is an invalid character. Line 1, position 1.
+﻿     Creating library F:/custom-build/Yuzu-1703/src/yuzu_cmd/Release/yuzu-cmd.lib and object F:/custom-build/Yuzu-1703/src/yuzu_cmd/Release/yuzu-cmd.exp
+  yuzu-cmd.vcxproj -> F:\custom-build\Yuzu-1703\bin\Release\yuzu-cmd.exe
   

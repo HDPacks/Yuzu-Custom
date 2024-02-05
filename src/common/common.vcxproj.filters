@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\common\CMakeFiles\common.dir\cmake_pch.cxx">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\common\CMakeFiles\common.dir\cmake_pch.cxx">
       <Filter>Other Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\common\address_space.cpp" />
@@ -24,6 +24,7 @@
     <ClCompile Include="C:\Users\curti\yuzu\src\common\fs\path_util.cpp">
       <Filter>fs</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\common\heap_tracker.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\common\hex_util.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\common\host_memory.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\common\logging\backend.cpp">
@@ -42,8 +43,8 @@
     <ClCompile Include="C:\Users\curti\yuzu\src\common\nvidia_flags.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\common\page_table.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\common\param_package.cpp" />
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\common\scm_rev.cpp">
-      <Filter>F:\custom-build\Yuzu-1662\src\common</Filter>
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\common\scm_rev.cpp">
+      <Filter>F:\custom-build\Yuzu-1703\src\common</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\common\settings.cpp" />
     <ClCompile Include="C:\Users\curti\yuzu\src\common\settings_common.cpp" />
@@ -124,6 +125,7 @@
       <Filter>fs</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\common\hash.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\heap_tracker.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\common\hex_util.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\common\host_memory.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\common\input.h" />
@@ -166,6 +168,7 @@
     <ClInclude Include="C:\Users\curti\yuzu\src\common\precompiled_headers.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\common\quaternion.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\common\range_map.h" />
+    <ClInclude Include="C:\Users\curti\yuzu\src\common\range_mutex.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\common\reader_writer_queue.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\common\ring_buffer.h" />
     <ClInclude Include="C:\Users\curti\yuzu\src\common\scm_rev.h" />
@@ -220,10 +223,10 @@
     <ClInclude Include="C:\Users\curti\yuzu\src\common\x64\xbyak_util.h">
       <Filter>x64</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\common\CMakeFiles\common.dir\Debug\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\common\CMakeFiles\common.dir\Debug\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\common\CMakeFiles\common.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\common\CMakeFiles\common.dir\Release\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -234,34 +237,34 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="F:">
-      <UniqueIdentifier>{D0585245-4006-353A-80FA-2C8857FA0A92}</UniqueIdentifier>
+      <UniqueIdentifier>{8F7662BE-82B9-3E1C-A954-D84223BB867E}</UniqueIdentifier>
     </Filter>
     <Filter Include="F:\custom-build">
-      <UniqueIdentifier>{79DAA7FA-D8A6-3157-9E35-62067667ED22}</UniqueIdentifier>
+      <UniqueIdentifier>{DCFCD256-C3C1-3368-B5ED-70053119B98F}</UniqueIdentifier>
     </Filter>
-    <Filter Include="F:\custom-build\Yuzu-1662">
-      <UniqueIdentifier>{E3155506-7007-314B-814D-F9805C50676C}</UniqueIdentifier>
+    <Filter Include="F:\custom-build\Yuzu-1703">
+      <UniqueIdentifier>{823DEB36-5E5A-331A-9DE8-AF69041E355B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="F:\custom-build\Yuzu-1662\src">
-      <UniqueIdentifier>{5693FA47-2DA4-34BC-900B-A65A82797CB2}</UniqueIdentifier>
+    <Filter Include="F:\custom-build\Yuzu-1703\src">
+      <UniqueIdentifier>{2B7B31BC-2489-3867-92D4-BE1FD84D956D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="F:\custom-build\Yuzu-1662\src\common">
-      <UniqueIdentifier>{BE8F3FCA-1C6A-3068-A8E5-C0A6260840D3}</UniqueIdentifier>
+    <Filter Include="F:\custom-build\Yuzu-1703\src\common">
+      <UniqueIdentifier>{4C00DB98-DFDB-3A94-9D2C-0D36AB0587FA}</UniqueIdentifier>
     </Filter>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
     <Filter Include="fs">
-      <UniqueIdentifier>{FAD30148-6B5F-3CB7-8450-2B74A75F724D}</UniqueIdentifier>
+      <UniqueIdentifier>{94AF8961-9A62-3B94-A63F-F5B6ABF2FE72}</UniqueIdentifier>
     </Filter>
     <Filter Include="logging">
-      <UniqueIdentifier>{85CAC274-1732-3CF3-A848-0C3CD1C92C69}</UniqueIdentifier>
+      <UniqueIdentifier>{B22A27BC-DD80-3EBE-9C38-D5E532AEA840}</UniqueIdentifier>
     </Filter>
     <Filter Include="windows">
-      <UniqueIdentifier>{1D8E356E-ADC4-3832-8B01-E901DED1AF8B}</UniqueIdentifier>
+      <UniqueIdentifier>{DFD4D0BE-4A68-3B4E-8BC4-00D7138F6817}</UniqueIdentifier>
     </Filter>
     <Filter Include="x64">
-      <UniqueIdentifier>{298267EE-A886-32B4-A0A4-613E6CF513C7}</UniqueIdentifier>
+      <UniqueIdentifier>{D778CF4C-81DD-3A9A-8224-493CA566FC7B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

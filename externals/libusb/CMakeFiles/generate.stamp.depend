@@ -1,8 +1,8 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.25/Modules/CheckFunctionExists.cmake
-C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
-C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake
-C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFiles.cmake
-C:/Program Files/CMake/share/cmake-3.25/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake
 C:/Users/curti/yuzu/externals/libusb/CMakeLists.txt
 C:/Users/curti/yuzu/externals/libusb/config.h.in

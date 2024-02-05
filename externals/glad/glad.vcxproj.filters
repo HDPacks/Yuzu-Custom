@@ -20,19 +20,19 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
     <Filter Include="include">
-      <UniqueIdentifier>{D966DC51-3E33-3D5A-A552-6D64D86BCEB3}</UniqueIdentifier>
+      <UniqueIdentifier>{0620BEA6-5B0D-30CB-94BB-7EB9D9D31E1E}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\KHR">
-      <UniqueIdentifier>{93B08246-A2DA-36DD-82FC-40C6CCD02482}</UniqueIdentifier>
+      <UniqueIdentifier>{F8DF01D0-FD45-3D04-95CD-49A2722C2975}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\glad">
-      <UniqueIdentifier>{12FD5F62-6A1F-32E4-8EFC-41EEB50C5D09}</UniqueIdentifier>
+      <UniqueIdentifier>{6FF6061A-0AEA-3D20-9A7B-2EC02A52521A}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{5A3B3DD5-37EA-3A99-8C56-A5DC84DA9999}</UniqueIdentifier>
+      <UniqueIdentifier>{176CBFA4-02E6-3E8A-A06C-C909F4D9DF8D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

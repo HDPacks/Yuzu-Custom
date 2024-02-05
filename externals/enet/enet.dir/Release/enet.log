@@ -11,4 +11,4 @@
   Generating Code...
 C:\Users\curti\yuzu\externals\enet\win32.c(93,17): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
 C:\Users\curti\yuzu\externals\enet\win32.c(127,17): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  enet.vcxproj -> F:\custom-build\Yuzu-1662\externals\enet\Release\enet.lib
+  enet.vcxproj -> F:\custom-build\Yuzu-1703\externals\enet\Release\enet.lib

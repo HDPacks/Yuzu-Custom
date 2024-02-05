@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\30e9720204a45ad3289ef49e940c395e\apidoc.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\f2d5822d905fcdbd585a54876d05cc24\apidoc.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
     <CustomBuild Include="C:\Users\curti\yuzu\externals\mbedtls\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\custom-build\Yuzu-1662\externals\mbedtls\CMakeFiles\apidoc" />
+    <None Include="F:\custom-build\Yuzu-1703\externals\mbedtls\CMakeFiles\apidoc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C7040C7C-281C-3CA1-944D-EE938F8DFC14}</UniqueIdentifier>
+      <UniqueIdentifier>{E9218D08-4EFB-3A2F-A672-E763A07A5EAA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

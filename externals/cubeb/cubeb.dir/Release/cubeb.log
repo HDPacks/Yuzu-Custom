@@ -2,6 +2,7 @@
   cubeb.c
   cubeb_strings.c
   cubeb_winmm.c
+  Generating Code...
 C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(962,43): warning C4312: 'type cast': conversion from 'UINT' to 'HWAVEOUT' of greater size
 C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(968,43): warning C4312: 'type cast': conversion from 'UINT' to 'HWAVEOUT' of greater size
 C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(993,34): warning C4312: 'type cast': conversion from 'UINT' to 'cubeb_devid' of greater size
@@ -10,7 +11,6 @@ C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(1044,41): warning C4312: '
 C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(1050,41): warning C4312: 'type cast': conversion from 'UINT' to 'HWAVEIN' of greater size
 C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(1064,34): warning C4312: 'type cast': conversion from 'UINT' to 'cubeb_devid' of greater size
 C:\Users\curti\yuzu\externals\cubeb\src\cubeb_winmm.c(1089,34): warning C4312: 'type cast': conversion from 'UINT' to 'cubeb_devid' of greater size
-  Generating Code...
   cubeb_mixer.cpp
   cubeb_resampler.cpp
   cubeb_log.cpp
@@ -44,4 +44,4 @@ E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.3313
           ]
   
   Generating Code...
-  cubeb.vcxproj -> F:\custom-build\Yuzu-1662\externals\cubeb\Release\cubeb.lib
+  cubeb.vcxproj -> F:\custom-build\Yuzu-1703\externals\cubeb\Release\cubeb.lib

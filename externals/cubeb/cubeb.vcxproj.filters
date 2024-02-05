@@ -30,16 +30,16 @@
     <CustomBuild Include="C:\Users\curti\yuzu\externals\cubeb\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="F:\custom-build\Yuzu-1662\externals\cubeb\speex.dir\$(Configuration)\resample.obj">
+    <Object Include="F:\custom-build\Yuzu-1703\externals\cubeb\speex.dir\$(Configuration)\resample.obj">
       <Filter>Object Libraries</Filter>
     </Object>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Object Libraries">
-      <UniqueIdentifier>{2F680C81-815F-3B2D-96CC-697367C2C3A6}</UniqueIdentifier>
+      <UniqueIdentifier>{57773DC0-45F3-34C7-BAAF-79CE8514D775}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{3104A6DE-D7AA-3B7E-9FAB-B244AE277FFA}</UniqueIdentifier>
+      <UniqueIdentifier>{3C7B30D9-82E2-3DDE-92BE-CC7AD766D165}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

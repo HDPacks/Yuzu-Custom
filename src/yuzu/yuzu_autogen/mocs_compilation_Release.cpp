@@ -9,13 +9,18 @@
 #include <EWIEGA46WW/moc_bootmanager.cpp>
 #include <EWIEGA46WW/moc_compatdb.cpp>
 #include <MTVOZBWLY6/moc_configuration_shared.cpp>
+#include <MTVOZBWLY6/moc_configure_audio.cpp>
 #include <MTVOZBWLY6/moc_configure_camera.cpp>
+#include <MTVOZBWLY6/moc_configure_cpu.cpp>
 #include <MTVOZBWLY6/moc_configure_cpu_debug.cpp>
 #include <MTVOZBWLY6/moc_configure_debug.cpp>
 #include <MTVOZBWLY6/moc_configure_debug_controller.cpp>
 #include <MTVOZBWLY6/moc_configure_debug_tab.cpp>
 #include <MTVOZBWLY6/moc_configure_dialog.cpp>
 #include <MTVOZBWLY6/moc_configure_filesystem.cpp>
+#include <MTVOZBWLY6/moc_configure_general.cpp>
+#include <MTVOZBWLY6/moc_configure_graphics.cpp>
+#include <MTVOZBWLY6/moc_configure_graphics_advanced.cpp>
 #include <MTVOZBWLY6/moc_configure_hotkeys.cpp>
 #include <MTVOZBWLY6/moc_configure_input.cpp>
 #include <MTVOZBWLY6/moc_configure_input_advanced.cpp>
@@ -23,6 +28,7 @@
 #include <MTVOZBWLY6/moc_configure_input_player.cpp>
 #include <MTVOZBWLY6/moc_configure_input_player_widget.cpp>
 #include <MTVOZBWLY6/moc_configure_input_profile_dialog.cpp>
+#include <MTVOZBWLY6/moc_configure_linux_tab.cpp>
 #include <MTVOZBWLY6/moc_configure_motion_touch.cpp>
 #include <MTVOZBWLY6/moc_configure_mouse_panning.cpp>
 #include <MTVOZBWLY6/moc_configure_network.cpp>
@@ -30,6 +36,7 @@
 #include <MTVOZBWLY6/moc_configure_per_game_addons.cpp>
 #include <MTVOZBWLY6/moc_configure_profile_manager.cpp>
 #include <MTVOZBWLY6/moc_configure_ringcon.cpp>
+#include <MTVOZBWLY6/moc_configure_system.cpp>
 #include <MTVOZBWLY6/moc_configure_tas.cpp>
 #include <MTVOZBWLY6/moc_configure_touch_from_button.cpp>
 #include <MTVOZBWLY6/moc_configure_touch_widget.cpp>

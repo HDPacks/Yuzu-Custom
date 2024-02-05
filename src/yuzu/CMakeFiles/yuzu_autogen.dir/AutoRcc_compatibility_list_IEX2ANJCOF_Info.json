@@ -1,26 +1,27 @@
 {
-	"BUILD_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen",
-	"CMAKE_BINARY_DIR" : "F:/custom-build/Yuzu-1662",
-	"CMAKE_CURRENT_BINARY_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu",
+	"BUILD_DIR" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen",
+	"CMAKE_BINARY_DIR" : "F:/custom-build/Yuzu-1703",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/custom-build/Yuzu-1703/src/yuzu",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/curti/yuzu/src/yuzu",
 	"CMAKE_SOURCE_DIR" : "C:/Users/curti/yuzu",
-	"INCLUDE_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include",
-	"INCLUDE_DIR_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include_Debug",
-	"INCLUDE_DIR_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include_Release",
+	"GENERATOR" : "Visual Studio 17 2022",
+	"INCLUDE_DIR" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/include_Release",
 	"INPUTS" : 
 	[
-		"F:/custom-build/Yuzu-1662/dist/compatibility_list/compatibility_list.json"
+		"F:/custom-build/Yuzu-1703/dist/compatibility_list/compatibility_list.json"
 	],
-	"LOCK_FILE" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_compatibility_list_IEX2ANJCOF_Lock.lock",
+	"LOCK_FILE" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_compatibility_list_IEX2ANJCOF_Lock.lock",
 	"MULTI_CONFIG" : true,
 	"OPTIONS" : [ "-name", "compatibility_list" ],
 	"OUTPUT_CHECKSUM" : "IEX2ANJCOF",
 	"OUTPUT_NAME" : "qrc_compatibility_list.cpp",
-	"RCC_EXECUTABLE" : "F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/bin/rcc.exe",
+	"RCC_EXECUTABLE" : "F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/bin/rcc.exe",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_compatibility_list_IEX2ANJCOF_Used.txt",
-	"SETTINGS_FILE_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_compatibility_list_IEX2ANJCOF_Used_Debug.txt",
-	"SETTINGS_FILE_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_compatibility_list_IEX2ANJCOF_Used_Release.txt",
-	"SOURCE" : "F:/custom-build/Yuzu-1662/dist/compatibility_list/compatibility_list.qrc",
+	"SETTINGS_FILE" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_compatibility_list_IEX2ANJCOF_Used.txt",
+	"SETTINGS_FILE_Debug" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_compatibility_list_IEX2ANJCOF_Used_Debug.txt",
+	"SETTINGS_FILE_Release" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutoRcc_compatibility_list_IEX2ANJCOF_Used_Release.txt",
+	"SOURCE" : "F:/custom-build/Yuzu-1703/dist/compatibility_list/compatibility_list.qrc",
 	"VERBOSITY" : 0
 }

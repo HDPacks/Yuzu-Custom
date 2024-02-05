@@ -162,4 +162,4 @@
   VAD_sse4_1.c
   VQ_WMat_EC_sse4_1.c
   Generating Code...
-  opus.vcxproj -> F:\custom-build\Yuzu-1662\externals\opus\Release\opus.lib
+  opus.vcxproj -> F:\custom-build\Yuzu-1703\externals\opus\Release\opus.lib

@@ -30,7 +30,6 @@ public:
     QAction *action_Exit;
     QAction *action_Pause;
     QAction *action_Stop;
-    QAction *action_Rederive;
     QAction *action_Verify_installed_contents;
     QAction *action_About;
     QAction *action_Single_Window_Mode;
@@ -107,8 +106,6 @@ public:
         action_Stop = new QAction(MainWindow);
         action_Stop->setObjectName(QString::fromUtf8("action_Stop"));
         action_Stop->setEnabled(false);
-        action_Rederive = new QAction(MainWindow);
-        action_Rederive->setObjectName(QString::fromUtf8("action_Rederive"));
         action_Verify_installed_contents = new QAction(MainWindow);
         action_Verify_installed_contents->setObjectName(QString::fromUtf8("action_Verify_installed_contents"));
         action_About = new QAction(MainWindow);
@@ -274,7 +271,6 @@ public:
         menu_Multiplayer->addSeparator();
         menu_Multiplayer->addAction(action_Show_Room);
         menu_Multiplayer->addAction(action_Leave_Room);
-        menu_Tools->addAction(action_Rederive);
         menu_Tools->addAction(action_Verify_installed_contents);
         menu_Tools->addSeparator();
         menu_Tools->addAction(menu_cabinet_applet->menuAction());
@@ -314,7 +310,6 @@ public:
         action_Exit->setText(QCoreApplication::translate("MainWindow", "E&xit", nullptr));
         action_Pause->setText(QCoreApplication::translate("MainWindow", "&Pause", nullptr));
         action_Stop->setText(QCoreApplication::translate("MainWindow", "&Stop", nullptr));
-        action_Rederive->setText(QCoreApplication::translate("MainWindow", "&Reinitialize keys...", nullptr));
         action_Verify_installed_contents->setText(QCoreApplication::translate("MainWindow", "&Verify Installed Contents", nullptr));
         action_About->setText(QCoreApplication::translate("MainWindow", "&About yuzu", nullptr));
         action_Single_Window_Mode->setText(QCoreApplication::translate("MainWindow", "Single &Window Mode", nullptr));

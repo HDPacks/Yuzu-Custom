@@ -11,4 +11,4 @@
   windows_common.c
   events_windows.c
   Generating Code...
-  usb.vcxproj -> F:\custom-build\Yuzu-1662\externals\libusb\Release\usb.lib
+  usb.vcxproj -> F:\custom-build\Yuzu-1703\externals\libusb\Release\usb.lib

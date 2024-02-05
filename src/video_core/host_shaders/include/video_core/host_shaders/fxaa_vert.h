@@ -17,8 +17,8 @@ R"(// SPDX-FileCopyrightText: Copyright 2021 yuzu Emulator Project
 )" R"(    vec4 gl_Position;
 )" R"(};
 )" R"(
-)" R"(const vec2 vertices[4] =
-)" R"(    vec2[4](vec2(-1.0, 1.0), vec2(1.0, 1.0), vec2(-1.0, -1.0), vec2(1.0, -1.0));
+)" R"(const vec2 vertices[3] =
+)" R"(    vec2[3](vec2(-1,-1), vec2(3,-1), vec2(-1, 3));
 )" R"(
 )" R"(layout (location = 0) out vec4 posPos;
 )" R"(

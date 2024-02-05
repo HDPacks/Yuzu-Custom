@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\audio_core.dir\cmake_pch.cxx">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\audio_core\CMakeFiles\audio_core.dir\cmake_pch.cxx">
       <Filter>Other Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\adsp\adsp.cpp">
@@ -257,10 +257,10 @@
       <Filter>sink</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\cubeb_sink.cpp">
-      <Filter>Other Files</Filter>
+      <Filter>sink</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\audio_core\sink\sdl2_sink.cpp">
-      <Filter>Other Files</Filter>
+      <Filter>sink</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -605,15 +605,15 @@
       <Filter>sink</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\cubeb_sink.h">
-      <Filter>Other Files</Filter>
+      <Filter>sink</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\audio_core\sink\sdl2_sink.h">
+      <Filter>sink</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\audio_core\CMakeFiles\audio_core.dir\Debug\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\audio_core.dir\Debug\cmake_pch.hxx">
-      <Filter>Other Files</Filter>
-    </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\audio_core\CMakeFiles\audio_core.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\audio_core\CMakeFiles\audio_core.dir\Release\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -624,91 +624,91 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
     <Filter Include="adsp">
-      <UniqueIdentifier>{8826131D-FF28-3036-ABF5-F240D9FACC27}</UniqueIdentifier>
+      <UniqueIdentifier>{9FCFABB1-673E-3131-8073-53BA249B4A6B}</UniqueIdentifier>
     </Filter>
     <Filter Include="adsp\apps">
-      <UniqueIdentifier>{600D84D4-BB1B-3726-981C-39FE2450A270}</UniqueIdentifier>
+      <UniqueIdentifier>{A7AF796C-28E2-37F8-A12B-1AC2DA7218BD}</UniqueIdentifier>
     </Filter>
     <Filter Include="adsp\apps\audio_renderer">
-      <UniqueIdentifier>{CB9E6260-1834-395A-A79E-1E26A8FB73AD}</UniqueIdentifier>
+      <UniqueIdentifier>{D633FBCD-4FD6-35D4-B27A-0430754E65D5}</UniqueIdentifier>
     </Filter>
     <Filter Include="adsp\apps\opus">
-      <UniqueIdentifier>{06F5004E-E81F-3705-9E7F-5878D3B8C2E7}</UniqueIdentifier>
+      <UniqueIdentifier>{8D70064D-A133-37BC-B40F-C27B2EECB36C}</UniqueIdentifier>
     </Filter>
     <Filter Include="common">
-      <UniqueIdentifier>{006EEB2B-5ED2-338F-A4DB-0EF1A4DA00A0}</UniqueIdentifier>
+      <UniqueIdentifier>{AD0D8BB1-E999-3130-8331-A3A43DC9A339}</UniqueIdentifier>
     </Filter>
     <Filter Include="device">
-      <UniqueIdentifier>{FD38AEA0-6D22-3BFB-873D-BBB2E88D6EE1}</UniqueIdentifier>
+      <UniqueIdentifier>{98BDCC68-C139-3D27-AFB7-232FE3DF87F7}</UniqueIdentifier>
     </Filter>
     <Filter Include="in">
-      <UniqueIdentifier>{3E22AB2D-B3E0-3936-A8F5-7FC0F01C8B27}</UniqueIdentifier>
+      <UniqueIdentifier>{9205BD1C-7B15-3498-B5C9-4A7F805B54DF}</UniqueIdentifier>
     </Filter>
     <Filter Include="opus">
-      <UniqueIdentifier>{647DDEFB-7136-3F79-8592-3022B9348CF7}</UniqueIdentifier>
+      <UniqueIdentifier>{CAFD0DB8-8F18-39D0-94E9-4FA95B421D27}</UniqueIdentifier>
     </Filter>
     <Filter Include="out">
-      <UniqueIdentifier>{0351B0F4-BDA7-3312-BEC8-A679CBE91871}</UniqueIdentifier>
+      <UniqueIdentifier>{839C9BF6-95CA-3703-9828-82687CE2B193}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer">
-      <UniqueIdentifier>{52B2D569-C0AD-32E8-82DB-4608565B65D1}</UniqueIdentifier>
+      <UniqueIdentifier>{0C4DE704-3A91-3CAC-A906-F6D1C0093EA8}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\behavior">
-      <UniqueIdentifier>{C2C923CE-A6D2-3B6F-BF97-D0431B64422D}</UniqueIdentifier>
+      <UniqueIdentifier>{500368CE-6168-306F-A5DE-9DCDCA0101C5}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\command">
-      <UniqueIdentifier>{AA15C9C5-5A3B-31D3-B6A6-E89D2F96E0FF}</UniqueIdentifier>
+      <UniqueIdentifier>{FC400386-6C5F-3B3F-AC4E-95FE376415B5}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\command\data_source">
-      <UniqueIdentifier>{327341B4-E870-3243-883F-C3B117A1EC4A}</UniqueIdentifier>
+      <UniqueIdentifier>{FBB00A9D-B041-33C7-962B-69A56ABD3501}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\command\effect">
-      <UniqueIdentifier>{41947903-87E9-3C57-AC5E-976DA37264C2}</UniqueIdentifier>
+      <UniqueIdentifier>{CE2F3CE4-D7C4-3BF0-8B55-A6612F8E37BF}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\command\mix">
-      <UniqueIdentifier>{A6B275F9-61FE-380E-A9FC-1FD1476C3EEB}</UniqueIdentifier>
+      <UniqueIdentifier>{E6B42316-CEB3-35D0-9428-BC8B5D378969}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\command\performance">
-      <UniqueIdentifier>{1730A51D-5E74-3288-A53E-BB41F1713482}</UniqueIdentifier>
+      <UniqueIdentifier>{E2E780F0-DD7C-3C2F-841A-3096BA4DD2E5}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\command\resample">
-      <UniqueIdentifier>{B949AD61-25DF-33F3-9149-FE916EC8DA68}</UniqueIdentifier>
+      <UniqueIdentifier>{37B1B022-CE4A-3D25-8CF0-E2E441B1C506}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\command\sink">
-      <UniqueIdentifier>{CE139E9A-1D91-3228-93E4-21E7A6F1FA8E}</UniqueIdentifier>
+      <UniqueIdentifier>{DD13099B-01FF-37F5-83A0-605FAFA87BCF}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\effect">
-      <UniqueIdentifier>{188F1A8C-D554-3867-80A3-9FDC0896149A}</UniqueIdentifier>
+      <UniqueIdentifier>{A1AAC692-1E62-368B-BDEB-DFEA55688520}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\memory">
-      <UniqueIdentifier>{EEE5DD66-91ED-3529-9DE8-9DC300624D4B}</UniqueIdentifier>
+      <UniqueIdentifier>{B3E438ED-531E-3C0A-BA89-87DCCD9345B4}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\mix">
-      <UniqueIdentifier>{B1F4BC7E-00E2-33E6-B215-D8AD5BF07D3C}</UniqueIdentifier>
+      <UniqueIdentifier>{3327E37C-365A-3EF5-BE0F-B850409E97B4}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\nodes">
-      <UniqueIdentifier>{B5F93A36-41E6-36A0-83AC-9286766EA672}</UniqueIdentifier>
+      <UniqueIdentifier>{CCAA11A2-C98A-33C3-8F69-16BEC1A16ADD}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\performance">
-      <UniqueIdentifier>{4F7D16B8-4462-317A-B198-C9419162698C}</UniqueIdentifier>
+      <UniqueIdentifier>{C5F47709-1E51-31BA-BFA3-A0CB46EF1F63}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\sink">
-      <UniqueIdentifier>{75B04513-29B2-339B-9FE7-167F8D4D02E0}</UniqueIdentifier>
+      <UniqueIdentifier>{232171B0-02E5-3361-AE49-B9C6399E94A7}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\splitter">
-      <UniqueIdentifier>{EC5480BA-E2F9-3EA3-9357-0B8210036FF1}</UniqueIdentifier>
+      <UniqueIdentifier>{1F51C7E9-8A76-378C-A46C-BDDF75A3C999}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\upsampler">
-      <UniqueIdentifier>{DD617A85-C7C8-3EB0-853D-F68AD3F40A47}</UniqueIdentifier>
+      <UniqueIdentifier>{1C512683-51FA-307B-93B8-F19EDA521D05}</UniqueIdentifier>
     </Filter>
     <Filter Include="renderer\voice">
-      <UniqueIdentifier>{0BBF500F-46EC-3ECE-A13B-D386C4D755A0}</UniqueIdentifier>
+      <UniqueIdentifier>{3A1307EF-8FB3-350F-8838-CD453E304869}</UniqueIdentifier>
     </Filter>
     <Filter Include="sink">
-      <UniqueIdentifier>{987FC9D0-C745-369C-9C31-73CB223168A4}</UniqueIdentifier>
+      <UniqueIdentifier>{9B7A12C9-FDB5-3E45-A8A8-8D37F6EBF73F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

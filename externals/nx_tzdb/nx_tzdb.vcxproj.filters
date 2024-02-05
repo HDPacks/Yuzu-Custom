@@ -1,148 +1,148 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\base.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\base.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\zoneinfo.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\zoneinfo.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\africa.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\africa.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\america.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\america.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\america_argentina.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\america_argentina.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\america_indiana.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\america_indiana.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\america_kentucky.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\america_kentucky.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\america_north_dakota.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\america_north_dakota.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\antarctica.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\antarctica.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\arctic.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\arctic.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\asia.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\asia.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\atlantic.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\atlantic.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\australia.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\australia.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\brazil.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\brazil.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\canada.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\canada.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\chile.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\chile.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\etc.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\etc.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\europe.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\europe.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\indian.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\indian.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\mexico.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\mexico.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\pacific.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\pacific.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="F:\custom-build\Yuzu-1662\CMakeFiles\4690a2efd0c90d749cee053e5707eba2\us.h.rule">
+    <CustomBuild Include="F:\custom-build\Yuzu-1703\CMakeFiles\77fbe4ad2f9f7a0d3cd4a3d7325b27b8\us.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
     <CustomBuild Include="C:\Users\curti\yuzu\externals\nx_tzdb\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\base.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\base.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\zoneinfo.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\zoneinfo.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\africa.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\africa.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\america.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\america.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\america_argentina.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\america_argentina.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\america_indiana.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\america_indiana.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\america_kentucky.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\america_kentucky.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\america_north_dakota.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\america_north_dakota.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\antarctica.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\antarctica.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\arctic.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\arctic.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\asia.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\asia.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\atlantic.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\atlantic.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\australia.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\australia.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\brazil.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\brazil.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\canada.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\canada.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\chile.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\chile.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\etc.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\etc.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\europe.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\europe.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\indian.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\indian.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\mexico.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\mexico.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\pacific.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\pacific.h">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="F:\custom-build\Yuzu-1662\externals\nx_tzdb\include\nx_tzdb\us.h">
+    <None Include="F:\custom-build\Yuzu-1703\externals\nx_tzdb\include\nx_tzdb\us.h">
       <Filter>Header Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C7040C7C-281C-3CA1-944D-EE938F8DFC14}</UniqueIdentifier>
+      <UniqueIdentifier>{E9218D08-4EFB-3A2F-A672-E763A07A5EAA}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{AF38D0D1-B3BC-3F71-BF8F-847C9FA93712}</UniqueIdentifier>
+      <UniqueIdentifier>{9FE9D8D4-4141-37E0-AC1F-5C3FB27D7B72}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

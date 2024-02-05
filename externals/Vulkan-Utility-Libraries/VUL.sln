@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{37C0FBCF-224B-384B-A0E9-96AE494809A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VulkanLayerSettings", "VulkanLayerSettings", "{2C0122A9-BEDA-3BB5-A413-991514D74576}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VulkanUtilityHeaders", "VulkanUtilityHeaders", "{9BB6A6D2-0597-3328-961C-0F6F523FAE2F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{29979B95-1FDB-3E5F-9738-68C7F44A2C86}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B4B11B1-6BA0-3E9E-A17A-067B5CD67CE7} = {2B4B11B1-6BA0-3E9E-A17A-067B5CD67CE7}
+		{31E6D7FF-9ADF-3349-849A-F6078A9360CD} = {31E6D7FF-9ADF-3349-849A-F6078A9360CD}
+		{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7} = {26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{E22E0A34-03D0-395A-BA58-FB05575590D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29979B95-1FDB-3E5F-9738-68C7F44A2C86} = {29979B95-1FDB-3E5F-9738-68C7F44A2C86}
+		{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7} = {26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanLayerSettings", "src\layer\VulkanLayerSettings.vcxproj", "{2B4B11B1-6BA0-3E9E-A17A-067B5CD67CE7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7} = {26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanUtilityHeaders", "include\VulkanUtilityHeaders.vcxproj", "{31E6D7FF-9ADF-3349-849A-F6078A9360CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7} = {26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\..\\ZERO_CHECK.vcxproj", "{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29979B95-1FDB-3E5F-9738-68C7F44A2C86}.Debug|x64.ActiveCfg = Debug|x64
+		{29979B95-1FDB-3E5F-9738-68C7F44A2C86}.Debug|x64.Build.0 = Debug|x64
+		{29979B95-1FDB-3E5F-9738-68C7F44A2C86}.Release|x64.ActiveCfg = Release|x64
+		{29979B95-1FDB-3E5F-9738-68C7F44A2C86}.Release|x64.Build.0 = Release|x64
+		{E22E0A34-03D0-395A-BA58-FB05575590D0}.Debug|x64.ActiveCfg = Debug|x64
+		{E22E0A34-03D0-395A-BA58-FB05575590D0}.Release|x64.ActiveCfg = Release|x64
+		{2B4B11B1-6BA0-3E9E-A17A-067B5CD67CE7}.Debug|x64.ActiveCfg = Debug|x64
+		{2B4B11B1-6BA0-3E9E-A17A-067B5CD67CE7}.Debug|x64.Build.0 = Debug|x64
+		{2B4B11B1-6BA0-3E9E-A17A-067B5CD67CE7}.Release|x64.ActiveCfg = Release|x64
+		{2B4B11B1-6BA0-3E9E-A17A-067B5CD67CE7}.Release|x64.Build.0 = Release|x64
+		{31E6D7FF-9ADF-3349-849A-F6078A9360CD}.Debug|x64.ActiveCfg = Debug|x64
+		{31E6D7FF-9ADF-3349-849A-F6078A9360CD}.Debug|x64.Build.0 = Debug|x64
+		{31E6D7FF-9ADF-3349-849A-F6078A9360CD}.Release|x64.ActiveCfg = Release|x64
+		{31E6D7FF-9ADF-3349-849A-F6078A9360CD}.Release|x64.Build.0 = Release|x64
+		{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}.Debug|x64.ActiveCfg = Debug|x64
+		{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}.Debug|x64.Build.0 = Debug|x64
+		{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}.Release|x64.ActiveCfg = Release|x64
+		{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29979B95-1FDB-3E5F-9738-68C7F44A2C86} = {37C0FBCF-224B-384B-A0E9-96AE494809A5}
+		{E22E0A34-03D0-395A-BA58-FB05575590D0} = {37C0FBCF-224B-384B-A0E9-96AE494809A5}
+		{26F0E933-CFB4-3A20-8ED3-AC1920C06FD7} = {37C0FBCF-224B-384B-A0E9-96AE494809A5}
+		{2B4B11B1-6BA0-3E9E-A17A-067B5CD67CE7} = {2C0122A9-BEDA-3BB5-A413-991514D74576}
+		{31E6D7FF-9ADF-3349-849A-F6078A9360CD} = {9BB6A6D2-0597-3328-961C-0F6F523FAE2F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {536D365A-35C3-3693-B41E-56C59D6AB699}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

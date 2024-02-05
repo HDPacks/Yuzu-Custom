@@ -1,7 +1,7 @@
 {
-	"BUILD_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen",
-	"CMAKE_BINARY_DIR" : "F:/custom-build/Yuzu-1662",
-	"CMAKE_CURRENT_BINARY_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu",
+	"BUILD_DIR" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen",
+	"CMAKE_BINARY_DIR" : "F:/custom-build/Yuzu-1703",
+	"CMAKE_CURRENT_BINARY_DIR" : "F:/custom-build/Yuzu-1703/src/yuzu",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/curti/yuzu/src/yuzu",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
@@ -14,7 +14,7 @@
 		"C:/Users/curti/yuzu/CMakeModules/WindowsCopyFiles.cmake",
 		"C:/Users/curti/yuzu/CMakeModules/WindowsCopyFiles.cmake",
 		"C:/Users/curti/yuzu/src/yuzu/yuzu.qrc",
-		"F:/custom-build/Yuzu-1662/dist/compatibility_list/compatibility_list.qrc",
+		"F:/custom-build/Yuzu-1703/dist/compatibility_list/compatibility_list.qrc",
 		"C:/Users/curti/yuzu/dist/icons/controller/controller.qrc",
 		"C:/Users/curti/yuzu/dist/icons/overlay/overlay.qrc",
 		"C:/Users/curti/yuzu/dist/qt_themes/colorful/style.qrc",
@@ -214,6 +214,12 @@
 			"C:/Users/curti/yuzu/src/yuzu/configuration/configure_input_profile_dialog.h",
 			"MU",
 			"MTVOZBWLY6/moc_configure_input_profile_dialog.cpp",
+			null
+		],
+		[
+			"C:/Users/curti/yuzu/src/yuzu/configuration/configure_linux_tab.h",
+			"MU",
+			"MTVOZBWLY6/moc_configure_linux_tab.cpp",
 			null
 		],
 		[
@@ -541,60 +547,26 @@
 			null
 		],
 		[
-			"F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu.dir/Debug/cmake_pch.hxx",
+			"F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu.dir/Debug/cmake_pch.hxx",
 			"MU",
 			"GSYPQD76ZW/moc_cmake_pch.cpp",
 			null
 		],
 		[
-			"F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu.dir/Release/cmake_pch.hxx",
+			"F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu.dir/Release/cmake_pch.hxx",
 			"MU",
 			"DSXXR6NMPW/moc_cmake_pch.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include",
-	"INCLUDE_DIR_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include_Debug",
-	"INCLUDE_DIR_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/include_Release",
-	"MOC_COMPILATION_FILE" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/mocs_compilation.cpp",
-	"MOC_COMPILATION_FILE_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/mocs_compilation_Debug.cpp",
-	"MOC_COMPILATION_FILE_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/yuzu_autogen/mocs_compilation_Release.cpp",
-	"MOC_DEFINITIONS" : 
-	[
-		"ARCHITECTURE_x86_64=1",
-		"BOOST_ALL_NO_LIB",
-		"BOOST_ASIO_DISABLE_CONCEPTS",
-		"ENABLE_WEB_SERVICE",
-		"FMT_SHARED",
-		"HAS_OPENGL",
-		"HAVE_SDL2",
-		"NDEBUG",
-		"NOMINMAX",
-		"QT_CORE_LIB",
-		"QT_GUI_LIB",
-		"QT_MULTIMEDIA_LIB",
-		"QT_NETWORK_LIB",
-		"QT_NO_CAST_FROM_ASCII",
-		"QT_NO_CAST_TO_ASCII",
-		"QT_NO_DEBUG",
-		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
-		"QT_NO_PROCESS_COMBINED_ARGUMENT_START",
-		"QT_NO_URL_CAST_FROM_STRING",
-		"QT_USE_QSTRINGBUILDER",
-		"QT_WIDGETS_LIB",
-		"UNICODE",
-		"WIN32",
-		"WIN32_LEAN_AND_MEAN",
-		"WINVER=0x0A00",
-		"YUZU_USE_QT_MULTIMEDIA",
-		"_CRT_NONSTDC_NO_DEPRECATE",
-		"_CRT_SECURE_NO_WARNINGS",
-		"_HAS_DEPRECATED_RESULT_OF",
-		"_SCL_SECURE_NO_WARNINGS",
-		"_UNICODE",
-		"_WIN32_WINNT=0x0A00"
-	],
+	"INCLUDE_DIR" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/include",
+	"INCLUDE_DIR_Debug" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_Release" : "F:/custom-build/Yuzu-1703/src/yuzu/yuzu_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : [],
 	"MOC_DEFINITIONS_Debug" : 
 	[
 		"ARCHITECTURE_x86_64=1",
@@ -629,6 +601,41 @@
 		"_UNICODE",
 		"_WIN32_WINNT=0x0A00"
 	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"ARCHITECTURE_x86_64=1",
+		"BOOST_ALL_NO_LIB",
+		"BOOST_ASIO_DISABLE_CONCEPTS",
+		"ENABLE_WEB_SERVICE",
+		"FMT_SHARED",
+		"HAS_OPENGL",
+		"HAVE_SDL2",
+		"NDEBUG",
+		"NOMINMAX",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_MULTIMEDIA_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_NARROWING_CONVERSIONS_IN_CONNECT",
+		"QT_NO_PROCESS_COMBINED_ARGUMENT_START",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN32_LEAN_AND_MEAN",
+		"WINVER=0x0A00",
+		"YUZU_USE_QT_MULTIMEDIA",
+		"_CRT_NONSTDC_NO_DEPRECATE",
+		"_CRT_SECURE_NO_WARNINGS",
+		"_HAS_DEPRECATED_RESULT_OF",
+		"_SCL_SECURE_NO_WARNINGS",
+		"_UNICODE",
+		"_WIN32_WINNT=0x0A00"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -636,9 +643,10 @@
 			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
 		]
 	],
-	"MOC_INCLUDES" : 
+	"MOC_INCLUDES" : [],
+	"MOC_INCLUDES_Debug" : 
 	[
-		"F:/custom-build/Yuzu-1662/src/yuzu",
+		"F:/custom-build/Yuzu-1703/src/yuzu",
 		"C:/Users/curti/yuzu/src/yuzu",
 		"C:/Users/curti/yuzu/src",
 		"C:/Users/curti/yuzu/externals/microprofile",
@@ -651,16 +659,42 @@
 		"C:/Users/curti/yuzu/externals/xbyak",
 		"C:/Users/curti/yuzu/externals/Vulkan-Headers/include",
 		"C:/Users/curti/yuzu/externals/dynarmic/src",
-		"F:/custom-build/Yuzu-1662/vcpkg_installed/x64-windows/include",
-		"F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/include",
-		"F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/include/QtWidgets",
-		"F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/include/QtGui",
-		"F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/include/QtANGLE",
-		"F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/include/QtCore",
-		"F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/mkspecs/win32-msvc",
-		"F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/include/QtMultimedia",
-		"F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/include/QtNetwork",
-		"F:/custom-build/Yuzu-1662/externals/SDL2-2.28.2/include"
+		"F:/custom-build/Yuzu-1703/vcpkg_installed/x64-windows/include",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtWidgets",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtGui",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtANGLE",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtCore",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/mkspecs/win32-msvc",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtMultimedia",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtNetwork",
+		"F:/custom-build/Yuzu-1703/externals/SDL2-2.28.2/include"
+	],
+	"MOC_INCLUDES_Release" : 
+	[
+		"F:/custom-build/Yuzu-1703/src/yuzu",
+		"C:/Users/curti/yuzu/src/yuzu",
+		"C:/Users/curti/yuzu/src",
+		"C:/Users/curti/yuzu/externals/microprofile",
+		"C:/Users/curti/yuzu/externals/stb",
+		"C:/Users/curti/yuzu/externals/simpleini",
+		"C:/Users/curti/yuzu/externals/glad/include",
+		"C:/Users/curti/yuzu/externals/sirit/include",
+		"C:/Users/curti/yuzu/externals/sirit/externals/SPIRV-Headers/include",
+		"C:/Users/curti/yuzu/externals/bc_decoder",
+		"C:/Users/curti/yuzu/externals/xbyak",
+		"C:/Users/curti/yuzu/externals/Vulkan-Headers/include",
+		"C:/Users/curti/yuzu/externals/dynarmic/src",
+		"F:/custom-build/Yuzu-1703/vcpkg_installed/x64-windows/include",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtWidgets",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtGui",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtANGLE",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtCore",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/mkspecs/win32-msvc",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtMultimedia",
+		"F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/include/QtNetwork",
+		"F:/custom-build/Yuzu-1703/externals/SDL2-2.28.2/include"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -671,16 +705,16 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : true,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/ParseCache.txt",
-	"PARSE_CACHE_FILE_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/ParseCache_Debug.txt",
-	"PARSE_CACHE_FILE_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/ParseCache_Release.txt",
-	"QT_MOC_EXECUTABLE" : "F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/bin/moc.exe",
-	"QT_UIC_EXECUTABLE" : "F:/custom-build/Yuzu-1662/externals/qt-5.15.2-msvc2019_64/bin/uic.exe",
+	"PARSE_CACHE_FILE" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_Release" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "F:/custom-build/Yuzu-1703/externals/qt-5.15.2-msvc2019_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutogenUsed.txt",
-	"SETTINGS_FILE_Debug" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutogenUsed_Debug.txt",
-	"SETTINGS_FILE_Release" : "F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutogenUsed_Release.txt",
+	"SETTINGS_FILE" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_Release" : "F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
 		[ "C:/Users/curti/yuzu/src/yuzu/about_dialog.cpp", "MU", null ],
@@ -802,6 +836,11 @@
 		],
 		[
 			"C:/Users/curti/yuzu/src/yuzu/configuration/configure_input_profile_dialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/curti/yuzu/src/yuzu/configuration/configure_linux_tab.cpp",
 			"MU",
 			null
 		],
@@ -954,7 +993,7 @@
 		[ "C:/Users/curti/yuzu/src/yuzu/util/util.cpp", "MU", null ],
 		[ "C:/Users/curti/yuzu/src/yuzu/vk_device_info.cpp", "MU", null ],
 		[
-			"F:/custom-build/Yuzu-1662/src/yuzu/CMakeFiles/yuzu.dir/cmake_pch.cxx",
+			"F:/custom-build/Yuzu-1703/src/yuzu/CMakeFiles/yuzu.dir/cmake_pch.cxx",
 			"MU",
 			null
 		]

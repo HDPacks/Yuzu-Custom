@@ -1,4 +1,4 @@
 ﻿  Building Custom Rule C:/Users/curti/yuzu/externals/getopt/CMakeLists.txt
   getopt.c
   Warning static builds of getopt violate the Lesser GNU Public License
-  getopt.vcxproj -> F:\custom-build\Yuzu-1662\externals\getopt\Release\getopt.lib
+  getopt.vcxproj -> F:\custom-build\Yuzu-1703\externals\getopt\Release\getopt.lib

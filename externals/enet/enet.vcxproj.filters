@@ -63,10 +63,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{D966DC51-3E33-3D5A-A552-6D64D86BCEB3}</UniqueIdentifier>
+      <UniqueIdentifier>{0620BEA6-5B0D-30CB-94BB-7EB9D9D31E1E}</UniqueIdentifier>
     </Filter>
     <Filter Include="source">
-      <UniqueIdentifier>{7678A595-E1F6-358E-946E-E4EE22488EBA}</UniqueIdentifier>
+      <UniqueIdentifier>{8BC69AF3-0AAE-3273-8FFD-C0F5C1FF58F2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

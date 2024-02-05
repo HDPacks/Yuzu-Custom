@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="F:\custom-build\Yuzu-1662\src\input_common\CMakeFiles\input_common.dir\cmake_pch.cxx">
+    <ClCompile Include="F:\custom-build\Yuzu-1703\src\input_common\CMakeFiles\input_common.dir\cmake_pch.cxx">
       <Filter>Other Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\android.cpp">
+      <Filter>drivers</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\curti\yuzu\src\input_common\drivers\camera.cpp">
       <Filter>drivers</Filter>
@@ -79,6 +82,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\android.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\camera.h">
       <Filter>drivers</Filter>
     </ClInclude>
@@ -156,10 +162,10 @@
     <ClInclude Include="C:\Users\curti\yuzu\src\input_common\drivers\gc_adapter.h">
       <Filter>drivers</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\input_common\CMakeFiles\input_common.dir\Debug\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\input_common\CMakeFiles\input_common.dir\Debug\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
-    <ClInclude Include="F:\custom-build\Yuzu-1662\src\input_common\CMakeFiles\input_common.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="F:\custom-build\Yuzu-1703\src\input_common\CMakeFiles\input_common.dir\Release\cmake_pch.hxx">
       <Filter>Other Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -170,16 +176,16 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Other Files">
-      <UniqueIdentifier>{6CF4A4D6-121C-3FD4-8684-2D605196713F}</UniqueIdentifier>
+      <UniqueIdentifier>{497DFFD5-D906-322C-9A2A-EB8C8ACE77BB}</UniqueIdentifier>
     </Filter>
     <Filter Include="drivers">
-      <UniqueIdentifier>{24430C86-9FE5-3205-B7CE-686A07D44AB7}</UniqueIdentifier>
+      <UniqueIdentifier>{0B75AEE3-F1F7-3DB7-AC90-B35A2BB9C0BB}</UniqueIdentifier>
     </Filter>
     <Filter Include="helpers">
-      <UniqueIdentifier>{083FFA75-D31C-3D7E-8324-E9BBA1884613}</UniqueIdentifier>
+      <UniqueIdentifier>{610B2942-F420-37DE-B145-880A07540CFC}</UniqueIdentifier>
     </Filter>
     <Filter Include="helpers\joycon_protocol">
-      <UniqueIdentifier>{FD1E36F7-DDF8-354A-AC1B-9FB22758C322}</UniqueIdentifier>
+      <UniqueIdentifier>{EBDF508A-002B-3C08-8E4F-855ECA7971CE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

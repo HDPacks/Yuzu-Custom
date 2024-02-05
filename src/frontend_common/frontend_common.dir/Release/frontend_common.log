@@ -1,5 +1,3 @@
 ﻿  Building Custom Rule C:/Users/curti/yuzu/src/frontend_common/CMakeLists.txt
   config.cpp
-E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(755,5): warning MSB8015: All source files are not up-to-date:  forcing a rebuild of all source files due to the contents of 'F:\custom-build\Yuzu-1662\src\frontend_common\frontend_common.dir\Release\frontend_common.tlog\CL.command.1.tlog' being invalid.
-  frontend_common.vcxproj -> F:\custom-build\Yuzu-1662\src\frontend_common\Release\frontend_common.lib
-E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(2583,5): warning : Remote deployment might be slow/inefficient. '.', hexadecimal value 0x00, is an invalid character. Line 1, position 1.
+  frontend_common.vcxproj -> F:\custom-build\Yuzu-1703\src\frontend_common\Release\frontend_common.lib

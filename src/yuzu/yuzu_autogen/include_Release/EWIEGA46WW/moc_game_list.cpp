@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_GameList_t {
-    QByteArrayData data[49];
-    char stringdata0[737];
+    QByteArrayData data[45];
+    char stringdata0[686];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -36,59 +36,53 @@ QT_MOC_LITERAL(0, 0, 8), // "GameList"
 QT_MOC_LITERAL(1, 9, 8), // "BootGame"
 QT_MOC_LITERAL(2, 18, 0), // ""
 QT_MOC_LITERAL(3, 19, 9), // "game_path"
-QT_MOC_LITERAL(4, 29, 3), // "u64"
-QT_MOC_LITERAL(5, 33, 10), // "program_id"
-QT_MOC_LITERAL(6, 44, 11), // "std::size_t"
-QT_MOC_LITERAL(7, 56, 13), // "program_index"
-QT_MOC_LITERAL(8, 70, 13), // "StartGameType"
-QT_MOC_LITERAL(9, 84, 4), // "type"
-QT_MOC_LITERAL(10, 89, 12), // "AmLaunchType"
-QT_MOC_LITERAL(11, 102, 11), // "launch_type"
-QT_MOC_LITERAL(12, 114, 10), // "GameChosen"
-QT_MOC_LITERAL(13, 125, 8), // "title_id"
-QT_MOC_LITERAL(14, 134, 19), // "OpenFolderRequested"
-QT_MOC_LITERAL(15, 154, 18), // "GameListOpenTarget"
-QT_MOC_LITERAL(16, 173, 6), // "target"
-QT_MOC_LITERAL(17, 180, 11), // "std::string"
-QT_MOC_LITERAL(18, 192, 36), // "OpenTransferableShaderCacheRe..."
-QT_MOC_LITERAL(19, 229, 29), // "RemoveInstalledEntryRequested"
-QT_MOC_LITERAL(20, 259, 18), // "InstalledEntryType"
-QT_MOC_LITERAL(21, 278, 19), // "RemoveFileRequested"
-QT_MOC_LITERAL(22, 298, 20), // "GameListRemoveTarget"
-QT_MOC_LITERAL(23, 319, 23), // "RemovePlayTimeRequested"
-QT_MOC_LITERAL(24, 343, 18), // "DumpRomFSRequested"
-QT_MOC_LITERAL(25, 362, 15), // "DumpRomFSTarget"
-QT_MOC_LITERAL(26, 378, 24), // "VerifyIntegrityRequested"
-QT_MOC_LITERAL(27, 403, 16), // "CopyTIDRequested"
-QT_MOC_LITERAL(28, 420, 14), // "CreateShortcut"
-QT_MOC_LITERAL(29, 435, 22), // "GameListShortcutTarget"
-QT_MOC_LITERAL(30, 458, 30), // "NavigateToGamedbEntryRequested"
-QT_MOC_LITERAL(31, 489, 17), // "CompatibilityList"
-QT_MOC_LITERAL(32, 507, 18), // "compatibility_list"
-QT_MOC_LITERAL(33, 526, 27), // "OpenPerGameGeneralRequested"
-QT_MOC_LITERAL(34, 554, 4), // "file"
-QT_MOC_LITERAL(35, 559, 13), // "OpenDirectory"
-QT_MOC_LITERAL(36, 573, 9), // "directory"
-QT_MOC_LITERAL(37, 583, 12), // "AddDirectory"
-QT_MOC_LITERAL(38, 596, 8), // "ShowList"
-QT_MOC_LITERAL(39, 605, 4), // "show"
-QT_MOC_LITERAL(40, 610, 19), // "PopulatingCompleted"
-QT_MOC_LITERAL(41, 630, 10), // "SaveConfig"
-QT_MOC_LITERAL(42, 641, 14), // "OnItemExpanded"
-QT_MOC_LITERAL(43, 656, 11), // "QModelIndex"
-QT_MOC_LITERAL(44, 668, 4), // "item"
-QT_MOC_LITERAL(45, 673, 13), // "OnTextChanged"
-QT_MOC_LITERAL(46, 687, 8), // "new_text"
-QT_MOC_LITERAL(47, 696, 20), // "OnFilterCloseClicked"
-QT_MOC_LITERAL(48, 717, 19) // "OnUpdateThemedIcons"
+QT_MOC_LITERAL(4, 29, 13), // "StartGameType"
+QT_MOC_LITERAL(5, 43, 4), // "type"
+QT_MOC_LITERAL(6, 48, 10), // "GameChosen"
+QT_MOC_LITERAL(7, 59, 3), // "u64"
+QT_MOC_LITERAL(8, 63, 8), // "title_id"
+QT_MOC_LITERAL(9, 72, 19), // "OpenFolderRequested"
+QT_MOC_LITERAL(10, 92, 10), // "program_id"
+QT_MOC_LITERAL(11, 103, 18), // "GameListOpenTarget"
+QT_MOC_LITERAL(12, 122, 6), // "target"
+QT_MOC_LITERAL(13, 129, 11), // "std::string"
+QT_MOC_LITERAL(14, 141, 36), // "OpenTransferableShaderCacheRe..."
+QT_MOC_LITERAL(15, 178, 29), // "RemoveInstalledEntryRequested"
+QT_MOC_LITERAL(16, 208, 18), // "InstalledEntryType"
+QT_MOC_LITERAL(17, 227, 19), // "RemoveFileRequested"
+QT_MOC_LITERAL(18, 247, 20), // "GameListRemoveTarget"
+QT_MOC_LITERAL(19, 268, 23), // "RemovePlayTimeRequested"
+QT_MOC_LITERAL(20, 292, 18), // "DumpRomFSRequested"
+QT_MOC_LITERAL(21, 311, 15), // "DumpRomFSTarget"
+QT_MOC_LITERAL(22, 327, 24), // "VerifyIntegrityRequested"
+QT_MOC_LITERAL(23, 352, 16), // "CopyTIDRequested"
+QT_MOC_LITERAL(24, 369, 14), // "CreateShortcut"
+QT_MOC_LITERAL(25, 384, 22), // "GameListShortcutTarget"
+QT_MOC_LITERAL(26, 407, 30), // "NavigateToGamedbEntryRequested"
+QT_MOC_LITERAL(27, 438, 17), // "CompatibilityList"
+QT_MOC_LITERAL(28, 456, 18), // "compatibility_list"
+QT_MOC_LITERAL(29, 475, 27), // "OpenPerGameGeneralRequested"
+QT_MOC_LITERAL(30, 503, 4), // "file"
+QT_MOC_LITERAL(31, 508, 13), // "OpenDirectory"
+QT_MOC_LITERAL(32, 522, 9), // "directory"
+QT_MOC_LITERAL(33, 532, 12), // "AddDirectory"
+QT_MOC_LITERAL(34, 545, 8), // "ShowList"
+QT_MOC_LITERAL(35, 554, 4), // "show"
+QT_MOC_LITERAL(36, 559, 19), // "PopulatingCompleted"
+QT_MOC_LITERAL(37, 579, 10), // "SaveConfig"
+QT_MOC_LITERAL(38, 590, 14), // "OnItemExpanded"
+QT_MOC_LITERAL(39, 605, 11), // "QModelIndex"
+QT_MOC_LITERAL(40, 617, 4), // "item"
+QT_MOC_LITERAL(41, 622, 13), // "OnTextChanged"
+QT_MOC_LITERAL(42, 636, 8), // "new_text"
+QT_MOC_LITERAL(43, 645, 20), // "OnFilterCloseClicked"
+QT_MOC_LITERAL(44, 666, 19) // "OnUpdateThemedIcons"
 
     },
-    "GameList\0BootGame\0\0game_path\0u64\0"
-    "program_id\0std::size_t\0program_index\0"
-    "StartGameType\0type\0AmLaunchType\0"
-    "launch_type\0GameChosen\0title_id\0"
-    "OpenFolderRequested\0GameListOpenTarget\0"
-    "target\0std::string\0"
+    "GameList\0BootGame\0\0game_path\0StartGameType\0"
+    "type\0GameChosen\0u64\0title_id\0"
+    "OpenFolderRequested\0program_id\0"
+    "GameListOpenTarget\0target\0std::string\0"
     "OpenTransferableShaderCacheRequested\0"
     "RemoveInstalledEntryRequested\0"
     "InstalledEntryType\0RemoveFileRequested\0"
@@ -121,56 +115,56 @@ static const uint qt_meta_data_GameList[] = {
       19,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    5,  129,    2, 0x06 /* Public */,
-      12,    2,  140,    2, 0x06 /* Public */,
-      12,    1,  145,    2, 0x26 /* Public | MethodCloned */,
-      14,    3,  148,    2, 0x06 /* Public */,
-      18,    1,  155,    2, 0x06 /* Public */,
-      19,    2,  158,    2, 0x06 /* Public */,
-      21,    3,  163,    2, 0x06 /* Public */,
-      23,    1,  170,    2, 0x06 /* Public */,
-      24,    3,  173,    2, 0x06 /* Public */,
-      26,    1,  180,    2, 0x06 /* Public */,
-      27,    1,  183,    2, 0x06 /* Public */,
-      28,    3,  186,    2, 0x06 /* Public */,
-      30,    2,  193,    2, 0x06 /* Public */,
-      33,    1,  198,    2, 0x06 /* Public */,
-      35,    1,  201,    2, 0x06 /* Public */,
-      37,    0,  204,    2, 0x06 /* Public */,
-      38,    1,  205,    2, 0x06 /* Public */,
-      40,    0,  208,    2, 0x06 /* Public */,
-      41,    0,  209,    2, 0x06 /* Public */,
+       1,    2,  129,    2, 0x06 /* Public */,
+       6,    2,  134,    2, 0x06 /* Public */,
+       6,    1,  139,    2, 0x26 /* Public | MethodCloned */,
+       9,    3,  142,    2, 0x06 /* Public */,
+      14,    1,  149,    2, 0x06 /* Public */,
+      15,    2,  152,    2, 0x06 /* Public */,
+      17,    3,  157,    2, 0x06 /* Public */,
+      19,    1,  164,    2, 0x06 /* Public */,
+      20,    3,  167,    2, 0x06 /* Public */,
+      22,    1,  174,    2, 0x06 /* Public */,
+      23,    1,  177,    2, 0x06 /* Public */,
+      24,    3,  180,    2, 0x06 /* Public */,
+      26,    2,  187,    2, 0x06 /* Public */,
+      29,    1,  192,    2, 0x06 /* Public */,
+      31,    1,  195,    2, 0x06 /* Public */,
+      33,    0,  198,    2, 0x06 /* Public */,
+      34,    1,  199,    2, 0x06 /* Public */,
+      36,    0,  202,    2, 0x06 /* Public */,
+      37,    0,  203,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      42,    1,  210,    2, 0x08 /* Private */,
-      45,    1,  213,    2, 0x08 /* Private */,
-      47,    0,  216,    2, 0x08 /* Private */,
-      48,    0,  217,    2, 0x08 /* Private */,
+      38,    1,  204,    2, 0x08 /* Private */,
+      41,    1,  207,    2, 0x08 /* Private */,
+      43,    0,  210,    2, 0x08 /* Private */,
+      44,    0,  211,    2, 0x08 /* Private */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::QString, 0x80000000 | 4, 0x80000000 | 6, 0x80000000 | 8, 0x80000000 | 10,    3,    5,    7,    9,   11,
-    QMetaType::Void, QMetaType::QString, 0x80000000 | 4,    3,   13,
+    QMetaType::Void, QMetaType::QString, 0x80000000 | 4,    3,    5,
+    QMetaType::Void, QMetaType::QString, 0x80000000 | 7,    3,    8,
     QMetaType::Void, QMetaType::QString,    3,
-    QMetaType::Void, 0x80000000 | 4, 0x80000000 | 15, 0x80000000 | 17,    5,   16,    3,
-    QMetaType::Void, 0x80000000 | 4,    5,
-    QMetaType::Void, 0x80000000 | 4, 0x80000000 | 20,    5,    9,
-    QMetaType::Void, 0x80000000 | 4, 0x80000000 | 22, 0x80000000 | 17,    5,   16,    3,
-    QMetaType::Void, 0x80000000 | 4,    5,
-    QMetaType::Void, 0x80000000 | 4, 0x80000000 | 17, 0x80000000 | 25,    5,    3,   16,
-    QMetaType::Void, 0x80000000 | 17,    3,
-    QMetaType::Void, 0x80000000 | 4,    5,
-    QMetaType::Void, 0x80000000 | 4, 0x80000000 | 17, 0x80000000 | 29,    5,    3,   16,
-    QMetaType::Void, 0x80000000 | 4, 0x80000000 | 31,    5,   32,
-    QMetaType::Void, 0x80000000 | 17,   34,
-    QMetaType::Void, QMetaType::QString,   36,
+    QMetaType::Void, 0x80000000 | 7, 0x80000000 | 11, 0x80000000 | 13,   10,   12,    3,
+    QMetaType::Void, 0x80000000 | 7,   10,
+    QMetaType::Void, 0x80000000 | 7, 0x80000000 | 16,   10,    5,
+    QMetaType::Void, 0x80000000 | 7, 0x80000000 | 18, 0x80000000 | 13,   10,   12,    3,
+    QMetaType::Void, 0x80000000 | 7,   10,
+    QMetaType::Void, 0x80000000 | 7, 0x80000000 | 13, 0x80000000 | 21,   10,    3,   12,
+    QMetaType::Void, 0x80000000 | 13,    3,
+    QMetaType::Void, 0x80000000 | 7,   10,
+    QMetaType::Void, 0x80000000 | 7, 0x80000000 | 13, 0x80000000 | 25,   10,    3,   12,
+    QMetaType::Void, 0x80000000 | 7, 0x80000000 | 27,   10,   28,
+    QMetaType::Void, 0x80000000 | 13,   30,
+    QMetaType::Void, QMetaType::QString,   32,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::Bool,   39,
+    QMetaType::Void, QMetaType::Bool,   35,
     QMetaType::Void,
     QMetaType::Void,
 
  // slots: parameters
-    QMetaType::Void, 0x80000000 | 43,   44,
-    QMetaType::Void, QMetaType::QString,   46,
+    QMetaType::Void, 0x80000000 | 39,   40,
+    QMetaType::Void, QMetaType::QString,   42,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -183,7 +177,7 @@ void GameList::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         auto *_t = static_cast<GameList *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->BootGame((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< u64(*)>(_a[2])),(*reinterpret_cast< std::size_t(*)>(_a[3])),(*reinterpret_cast< StartGameType(*)>(_a[4])),(*reinterpret_cast< AmLaunchType(*)>(_a[5]))); break;
+        case 0: _t->BootGame((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< StartGameType(*)>(_a[2]))); break;
         case 1: _t->GameChosen((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const u64(*)>(_a[2]))); break;
         case 2: _t->GameChosen((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 3: _t->OpenFolderRequested((*reinterpret_cast< u64(*)>(_a[1])),(*reinterpret_cast< GameListOpenTarget(*)>(_a[2])),(*reinterpret_cast< const std::string(*)>(_a[3]))); break;
@@ -211,7 +205,7 @@ void GameList::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (GameList::*)(const QString & , u64 , std::size_t , StartGameType , AmLaunchType );
+            using _t = void (GameList::*)(const QString & , StartGameType );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&GameList::BootGame)) {
                 *result = 0;
                 return;
@@ -380,9 +374,9 @@ int GameList::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void GameList::BootGame(const QString & _t1, u64 _t2, std::size_t _t3, StartGameType _t4, AmLaunchType _t5)
+void GameList::BootGame(const QString & _t1, StartGameType _t2)
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t3))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t4))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t5))) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
